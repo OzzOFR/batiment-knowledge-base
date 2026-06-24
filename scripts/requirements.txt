@@ -1,0 +1,26 @@
+# Collecte et traitement des sources
+requests==2.31.0
+beautifulsoup4==4.12.2
+pypdf2==3.0.1
+pdfplumber==0.10.3
+markdownify==0.11.6
+
+# Embeddings et vectorisation
+openai==1.30.0
+tiktoken==0.7.0
+
+# Base vectorielle Supabase
+supabase==2.4.0
+vecs==0.4.3
+
+# Utilitaires
+python-dotenv==1.0.1
+tqdm==4.66.4
+pandas==2.2.2
+
+# Serveur MCP
+fastapi==0.111.0
+uvicorn==0.30.1
+mcp==1.0.0
+pydantic==2.7.1
+httpx==0.27.0

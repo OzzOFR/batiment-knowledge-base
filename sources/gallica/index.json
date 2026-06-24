@@ -1,0 +1,26 @@
+[
+  {
+    "identifier": "NouvelleEncyclopdiePratiqueDuBtiment...ChamplyRenBpt6k97743229",
+    "titre": "Nouvelle Encyclopédie Pratique du Bâtiment - Vol. 2 (Maçonnerie, Pierre, Brique, Mortiers)",
+    "corps_etat": "maconnerie",
+    "fichier_txt": "/home/ubuntu/batiment-knowledge-base/sources/gallica/NouvelleEncyclopdiePratiqueDuBtiment___ChamplyRenBpt6k977432.txt",
+    "fichier_md": "/home/ubuntu/batiment-knowledge-base/corpus/maconnerie/NouvelleEncyclopdiePratiqueDuBtiment___ChamplyRenBpt6k977432.md",
+    "nb_caracteres": 177972
+  },
+  {
+    "identifier": "NouvelleEncyclopdiePratiqueDuBtiment...ChamplyRenBpt6k938852q",
+    "titre": "Nouvelle Encyclopédie Pratique du Bâtiment - Vol. 4 (Charpentes en bois et échafaudages)",
+    "corps_etat": "charpente-couverture",
+    "fichier_txt": "/home/ubuntu/batiment-knowledge-base/sources/gallica/NouvelleEncyclopdiePratiqueDuBtiment___ChamplyRenBpt6k938852.txt",
+    "fichier_md": "/home/ubuntu/batiment-knowledge-base/corpus/charpente-couverture/NouvelleEncyclopdiePratiqueDuBtiment___ChamplyRenBpt6k938852.md",
+    "nb_caracteres": 141649
+  },
+  {
+    "identifier": "LivreBtp",
+    "titre": "Dictionnaire Technique du Bâtiment et des Travaux Publics",
+    "corps_etat": "encyclopedie-generale",
+    "fichier_txt": "/home/ubuntu/batiment-knowledge-base/sources/gallica/LivreBtp.txt",
+    "fichier_md": "/home/ubuntu/batiment-knowledge-base/corpus/encyclopedie-generale/LivreBtp.md",
+    "nb_caracteres": 136275
+  }
+]

@@ -1,0 +1,2126 @@
+Chapitre  12  - Conception  et  dimensionnement  des  chaussées 1
+I - Sollicitations  supportées  par  les  chaussées 4
+II  - Constitution  et  rôle  d'une  chausée 6
+III  - Différentes  familles  de  structures  de  chaussées  - Principes
+de  fonctionnement 12
+IV  - Paramètres  pris  en  compte 'pour  le  dimensionnement 16
+V - Démarche  et  méthodes  pratiques  de  dimensionnement 33
+Chapitre  13  - Les  granulats 41
+I - Introduction 43
+II  - Caractérisation  des  granulats 44
+III  - Considérations  géologiques  et  pétrographiques  sommaires 56
+IV  - Elaboration  des  granulats 58
+V - Contrôle 61
+Chapitre  14  - Les  liants  hydrocarbonés 65
+I - Un  peu  d'histoire 67
+II  - Génèse  des  liants  hydrocarbonés 68
+III  - Les  goudrons 68
+IV  - Les  liants  bitumineux 69
+V - Les  bitumes 71
+VI  - Les  émulsions  de  bitumes 75
+VII  - Les  bitumes  fluxés  et  bitumes  fluidifiés 76
+VIII  - Les  bitumes  modifiés 77
+IX  - Incidence  du  programme  S.H.R.P^sur  les  bitumes 77
+Chapitre  15  - Les  liants  hydrauliques 79
+I - Les  chaux 81
+II  - Les  ciments 82
+III  - Les  laitiers  granules  de  haut  fourneau 84
+IV  - Les  pouzzolanes 85
+V - Les  cendres  volantes 86
+La  roue  dont  l'invention  se  perd  dans  l'histoire  est  évidemment  l'instrument
+miracle  du  transport  terrestre.  Mais  elle  a ses  inconvénients  même  équipée  de
+pneumatiques.  On  circule  très  bien  sur  des  pistes  argileuses  bien  nivelées,  mais  qu'il  pleuve,
+et  l’argile  mouillée  devient  vite  une  patinoire,  voire  un  bourbier.  Aussi,  l'idée  est-elle  venue
+d'un  matelas  de  pierres  s'interposant  entre  la  roue  et  le  sol.
+Les  premières  véritables  chaussées  furent  construites  par  les  Romains  pour
+leurs  voies  impériales,  avec  un  objectif  essentiellement  militaire,  celui  de  permettre  un
+déplacement  rapide  des  légions  en  différents  points  de  l'empire,  quelles  que  soient  les
+conditions  météorologiques.
+Les  chaussées  de  cette  époque  étaient  déjà  constituées  de  plusieurs  couches  de
+matériaux,  parfaitement  codifiées,  avec  de  grandes  dalles  en  pierre  posées  sur  un  béton  de
+chaux  (Voir  Fig.  n°  1).
+O t
+Dalles  de  pierre  (Summum
+Béton  de  chaux  (Nucléus)
+Déchets  de  pierres  (Rudus)
+Fié.  n°  1 - La  chaussée  romaine  : on  comparera  avec  une  chaussée  en  béton  moderne
+(couche  de  forme,  fondation  en  béton  maigre,  dalle  de  revêtement))
+Pendant  tout  le  Moyen  Age  et  jusqu'au  début  du  XDCème  siècle,  peu  de
+progrès  ont  été  réalisés  dans  ce  domaine,  mis  à part  l'utilisation  des  pavés,  taillés  à la  main
+et  posés  sur  une  couche  de  sable.
+Plus  tard,  avec  l'apparition  des  véhicules  plus  lourds  et  plus  nombreux,  et  le
+début  de  la  mécanisation  des  travaux,  on  voit  se  développer  les  structures  à base  de
+"hérisson"  et  de  "macadam".  Les  chaussées  de  l'époque  étaient  composées  de  blocs  de  250
+mm  environ  pour  le  "hérisson"  et  de  pierre  cassée  40/70  mm  pour  le  "macadam",  cette
+pierre  cassée  étant  "bloquée"  avec  de  l'argile  pour  donner  le  "macadam  à l'eau".
+les  premiers  progrès  ont  été  réalisés  au  niveau  de  la  surface  des  chaussées
+quand  apparut  l'automobile,  pour  lutter  contre  la  poussière  soulevée  par  les  véhicules  par
+temps  sec.  Par  hasard,  on  découvrit  les  vertus  du  goudron  produit  dans  les  cokeries  d'usine
+à gaz  et  de  hauts  fourneaux.  Mais  très  vite,  on  constata  que  ce  goudron  était  glissant  par
+temps  de  pluie,  et  on  lui  adjoignit  des  gravillons  pour  donner  naissance  à l'enduit
+superficiel.  Mais  on  s'aperçoit  ensuite  qu'il  ne  fallait  ni  trop,  ni  trop  peu  de  goudron,  et  de
+gravier,  qu'il  fallait  utiliser  un  gravier  dur  et  anguleux,  et  un  goudron  qui  ne  se  ramollisse
+pas  trop  l'été.  C'est  à cette  époque  qu'apparaissent  les  premières  spécifications  relatives  tant
+aux  matériaux  qu'à  la  façon  de  les  mettre  en  oeuvre.  C'est  l'enduit  superficiel  qui  a fait
+sortir  la  route  d'un  artisanat  archaïque  et  conservateur  pour  l'amener  à un  niveau  industriel
+et  à la  mécanisation.  Ensuite,  les  enrobés  sont  apparus  et  puis  le  pétrole  avec  sa  fraction
+dure  : le  bitume.
+L'homme  étant  pour  de  nombreux  travaux  remplacé  par  la  machine,  les
+techniques  à base  de  mise  en  oeuvre  manuelle  furent  remplacées  par  des  techniques  adaptées
+aux  moyens  mécaniques.
+C'est  ainsi  que  l'on  vit  apparaître  entre  1930  et  1940  en  corps  de  chaussée  les
+matériaux  à granulométrie  continue  et  étalée  O/D  qui  remplacèrent  peu  à peu  les  matériaux
+à granulométrie  "serrée”  d/D,  comme  la  pierre  cassée.
+Depuis  les  années  50,  avec  les  nouvelles  conditions  de  trafic,  notamment  les
+poids  lourds  avec  son  essieu  simple  à 13  tonnes  (130  KN),  les  anciennes  solutions  de  type
+empierrement  ou  macadam  se  sont  avérées  insuffisantes,  et  l'on  a été  amené  à généraliser
+l'emploi  de  matériaux  agglomérés  par  un  liant  tant  pour  le  corps  de  chaussée  que  pour  la
+surface.
+I - SOLLICITATIONS  SUPPORTEES  PAR  LES  CHAUSSEES
+La  surface  de  la  chaussée  (que  l'on  peut  considérer  comme  la  partie
+émergeante  de  l’iceberg),  doi;  permettre  d’assurer  une  circulation  en  tout  temps,  avec
+sécurité  et  confort.  Pour  ce  faire,  elle  doit  résister  à un  certain  nombre  de  sollicitations.
+1.1  - Les  sollicitations  provenant  du  passage  des  charges
+Aux  termes  du  Code  de  la  Route,  la  charge  maximum  autorisée  sur  un
+jumelage  isolé  est  de  65  KN  (6,5  tonnes),  soit  un  essieu  standard  de  130  KN  (13  T).  Il
+arrive  également  que  cette  charge  maximale  soit  dépassée  à cause  des  phénomènes  de
+surcharge  clairement  mis  en  évidence  avec  les  Stations  d' Analyse  Fines  du  Trafic
+(S.A.F.T.)  installées  sur  le  réseau  routier  pour  peser  en  dynamique  les  véhicules  à l'aide
+d'un  câble  piézo-électrique  positionné  dans  la  couche  de  surface.
+La  chaussée  doit  donc  prendre  en  compte  cette  contrainte  et  répartir
+suffisamment  les  efforts  pour  qu’il  n'y  ait  pas  de  déformations  permanentes  dans  le  sol
+support.  A cette  action  verticale  des  charges  peut  s'ajouter  tin  effet  dynamique  qui  peut
+contribuer  à modifier  les  forces  qui  s'exercent  sur  la  chaussée,  qu'il  s'agisse  des  effets  dus  à
+l'uni  (notion  qui  caractérise  le  confort  d'une  chaussée)  ou  encore  d'efforts  dus  à la
+géométrie  même  de  la  chaussée  et  du  véhicule.  Les  mesures  qui  ont  été  faites  font  apparaître
+l'existence  de  surcharges  très  brèves  de  durée  inférieure  au  dixième  de  seconde.
+1.2  - Les  sollicitations  tangentielles
+Lorsqu'un  véhicule  est  en  mouvement  apparaissent  des  efforts  horizontaux  du
+fait  :
+- de  la  transmission  de  l'effort  moteur  ou  du  freinage,
+- de  la  mise  en  rotation  des  roues  non  motrices,
+- de  la  résistance  aux  efforts  transversaux.
+Bien  entendu  toutes  ces  actions  tangentielles  s'accompagnent  de  frottements
+dans  lesquels  se  dissipe  de  l'énergie  et  qui  usent  les  pneumatiques  et  les  chaussées.
+La  chaussée  doit  en  outre  présenter  de  bonnes  caractéristiques  d'adhérence
+par  temps  de  pluie,  qualités  recherchées  lors  du  freinage  ou  dans  une  courbe,  et  qui  doivent
+rester  constantes  dans  le  temps.
+1.3  - Les  sollicitations  d'origine  thermigue
+Les  variations  de  température  (surtout  lorsqu'elles  sont  brusques)  peuvent
+engendrer  dans  les  solides  élastiques  des  champs  de  contrainte.
+Dans  le  domaine  des  chaussées,  ce  phénomène  a des  conséquences  qui
+intéressent  surtout  les  assises  traitées  aux  liants  hydrauliques  et  en  particulier  les  chaussées
+en  béton  (voir  chapitres  "graves  hydrauliques"  et  "chaussées  en  béton”).
+Comme  autres  sollicitations  d'origine  thermique,  il  y a bien  évidemment  les
+effets  du  gel  (voir  chapitre  "L'eau  et  le  gel")  mais  également  les  effets  de  l'ensoleillement,
+sur  la  déformation  des  mélanges  bitumineux,  et  sur  le  vieillissement  du  bitume  (voir
+chapitre  "Les  enrobés  à chaud").
+Enfin,  outre  des  qualités  d'adhérence,  de  planéité  et  de  confort,  on  demande
+aujourd'hui  aux  chaussées  de  présenter  de  bonnes  caractéristiques  vis-à-vis  du  bruit  de
+roulement.  On  sait  réaliser  de  revêtements  peu  bruyants,  pour  lesquels  le  bruit  de  roulement
+est  inférieur  de  8 à 10  dB  (A)  par  rapport  aux  revêtements  les  plus  bruyants.  (On  rappellera
+à titre  indicatif,  qu'un  doublement  du  trafic  entraîne  une  augmentation  du  bruit  d'environ  3
+dB  (A)).
+II  - CONSTITUTION  ET  ROLE  D UNE  CHAUSSEE
+II.l  - Rôles  des  différentes  couches  de  chaussées
+Les  chaussées  se  présentent  comme  des  structures  multicouches  mises  en
+oeuvre  sur  un  ensemble  appelé  plate-forme  support  de  chaussée,  constituée  du  sol  terrassé,
+dit  sol  support,  le  plus  souvent  surmonté  d’une  couche  de  forme.
+La  couche  de  forme
+Cette  couche,  qui  ne  fait  pas  partie  intégrante  de  la  chaussée,  a plusieurs
+fonctions  :
+- pendant  les  travaux,  elle  protège  le  sol  support,  contribue  au  nivellement  et  permet  la
+circulation  des  engins  de  chantier  ;
+- elle  permet  de  rendre  plus  homogènes  les  caractéristiques  du  sol  terrassé  et  de  protéger  ce
+dernier  du  gel.
+Les  couches  d’assise
+L’assise  de  chaussée  est  généralement  constituée  de  deux  couches,  la  couche
+de  fondation,  surmontée  de  la  couche  de  base.
+Ces  couches  en
+matériaux  élaborés,  le  plus
+souveni  liés  (bitume,  liants
+hydrauliques),  pour  les  forts
+trafics,  apportent  à la  chaussée
+la  résistance  mécanique  aux
+charges  verticales  induites  par
+le  trafic.  Elles  répartissent  les
+pressions  sur  le  support,  afin  de
+maintenir  les  déformations  à
+ce  niveau  dans  les  limites
+admissibles.
+La  couche  de  surface
+La  couche  de  surface  est  constituée  :
+- de  la  couche  de  roulement,  qui  est  la  couche  supérieure  de  la  chaussée  sur
+laquelle  s’exercent  directement  les  agressions  conjuguées  du  trafic  et  du
+climat,
+- et  le  cas  échéant  d’une  couche  de  liaison,  entre  les  couches  d’assise  et  la
+couche  de  roulement.
+Dans  le  cas  particulier  des  chaussées  en  béton  de  ciment,  la  dalle,  qui  repose
+sur  une  couche  de  fondation,  joue  simultanément  le  rôle  de  couche  de  surface  et  celui  de
+couche  de  base.  '5''
+II. 2 - Rôle  particulier  de  la  couche  de  surface  - démarche  pour  son  choix
+Nous  avons  vu  que  la  couche  de  surface  est  constituée  par  la  couche  de
+roulement,  avec  dans  certains  cas  la  présence  d’une  couche  de  liaison.
+La  tendance  actuelle  consiste  à dissocier  les  fonctions  remplies  par  la  couche
+de  surface  de  celles  remplies  par  les  couches  d’assise.
+La  qualité  d’usage  de  la  chaussée  dépend  pour  une  large  part  des
+caractéristiques  de  surface  de  la  couche  de  roulement,  donc  de  sa  nature  et  de  son  état.  Cette
+couche  contribue  en  outre  à la  pérennité  de  la  chaussée,  entre  autres  par  l'étanchéité  qu'elle
+apporte.
+Par  contre,  son  apport  structurel  est  secondaire  (sauf  dans  le  cas  de  chaussées  à
+assise  granulaire  dont  la  couche  de  surface  est  la  seule  couche  liée).
+Cet  ensemble  de  fonctions  fait  que  le  choix  de  la  couche  de  surface  doit  être
+issu  de  la  prise  en  considération  de  plusieurs  objectifs  qu’on  peut  ranger  en  quatre  groupes  :
+- la  sécurité  et  le  confort  des  usagers,  en  relation  avec  les  caractéristiques
+de  surface  ;
+- le  maintien  de  l’intégrité  de  la  structure,  par  la  protection  des  couches
+d'assise  vis-à-vis  des  infiltrations  des  eaux  pluviales  et  des  sels  de
+déverglaçage  ;
+- l’impact  sur  l’environnement,  avec  notamment  et  la  recherche  d’une
+réduction  des  bruits  de  roulement  ;
+- les  possibilités  de  régénération  des  caractéristiques  de  surface.
+Sécurité  et  confort  des  usagers
+• Uni
+L’uni  est  une  notion  servant  à la  description  des  défauts  géométriques  du  profil
+de  la  chaussée  susceptibles  de  compromettre  la  sécurité  et  le  confort  de  l’usager.  On  considère
+de  façon  séparée  l’uni  longitudinal  et  l’uni  transversal.
+La  réalisation  d’une  couche  de  liaison  bitumineuse  (de  5 à S cm  d’épaisseur)
+entre  les  couches  d’assise  et  la  couche  de  roulement,  qui  peut  être  très  mince  (3  cm  ou  moins),
+facilite  l’obtention  d’un  uni  longitudinal  de  qualité.
+La  dégradation  de  l’uni  (longitudinal  et  transversal)  résulte  de  la  déformation
+du  support  (et  éventuellement  du  corps  de  chaussée  granulaire)  et  de  l’omiérage  de  la  couche
+de  surface.  La  couche  de  liaison  se  justifie  tout  particulièrement  dans  le  eas  d’une  couche  de
+roulement  très  mince  et  dans  les  zones  sensibles  à l’omiérage  de  par  la  sévérité  des
+sollicitations  (rampes,  zones  de  freinage, ...)
+•Adhérence
+L’adhérence  des  véhicules  dépend  de  la  texture  de  surface  de  la  couche  de
+roulement.  Pour  qualifier  la  texture,  qui  décrit  les  irrégularités  de  la  surface,  on  distingue  :
+- la  macrotexture  (aspérités  de  longueur  d’onde  comprise  entre  0,5  et  50
+mm),  liée  à la  dimension  maximale  des  granulats  et  à la  composition
+granulaire,  ainsi  qu’au  mode  de  mise  en  oeuvre.  La  macrotexture  influe  sur
+la  capacité  d’évacuation  de  l’eau  à l’interface  pneumatique  - chaussée  et  sur
+le  développement  des  forces  de  frottement  à cette  interface  ;
+- la  microtexture  (aspérités  de  longueur  d’onde  inférieure  à 0,5  mm),  liée  à la
+nature  pétrographique  et  au  mode  d’élaboration  des  gravillons.  La
+microtexture  permet  au  pneumatique  de  rompre  le  film  d’eau  résiduel
+jusqu’à  l’obtention  du  contact  sec  ; elle  participe  aussi  à l’augmentation  du
+frottement  pneumatique  - chaussée.
+• Drainabilité
+Par  sa  nature,  la  couche  de  roulement  peut  favoriser  l’évacuation  des  eaux  de
+ruissellement  soit  superficiellement,  soit  en  son  sein  même.  Cette  drainabilité  diminue  les
+projections  d’eau  à l’arrière  des  véhicules.
+• Caractéristiques  photométriques
+Ces  propriétés  se  rapportent  à la  perception  visuelle  de  la  surface  de  roulement
+par  l’usager.  Il  s’agit  de  la  couleur,  de  la  clarté,  de  la  luminance  et  de  sa  capacité  à réfléchir  la
+lumière  (spécularité).
+Il  peut  être  fait  des  choix  de  couleur  de  revêtement  pour  créer  un  effet  visuel
+(marquant  par  exemple  une  entrée  d’agglomération)  ou  de  clarté  pour  améliorer  la  perception
+visuelle  (tunnel  par  exemple).
+Maintien  de  l’intégrité;  de  la  structure
+Si  ce  rôle  n’est  pas  assuré  par  une  autre  couche,  la  couche  de  roulement  doit
+protéger  l'ensemble  de  la  structure  des  entrées  d’eaux,  des  sels  de  déverglaçage  et  des  divers
+polluants  répandus  en  surface.  La  fonction  d’étanchéité  peut  être  assurée  sur  toute  l’épaisseur
+de  la  couche  de  roulement  ou  à l’interface  avec  la  couche  inférieure.  La  couche  de  liaison  peut
+également  assurer  ou  compléter  l’étanchéité,  lorsque  la  couche  de  roulement  est  drainante  ou
+imparfaitement  étanche.
+Pour  assurer  le  maintien  dans  le  temps  de  cette  fonction,  la  couche  de
+roulement  doit  être  apte  à limiter  la  remontée  des  fissures  des  couches  inférieures.  La  couche
+de  liaison  permet  aussi  dans  ce  cas  d’éloigner  le  sommet  de  la  couche  de  base  de  la  surface  de
+la  chaussée.
+Impact  sur  l’environnement
+La  réduction  de  l’émission  de  bruit  au  contact  pneumatique  - chaussée  et
+l’absorption  des  bruits  liés  au  trafic  routier  sont  favorisés  par  :
+- une  macrotexture  en  creux,
+- une  surface  ouverte,
+- un  matériau  poreux.
+Ceci  explique  les  propriétés  acoustiques  favorables  des  matériaux  drainants.
+Choix  du  type  de  couche  de  surface  - Matériaux  utilisés
+Les  objectifs  retenus  et  les  performances  visées  permettent  d’opérer  un  premier
+choix  parmi  les  familles  de  techniques  de  couche  de  roulement,  en  précisant  un  domaine
+d'épaisseur.
+Les  techniques  les  plus  courampeent  utilisées  en  couche  de  roulement  sont  les
+1 les  enduits  superficiels  (ES)  ( chapitre  16  du  polycopié  ROUTES),  constitués  d'une
+alternance  de  couches  de  liant  bitumineux  et  de  gravillons,  en  couches  de  faible  épaisseur,  et
+répandues  directement  sur  le  support;
+les  bétons  bitumineux  (BB)  ( chapitre  15  du  polycopié),  qui  sont  des  mélanges  de  liant
+hydrocarboné  (bitume),  de  granulats,  et  éventuellement  d'additifs,  dosés,  chauffés  et
+malaxés  dans  une  centrale  d'enrobage,  puis  transportés  et  mis  en  oeuvre  sur  la  chaussée  ;
+- les  BB  semi-grenus  (BBSCJ,  5 à 9 cm)  et  les  BB  minces  (BBM,  3 à 5 cm)  sont  les  plus
+classiques  ;
+- les  BB  très  minces  (BBTM,  2 à 3 cm)  et  les  BB  ultra  minces  (BBUM,  moins  de  2 cm)
+sont  très  grenus  et  présentent  de  ce  fait  une  forte  macrorugosité  ;
+- les  BB  drainants  (BBDr,  3 à 4 cm)  sont  conçus  pour  avoir  une  forte  teneur  en  vides
+communiquants,  ce  qui  petmet  une  évacuation  des  eaux  de  surface  au  sein  même  de  la
+couche  et  non  à sa  surface  ;
+• les  enrobés  coulés  à froid  (ECF)  sont  des  méjanges  préparés  à froid  de  liant  hydrocarboné
+(émulsion  de  bitume),  de  granulats  et  éventuellement  d'additifs,  coulés  sur  la  chaussée.
+• on  peut  également  laisser  subsister  le  béton  de  ciment  (BC)  en  couche  de  roulement  de
+chaussée  ; un  traitement  de  surface  est  alors  indispensable  (striage  dans  le  béton  frais,
+cloutage  ou  dénudage).
+Le  choix  de  la  couche  de  roulement  pourra  se  faire  à l'aide,  par  exemple,  d'un
+tableau  de  choix  multicritères  de  ce  type  :
+Technique
+BBTM
+BBDr
+BBM
+BBSG
+Normes  NFP
+98-160
+98-137
+98-134
+98-132
+98-130
+Epaisseur  (cm)
+2 à 3
+3à4
+3 à 5
+5 à 9
+Adhérence
+j ++
+Séeurité
+initiale
+Adhérence
+Oà-
+à 5 ans
+Amélioration
+-H-
+Confort
+de  l'uni
+Silence
+-à-
+-H-
+0à  +
+0 à +
+Apport  structurel
+Etanchéité
+Tenue  à l'omièrage
+Oà-
+Les  données  économiques  du  projet  (coût  et  intervalle  entre  deux  entretiens,
+notamment)  doivent  également  entrer  en  ligne  de  compte.
+La  couche  de  liaison  est  souvent  utilisée  en  association  avec  une  couche  de
+roulement  mince  ou  très  mince  (genre  Béton  Bitumineux  Très  Mince  de  2 à 3 cm
+d’épaisseur).
+Cette  couche  peut  être  constituée  soit  de  BBSG  soit  de  BB  à module  élevé
+(BBME),  matériau  similaire,  mais  utilisant  un  liant  beaucoup  plus  dur,  lui  conférant  une  plus
+grande  rigidité  et  une  meilleure  résistance  à l'orniérage.
+Définition  de  la  couche  de  surface  et  dimensionnement
+L’épaisseur  de  la  couche  de  surface  ne  résulte  pas  de  calculs,  mais
+essentiellement  d’exigences  technologiques  de  mise  en  oeuvre  propres  à chaque  solution  et  de
+considérations  empiriques  vis-à-vis  de  la  remontée  de  la  fissuration,  lorsque  les  couches
+inférieures  sont  constituées  par  des  matériaux  traités  aux  liants  hydrauliques.
+Sous  l’action  du  trafic,  la  couche  de  roulement  est  soumise  par  les
+pneumatiques  à un  état  de  contrainte  complexe.  Son  comportement  mécanique  n’est
+cependant  étudié  que  vis-à-vis  des  contiaintes  normales  qui  s’exercent  en  surface.
+Pour  la  détermination  de  l’épaisseur  de  la  couche  de  surface  (roulement  +
+éventuellement  liaison)  en  enrobés  bitumineux,  on  considère  trois  situations  :
+- pour  les  chaussées  souples  (à  couche  de  base  granulaire),
+la  méthode  rationnelle  exposée  plus  loin,  de  par  ses  simplifications,  ne  permet
+pas  de  déterminer  l’épaisseur  à retenir  pour  la  couche  de  roulement  ; les  méthodes  empiriques
+sont  alors  à employer  ; la  figure  ci-dessous  propose  une  épaisseur  en  fonction  du  trafic  cumulé
+Trafic  cufîîulé  (essieu  130  kN)
+- pour  les  chaussées  à assise  traitée  aux  liants  hydrauliques,
+la  couche  de  surface  en  matériaux  bitumineux  assure  une  protection  mécanique
+et  thermique  ; c’est  dans  ce  cas  aussi  l’expérience  tirée  du  comportement  de  ces  chaussées  qui
+donne  une  référence  pour  le  choix  d’une  épaisseur  minimale,  afin  de  prévenir  et  de  limiter  les
+risques  de  désordres  au  niveau  de  la  couche  de  roulement  ; il  semble  souhaitable  de  retenir  des
+valeurs  minimales,  fonction  du  trafic  supporté,  de  6 cm  pour  les  trafics  les  plus  faibles  jusqu’à
+12  à 14  centimètres  pour  un  trafic  de  2000  PL/jour  sur  la  voie  la  plus  chargée  (classe  ”T0").
+Au-delà  de  ce  seuil,  ce  type  de  structure  est  déconseillé.
+- pour  les  autres  types  de  chaussées,
+l’épaisseur  de  la  couche  de  surface  (couches  de  roulement  et  de  liaison)  est
+déterminée  en  fonction  des  limites  technologiques  de  chaque  technique  et  de  l'épaisseur  totale
+de  la  structure  de  chaussée  telle  que  déduite  des  calculs  de  dimensionnement  exposés  plus
+loin.
+L’épaisseur  de  l’éventuelle  couche  de  liaison  peut  aller  de  5 à 8 cm.  Ce  sont  les
+épaisseurs  de  l’ordre  de  5 à 7 cm  qui  sont  les  plus  favorables  pour  l’obtention  d’un  bon  uni.
+Des  valeurs  plus  fortes  peuvent  être  retenues  vis-à-vis  de  la  résistance  à l'orniérage,  si  la
+couche  de  roulement  est  mince  ou  très  mince.
+Pour  simplifier  les  calculs,  la  couche  de  surface  peut  être  assimilée  à une
+certaine  épaisseur  de  matériau  (bitumineux)  ae  couche  de  base,  par  le  biais  d’une  relation
+d’équivalence.
+De  même,  on  considère  qu'une  épaisseur  de  béton  bitumineux  drainant
+(BBDr)  est  équivalente  à une  épaisseur  moitié  de  béton  bitumineux  classique  (semi-grenu)
+(autrement  dit  : 4 cm  de  BB  drainant  = 2 cm  de  BB  semi-grenu).
+III  - DIFFERENTES  FAMILLES  DE  STRUCTURES  DE
+CHAUSSEES  - PRINCIPES  DE  FONCTIONNEMENT
+Sur  le  réseau  routier  français  coexiste  une  grande  diversité  de  types  de
+structures  de  chaussées,  que  l’on  peut  classer  et  caractériser  comme  suit  :
+III.  1 - Les  chaussées  souples
+Ces  structures  comportent  une  couverture  bitumineuse  mince  (moins  de  15
+cm),  parfois  réduite  à un  simple  enduit  superficiel,  reposant  sur  une  ou  plusieurs  couches  de
+matériaux  granulaires  non  traités.
+CHAUSSEES  SOUPLES
+1.  Couche  de  surface  en  matériaux  bitumineux
+2.  Matériaux  bitumineux  d’assise  (<15  cm)
+3.  Matériaux  granulaires  non  traités  (20  à 50  cm)
+4.  Plate-forme  support
+L’épaisseur  globale  de  la  chaussée  est  généralement  comprise  entre  30  et  60
+Leur  fonctionnement  peut  être  schématisé  comme  suit  :
+Les  matériaux  granulaires
+constituant  l’assise  de  ces  chaussées  ont  une
+faible  rigidité.  Comme  la  couverture
+bitumineuse  est  mince,  les  efforts  verticaux
+dus  au  trafic  sont  transmis  au  support  avec
+une  faible  diffusion.  Les  contraintes
+verticales  élevées  engendrent  par  leur
+répétition  des  déformations  plastiques  qui  se
+répercutent  en  déformations  permanentes  à la
+surface  de  la  chaussée.
+La  couverture  bitumineuse  subit  à sa  base  des  efforts  répétés  de  traction-
+flexion.
+L’évolution  la  plus  fréquente  des  chaussées  souples  se  manifeste  d’abord  par
+l’apparition  de  déformations  permanentes  du  type  orniérage  à grand  rayon,  flaches  et
+affaissements  qui  détériorent  les  qualités  des  profils  en  travers  et  en  long.  Les  sollicitations
+répétées  de  flexion  alternée  dans  la  couverture  bitumineuse  entraînent  une  dégradation  par
+fatigue,  sous  la  forme  de  fissures  d’abord  isolées  puis  évoluant  peu  à peu  vers  un  faïençage.
+III. 2 - Les  chaussées  bitumineuses  épaisses
+Ces  structures  se  composent  d’une  couche  de  roulement  bitumineuse  sur  un
+corps  de  chaussée  en  matériaux  traités  aux  liants  hydrocarbonés  (bitumineux),  fait  d’une  ou
+deux,  voire  trois  couches.
+CHAUSSEES  BITUMINEUSES  EPAISSES
+1.  Couche  de  surface  en  matériaux  bitumineux
+2.  Matériaux  bitumineux  d’assise  (15  à 40  cm)
+3.  Plate-forme  support
+Par  rapport  aux  chaussées  souples,  elles  se  différencient  donc  par  une  épaisseur
+de  matériaux  liés  par  du  bitume  plus  importante.  L’épaisseur  totale  est  le  plus  souvent
+comprise  entre  15  et  40  cm.
+Leur  fonctionnement  en  diffère^Fautant  plus  que  l’épaisseur  de  matériaux  liés
+est  forte.
+La  rigidité  et  la  résistance  en  traction  des  couches  d’assise  en  matériaux
+bitumineux  permettent  de  diffuser  en  les  atténuant  fortement  les  contraintes  verticales
+transmises  au  support  ; les  efforts  induits  par  les  charges  roulantes  sont  repris  en  traction-
+flexion  dans  les  couches  liées.
+Ces  chaussées  comportent  plusieurs  couches  bitumineuses  ; lorsque  celles-ci
+sont  collées,  les  allongements  maximaux  se  produisent  à la  base  de  la  couche  la  plus  profonde,
+mais  si  les  couches  sont  décollées,  chacune  d’elles  se  trouvera  sollicitée  en  traction  et  pourra
+donc  se  rompre  prématurémenr . La  qualité  des  interfaces  a donc  une  grande  incidence  sur
+le  comportement  de  ces  chaussées.
+Moyennant  un  dimensionnement  correct,  l’apparition  de  dégradations  liées  à
+l'assise  de  la  chaussée  est  généralement  postérieure  aux  dégradations  de  surface.  De  même,  on
+n’observe  pas  ou  peu  de  déformations  permanentes  dues  à une  sollicitation  excessive  du  sol.
+ffl.3  - Les  chaussées  à assise  traitée  aux  liants  hydrauliques  (dites
+également  "semi-rigides")
+Ces  structures  comportent  une<dbuche  de  surface  bitumineuse  sur  une  assise
+en  matériaux  traités  aux  liants  hydrauliques  disposés  en  une  ou  deux  couches,  dont
+l’épaisseur  totale  est  de  l’ordre  de  20  à 50  cm.
+CHAUSSEES  A ASSISE  TRAITEE  AUX  LIANTS  HYDRAULIQUES
+1 . Couche  de  surface  en  matériaux  bitumineux  (6  à 14  cm)
+2.  Matériaux  traités  aux  liants  hydrauliques  (20  à 50  cm)
+3.  Plate-forme  support
+Leur  fonctionnement  peut  être  schématisé  comme  suit  :
+__JJ
+sol  WWW
+Compte  tenu  de  la  très  grande
+rigidité  des  matériaux  traités  aux  liants
+hydrauliques,  les  contraintes  verticales
+transmises  au  support  sont  très  faibles.  En
+revanche,  l’assise  traitée  subit  des  contraintes
+de  traction-flexion  at  qui  s’avèrent
+déterminantes  pour  leur  dimensionnement.
+L’interface  couche  de  surface  - couche  de  base  est  aussi  une  zone  sensible
+- elle  est  soumise  à de  fortes  contraintes  normales  et  de  cisaillement
+horizontal  ;
+- les  centimètres  supérieurs  de  l’assise  traitée  sont  souvent  de  plus  faible
+résistance.
+Ces  assises  sont  sujettes  à des  retraits  (phénomènes  thermique  et  de  prise)  Le
+retrait,  bien  qu'empêché  par  le  frottement  de  la  couche  d’assise  sur  son  support,  provoque  une
+fissuration  transversale,  qui  remonte  au  travers  de  là  couche  de  roulement.  Ces  fissures
+apparaissent  en  surface  de  chaussée  avec  un  espacement  relativement  régulier,  de  l’ordre  de  5
+à 15  m,  et  avec  une  ouverture  variant  entre  quelques  dixièmes  de  mm  et  quelques  mm.
+Souvent  franches  lors  de  leur  apparition,  ces  fissures  tendent  à se  dédoubler,  à se  ramifier  puis
+à se  dégrader  sous  l’effet  du  trafic.
+III.4  - Les  chaussées  à structure  mixte
+Ces  structures  comportent  une  couche  de  surface  et  une  couche  de  base  (10  à
+20  cm)  en  matériaux  bitumineux  (en  général  de  la  grave  bitume)  sur  une  couche  de  fondation
+en  matériaux  traités  aux  liants  hydrauliques  (20  à 40  cm).
+de  chaussée.
+CHAUSSEES  A STRUCTURE  MIXTE
+1 . Couche  de  surface  en  matériaux  bitumineux
+2.  Matériaux  bitumineux  d'assise  (10  à 20  cm)
+3.  Matériaux  traités  aux  liants  hydrauliques  (20  à 40  cm)
+4.  Plate-forme  support
+Les  matériaux  bitumineux  représentent  environ  la  moitié  de  l’épaisseur  totale
+Les  différentes  couches  ont  un  rôle  fonctionnel  distinct  ; la  couche  de  fondation
+traitée  aux  liants  hydrauliques  diffuse  et  atténue  les  efforts  transmis  au  sol  support,  les
+couches  bitumineuses  servent  à ralentir  la  remontée  des  fissures  transversales  de  la  couche
+sous-jacente  et  réduisent  les  contraintes  de  flexion  à la  base  de  structure,  tout  en  assurant  les
+qualités  d'uni  et  de  continuité.
+Par  suite  des  mouvements  de  dilatation  différentielle  entre  la  grave-bitume  et  la
+grave  traitée  aux  liants  hydrauliques  (et  de  l’action  du  trafic),  l’adhérence  de  ces  deux  couches
+peut  finir  par  se  rompre,  entraînant  alors  une  forte  augmentation  des  contraintes  de  traction  à
+la  base  de  la  couche  bitumineuse  qui  peut  alors,  tout  comme  la  grave  traitée  aux  liants
+hydrauliques,  périr  par  fatigue.
+III. 5-  Les  chaussées  à structure  inverse
+Par  rapport  aux  structures  mixtes,  ces  structures  - peu  répandues  - comportent,
+entre  la  couche  de  fondation  traitée  aux  liants  hydrauliques  et  les  couches  supérieures
+bitumineuses,  une  couche  supplémentaire  d^ matériaux  granulaires  ayant  pour  fonction
+d'éviter  la  remontée  des  fissures  de  la  couche  de  fondation.
+III.6  - Les  chaussées  en  béton  de  ciment
+Ces  structures  - également  peu  répandues  en  France  - ont  un  mode  de
+fonctionnement  très  particulier,  quoique  voisin  de  celui  des  chaussées  à assise  traitée  aux
+liants  hydrauliques.  Cette  technique  fait  l’objet  d’un  chapitre  particulier.
+rv  - PARAMETRES  PRIS  EN  COMPTE  POUR  LE  DIMENSIONNEMENT
+Les  critères  pris  en  compte  pour  dimensionner  une  chaussée  sont  :
+- le  trafic,
+- la  qualité  de  la  plate-forme  support  de  chaussée,
+- les  caractéristiques  des  matériaux  de  chaussée  et  la  qualité  de  réalisation,
+- les  conditions  climatiques.
+IV.l  - Trafic  •*'
+Depuis  toujours,  on  a remarqué  que  les  désordres  occasionnés  aux  chaussées
+provenaient  de  l'intensité  du  trafic  lourd.
+Ce  phénomène  a été  clairement  quantifié  lors  des  essais  A.A.S.H.O.
+(American  Association  of  State  Highway  Officiais)  réalisés  aux  U.S.A.  entre  1957  et  1961.
+Cette  expérimentation  a porté  sur  l'étude  de  240  sections  de  chaussées  souples,  de  271
+sections  de  chaussées  rigides  et  d'une  cinquantaine  de  sections  de  chaussées  souples  avec
+couche  de  base  stabilisée.  Chacune  de  ces  sections  (positionnée  sur  des  circuits  de  près  de  5
+km  de  longueur  chacun)  a reçu  l’application  d'environ  1 million  de  charges  roulantes  de
+poids  différents.  De  cette  expérimentation  on  a établi  une  loi  d'équivalence  entre  des
+charges  de  poids  différents,  loi  aujourd'hui  admise  universellement.
+Cette  loi,  déclinée  selon  un  contexte  français,  c’est-à-dire  avec  un  essieu
+standard  de  13  tonnes  est  :
+Ap  = Agressivité  d'un  essieu  de  charge  P tonnes.
+A}3  _ Agressivité  de  l'essieu  standard.français  de  13  t (prise  égale  à 1)
+P = charge  d'un  essieu  de  poids  P tonnes
+a = coefficient  qui  dépend  du  type  de  chaussée.
+En  général  on  retient  :
+a œ 4 à 5 jours  pour  les  chaussées  souples,
+a » 8 pour  les  chaussées  semi-rigides,
+a « 12  pour  les  chaussées  rigides.
+Une  application  rapide  de  cette  loi  d'équivalence  montre  clairement  que
+l'agressivité  d'un  véhicule  léger  est  plusieurs  centaines  de  milliers  de  fois  inférieure  à
+l’agressivité  d'un  seul  essieu  de  13  tonnes,  et  que  l'agressivité  d'un  essieu  en  surcharge  est
+extrêmement  pénalisante  (ex  : un  essieu  de  15  tonnes  est  5,6  fois  plus  agressif  qu'un  essieu
+de  13  tonnes  sur  une  chaussée  en  béton).
+Cette  notion  d'agressivité  des  charges  permet  de  comprendre  pourquoi  on
+néglige  le  trafic  léger  pour  ne  prendre  en  compte  que  les  poids  lourds  de  charge  utile
+supérieure  à 5 tonnes.
+La  connaissance  du  trafic  poids  lourds  intervient  :
+- comme  critère  de  choix  des  qualités  de  certains  constituants  entrant  dans  la
+fabrication  des  matériaux  de  chaussée  (dureté  des  granulats),
+- comme  paramètre  d '-entrée  pour  l’analyse  mécanique  du  comportement  en
+fatigue  de  la  structure  de  chaussée.
+Vis-à-vis  du  premier  objectif,  on  se  référera  à la  notion  de  classe  de  trafic.
+Pour  le  calcul  de  dimensionnement,  c’est  le  trafic  cumulé  sur  la  durée  initiale
+de  calcul  qui  est  à prendre  en  compte  ; ceci  est  fait  à partir  de  la  notion  de  trafic  équivalent.
+IV.1.1  - LES  CLASSES  DE  TRAFIC
+La  classe  de  trafic  Ti  est  déterminée  à partir  du  trafic  poids  lourds  par  sens,
+compté  en  moyenne  journalière  annuelle  (MJA),  pour  la  voie  la  plus  chargée,  à l'année  de
+Pour  des  chaussées  séparées,  la  voie  la  plus  chargée  est  généralement  la  voie
+lente  ; il  convient  de  tenir  compte  de  la  répartition  des  poids  lourds  entre  les  différentes
+voies.
+Les  classes  de  trafic  sont  déterminées  à partir  du  tableau  ci-dessous  :
+Classe
+500  750  1200  2000  3000  5000
+(en  PL/jour/sens)
+IV.  1.2  - LE  TRAFIC  EQUIVALENT
+Dans  la  population  des  poids  lourds,  les  charges  s'étagent  entre  5 tonnes  et  en
+principe  13  tonnes,  mais  malheureusement  quelque  fois  plus  à cause  des  surcharges.  D'autre
+part,  il  existe  d'autres  catégories  de  PL  que  celui  retenu  en  1948  (camion  à 2 essieux  de
+PTC  = 19  tonnes).  On  trouve  aujourd'hui  des  PL  avec  2 essieux  à l'arrière  chargés  chacun
+à 10  tonnes,  et  de  plus  en  plus  des  PL  à 5 essieux,  avec  3 essieux  à l’arrière  chargés  à 8
+tonnes.
+A partir  de  statistiques  permettant  de  dresser  des  histogrammes  des  charges
+circulant  sur  les  différentes  routes  on  a calculé  l'agressivité  de  l'essieu  moyen,  par  rapport  à
+l'essieu  standard  de  130  KN  (Voir  Fig.  n°2).
+Fig.  n °2  - Histogramme  des  charges  sur  le  réseau  routier  national
+(Campagne  S.E.T.R.A.  1979)
+. Valeur  du  coefficient  d’agressivité  CAM
+La  configuration  des  essieux  (isolé,  tandem,  tridem),  des  roues  (simples  ou
+jumelées)  et  leur  charge  sont  variables,  d'un  poids  lourd  à l’autre.  D’autre  part,
+l’endommagement  provoqué  par  l’application  d’une  charge  donnée  dépend  de  la  nature  des
+matériaux  : un  poids  lourd  n'aura  pas  la  même  agressivité  selon  la  nature  de  la  chaussée
+sur  laquelle  il  circule.
+A défaut  de  données  plus  précises  sur  la  composition  du  trafic,  on  retient
+habituellement  pour  coefficient  d’agressivité  moyenne  (CAM),  les  valeurs  suivantes  :
+Chaussées  à
+Couches
+hydrocarbonées  des
+structures  mixtes  et
+inverses
+Chaussées
+bitumineuses
+d'épaisseur
+supérieure  à 20  cm
+Couches  de  matériaux
+trafic  moyen
+et  fort
+........
+traités  aux  liants
+hydrauliques  et  en
+Couches
+Couches  non  liées
+béton  de  ciment
+>T2
+hydrocai  bonées
+d'épaisseur  au  plus
+égale  à 20  cm  des
+chaussées
+bitumineuses
+et  sol  support
+CAM
+0,8
+1,3
+Les  différentes  valeurs  rencontrées  pour  le  coefficient  d'agressivité  moyenne
+s'expliquent  par  :
+- On  trouve  moins  de  gros  camions  sur  les  routes  faiblement  circulées,  que
+sur  les  grands  itinéraires.
+- On  retient  une  agressivité  plus  importante  pour  les  structures  rigides  (CAM
+= 1,3)  à cause  de  l'effet  surcharge  qui  intervient  à la  puissance  12  (au  lieu  de  4 ou  5 pour
+les  chaussées  souples).
+IV.  1.3  - LE  TRAFIC  CUMULE
+Pour  le  calcul  de  dimensionnement,  le  trafic  est  caractérisé  par  le  nombre
+NE,  nombre  équivalent  d'essieux  de  référence,  correspondant  au  trafic  poids  lourds  cumulé
+sur  la  durée  initiale  de  calcul  retenue.
+Cette  durée  initiale  varie  habituellement  entre  7 et  20  ans.
+Ce  nombre  NE  est  fonction  :
+- des  valeurs  escomptées  du  trafic  à la  mise  en  service  et  du  taux  de
+croissance  x pendant  la  durée  initiale  de  calcul,
+- de  la  composition  du  trafic,
+- de  la  nature  de  la  structure  de  chaussée.
+Il  est  donné  par  la  relation  :
+NE  = N x CAM
+N : nombre  cumulé  de  poids  lourds  de  CU  > 50  KN  pour  la  période  de
+calcul  de  p années,
+CAM  : agressivité  moyenne  du  poids  lourd  par  rapport  à l'essieu  de
+référence.
+. Calcul  du  nombre  total  de  N de  poids  lourds
+| N = 365  x MJA  x C ]
+où  C est  la  facteur  de  cumul  sur  la  période  de  calcul  : pour  p années  et  un  taux  de
+croissance  géométrique  x constant  sur  cette  période.
+C = [(1  + x)P  - l]/x
+Exemple  : Calcul  du  nombre  équivalent  d'essieux  de  référence  pour  une
+chaussée  supportant  un  trafic  à la  mise  en  service  de  600  PL/j/sens  pour  une  durée  de  15
+ans  avec  un  taux  de  croissance  géométrique  de  4 % par  an,  pour  une  chaussée  souple  dont
+les  couches  hydrocarbonées  ne  dépassent  pas  20  cm.
+(1  + 0,04)15
+0,04
+- = 20,0
+N = 365  x 600  x 20,0  = 4,38.10e  PL
+On  a CAM  = 0,8  (trafic  Tj+)  (*>
+ce  qui  donne  : NE  = 4,38.10e  x 0,8
+NE  = 3,5.10e  essieux  de  référence
+IV.2  - La  plate-forme  support
+Nous  avons  vu  dans  le  chapitre  précédant  consacré  aux  "Terrassements
+Routiers"  que  le  Guide  Technique  pour  la  réalisation  des  remblais  et  des  couches  de  forme
+permet  :
+- De  classer  les  sols  en  différentes  catégories.
+- De  définir  7 classes  de  PST  (partie  supérieure  des  terrassements  prise  en
+compte  sur  1 mètre  d'épaisseur),  et  en  fonction  du  sol,  de  son  état  hydrique,  du  profil  en
+travers  (déblais  ou  remblais),  du  drainage,  des  conditions  météorologiques  d'obtenir  5
+classes  d'arases  qui  vont  de  AR  0 à AR  4^Cette  notion  caractérise  la  qualité  de  l'arase
+terrassement  avant  mise  en  oeuvre  de  la  couche  de  forme.
+- D'obtenir  la  classe  de  plate-forme  PFi  qui  caractérise  la  portance  sur  la
+couche  de  forme.  On  distingue  4 classes  de  plates-formes  qui  vont  de  PF  1 (la  moins  bonne)
+à PF  4 (la  meilleure).
+Pour  passer  de  l'arase  ARi  à la  plate-forme  PF;,  on  dispose  en  fait  de  4
+solutions.
+1 °)  On  ne  met  pas  de  couche  de  forme,  ou  une  couche  de  faible  épaisseur
+pour  des  raisons  de  nivellement  ou  de  traficabilité,  à ce  moment  AR  i PF;  (ex.  AR  3 -»
+PF  3).
+2°)  On  peut  utiliser  différents  types  de  matériaux  en  couche  de  forme
+comme  :
+- les  sols  fins  traités  à la  chaux,
+- les  matériaux  non  traités,
+- les  matériaux  traités  aux  liants  hydrauliques  (par  exemple  le  ciment)  pour
+obtenir  le  niveau  de  portance  souhaité.
+Le  tableau  qui  suit  résume  l'ensembl?,  des  possibilités  et  de  la  démarche
+suivie.
+CHAUSSEE
+COUCHE  DE  FORME  \
+1 n
+Partie  Supérieure  des  Terrassements  (PSTi)  ^
+Légende  nature  couche  de  forme
+pas  de  c.  de  forme  ou  épaisseur  < ép.  préconisée
+IV.3  - Les  caractéristiques  des  matériaux
+IV.3.1  - LE  COMPORTEMENT  A LA  FATIGUE
+Le  phénomène  de  fatigue
+Depuis  très  longtemps  on  a observé  que  des  pièces  ou  des  matériaux  peuvent
+se  rompre  si  on  leur  applique  de  façon  répétée  un  grand  nombre  de  sollicitations  dont
+l'amplitude  est  inférieure  à la  résistance  à la  rupture  instantanée.  C'est  ce  phénomène  que
+l'on  désigne  sous  le  nom  de  fatigue.  ^
+Ce  s phénomènes  de  fatigue  sont  d'une  très  grande  importance  dans  les
+diverses  constructions.  Il  y a en  effet  de  nombreux  cas  où  les  matériaux  doivent  résister  à
+des  sollicitations  répétées  un  très  grand  nombre  de  fois  : par  exemple  la  sollicitation  par
+flexion  d'une  pièce  tournante  (essieu,  etc.),  la  sollicitation  des  matériaux  routiers  dans  une
+chaussée  due  au  passage  répété  des  véhicules  lourds,  les  sollicitations  provenant  des
+phénomènes  de  vibration  (structures  d'avion,  ouvrages  d'art  dont  la  vibration  est  entretenue
+par  le  passage  des  véhicules  lourds).  Il  est  donc  absolument  nécessaire,  dans  le  calcul  de  ces
+divers  éléments,  de  tenir  compte  de  ce  que  les  matériaux  ne  résistent  nas  aussi  bien  aux
+efforts  répétés  qu'à  une  sollicitation  unique.
+Les  études  consacrées  à ce  phénomène  sont  déjà  fort  anciennes  ; les
+premières  études  de  rupture  sous  l'effet  de  sollicitations  répétées  datent  de  plus  de  150  ans,
+et  les  premières  études  fondamentales  en  laboratoire,  effectuées  sur  les  premières  machines
+de  fatigue,  ont  été  effectuées  par  WOHLER  en  1852.
+Depuis,  de  nombreuses  études  ont  été  faites  ; c’est  sur  les  métaux  que  l'on
+dispose  sans  doute  de  la  masse  de  connaissances  la  plus  importante  ; mais  des  études
+nombreuses  ont  également  été  consacrées  aux  bétons,  aux  matières  plastiques,  aux  bétons
+bitumineux.
+L'expérience  de  base,  permettant  de  mettre  en  évidence  le  comportement  à la
+fatigue  d'un  matériau,  consiste  à soumettre  une  éprouvette  du  matériau  à des  sollicitations
+répétées,  toutes  identiques  (périodiques),  et  à déterminer  le  nombre  de  répétitions  de  ces
+sollicitations  entraînant  la  rupture.
+Puis  en  répétant  cet  essai  sur  des  éprouvettes  identiques  du  matériau,  on
+cherche  à établir  une  relation  entre  l'amplitude  de  la  sollicitation  appliquée  et  le  nombre  de
+sollicitations  entraînant  la  rupture.
+La  courbe  représentative  du  nombre  de  répétitions  de  charges  jusqu'à  la
+rupture,  en  fonction  de  l'amplitude  de  la  contrainte  (ou  déformation)  appliquée,  est  appelée
+courbe  de  WOHLER  (Figure  ci-après)
+On  appelle  Résistance  à la  fatigue  pour  N cycles  la  valeur  de  la  sollicitation
+pour  laquelle  l'éprouvette  supporterait  N cycles  avant  de  se  rompre.  La  courbe  de
+Ceci  est  une  caractéristique  fondamentale,  inhérente  au  phénomène  de
+fatigue,  et  non  une  dispersion  qui  proviendrait  uniquement  d'une  insuffisance  des  méthodes
+d'essai  ou  d'une  mauvaise  reproductibilité  des  méthodes  de  fabrication  d'éprouvettes  (qui
+peuvent  évidemment  exister  et  ajouter  à cette  dispersion).
+Les  conséquences  de  cette  dispersion  des  durées  de  vie  sont  évidemment  très
+importantes.  Il  faut  donc  apprécier  de  façon  statistique  la  durée  de  vie,  ou  la  résistance  à la
+fatigue  pour  N cycles.
+Dans  la  pratique,  au  lieu  de  représenter  la  courbe  de  WOHLER  habituelle  qui
+quantifie  la  durée  de  vie  moyenne  en  fonction  de  l'amplitude  de  la  sollicitation  appliquée,  on
+fait  intervenir  un  coefficient  de  risque  qui  prend  en  compte  la  probabilité  que  l'on  a de
+dépasser  une  certaine  durée  de  vie  poui’  une  sollicitation  donnée.
+A contrainte  ou
+déformation
+10 3 10  4 10  5 10 6
+Courbes  de  probabilité  de  rupture
+© Courbe  de  WOHLER  moyenne.  Probabilité  de  rupture  : 50  %.
+© Probabilité  de  rupture  : 2 %.
+® Probabilité  de  rupture  : 98  %
+Le  dimensionnement  des  chaussées  aura  donc  un  aspect  PROBABILISTE  lié  :
+- au  caractère  dispersé  du  phénomène  de  rupture  par  fatigue,
+- à la  dispersion  naturelle  que  l'on  peut  trouver  sur  les  sols  supports,  (avec
+l'effet  d'hétérogénéité  locales  de  portance)  et  sur  les  matériaux  qui
+constituent  la  chaussée,
+- à dispersion  normale  que  l'on  peut  constater  sur  l'épaisseur  réelle  des
+différentes  couches  qui  constituent  la  chaussée.
+Pour  le  dimensionnement  des  chaussées,  on  caractérise  le  comportement  à la
+fatigue  des  matériaux  avec  les  notions  de  sg  (matériaux  bitumineux)  ou  og  (matériaux
+hydrauliques).
+II  s'agit  de  la  contrainte  (a)  ou  la  déformation  (e)  qui  entraîne  la  rupture  ai
+bout  de  106  cycles  avec  une  probabilité  de  rupture  de  50  %.
+A—  ■
+Caractérisation  à la  fatigue  des  matériaux  de  chaussées  avec  la  contrainte  at  ou  la
+déformation  et  entraînant  la  rupture  au  bout  de  1 (fi  chargements.
+On  applique  ensuite  à ces  valeurs  de  sollicitations  des  corrections  qui
+prennent  en  compte  :
+- Le  risque  de  calcul  retenu.  En  général  ce  risque  est  fonction  du  trafic,  et  du
+type  de  matériaux.  C'est  ainsi  que  le  catalogue  des  chaussées  des  routes  nationales  retient
+des  risques  qui  varient  de  2 % (trafic  To)  à 25  % (trafic  T3)  pour  la  technique  des  graves
+bitume.
+- Les  variations  d'épaisseur  et  de  qualité  des  matériaux.
+- Un  coefficient  de  calage  (kc)  qui  corrige  l'écart  entre  les  prédictions  de  la
+démarche  et  l'observation  du  comportement  réel  des  matériaux  sur  la  route.
+IV.3.2  - LE  MODULE  DES  MATERIAUX
+On  conçoit  facilement  qu'une  couche  dti  matériaux  rigide  répartira  mieux  les
+contraintes  sur  le  sol  support  qu'une  couche  de  faible  rigidité.
+La  rigidité  des  matériaux  est  caractérisée  avec  la  notion  de  module  d'élasticité
+ou  de  "module  d'Young".  On  caractérise  ce  module  E par  le  rapport
+o = contrainte
+AL/L  = déformation  relative
+On  utilise  également  la  notion  de  coefficient  de  Poiss
+qui  correspond  ai
+avec  d = diamètre  de  l'éprouvette  et  Ad  variation  de  ce  diamètre.
+a)  Sols.et  matéri.au^.granulairçs.
+Dans  le  cas  d'un  sol,  qui  n'est  ni  homogène,  ni  isotrope,  c'est  une  simplification
+ive  mais  commode  de  rechercher  un  module  d'élasticité.  On  pourra  l'approcher  par
+eurs  méthodes  :
+- à partir  d'un  essai  triaxial  ; c'est  alors  le  module  réversible  qui  caractérise
+le  mieux  l'état  du  milieu  ;
+- à partir  d'un  essai  de  chargement  effectué  in  situ,  l'essai  de  plaque  ; on
+retient  alors  le  module  au  2ème  chargement  ;
+- à partir  de  l'essai  CBR  ; on  retiendra  E = 5 CBR.
+Pour  les  différentes  classes  de  plate-forme  définies  par  le  GTR,  les  valeurs  de
+île  (prises  en  compte)  à retenir  pour  les  calculs  sont  les  suivantes  :
+Classe  de  plate-forme
+1 PF  1
+PF  2
+1 PF  3 1
+PF  4
+Module
+| 20  MPa
+| 50  MPa
+| 120  MPa  |
+200  MPa
+rie  de  2 à.
+module  de  la  grave  non  traitée  au  module  de  la  couche  sous-jacente  var
+qualité  de  la  grave  et  l'épaisseur  de  la  chaussée.
+Dans  la  pratique,  on  "découpe"  la  grave  non  traitée  en  "tranches"  de  25  cm
+d'épaisseur  maximale  et  on  affecte  à chaque  "tranche"  un  module  égal  à 3 fois  celui  de  la
+couche  sous-jacente,  plafonné  à 360  MPa.  On  prend  0,35  comme  coefficient  de  Poisson.
+Toutes  les  couches  non  traitées  sont  considérées  comme  collées  entre  elles  et
+collées  à leur  support.
+Exemple  : pour  45  cm  de  grave  non  traitée  sur  une  plate-forme  PF  2,  de
+module  50  MPa,  on  prendra  . ^
+Couches
+Epaisseurs
+Calcul
+Module  E
+Coefficient  v
+2'eme  couche  GNT
+20  cm
+3x150=450  MPa  plafonné  à
+360  MPa
+0,35
+lire  couche  GNT
+25  cm
+3x50=150  MPa
+150  MPa
+Plate-forme  PF2
+infinie
+50  MPa  (donnée)
+50  MPa
+b)  Matériaux  traités  aux  liants  hydrauliques.
+Quel  que  soit  le  mode  de  sollicitation  mécanique  de  l'éprouvette,  on  peut
+mesurer  la  déformation  durant  l'essai  et  tracer  la  courbe  de  variation  de  la  contrainte  a en
+fonction  de  la  déformation  s.
+Cette  courbe  est  linéaire  sur  sa  première  partie  (jusqu'à  40  à 80  % de  l'effort  de
+rupture,  selon  le  type  d'essai  pratiqué)  et  la  pente  de  la  partie  linéaire  varie  peu  avec  le  type
+On  définit  donc  le  module  sécant  à 30  % de  la  charge  de  rupture,  à 360  jours
+E360  = 0,3pr/  S3qq/0
+Le  tableau  ci-après  donne  les  valeurs  de  module  prises  en  compte  pour  les
+principaux  types  de  matériaux  hydrauliques.
+Graves
+liant
+Module  E
+Coeffit.  v
+ciment
+liants  routiers
+cendres  hydrauliques
+23  000  MPa
+0,25
+laitier
+15  000  MPa
+cendres  silico-alamineuses
+20  000  MPa
+Sables
+liant
+classe
+Module  E
+Coefft.  v
+laitier
+S 3
+12  500  MPa
+0,25
+S 2
+8 500  MPa
+S 1
+3 700  MPa
+ciment
+liants  routiers
+cendres
+S 3
+17  200  MPa
+S 2
+12  000  MPa
+S 1
+5 000  MPa
+Comportement  à la  fatigue  des  matériaux  hydrauliques
+Pour  les  études  courantes  portant  sur  des  matériaux  conformes  aux  nonnes,  le
+comportement  à la  fatigue  est  estimé  à partir  d'essais  de  traction  directe  Rx  ou  de  résistance
+à la  flexion  Rf.  Pour  donner  des  ordres  de  grandeur,  la  contrainte  erg  (qui  entraîne  la
+rupture  au  bout  de  106  chargement)  se  situe  aux  environs  de  la  moitié  de  la  résistance  à la
+flexion,  soit  :
+Le  problème  de  la  caractérisation  du  module  des  matériaux  bitumineux  est
+plus  complexe,  car  ils  sont  sensibles  à la  température  et  au  temps  de  charge  (caractère  visco-
+élastique  du  bitume  qui  sera  abordé  dans  le  prochain  chapitre).
+Pour  cette  raison,  le  module  E des  matériaux  bitumineux  doit  toujours  être
+associé  à une  température  et  à un  temps  de  charge.  Les  normes  retiennent  15  °C  et  10  Hz
+pour  la  caractérisation  du  module  et  10°C  et  25  Hz  pour  la  fatigue.
+Le  tableau  ci-après  donne  quelques  valeurs  minimales  pour  E et  cg  des
+principaux  matériaux  bitumineux.
+IV.  3. 3 COLLAGE  DES  COUCHES  ENTRE  EUES
+Le  bon  collage  des  couches,  qui  assure  une  continuité  des  contraintes
+efforts,  est  d'autant  plus  important  que  la  rigidité  des  matériaux  est  forte  et  que  l'interface
+proche  de  la  surface  de  la  chaussée.
+sol  £T  sol  £T
+A l'inverse  le  collage  ou  le  non  collage  d’une  couche  éloignée  de  la  surfi
+(fondation,  par  exemple)  sur  une  couche  de  faible  module  n'a  que  peu  d'incidence  sur
+dimensionnement.
+Ainsi,  le  collage  des  couches  superficielles  (couches  de  roulement  et
+liaison),  sur  leur  support  en  matériaux  liés  notamment,  est  absolument  primordial.
+De  même  le  collage  des  couches  d'assises- bitumineuses  entre  elles  et  sur
+matériaux  traités  aux  liants  hydrauliques  doit  être  assuré,  par  des  moyens  de  mise  en  ou-
+Le  collage  ou  non  des  couches  traitées  aux  liants  hydrauliques  entre  elles
+sera  fonction  d'un  certain  nombre  de  paramètres,  dont  la  granularité,  la  nature  du  liant  et  le
+mode  de  mise  en  oeuvre.
+IY.4  Données  climatiques  et  d'environnement  - Vérification  au  gel
+Les  données  climatiques  directement  utilisées  dans  le  calcul  se  rapportent  :
+- à V état  hydrique  du  sol  support , pris  en  compte  au  travers  de  la  portance  de  la  partie
+supérieure  des  terrassements  (PST);
+- aux  cycles  saisonniers  de  température,  dont  la  connaissance  est  utile  du  fait  :
+• de  la  sensibilité  des  propriétés  des  matériaux  bitumineux  à la  température,
+• de  l’importance  des  sollicitations  engendrées  par  les  gradients  thermiques  dans  les
+structures  rigides  ;
+- à Y intensité  des  périodes  de  gel  :
+les  conditions  climatiques  sont  caractérisées  par  la  valeur  de  l’indice  de  gel
+atmosphérique  IA,  exprimé  en  °C.jour  ( chapitre  9 du  polycopié  ROUTES).  Le  choix  de
+l’indice  de  gel  de  référence,  fait  par  le  maître  d’ouvrage,  conditionne  la  fréquence  des  poses
+éventuelles  de  barrières  de  dégel.
+On  dispose  de  données  météorologiques  sur  l’ensemble  du  territoire  de  la
+métropole  depuis  1951.
+On  considère  deux  types  d’hi'
+- l’hiver  rigoureux  non  exceptionnel,  correspondant  à une  certaine  période  de  retour  :
+l’hiver  de  rang  3 pour  une  période  d’observation  de  30  ans  correspond  à une  période  de
+retour  de  l'ordre  de  10  ans.
+«*■
+La  vérification  au  gel  - dégel  consiste  à comparer  :
+■ l’indice  de  gel  atmosphérique  choisi  comme  référence,  IR,  qui  caractérise  la  rigueur  de
+l’hiver  pour  lequel  on  souhaite  protéger  la  chaussée,
+■ et  l’indice  de  gel  atmosphérique  que  peut  supporter  la  chaussée,  appelé  indice  de  gel
+admissible,  IA.  11  s’évalue  en  fonction  de  la  sensibilité  au  gel  du  sol  support,  de  la  protection
+IR = indice  de  gel  atmosphérique  de  référence
+IA=indice  de  gel  admissible  de  la  chaussée  : il  est
+évalué  en  Fonction  de  QB  à l'aide  d'un  abaque  propre
+à chaque  planche  de  structures
+QB=QS+Z  : quantité  de  gel  admissible  à la  base  du
+corps  de  chaussée
+Z : protection  thermique  apportée  par  les  matériaux  non
+gélifs  de  la  plate-forme
+Q^quantité  de  gel  admissible
+Selon  l’importance  que  l’on  attache  à la  continuité  du  service  de  la  route  :
+- soit  on  conçoit  la  structure  pour  que  l’indice  de  gel  admissible  IA  soit
+supérieur  à l’indice  de  référence  IR  ( IA  > IR  ),
+- soit  on  accepte  que  cette  inégalité  ne  soit  pas  assurée,  auquel  cas,  on  pourra
+être  conduit  à poser  des  barrières  de  dégel  pour  préserver  la  chaussée  lors  du  dégel.
+- pour  les  itinéraires  les  plus  importants  (réseau  autoroutier,  routes  nationales
+importantes),  on  se  protégera  vis-à-vis  de  l'hiver  exceptionnel  :
+- pour  des  itinéraires  d'importance  moindre,  on  se  protégera  moins,  en
+envisageant  éventuellement  la  pose  de  barrière  de  dégel  ; le  risque  de  ruine  de  la  chaussée  de
+courtes  sections  pourra  même  dans  certains  cas  être  pris..
+V - DEMARCHE  ET  METHODES  PRATIQUES  DE
+DIMENSIONNEMENT
+Y.l  - Démarche
+Quelles  que  soient  les  techniques  de  chaussée,  la  démarche  de
+dimensionnement  et  l’articulation  des  différentes  étapes  restent  sensiblement  les  mêmes  :
+• 1ère  étape  : une  fois  réunies  les  données  nécessaires  au  calcul,  on  procède  :
+- à un  premier  choix  de  la  couche  de  roulement,  selon  les  principes  exposés  dans  le
+chapitre  II.2  sur  le  choix  de  la  couche  de  surface  ;
+- à un  pré-dimensionnement  de  la  structure  par  référence  à des  situations  comparables.
+- son  coefficient  de  Poisson
+en  définissant  les  conditions  s
+iux  interfaces  (collé  o
+u glissant),  puis  à calculer  les  ni
+contraintes  tangentielles  oT
+et  de  déformations
+! verticales  ez  et  tangentielles
+différentes  interfaces,  sous  l 'essieu  de  référence  de  130  kN  (13  tonnes).
+Chaque  demi-e
+ssieu  comporte  un  juir
+\elage  à roues  simples,  représenté
+H2  E2,  v2
+collé/décollé
+V.3  - Vérification  de  la  structure  - Comparaison  des  valeurs  calculées  a
+valeurs  admissibles
+e ez  à la  surface  de  la  plate-fom
+■ contrainte  tangentielle  aT  à la  base  des  couche
+• allongement  relatif  et  à la  base  des  couches  bi
+V.4  - Méthodes  pratiques  de  dimensionnement
+La  méthode  exposée  ci-avant  permet  de  résoudre  tous  les  problèmes
+dimensionnement  de  chaussées  auxquels  peut  être  confronté  un  ingénieur  routier,  mais  il  n'i
+pas  pensable  d'imaginer  d’effectuer  tous  les  calculs  et  toutes  les  vérifications  nécessaires  à
+Il  est  donc  nécessaire  de  disposer  de  méthodes  pratiques  de  dimensionnement,
+d'utilisation  plus  facile,  et  qui  sont  en  fait  l'application  de  la  méthode  générale  à un  certain
+contexte,  caractérisé  par  des  hypothèses  de  base  plus  ou  moins  nombreuses  et  plus  ou  moins
+figées  sur  les  paramètres  caractéristiques  (stratégie  de  dimensionnement,  niveau  de  service,
+trafic,  sols  , matériaux),  qui  sont  en  fait  le  reflet  de  la  politique  appliquée  ou  des  politiques
+possibles.
+V.4.1  CATALOGUE  DES  STRUCTURES  TYPES  DE  CHAUSSEES  - MANUEL
+DE  CONCEPTION  DES  CHAUSSEES  D'AUTOROUTES
+Ces  deux  méthodes,  bien  que  distjnctes  :
+- l'une  est  destinée  au  réseau  national  non  concédé,
+- l'autre  aux  autoroutes  concédées,
+utilisent  une  démarche  identique.
+Le  réseau  concerné  est  bien  ciblé,  la  politique  routière  est  bien  définie,  ce  qui
+permet  de  fixer  une  fois  pour  toutes  un  certain  nombre  de  paramètres  :
+- les  spécifications  sur  les  matériaux  de  chaussée  et  sur  les  plates-formes,  ce  qui
+permet  d'établir  de  véritables  "catalogues",  avec  utilisation  de  matériaux  standards;
+- le  niveau  de  service  et  la  politique  investissement-entretien,  et  donc  de  fixer
+les  durées  de  calcul  et  les  niveaux  de  risque  ; moyennant  une  prévision  de  croissance  du  trafic
+lourd  et  une  connaissance  statistique  de  l'agressivité  des  poids  lourds,  on  peut  facilement
+convertir  le  nombre  de  poids  lourds  par  jour  en  MJA1  à la  mise  en  service  en  trafic  cumulé  en
+nombre  d'essieux-standard.
+Cette  démarche  débouche  sur  des  structures  précalculées,  avec  une  fiche  pour
+chaque  type  de  structure,  et  pour  les  différentes  techniques.
+A partir  de  ces  fiches,  on  peut,  connaissant  la  classe  de  trafic  Ti  et  la  classe  de
+plate-forme  PFj  déterminer  directement  la  structure  de ‘chaussée.
+On  trouvera  ci-après  :
+- un  schéma  résumant  la  démarche  présentée  au  & V.I,
+- un  exemple  de  fiche  extraite  du  Manuel  de  conception  des  chaussées
+d'autoroutes.
+V.4.2  MANUEL  DE  CONCEPTION  DES  CHAUSSEES  NEUVES  A FAIBLE
+TRAFIC
+A l'opposé,  ce  document  s'adresse  à différents  maîtres  d'ouvrage,  qui  peuvent
+avoir  défini  des  politiques  différentes,  ou  quand  les  matériaux  utilisables  sont  d'origines  et  de
+qualités  très  variées,  les  choix  à faire  par  l'utilisateur  sont  très  nombreux.  La  souplesse
+d'utilisation  des  méthodes,  permettant  d'effectuer  de  nombreux  choix,  se  traduit  par  une
+présentation  plus  complexe.
+La  démarche  peut  alors  être  schématisée  comme  suit  :
+Principe  de  la  démarche  retenue  par  le  manuel  de  conception  des  chaussées  à faible
+trafic.  On  fixe  a priori  la  nature  et  l'épaisseur  de  la  couche  de  roulement  et  de  la
+couche  de  base  et  on  "joue"  sur  l'épaisseur  de  la  couche  de  fondation  pour  adapter
+la  structure  au  trafic  et  à la  qualité  du  sol  support.
+V.4.3  AUTRES  METHODES  PRATIQUES  DE  DIMENSIONNEMENT
+On  peut  envisager  une  multitude  de  documents  pratiques  de  dimensionnement,
+s'appliquant  :
+- soit  à des  types  de  voies  spécialisées  : voies  réservées  aux  transports  en
+commun,  voies  cyclables,  etc...
+- soit  à des  maîtrises  d'ouvrage  bien  particulières:  état,  départements,  villes  et
+- soit  à des  structures  particulières  : pavés,  dalles,  etc.
+- soit  un  catalogue  de  structures  précalculées,  établies  pour  une  gamme
+restreinte  de  climats  et  pour  des  matériaux  standardisés.  Ce  mode  de  présentation  est  bien
+adapté  aux  besoins  d'une  administration  routière  d'un  pays  ou  d'une  collectivité  locale  donnée
+- soit  un  ensemble  d'abaques  permettant  de  faire  les  déterminations
+intermédiaires  et  le  dimensionnement  proprement  dit,  dans  des  conditions  variables  de  climat,
+de  matériaux,  de  trafic Une  telle  présentation  est  intéressante  si  l'on  vise  une  certaine
+universalité.  C'est  la  formule  retenue,  outre  par  le  guide  de  conception  des  chaussées  neuves  à
+faible  trafic,  ou  encore  par  la  méthode  SHELL.
+- soit  encore  d'un  programme  informatique,  qui  peut  être  soit  une  transposition
+d'une  méthode  du  type  de  celles  exposées  ci-dessus,  soit  une  méthode  de  vérification  d'un  cas
+de  dimensionnement  donné  ; le  problème  est  alors  considéré  à chaque  fois  comme  unique,
+avec  son  ensemble  de  données  (exemple  : le  programme  VESYS,  de  la  FHWA2).
+L'inconvénient  d'une  telle  méthode  est  que  le  nombre  de  données  à introduire  est  très
+important.  L'attrait  d'une  telle  méthode,  lié  au  fait  de  considérer  chaque  cas  comme  unique,  est
+donc  en  fait  quelque  peu  illusoire.
+BIBLIOGRAPHIE
+Dimensionnement  des  chaussées
+1977  Catalogue  des  structures  types  de  chaussées,  circulaire  77-1156  du
+5 décembre,  DRCR,  SETRA,  LCPC.  Actualisation  avril  1988.
+1978  Dimensionnement  des  renforcements  de  chaussées  souples,  guide  technique,
+SETRA,  LCPC,  juin.
+1981  Manuel  de  conception  des  chaussées  neuves  à faible  trafic,  SETRA,  LCPC,
+juillet.
+1988  Etablissement  des  coupes  transversales  de  chaussées,  SETRA,  CETE  de
+l’Ouest,  avril.
+1 994  Manuel  de  conception  des  chaussées  d’autoroutes,  Scétauroute.
+Propriétés  d’usage  des  chaussées  et  politiques  d’entretien
+1 979  Entretien  préventif  du  réseau  routier  national,  guide  technique,  SETRA,  LCPC,
+modification  1984.
+1988  Adhérence  des  chaussées  neuves,  ministère  de  l’Equipement,  circulaire
+88-78,  1er  septembre.
+Terrassements
+1992  Réalisation  des  remblais  et  des  couches  de  forme,  guide  technique,  SETRA,
+LCPC,  septembre.
+Autres  publications
+1966  L'essai  AASHO  - Bulletin  de  liaison  des  Laboratoires  routiers  (Ponts  et
+Chaussées)  Spécial  E , mai.
+1982  P.Autret,  A.De  Boissoudy,  J.P.Marchand,  Pratique  d’ Alizé  III,  rapport  des
+laboratoires,  série  construction  routière,  CR-2,  LCPC,  pp.3-62.
+1984  C.Peyronne,  G.  Caroff,  Dimensionnement  des  chaussées,  cours  de  route,
+presses  de  PENPC.
+CHAPITRE  13
+LES  GRANUL ATS
+Paul  CAMPOROTA
+D.D.E.  de  L'ISERE
+Michel  FAURE
+S.A.P.R.R.
+LES  GRANULATS
+I - INTRODUCTION
+On  appelle  "granulats"  un  ensemble  de  grains  de  dimension  comprise  entr
+et  80  mm.
+C'est  une  véritable  industrie  qui  assure  la  production  des  330  à 350  millii
+de  tonnes  de  granulats  consommés  en;France  chaque  année,  avec  près  de  la  moitié  de
+tonnage  utilisé  dans  les  travaux  routiers.
+Les  granulats  sont  le  constituant  de  très  loin  majoritaire  des  couches
+chaussées,  qu'elles  soient  des  assises  hydrauliques,  des  enrobés,  des  enduits  ou  i
+chaussées  en  béton.
+Le  tableau  suivant  le  prouve  :
+NATURE  DU
+MATERIAU
+COMPOSE
+POURCENTAGE
+DE  GRANULAT
+(en  poids)
+POURCENTAGE
+DES  AUTRES
+CONSTITUANTS
+(en  poids)
+| NATURE  DES
+AUTRES
+CONSTITUANTS
+Grave  non  traitée
+100  %
+Grave  ciment
+94  à 97  %
+3 à 6 %
+ciment
+Grave  laitier
+80  à 90  %
+10  à 20  %
+laitier  granulé
+1 %
+chaux
+Grave  bitume
+95  à 96  %
+4 à 5 %
+bitume
+Grave  émulsion
+96  à 97  %
+3 à 4 %
+bitume
+& disparaît  après
+traitement
+eau  de  l'émulsion
+Grave  cendres
+75  à 85  %
+15  à 25  %
+cendres  volantes
+1 à 2 %
+chaux
+Béton
+80  à 85  %
+15  à 20  %
+ciment
+Enduit  superficiel
+93  à 95  %
+5 à7  %
+bitume  pur  ou
+modifié
+La  présence  de  liants  divers  procure  aux  matériaux  élaborés  par  mélange
+Nous  examinerons  quatre  qualités  principales  des  granulats  en  indiquant
+comment  on  les  apprécie  (chacune  de  ces  qualités  est  parfois  appréciée  différemment  suivant
+l'usage  qui  est  fait  du  granulat).
+Puis  nous  examinerons  l'origine  des  granulats  et  leur  élaboration.
+II  - CARACTERISATION  DES  GRANULATS
+Comme  pour  les  sols,  les  granulats  font  l'objet  d'une  classification  basée  sur
+un  certain  nombre  d'essais  de  laboratoire.  Le  premier  essai  pratiqué  a trait  à la  mesure  de  la
+grosseur  des  grains  constituant  le  granulat.  &
+II.  1 - La  granularité
+La  granularité  est  la  distribution  dimensionnelle  des  grains  d'un  granulat.
+Elle  traduit  la  distribution  pondérale  des  granulats  élémentaires  dans  les
+matériaux  étudiés,  en  portant  en  abscisse  les  ouvertures  de  mailles  de  tamis  et  en  ordonnée
+les  pourcentages  de  tamisats  cumulés.
+On  obtient  ainsi  une  courbe  dite  courbe  eranulométrioue.  qui  résulte  d'un
+tamisage  sous  l'eau  à l'aide  de  tamis  à mailles  carrées  (essai  dit  analyse  granulométrique  ou
+granulométrie).
+La  classe  granulaire  est  définie  par  deux  dimensions  d’ouverture  de  mailles
+carrées  conformes  à la  série  du  tableau  suivant  :
+Ouverture  des  mailles  carrées  des  tamis  en  millimètres
+* On  notera  que  2 tamis  successifs  de  la  série  normale  suivent  une  progression  géométrique
+Les  granulats  sont  désignés  par  d et  D,  qui  représentent  respectivement  la
+plus  petite  et  la  plus  grande  des  dimensions  demandées.
+On  distingue  :
+- Les  granulats  de  type  0/D  dont  la  grosseur  des  grains  est  comprise  entre  0 et
+D mm  (par  exemple  0/20).
+- Les  granulats  constitués  par  une  classe  granulaire  d/D  (par  exemple  :
+gravillons  6,3/10  ce  qui  veut  dire  que  la  grande  majorité  des  grains  ont  une  grosseur
+comprise  entré  6,3  et  10  mm).  En  fait,  il  est  toléré  un  certain  pourcentage  de  grains
+inférieurs  à d = 6,3  mm  et  supérieurs  à D = 10  mm.
+A chaque  type  de  granulats  0/D  ou  d/D  correspond  une  série  de  tamis  de  base
+ou  de  référence  qui  sont  à choisir  dans  la  série  donnée  à la  page  précédente,  tamis  pour
+lesquels  il  est  prévu  une  tolérance  :
+Ces  tamis  sont  :
+0,63  d - d - d + ° - D - 1,25  D - 1,58  D
+Si  nous  reprenons  l'exemple  des  gravillons  6,3/10,  les  tamis  à utiliser  pour
+l'analyse  granulométrique  seront  :
+4mm  =0,63  d;  6,3mm  =d;  8mm  ; 10mm  =D;  12,5mm  =1,25  D;  16mm  =1,58  E
+Classification  suivant  la  granularité
+Les  dimensions  de  séparation  entre  les  différents  produits  ne  sont  pas
+rigoureuses  : elles  peuvent  varier  selon  les  techniques  d'utilisation  et  les  origines  de
+production  ; les  définitions  des  classes  sont  données  dans  le  tableau  suivant  :
+CLASSES  DE  PRODUITS
+DIMENSIONS  EN  MILLIMETRES
+Fines
+Sables
+O/D  où  D < 0,080
+O/D  où  D < 6,30
+Gravillons
+d/D
+d > 2,00  et  D<  31,50
+SPECIFICATIONS
+Les  spécifications  propres  à chaque  emploi  indiquent  les  étendues  dans
+lesquelles  doivent  se  situer  95  % des  valeurs  mesurées  (soit  moyenne  ± 2 écarts  types).
+Il  faut  en  général  prêter  plus  d'attention  à la  partie  basse  qu'à  la  partie  haute
+IL2  - Les  caractéristiques  intrinsèques  des  gravillons
+Il  s'agit  de  caractéristiques  régies  par  la  qualité  propre  de  la  roche  et  sur
+lesquelles  le  technicien  routier  n'a  pas  de  possibilité  d'action.  Elles  concernent  sa  dureté,  sa
+résistance  à l'usure  par  frottement,  et  sa  résistance  au  polissage.
+Les  contraintes  auxquelles  sont  soumises  les  couches  de  chaussée  se
+concentrent  dans  les  granulats,  presque  toujours  plus  rigides  que  leur  "emballage"  ; leur
+résistance  mécanique  est  donc  un  paramètre  très  important.  Elle  est  appréciée  différemment
+selon  qu'il  s'agit  de  résister  à des  chocs  (les  gravillons  d'un  enduit  soumis  au  choc  de  la
+roue  qui  les  attaque  à grande  vitesse)  ou  à des  mouvements  plus  lents  du  type  frottement.
+11.2.1  - RESISTANCE  A LA  FRAGMENTATION  PAR  CHOCS
+Elle  est  mesurée  soit  par  l'essai  Los  Angeles  (L.A.),  soit  plus  rapidement  par
+l'essai  de  fragmentation  dynamique  (F.D.).  Cette  mesure  est  destinée  à évaluer  l'aptitude
+des  granulats  à se  fragmenter  sous  l'action  du  trafic.
+Seul  l'essai  Los  Angeles  est  pris  en  compte  pour  la  définition  des  catégories
+de  résistance  mécanique  normalisées.  L'essai  de  fragmentation  dynamique  est  à considérer
+comme  un  test  d'évaluation  rapide  qu'il  faut  confirmer  par  l'essai  Los  Angeles.
+L'essai  Los  Angeles  se  pratique  sur  les  classes  granulaires  4/6,  6/10  ou  10/14
+que  l'on  introduit  dans  un  tambour  en  présence  de  boulets  de  fonte  normalisées.  La  rotation
+du  tambour  pendant  un  nombre  de  tours  et  à une  vitesse  normalisés  détermine  une
+fragmentation  de  granulat.  On  tamise  ensuite  celui-ci. en  le  lavant  sur  un  tamis  de  1,6  mm
+d'ouverture  ; le  passant  à ce  tamis  permet  de  calculer  le  coefficient  Los  Angeles  oui  est
+d'autant  meilleur  qu’il  est  plus  faible.  L'essai  de  fragmentation  dynamique  utilise  un  autre
+procédé,  plus  rapide  puisqu'il  consiste  à laisser  tomber  une  masse  un  certain  nombre  de  fois
+sur  des  gravillons  de  même  classe  granulaire  que  ceux  utilisés  pour  l'essai  Los  Angeles.  Les
+résultats  obtenus  par  les  2 procédés  présentent  d'excellentes  corrélations.
+VALEURS  REPERES
+COEFFICIENT
+LOS  ANGELES
+APPRECIATION
+C 15
+Très  bon  à bon
+15  à 25
+Bon  à moyen
+25  à 40
+Moyen  à faible
+> 40
+Médiocre
+II.2.2  - RESISTANCE  A L'ATTRITION  ET  A L'USURE
+On  utilise  l'essai  "micro-Deval"  en  présence  d'eau  (M.D.E.).  Cette  mesure
+permet  de  quantifier  à la  fois  l’usure  par  frottement  réciproque  des  granulats  dans  une  assise
+(attrition),  et  l'usure  par  frottement  des  pneumatiques  sur  les  gravillons  à la  surface  des
+revêtements.
+Les  classes  granulaires  testées  sont  les  mêmes  que  pour  l'essai  Los  Angeles.
+L'essai  se  pratique  en  présence  d'eau  car  celle-ci,  présente  de  façon  quasi
+permanente  dans  les  assises  de  chaussée,  a généralement  une  grande  influence  sur  l'usure.
+Il  consiste  à introduire  dans  un  tambour  : le  granulat,  de  l'eau,  et  une  charge
+abrasive  constituée  par  des  billes  d'acier.  Après  un  certain  nombre  de  tours  du  tambour,
+effectués  à une  vitesse  définie,  on  recueille  l'échantillon  et  on  le  traite  comme  dans  l'essai
+Los  Angeles  : lavage  sur  un  tamis  de  1,6  mm  et  calcul  du  coefficient  M.D.E.  à partir  du
+pourcentage  de  passant  à ce  tamis.
+VALEURS  REPERES  J
+MICRO-DEVAL  EN
+APPRECIATION
+PRESENCE  D'EAU  «*
+< 10
+Très  bon  à bon
+10  à 20
+Bon  à moyen
+20  à 35
+Moyen  à faible
+> 35
+Médiocre
+II.  2. 3 - RESISTANCE  AU  POUSSAGE
+Les  gravillons  situés  à la  surface  de  la  chaussée  doivent  présenter  des  arêtes
+vives  et  des  faces  "râpeuses"  pour  lutter  contre  la  glissance.  Pour  maintenir  cette  capacité,  il
+faut  bien  entendu  qu'ils  conservent  dans  le  temps  ces  arêtes,  qui  ont  tendance  à disparaître
+par  polissage.
+Un  essai  permet  de  chiffrer  la  résistance  au  polissage  des  gravillons  utilisés
+pour  les  couches  de  surface.
+On  utilise  une  roue,  supportant  des  plaques  sur  lesquelles  sont  collés  les
+granulats  à tester,  et  on  la  fait  frotter  contre  une  autre  roue  à bandage  de  caoutchouc,  en
+présence  d'eau  et  d'abrasifs.  ^
+Après  un  certain  nombre  de  rotations,  on  mesure,  à l'aide  d'un  pendule,  la
+perte  de  rugosité  de  la  surface  des  plaques,  et  l'on  en  tire  le  coefficient  de  polissage
+accéléré  (C.P.A.)  qui  donne  son  nom  à l'essai.
+VALEURS  REPERES  j
+C.P.A.
+APPRECIATION
+> 0,55
+Excellent
+0,50  à 0,55
+Bon  à très  bon
+0,45  à 0,49
+Médiocre  à passable
+< 0,45
+Interdit
+II.2.4  - SENSIBILITE  AU  GEL
+L'action  répétée  du  gel  sur  les  granulats  saturés  d'eau  peut  provoquer  une
+dégradation  de  ceux-ci  (fragmentation  ou  micro-fissuration),  particulièrement  pour  les
+granulats  issus  de  roches  poreuses.  L'essai  de  gel  .sur  granulats  permet  de  chiffrer  cette
+dégradation  en  mesurant  la  diminution  du  coefficient  Los  Angeles  après  que  le  granulat  ait
+subi  des  cycles  de  gel-dégel.
+11.2.5  - CATEGORIES  DE  GRAVILLONS  SELON  LA  NORME  P 18.101  DE
+DECEMBRE  1990
+La  norme  P 18.101  classe  les  gravillons  en  catégories  par  association  des
+caractéristiaues  LOS  ANGELES  et  M.D.E..  Dour  les  couches  de  liaison,  base  et  fondation.
+Caractéristiques  intrinsèques  des  gravillons
+intervenir  le  Coefficient  de  Polissage  Accéléré  (C.P.A.)  (voir  tableau  lb  ci-après).
+Les  catégories  de  la  norme  P 18.101  intègrent  de  fait  la  règle  de
+compensation,  limitée  à 5 points,  entre  :
+- d'une  part,  LA  et  MDE  pour  les  couches  de  fondation,  de  base  et  de  liaison
+des  chaussées  (cf.  tableau  IA),
+- d'autre  part,  LA  + MDE  et  100  CPA  pour  les  couches  de  surface  des
+chaussées  (cf.  tableau  lb).
+Pour  être  accepté  en  catégorie  D^fcf.  tableau  la)  :
+- un  gravillon  ayant  un  LA  de  35  doit  avoir  un  MDE  < 20  ;
+- un  gravillon  ayant  un  MDE  de  30  doit  avoir  un  LA  < 25.
+De  même,  pour  être  accepté  en  catégorie  B (cf.  tableau  lb)  :
+- un  gravillon  ayant  une  somme  LA  + MDE  de  40  doit  avoir  un
+100  CPA  > 55  ;
+avoir  une  somme  de
+gravillon  ayant  un  100  CPA  de  45  doit
+n.3  - Caractéristiques  de  fabrication  des  gravillons
+Il  s'agit  de  caractéristiques  résultant  du  mode  de  fabrication  des  granulats.
+11.3.1  - FORME  OU  COEFFICIENT  D'APLATISSEMENT  (A)
+Lors  de  l'opération  de  concassage,  on  produit,  suivant  la  nature  de  la  roche  et
+le  type  de  l'appareil  de  concassage,  des  gravillons  de  mauvaise  forme,  c'est-à-dire  des
+aiguilles  ou  des  plaquettes.
+Les  éléments  de  mauvaise  forme  présentent  les  inconvénients  suivants  :
+- Ils  se  fragmentent  plus  facilement  car  ils  sont  plus  élancés.
+- Ils  diminuent  la  maniabilité,  ce  qui  peut  être  un  inconvénient  pour  le
+compactage  qui  est  plus  difficile,  et  quelque  fois  un  avantage  en  donnant  une  meilleure
+stabilité  aux  mélanges  bitumineux.
+- Ils  ont  tendance  à prendre  de  préférence  une  orientation  rapprochant  de
+l'horizontale  leur  plus  grande  dimension  (ce  qui  est  un  problème  avec  la  technique  des
+enduits  superficiels).
+La  forme  d'un  élément  est  définie  par  ses  trois  dimensions  principales  :
+”E"  son  épaisseur,
+"G”  sa  grosseur,
+"L"  sa  longueur.
+Soient  2 plans  parallèles  tangents  à la  surface  d'un  élément  et  l'enserrant.  La
+distance  entre  ces  2 plans  varie  lorsque  l'on  fait  varier  leur  direction.  Lorsque  cette  distance
+est  maximale,  c'est  par  définition  la  longueur  du  granulat.  Lorsqu'elle  est  minimale,  c'est
+encore  par  définition  l'épaisseur  (Fig.  n°  1).
+Fie.  n°  1 - Définition  de  la  longueur  et  de  l'épaisseur
+La  grosseur  reçoit  une  définition  différente  : on  l’obtient  par  un  tamisage  sur
+tamis  à maille  carrée  : G est  définie  par  la  maille  du  tamis  d2  (dans  laquelle  l'élément  ne
+passe  pas),  immédiatement  inférieur  au  tamis  dj  dans  lequel  passe  le  matériau.
+Pour  quantifier  la  forme  d’un  granulat,  on  détermine  le  coefficient
+d'aplatissement  (A)  qui  est  par  définition  le  pourcentage  d'éléments  tels  que  :
+Dans  la  pratique  (Fig.  n°  2)  on  détermine  d abord  dj  et  precedents  qui
+' <L
+donnent  la  grosseur  puis  on  utilise  une  grille  à fentes  parallèles  d’écartement  : cette
+grille  trie  les  éléments  suivant  leur  épaisseur  E <G/1,58.
+La  proportion  de  matériaux  de  mauvaise  forme  donne  le  coefficient
+l’aplatissement  A qui  peut  varier  de  moins  de  10  % pour  les  gravillons  de  forme  excellente
+i plus  de  30  % pour  les  gravillons  de  mauvaise  forme.
+II. 3. 2 - PROPRETE  DES  GRAVILLONS  (P)
+a)  Les  fines  plastiques  (hydrophiles),  (appréciées  par  les  limites  d'Atterberg,
+par  l'essai  d'équivalent  de  sable  à 10  % de  fines,  ou  par  l'essai  au  bleu  de  méthylène),
+rendent  le  granulat  sensible  à l’eau.
+b)  Les  fines  et  poussières  déposées  sur  les  gravillons,  qu'elles  soient  ou  non
+plastiques,  ont  une  très  grande  surface  spécifique  et  de  ce  fait  fixent  le  liant.  Elles
+empêchent  ainsi  un  collage  direct  et  de  bonne  qualité  entre  les  granulats  et  le  liant.
+- Pour  les  enduits,  les  fines  des  deux  types  sont  très  nocives  et  doivent  être
+éliminées  par  lavage  lors  de  l'élaboration  des  granulats.
+- Pour  les  autres  techniques,  njjjamment  les  enrobés  et  les  bétons,  les  fines
+plastiques  sont  à éliminer  de  la  même  façon  ; cependant,  la  présence,  en  quantité  modérée,
+de  fines  de  concassage  non  plastiques  n'est  pas  forcément  un  inconvénient.
+La  propreté  des  gravillons  (encore  appelée  propreté  superficielle)
+correspond  à la  proportion  d'éléments  inférieurs  à 0,5  mm  que  l'on  obtient  par  lavage
+sur  un  tamis  de  0,5  mm  d'ouverture.
+Cette  propreté  peut  varier  de  0,5  % à 5 % selon  les  besoins.
+II. 3.3  - CATEGORIES  DE  FABRICATION  DES  GRAVILLONS  (NFP  18.101)
+Cette  classification  se  fait  selon  4 catégories  prenant  en  compte  :
+- les  caractéristiques  granulométriques,
+- le  coefficient  d'aplatissement  (A),
+- la  propreté  superficielle  (P).
+Caractéristiques  de  fabrication  des  gravillons
+CATEGORIES
+GRANULE
+11.3.4  - CARACTÉRISTIQUES  COMPLEMENTAIRES  POUR  LES
+GRAVILLONS
+L'aneularité  (ou  la  différence  entre  les  gravillons  concassés  et  les  gravillons
+roulés).
+Cette  qualité  est  beaucoup  plus  fondamentale  que  la  forme.  Les  éléments  qui
+présentent  des  faces  se  coupant  à angles  vifs  augmentent  l'anale  de  frottement  interne  du
+matériau  et  diminuent  sa  maniabilité,  ce  qui  a deux  effets  opposés  : le  compactage  est  plus
+difficile,  mais  si  l'on  a réussi  à effectuer  celui-ci,  la  stabilité  est  plus  élevée.  Compte  tenu
+des  progrès  réalisés  sur  les  matériels  et  les  techniques  de  compactage,  l'angularité  est
+devenue  une  .qualité  importante.
+On  l'apprécie  de  la  manière  suivante  :
+a)  Les  matériaux  issus  de  roches  massives  sont  entièrement  concassés  par
+définition.
+b)  Pour  les  granulats  d'origine  alluvionnaire,  qui  sont  plus  ou  moins
+concassés  en  fonction  de  la  taille  des  éléments  originels,  on  appelle  indice  de  concassage  le
+pourcentage  d'éléments  supérieurs  au  D du  granulat  élaboré  contenus  dans  le  matériau
+d'origine  soumis  au  premier  concassage.
+L'indice  de  concassage  le  correspond  donc  à la  proportion  de  matériau  roulé
+ayant  été  "cassée"  au  moins  une  fois.  On  détermine  cette  proportion  sur  la  courbe
+granulométrique  du  matériau  à l'entrée  du  concasseur,  en  positionnant  le  D du  0/D  sortant
+du  concasseur  (voir  exemple  ci-après).
+% passant
+0/60
+Ni/
+0/20
+donc  le  = 30%
+. Fraction  qui  sera  "cassée"  (30%)
+Fraction  qui  traverse  le
+y concasseur  sans
+££  être  cassée
+Quelques  chiffres  : 3 niveaux  : 30  %,  60  % et  100  %.
+Ces  niveaux  d'indice  de  concassage  sont  fixés  en  fonction  de  la  technique
+utilisée  et  du  trafic  (voir  réf.  n°  8 de  la  bibliographie  et  Normes  techniques).
+La  faiblesse  de  la  notion  d'indice  de  concassage  réside  dans  le  fait  qu'ui
+gravillon  roulé  ayant  une  seule  face  "ébréchée"  est  considéré  comme  concassé,  ce  qui  es
+insuffisant  pour  les  couches  de  roulement  (béton  bitumineux  et  enduit  superficiel).
+Dans  ces  cas  là,  on  utilise  la  notion  de  rapport  d
+Dj  est  la  dimension  des  plus  petits  matériaux  à l'entrée  du  concasseur  et
+d2  est  la  dimension  des  plus  gros  matériaux  à la  sortie  du  concasseur.
+D1/D2
+^ /
+On  alimente  avec  un  40/80  (Dj  = 40,  D2  = 80)
+On  produit  un  0/20  (0  et  d = 20)
+On  a Rc  = -
+Quelques  chiffres  : 3 niveaux  de  Rc  : 2,  4 et  6.
+Ces  niveaux  sont  également  fonction  de  la  technique  et  du  trafic.
+Un  essai  basé  sur  la  mesure  du  temps  d’écoulement  d’une  certaine  quantité  de
+granulat  à travers  un  orifice  calibré  (angulométrie)  a été  normalisé  sous  l’appellation  de
+coefficient  d’écoulement  (Ec).
+II.4  - Les  caractéristiques  de  fabrication  des  sables
+Le  classement  des  sables  en  3 catégories  (a,  b et  c)  fait  intervenir  des  notions
+de  granularité  et  de  propreté.  >p
+11.4.1  - L'EQUIVALENT  DE  SABLE  A 10  % DE  FINES  OU  PROPRETE  DES
+SABLES  (P.S.)
+Cet  essai  est  une  variante  de  l’essai  d'équivalent  de  sable  (E.S.)  présenté  dans
+le  chapitre  "Géotechnique  Routière".
+Pour  les  granulats,  on  pratique  l'essai  sur  la  fraction  0/2  d’un  sable  dont  la
+teneur  en  fines  a été  ramenée  à 10  % (alors  que  pour  les  sols,  l'essai  est  pratiqué  sur  la
+II.4.2  - L'ESSAI  AV  BLEU  DE  METHYLENE
+Cet  essai  a pour  objectif  d'estimer  la  quantité  et  la  nocivité  des  éléments
+argileux  contenus  dans  les  fines  d'un  granulat.  Il  est  basé  sur  la  capacité  de  ces  éléments
+fins  à adsorber  du  bleu  de  méthylène. ,
+Le  colorant  étant  adsorbé  préférentiellement  par  les  argiles,  les  matières
+organiques  et  les  hydroxydes  de  fer,  cette  capacité  rend  compte  globalement  de  l'activité  de
+surface  de  ces  éléments.
+L'essai  consiste  à injecter  successivement  des  doses  élémentaires  d'une
+solution  de  bleu  de  méthylène  dans  un  bain  aqueux  contenant  la  prise  d'essai.  On  contrôle
+l'adsorption  de  bleu  après  chaque  ajout,"  en  effectuant  une  tache  sur  un  papier  filtre.
+On  appelle  "valeur  de  bleu"  des  fines  (VBta),  la  quantité,  exprimée  en
+grammes,  de  bleu  de  méthylène  adsorbée  par  100  g de  fines.
+11.4.3  - CARACTERISTIQUES  DE  FABRICATION  DES  SABLES
+CATEGORIES
+GRANULARITE
+PS  fl)
+VBta
+refus  à D
+étendue
+>60
+compris  entre  1 et  15  %
+15  % au  tamis  intermédiaires
+(2  4 6,3  8 10  14  20  mm)
+>50
+4 % à 0,08  min  si  f < 12  %
+6 % à 0,08  mm  sif>12%
+>40
+(*)Si  PS  < valeur  spécifiée,  un  essai  au  bleu  de  méthylène  est  effectué  : dans  ce  cas,  VBta  x f S valeur
+spécifiée.
+<2)si  VBta  x f > valeur  spécifiée,  un  essai  tubidimétrique  peut  être  effectué  : dans  ce  cas,  VBjy  x f < valeur
+(VB,a  x f)/2  spécifiée.
+(3)Ne  pas  appliquer  ces  tolérances  pour  les  bétons  hydrauliques  de  chaussées.
+II.5  - Choix  des  catégories  de  granulat^
+Ce  choix  est  à effectuer  en  fonction  de  l'intensité  du  trafic,  de  la  position  des
+granulats  dans  la  chaussée  (fondation,  base,  roulement...),  et  de  la  technique  employée
+(enrobé,  béton,  enduit...).
+Il  faut  définir  la  catégorie  de  résistance  mécanique  (qui  dépend  des  qualités
+intrinsèques  des  roches  d'origine),  et  la  catégorie  de  caractéristiques  de  fabrication.
+On  utilisera  pour  cela  la  directive  "Spécifications  relatives  aux  granulats  pour
+chaussées"  (S.E.T.R.A.  1984),  dont  il  faut  impérativement  actualiser  les  catégories  avec  la
+II.6  - Affinité  pour  les  liants
+Il  est  évident  que  la  nature  de  la  roche  doit  être  telle  que  le  liant  utilisé  réalise
+une  bonne  liaison.  Bien  que  ceci  soit  valable  avec  tous  les  liants,  les  essais  ont  surtout  trait
+aux  liants  hydrocarbonés.
+Deux  essais  principaux  permettent  de  juger  le  couple  liant-granulat  pour  un
+matériau  donné,  donc  son  adhésivité  ; ils  intéressent  les  enduits  :
+a - Essai  à la  plaque  Vialit  utilisé  pour  les  enduits  car  il  teste  l'accrochage  des
+granulats  au  liant.
+b - Essai  de  tenue  d'un  film  de  liant  en  présence  d'eau  qui  sert  à évaluer
+l’affinité  liant/granulat.
+En  ce  qui  concerne  les  enrobés,  nous  renvoyons  à l'essai  d' immersion-
+compression  (voir  chapitre  sur  les  "Enrobés  à chaud").
+III  - CONSIDERATIONS  GEOLOGIQUES  ET
+PETROGRAPHIQUES  SOMMAIRES
+Les  matériaux  les  plus  couramment  exploités  pour  les  granulats  routiers  se
+situent  dans  les  3 grandes  catégories  de  roches  :
+- Roches  éruptives
+- Roches  sédimentaires
+- Roches  métamorphiques
+auxquelles  il  convient  d'ajouter  les  roches  artificielles  (laitier).
+III.  1 - Roches  éruptives  •/'
+On  distingue  :
+- Les  roches  volcaniques  qui  se  sont  épanchées  en  surface  et  dont  le
+refroidissement  a été  rapide,  si  bien  qu'elles  présentent  une  phase  vitreuse  et  parfois
+quelques  amorces  de  cristallisation.  Au  regard  des  caractéristiques  indiquées  précédemment,
+on  peut  dire  que  les  roches  volcaniques  ont  en  général  de  bonnes  résistances  mécaniques,
+donnent  des  granulats  entièrement  concassés  assez  facilement  de  mauvaise  forme,  et  ont  en
+général  une  bonne  adhésivité.  Elles  peuvent  avoir  une  résistance  médiocre  au  polissage
+(basalte  par  exemple).
+- Les  roches  plutoniques  engendrées  par  un  refroidissement  plus  lent,  et  donc
+constituées  de  cristaux  individualisés  d'une  grande  diversité,  parmi  lesquels  il  faut
+général  des
+notamment  citer  le  quartz  et  les  feldspaths.  Les  roches  plutoniques  ont  en
+résistances  mécaniques  bonnes  à médiocres,  donnent  aussi  des  granulats
+concassés,  fournissent  des  matériaux  de  bonne  forme  et  ont  souvent  une  adhésivité
+médiocre.
+III.2  - Roches  sédimentaires
+Elles  proviennent  de  l'érosion  des  roches  en  place  dont  les  éléments,
+transportés  à plus  ou  moins  longue  distance,  se  déposent  et  sont  ensuite  plus  ou  moins
+consolidés.
+En  schématisant  beaucoup,  ces  matériaux  sont  de  trois  types  :
+- détritique  (sables  et  graviers),
+- chimique  (silex),
+- organochimique  (calcaires).
+Sables  et  graviers
+Ce  sont  des  formations  meubles  se  trouvant  dans  les  dépôts  d'origine
+alluviale,  éolienne,  marine  ou  glaciaire,  actuels  ou  anciens  : lits  de  rivière,  terrasses,
+moraines,  dunes,  plages  etc.
+La  composition  de  ces  dépôts  dépend  avant  tout  des  régions  auxquelles  les
+sédiments  sont  arrachés  par  l'érosion,  les  cours  d’eau  par  exemple  pouvant  traverser  des
+zones  géologiquement  très  différentes,  d'où  des  apports  de  nature  variée.
+En  ce  qui  concerne  les  qualités  routières,  elles  dépendent  essentiellement  de
+la  provenance  de  ces  sables  et  graviers.  Une  attention  particulière  doit  être  portée  à la
+propreté.  C’est  bien  entendu  pour  ces  matériaux  que  se  pose  le  problème  de  l'angularité.
+Grès  et  auartzites  (pour  ce  dernier  cf.  ci  après  § III.3)
+Ces  roches  sont  obtenues  par  cimentation  de  grains  de  sable.  Leur  résistance
+mécanique  est  très  variable,  de  mauvaise  à excellente.  Elles  donnent  des  matériaux
+entièrement  concassés,  de  forme  souvent  médiocre  et  de  mauvaise  adhésivité.
+Calcaires
+Ce  sont  des  formations  obtenues  par  dépôts  de  sédiments  (ex.  coquilles  - CO3
+Ca,  etc.).  Les  roches  se  forment  par  accumulations  successives,  d'où  leur  particularité  de  se
+présenter  presque  toujours  en  bancs  plus  ou  moins  parallèles,  d'épaisseur  variable  suivant
+l'importance  et  la  durée  de  l'apport  en  sédiments.
+Les  calcaires  dorment  des  granulats  de  caractéristiques  mécaniques  moyennes.
+Les  plus  durs  sont  acceptables  pour  certaines  techniques  et  suivant  le  type  de  trafic,  les
+autres  sont  à rejeter.  Leur  polissage  facile  les  fait  exclure  des  couches  de  roulement.  Leur
+adhésivité  est  excellente  tant  avec  les  liants  hydrauliques  que  dans  la  plupart  des  cas  avec  les
+liants  hydrocarbonés.
+III.3  - Roches  métamorphiques
+Elles  proviennent  de  la  transformation  des  précédentes  sous  l'action  de  la
+température  et  de  la  pression.  Pour  schématiser,  on  distinguera  :
+I,e  métamorphisme  de  contact
+Lors  de  la  mise  en  place  des  roches  plutoniques,  il  s'est  généralement  produit
+à leur  contact  une  transformation  des  roches  en  place  par  recristallisation.
+Le  métamornhisme  général  gpi  affecte  les  formations  en  place  au  fur  et  à
+mesure  que  les  couches  de  terrains  s'enfoncent  sous  le  poids  des  sédiments  qui  se  déposent.
+Les  roches  prennent  alors  un  aspect  feuilleté  accompagné  d'une  recristallisation  plus  ou
+moins  importante.
+Les  principales  roches  métamorphiques  sont  : les  micaschistes,  les  gneiss,  les
+quartzites  (anciens  grès),  etc.
+Elles  fournissent  des  granulats  entièrement  concassés,  de  forme  variable,  de
+résistance  mécanique  souvent  acceptable  et  d'adhésivité  variable.
+in.4  - Roches  artificielles
+Ce  sont  essentiellement  les  laitiers,  sous-produit  de  la  fabrication  de  la  fonte.
+Si  on  les  laisse  refroidir  lentement  dans  une  fosse  (au  lieu  d'un  refroidissement  brutal  tel
+que  pratiqué  pour  la  production  de  laitier  granulé),  on  obtient  une  masse  solide  que  l'on
+réduit  par  concassage  en  un  granulat  très  anguleux  et  d'excellente  adhésivité.
+IV  - ELABORATION  DES  GRANULATS
+IV.  1 - Etude  des  gisements
+IV. 1.1  - ETUDES  DE  SYNTHESE
+Les  besoins  des  granulats  croissant  d'une  façon  très  sensible  chaque  année,  le
+problème  des  ressources  se  pose  en  termes  quantitatifs  et  qualitatifs.  Il  est  donc
+indispensable  de  connaître  avec  précision  les  ressources  potentielles,  car  nombre  de  celles-ci
+pourraient  se  trouver  stérilisées  par  des  plans  d'urbanisme  ou  par  les  exigences  de
+l'environnement.
+Toutefois,  ces  synthèses  totales  ou  partielles  doivent  être  considérées  comme
+des  bilans  d’orientation  et  non  comme  des  études  de  gisement  proprement  dites.
+IV. 1.2  - ETUDE  DU  GISEMENT  PROPREMENT  DIT
+Une  exploitation  n'est  possible  que  s'il  existe  des  matériaux  existent  en
+quantité  et  en  qualité  suffisantes.  En  effet,  l’exploitation  d'un  gisement  nécessite  des
+investissements  préalables  importants  qui  doivent  être  amortis  sur  des  périodes
+suffisamment  longues.
+Il  est  donc  nécessaire  de  procéder  à des  reconnaissances  approfondies  car  il
+convient,  compte  tenu  des  débits  actuels  de  production,  de  chercher  à diminuer  autant  que
+possible  les  aléas  liés  aux  hétérogénéités,  discontinuités  ou  pollutions.  Nous  ne  nous
+étendrons  pas  sur  ce  problème  de  la  reconnaissance  de  gisement  qui  mériterait  de  faire
+l’objet  d'un  chapitre  à lui  seul.
+IV.1.3  - PLEIN  EMPLOI  AU 'GISEMENT
+Nous  insisterons  seulement  sur  le  point  suivant  : il  faut,  dès  l'étude  du
+gisement,  examiner  comment  seront  produits  les  granulats  et  quelle  sera  leur  utilisation.
+Pour  que  les  matériaux  soient  de  qualité,  il  faut  éliminer  soigneusement  la
+découverte  (c'est-à-dire  les  matériaux  qui  surmontent  le  gisement,  soit  des  "stériles",  soit
+des  bancs  altérés  ou  pollués!.
+Cette  élimination  doit  être  prévue  dans  l'étude.
+Mais  de  plus,  afin  que  l'exploitation  soit  rentable,  il  faut  s'arranger  pour  que
+la  quasi  totalité  du  gisement  trouve  un  débouché.  C'est  ce  que  l'on  appelle  assurer  le  plein
+emploi  dp  gisement-
+IV.2  - Extraction
+IV.  2.1  - Pour  les  roches  massives,  le  schéma  général  est  le  suivant  : décapage  de  la
+découverte  de  roche  altérée  de  surface  - abattage  à l'explosif  de  la  roche  saine  - transport
+des  produits  abattus  vers  l'installation  de  concassage.
+L'accent  doit  être  mis  sur  la  qdSîité  de  la  découverte  qui  a une  incidence  très
+importante  sur  l'homogénéité  des  produits  livrés  après  concassage  (absence  d'éléments  trop
+tendres  ou  altérés).
+IV.2.2  - Pour  les  matériaux  alluvionnaires,  le  problème  est  un  peu  différent  car  la
+découverte  est  en  général  un  matériau  meuble,  plus  ou  moins  argileux.  De  plus  il  est
+primordial  de  tenir  compte  du  paramètre  hydrologique  : en  effet,  suivant  la  période
+d'extraction,  certaines  parties  du  gisement  peuvent  se  trouver  plus  ou  moins  sous  le  niveau
+de  la  nappe.
+D'autre  part,  il  faudra  tenir  compte  à l'extraction  des  hétérogénéités  en
+granularité,  propreté  ou  dureté,  afm  d'amener  aux  installations  des  produits  judicieusement
+mélangés,  ou  sélectionnés,  de  manière  à avoir
+l'alimentation.
+apport  de  qualité  constante  à
+IV.3  - Concassage  - Criblage
+IV. 3.1  - Pour  les  roches  massives,  les  produits  d'abattage  amenés  au  concasseur
+primaire  subissent,  suivant  les  cas  avant  ou  après  le  concassage  (voire  les  2 à la  fois),  une
+élimination  des  produits  terreux  et  pollués.
+Le  concassage  primaire  effectue  une  première  réduction  des  matériaux,
+accompagnée  d'un  affinage  en  propreté  et  y»  dureté,  par  criblage  et  mise  à l'écart  des
+produits  fins  provenant  du  concassage.
+Avec  le  concassage  secondaire,  tertiaire  voire  quaternaire,  les  produits  sont
+de  plus  en  plus  élaborés  et  affinés,  tant  en  granularité  qu'en  forme  et  en  propreté.
+Chaque  étage  de  concassage  est  bien  entendu  complété  par  le  criblage
+correspondant  qui  a pour  fonction  d'une  part  d'extraire  des  produits  livrables  avec  des
+coupures  normalisées,  d'autre  part  de  sélectionner  les  produits  devant  alimenter  les
+appareils  de  l'étage  de  concassage  situé  en  aval  (ex.  les  granulats  secondaires  peuvent  être
+soit  vendus,  soit  servir  à l'alimentation  des  concasseurs  tertiaires,  soit  les  deux  à la  fois,  ce
+qui  est  le  cas  le  plus  courant).
+1V.3.2  - Pour  les  matériaux  alluvionnaires,  le  processus  d'élaboration  est  à peu  près
+le  même  avec  toutefois  quelques  particularités  dues  au  matériau  lui-même  : une  grave
+humide  ne  pourra  être  criblée  que  par  voie  humide  - une  grave  très  polluée  subira  un
+débourbage  avant  tout  autre  traitement  - une  grave  très  sableuse  subira  un  dessablage
+préalable  - un  sable  avec  "bosse  du  sable"  subira  un  traitement  particulier  par  voie
+hydraulique  afin  d'éliminer  les  fractions  excédentaires,  etc.  En  dehors  des  ces  particularités
+spécifiques  à des  matériaux  pulvérulents  et  humides,  le  circuit  d'élaboration  sera
+pratiquement  le  même  tant  pour  le  concassage  que  pour  le  criblage.
+IV.3.3  - Pour  les  sables  de  concassage  et  de  broyage,  l'élaboration  des  sables  de
+concassage  ou  de  broyage  pose  deux  problèmes  bien  spécifiques  :
+* Pour  les  sables  provenant  de  matériaux  alluvionnaires,  compte  tenu  des
+traitements  par  voie  humide  indiqués  ci-dessus,  il  sera  nécessaire  à un  moment  donné  de  les
+extraire  de  l'ensemble  de  la  pulpe  (eau  + sable).  Les  modes  d'extraction  de  ce  sable  doivent
+être  adaptés  à la  concentration  de  la  pulpe  pour  éviter  des  pertes  de  sable  fin  qui  non
+seulement  font  perdre  au  sable  une  partie  de  ses  caractéristiques,  mais  de  plus  engendrent
+des  pollutions  (rejet  en  rivière  par  exemple).
+* Pour  obtenir  des  sables  à teneur  en  fines  élevée,  il  est  souvent  nécessaire
+d'utiliser  des  appareils  de  concassage  très  spécifiques  qui  ont  l'inconvénient,  du  fait  d'un
+faible  rendement,  de  renchérir  le  coût  des  produits.
+La  recherche  d’une  teneur  en  fines  importante  n'est  pas  toujours  souhaitable
+et  il  peut  être  préférable,  avec  certaines  roches,  de  compenser  le  manque  de  fines  de
+concassage  par  des  fines  d'apport  (fines  calcaires  par  exemple).
+IY.4  - Stockage  - Reconstitution  - Expédition
+Les  opérations  qui  se  situent  en  aval  de  la  chaîne  d'élaboration  sont  d'une
+extrême  importance  :
+- En  premier  lieu,  il  faut  éviter  qu'un  produit  homogène  ne  devienne
+hétérogène  par  la  simple  opération  de  stockage  en  trémie  ou  en  tas.  Il  faut  donc  veiller  à
+supprimer  tous  les  points  susceptibles  de  créer  une  ségrégation  des  matériaux  (par  ex.  chute
+de  grande  hauteur,  camions  bennant  du  haut  d'un  tas  élevé...).
+En  second  lieu,  éviter  qu'un  système  de  reconstitution  à partir  de  classes
+granulaires  homogènes  ne  crée  un  produit  reconstitué  hétérogène  ou  ségrégué.
+- Il  en  est  de  même  pendant  toutes  les  opérations  de  manutention  et  de
+transport  (ex.  chargement  et  déchargement  de  camions  ou  de  trains).
+- Enfin,  il  faut  veiller  à ce  que  les  stocks  ne  soient  pas  pollués  par  les
+poussières  pouvant  provenir  de  leur  voisinage,  et  à ce  qu’ils  soient  suffisamment  éloignés
+les  uns  des  autres  pour  que  les  différentes  classes  granulaires  ne  se  mélangent  pas
+localement.
+IV. 5 - Prise  en  compte  de  l'environnement
+L'exploitation  d'un  gisement  de  granulats  est  une  source  importante  de
+nuisances  pour  l'environnement  : pollutions  diverses,  sécurité  de  la  circulation  sur  le  réseau
+public,  poussière,  bruit  ...
+Elle  est  aussi  très  fréquemment  en  prise  avec  l’hydrogéologie  : risques  de
+pollution  de  la  nappe  ou  de  cours  d'eau  proches  (rejets  d'hydrocarbures,  de  produits  de
+lavage  ...),  pompage  pour  alimenter  les  circuits  de  lavage  ou  pour  rabattre  un  niveau  de
+nappe,  etc.
+Toute  autorisation  d'ouverture  de  carrière  est  conditionnée  par  la  production
+d'une  étude  d'impact,  d'un  plan  d'exploitation  et  d'un  plan  de  remise  en  état  du  terrain  en
+fin  d'exploitation.  Même  si  ce  problème  est  de  la  responsabilité  du  producteur  de  granulats,
+l'utilisateur  doit  en  permanence  demeurer  vigilant  sur  ce  point  particulièrement  sensible.
+V - CONTROLE
+de  refuser  à l'arrivée  des  matériaux  ayant  subi  le  prix  d'un  long  transport,  d'autre  part  les
+moyens  de  prélèvement  sur  stock  sont  loin  d’être  parfaits  et  représentatifs.
+C'est  pourquoi  actuellement,  dans  le  grande  majorité  des  cas,  le  contrôle  est
+effectué  sur  les  lieux  de  fabrication  où  les  essais  sur  les  matériaux  peuvent  être  complétés
+par  des  observations  sur  le  gisement  et  les  principaux  circuits  d'élaboration.
+Après  un  certain  délai,  pour  une  exploitation  donnée,  le  contrôle  s'allège  de
+lui-même  grâce  à la  connaissance  des  différents  paramètres  aux  points  sensibles.
+En  fait  le  contrôle  est  allégé  en  général,  mais  l'intérêt  de  la  méthode  est  de
+pouvoir  l'alourdir  à bon  escient,  quand  des  anomalies  apparaissent  ou  sont  prévues  tant  au
+niveau  du  gisement  que  de  l'installation  elle-mjpie.
+Dans  le  cas  des  "grandes  carrières"  pouvant  livrer  par  fer  à longue  distance,
+des  équipes  de  contrôle  sont  sur  place  en  permanence  pour  contrôler  les  productions  tous
+les  jours  avant  le  départ  de  chaque  train.
+Comme  dans  tous  les  domaines,  des  plans  d'assurance  de  la  qualité  (P.A.Q.)
+sont  établis  par  les  producteurs  importants  ; il  faut  absolument  en  vérifier  la  teneur  et  la
+régularité  du  suivi.
+Pour  les  petits  producteurs,  qui  n'ont  souvent  pas  les  moyens  d'élaborer  un
+véritable  P.A.Q.  du  type  le  plus  complet,  il  faut  au  moins  obtenir  d'eux  d'en  avoir  l'esprit
+et  pour  cela  d'assurer  un  minimum  de  suivi  de  la  qualité  de  leurs  produits.
+BIBLIOGRAPHIE
+[I]  "Les  granulats"  traité  théorique  et  pratique  édité  par  l'Equipement  Mécanique  -
+Carrières  et  matériaux.  Fascicules  I - II  - IV  - V et  XIV  - Auteurs  MM.
+BERTHIER  - TOURENQ  - TOSTAIN  - ARQUIE.
+[II]  "Les  granulats"  - Revue  Générale  des  Routes  et  Aérodromes  - Recyclage  - Fascicule
+n°8  - Septembre  1971  - Auteurs  MM.  BONNOT  et  PANET.
+[III]  "Gisements  de  matériaux  et  installations  temporaires"  Bulletin  de  liaison  des
+Laboratoires  des  Ponts  et  Chaussées  n°  60  - Juillet  - Août  1972  - Auteurs  MM.
+PANET  - PRIMEL  - ARCHIMBAUD
+[IV]  "La  production  des  granulats  "Revue  Travaux  n°  spécial  Route  n°  464  bis  -
+Novembre  1973  - Auteurs  MM.  ARCHIMBAUD  - JOUBERT  - MALDONADO  -
+PRAX  - PRIMEL  - ROY.
+[V]  C.C.T.G.  - Fascicule  23  - Fourniture  de  granulats  employés  à la  construction  et  à
+l'entretien  des  routes.
+[VI]  Modes  opératoires  L.P.C..
+[VII]  "Technologies  des  appareils  de  fragmentation  et  de  classement  dimensionnel"  -
+Auteur  M.  BLANC  - 3 tomes  - EYROLLES.
+[VIII]  Spécifications  relatives  aux  granulats  pour  chaussées.  Directive  S.E.T.R.A.-
+L.C.P.C.  (1984)  (en  cours  de  révision).
+[IX]  Normes  de  spécifications
+- NF  P 18-101  Déc.  1990  Granulats  - Vocabulaire  - Définitions  et  classifications.
+(en  cours  de  révision)
+- NF  P 18-301  Déc.  1983  Granulats  - Granulats  naturels  pour  béton  hydrauliques.
+[X]  Normes  d'essais
+- NF  P 18-557  Sept.  1990
+- NF  P 18-560  Sept.  1990
+- NF  P 18-561  Sept.  1990
+Granulats  - Eléments  pour  l'identification  des  granulats.
+Granulats  - Analyse  granulométrique  par  tamisage.
+Granulats  - Mesures  du  coefficient  d’aplatissement.
+NF  P 18-572  Déc.  1990  Granulats  - Essai  d'usure  micro-Deval.
+Nf  P 18-573  Déc.  1990  Granulats  - Essai  Los  Angeles.
+NF  P 18-574  Déc.  1990  Granulats  - Essai  de  fragmentation  dynamique.
+NF  P 18-575  Déc.  1990  Granulats  - Mesure  du  coefficient  de  polissage  accéléré
+des  gravillons.
+NF  P 18-578  Sept.  1990  Granulats  - Mesure  de  la  rugosité  d'une  surface  à l'aide
+du  pendule  de  frottement.
+NF  P 18-591  Sep.  1990  Granulats^Détermination  de  la  propreté  superficielle.
+NF  P 18-592  Déc.  1990  Granulats  - Essai  au  bleu  de  méthylène  - Méthode  à la
+tache.
+NF  P 18-593  Déc.  1990  Granulats  - Sensibilité  au  gel.
+NF  P 18-597  Déc.  1990  Granulats  - Détermination  de  la  propreté  des  sables  :
+Equivalent  de  sable  à 10  % de  fines.
+NF  P 18-598  Oct.  1991  Granulats  - Equivalent  de  sable.
+LES  LIANTS  HYDROCÂKBONES
+Les  liants  utilisés  en  technique  routière  sont  de  deux  natures  différentes  :
+- les  liants  hydrocarbonés,  appelés  ainsi  parce  qu’ils  sont  composés
+essentiellement  d’hydrocarbures,  qui  appartiennent  à la  famille  générale  des  liants
+organiques  et  dont  le  représentant  principal  est  le  bitume  ;
+- les  liants  hydrauliques,  qui  doivent  leur  nom  au  rôle  primordial  joué  par
+l’eau  dans  le  processus  de  prise  et  dont  le  représentant  principal  est  le  ciment.
+On  parle  aussi  de  “liants  noirs”  pour  les  premiers  et  de  “liants  blancs”  pour
+les  seconds  mais  la  différence  essentielle  entre  ces  deux  familles  tient  dans  le  rôle  et  le
+comportement  du  liant  dans  le  composite  qu’il  forme  avec  le  squelette  minéral.  L’usager  sait
+parfaitement  distinguer,  au-delà  de  la  couleur,  une  chaussée  “souple”  d’une  chaussée
+“rigide”,  la  première  utilisant  le  bitume  et  la  seconde  le  ciment.
+I - UN  PEU  D'HISTOIRE
+Les  liants  hydrocarbonés,  goudrons,  bitumes  et  asphaltes  naturels,  bitumes
+extraits  du  pétrole  ont  une  longue  histoire.
+Dans  l'antiquité,  les  bitumes  et  asphaltes  naturels  étaient  déjà  utilisés  pour  le
+jointoiement  des  briques  et  la  réalisation  d'étanchéités.
+Jusqu'au  XVIIème  siècle,  le  goudron  de  bois  fut  le  seul  corps  utilisé
+universellement  pour  la  construction  et  pour  le  traitement  des  bateaux,  ensuite  remplacé  par
+le  goudron  extrait  de  la  houille.  Peu  avant  la  Révolution  de  1789  est  érigée  la  première
+usine  à gaz,  le  goudron,  jusque  -là  produit  principal  de  la  distillation  de  la  houille,  devient
+un  sous-produit  de  la  fabrication  du  gaz.  Plus  tard  celui-ci  sera  lui-même  détrôné  au  profit
+du  coke  destiné  à l'industrie  métallurgique,  puisque  dans  les  cokeries  modernes,  l'objectif
+est  de  produire  du  coke,  le  gaz  et  le  goudron  étant  des  sous-produits.
+Au  début  du  XXème  siècle,  on  réalise  les  premiers  chantiers  de  répandage  de
+goudron  sur  des  routes  pour  lutter  contre  la  poussière  soulevée  par  les  premiers  véhicules
+automobiles.
+Dans  la  décennie  qui  suit  la  première  guerre  mondiale,  on  commence  à
+utiliser  du  bitume  importé  en  France  et  puis  entre  les  années  30  et  40  à produire  du  bitume  à
+partir  des  pétroles  bruts  du  Vénézuela.  C'est  également  entre  les  deux  guerres  que  l'on  met
+au  point  les  émulsions  de  bitume  d'abord  du  type  "anionique"  et  puis  "cationique".
+A partir  de  1975,  on  assiste  à un  développement  important  de  l'utilisation  des
+bitumes  routiers  issus  de  la  distillation  du  pétrole.  Utilisés  dans  toutes  les  couches  des
+chaussées,  le  bitume  qu'il  soit  pur,  ou  sous  forme  d'émulsion,  occupe  aujourd'hui  en
+France,  une  place  prépondérante,  et  même  sans  comparaison  avec  celle  des  autres  liants.
+Actuellement,  la  production  et  la  consommation  de  bitume  en  France  se  situent  entre  2,4  et
+2,5  Millions  de  Tonnes  par  an.
+II  - GENESE  DES  LIANTS  HYDROCARBONES
+Un  liant  hydrocarboné  est  donc  un  liant  organique  constitué
+d’hydrocarbures,  c’est-à-dire  essentiellement  à base  de  carbone  et  d’hydrogène,  auxquels
+s’ajoutent  l’oxygène,  le  soufre,  l’azote,  ...  en  faibles  quantités.
+On  distingue  encore  dans  cette  famille  3 sortes  de  produits  :
+- les  goudrons,  qui  proviennent  de  la  pyrogénation  (à  l’abri  de  l’air)  de
+matières  d’origine  végétale  : houille,  lignite,  tourbe,  bois,  ...  Les  goudrons  routiers  sont
+essentiellement  tirés  de  la  houille  ;
+- les  liants  naturels,  que  l’on  trouve  en  l’état  dans  la  nature,  le  plus  souvent
+associés  à des  matières  minérales,  et  qui  sont  utilisés  depuis  des  temps  très  anciens.  Il  s’agit
+des  roches  asphaltiques  qui,  après  broyage,  donnent  la  poudre  d’asphalte  ainsi  que  des
+bitumes  naturels  (asphaltite,  bitume  de  Trinidad  ou  de  Selenitza,  ...)  ;
+- les  bitumes,  qui  sont  produits  en  raffinerie  à partir  de  la  distillation
+fractionnée  de  certains  pétroles  bruts  dits  “bruts  à bitume”  ;
+Pour  des  raisons  principalement  économiques  mais  aussi  liées  au
+comportement  général  de  ces  matériaux  ou  à des  éonsidérations  d’environnement  (leur
+composition  inclut  des  produits  cancérigènes),  les  goudrons  de  houille  ne  sont  plus  guère
+utilisés  en  technique  routière.  Dans  la  pratique  courante  en  France,  lorsqu’on  parle  de  liant
+hydrocarboné,  il  s’agit  pratiquement  toujours  de  bitume.  (Cf.  cours  de  Matériaux,  1ère
+Année).
+III  - LES  GOUDRONS
+Comme  nous  l'avons  vu  au  paragraphe  précédent,  les  goudrons  sont  un  sous-
+produit  provenant  de  la  distillation  de  la  houille.  On  en  obtenait  des  quantités  importantes
+lorsque  on  utilisait  la  houille  non  seulement  dans  les  cokeries  de  haut  fourneau  mais  aussi
+Les  goudrons  sont  obtenus  à des  températures  supérieures  à 1000°C.
+Bien  que  dans  le  langage  courant  on  entende  toujours  parler  de
+"goudronnage"  chaque  fois  que  l'on  effectue  le  revêtement  d'une  route,  les  goudrons  ne
+sont  que  très  peu  utilisés  dans  les  techniques  employées  pour  les  travaux  routiers,  sauf  cas
+particuliers  (par  exemple  : enrobés  anti-kérosène  du  fait  qu'ils  ne  se  dissolvent  pas  dans  des
+solvants  d’origine  pétrolière).
+Cette  désaffection  n'est  pas  seulement  liée  aux  caractéristiques  du  goudron,
+mais  aussi  au  fait  que  la  réduction  de  la  production  de  goudron  a suivi  le  recul  de
+l'utilisation  de  la  houille.
+» Caractéristiques  principales  :
+-densité  à 25 °C  : 1,16  àl, 27,
+- non  dissolution  dans  les  produits  d'origine  pétrolière.
+m-  Par  rapport  aux  bitumes  :
+- meilleure  adhésivité  aux  granulats,  mais  plus  grande  susceptibilité  à
+la  température  (durcissement  à température  faible  et  ramollissement
+aux  températures  élevées),
+- vieillissement  plus  rapicje.
+Aujourd'hui,  le  goudron  n'est  plus  utilisé  qu'en  mélange  avec  le  bitume  pour
+la  technique  des  enduits  superficiels.
+IV  - LES  LIANTS  BITUMINEUX
+Sont  baptisés  bitumineux  tous  les  produits  qui  dérivent  du  pétrole,  c'est-à-dire
+qui  proviennent  du  traitement  (naturel  ou  industriel)  du  pétrole  brut,  considéré  aussi  comme
+une  roche  fossile.  En  effet,  elle  résulte  également  d'une  lente  transformation  à l'échelle
+La  fabrication  des  liants  bitumineux  est  fondée  sur  le  principe  de  la
+distillation  qui  permet  de  séparer  les  différentes  fractions  en  fonction  de  leur  point
+d'ébullition.  Les  produits  de  base  sont  soumis  dans  une  ou  plusieurs  colonnes  à une
+élévation  de  température  telle  que  les  éléments  les  plus  légers  partent  en  tête  de  colonne,
+puis  se  succèdent  les  fractions  de  plus  en  plus  lourdes.
+La  plupart  des  fractions  ainsi  obtenues  doivent  également  être  raffinées  pour
+obtenir  les  produits  finis.
+Cette  opération,  effectuée  en  usine,  reproduit  en  un  temps  très  court  la
+distillation  qui  s'est  opérée  naturellement  au  cours  des  temps  géologiques  pour  former  les
+gisements  de  bitumes  naturels  ou  d'asphalte  naturel.
+Le  pétrole  subit  d'abord  une  distillation  à 350°C  dans  une  tour  où  sont
+éliminées  les  fractions  légères,  chacune  étant  soutirée  à son  niveau  respectif  en  fonction  de
+sa  température  d'ébullition  : gaz,  essence,  kérosène,  gasoil,  fuel.
+Le  résidu  de  cette  première  distillation  est  un  bitume  mou  qui  contient  encore
+des  fuels  et  des  huiles.
+Ce  résidu  est  donc  repris  pour  une  nouvelle  distillation  qui  s'effectue  sous
+vide  à une  température  pouvant  aller  au  maximum  à 400°C  par  laquelle  on  obtient  en  fond
+de  cuve,  ayant  retiré  les  fuels  et  les  huiles,  un  bitume  plus  dur  (résidu  sous  vide).
+Une  partie  de  celui-ci  est  encore  traitée  aux  solvants  pour  récupérer  le
+maximum  de  produits  plus  "nobles",  et  ce  qui  en  reste  utilisé  pour  corriger  la  qualité
+d'autres  bitumes.
+distillation
+atmosphérique
+V - LES  BITUMES
+V.l  - Constitution  des  bitumes
+A la  température  ordinaire  les  bitumes  se  présentent  comme  des  liquides
+visqueux  ou  des  solides  susceptibles' de  fluer  sous  leur  propre  poids.  Il  s’agit  de  mélanges
+très  complexes  d’hydrocarbures  aliphatiques,  naphténiques  et  aromatiques  constituant  un
+milieu  colloïdal  où  la  partie  la  plus  lourde  - les  asphaltènes  - est  dispersée  en  micelles  et
+agglomérats  dans  les  huiles,  l’ensemble  huiles-résines  entourant  les  micelles  étant  appelé
+maltènes.
+résines  asphaltènes
+maltènes
+bitume
+La  masse  volumique  des  bitumes  à 20°C  est  voisine  de  lg/cm3.
+V.2  - Mode  d’action  des  bitumes
+Les  bitumes  sont  employés  en  technique  routière  pour  leurs  propriétés
+agglomérantes  et  d’étanchéité.
+Pour  qu’ils  puissent  agglomérer  entre  eux  les  éléments  du  squelette
+granulaire,  il  faut  qu’ils  puissent  enrober  celui-ci.  Il  faut  donc  commencer  par  abaisser  leur
+viscosité  en  veillant  à ce  qu’ils  aient  sous  cette  forme  de  bonnes  propriétés  mouillantes
+(adhésivité).
+Trois  solutions  sont  alors  offertes  :
+- l’enrobage  à chaud  avec  des  bitumes  purs,
+- la  fluidification  par  des  huiles^e  pétrole  ou  de  houille,
+- la  mise  en  émulsion  dans  l’eau.
+Dans  le  premier  cas,  le  composite  mis  en  oeuvre  atteint  la  cohésion  souhaitée
+par  simple  refroidissement.  Dans  le  deuxième,  il  faut  attendre  l’évaporation  de  l’agent  de
+fluidification.  Enfin  dans  le  troisième  cas,  l’équilibre  est  atteint  après  rupture  de  l’émulsion
+et  évacuation  de  l’eau,  processus  plus  rapide  et  plus  écologique  que  le  précédent.
+Dans  tous  les  cas  il  s’agit  de  processus  physiques.  Il  n’entre  pas  de  réaction
+chimique  dans  les  phénomènes  qui  président  à l’obtention  de  la  cohésion  du  composite  après
+sa  mise  en  place,  de  telle  sorte  que  certains  d’entre  eux  sont  réversibles.  Cela  peut  être  un
+point  de  vulnérabilité  pour  le  composite  (ramollissement  par  élévation  de  température  ou  par
+répandage  de  solvant  par  exemple)  et  différencie  le  mode  d’action  des  liants  hydrocarbonés
+de  celui  des  liants  hydrauliques  qui  est  essentiellement  à base  de  réactions  chimiques
+irréversibles.
+V.3  - Caractérisation  des  bitumes  purs
+Pour  classer  les  bitumes  purs  selon  leur  consistance,  on  utilise  essentiellement
+deux  essais  de  laboratoire.
+V.3.1  - LA  PENETRABILITE  A 25°C  (PEN25)  (NORME  NFT  66  004).
+L'essai  consiste  à mesurer  l^nfoncement  en  1/10  de  mm  d'une  aiguille
+normalisée  chargée  à 100  g dans  un  godet  de  bitume  placé  dans  un  bain  thermostaté  à 25  °C
+pendant  une  durée  de  5 secondes.
+Essai  de  pénétrabilité
+L'enfoncement  de  l'aiguille  est  d'autant  plus  important  que  le  bitume  est
+mou.  On  classe  les  bitumes  avec  des  ''fourchettes'1  d'enfoncement.  Pour  un  bitume  20/30  (le
+plus  dur),  l'enfoncement  de  l'aiguille  doit  être  compris  entre  2 et  3 mm,  alors  que  cette
+valeur  est  comprise  entre  18  et  22  mm  pour  le  bitume  le  plus  mou  (180/220).
+V.3. 2 - LA  TEMPERATURE  BILLE  ET  ANNEAU  TBA  (NORME  NFT  66  008).
+L'essai  consiste  à mesurer  la  température  à laquelle  une  bille  s'enfonce  à
+travers  le  bitume  remplissant  le  cercle  intérieur  d'un  anneau  de  laiton  placé  dans  un  bain
+thermostaté.  On  monte  progressivement  la  température  jusqu'au  point  où  la  bille  passe  à
+travers  l'anneau.
+On  utilise  également  la  notion  d'indice  de  Pénétrabilité  (IP)  pour
+caractériser  les  variations  de  consistance  en  fonction  de  la  température.  On  peut  déterminer
+IP  de  deux  façons  :
+- soit  à partir  de  Pen25  et  de  TBA  en  considérant  que  cette  température
+correspond  à une  pénétrabilité  de  l’ordre  de  800  (IP  de  Pfeiffer),
+- soit  en  effectuant  des  mesures  de  pénétrabilité  à différentes  températures  (en
+général  entre  10  et  35 °C  (IP  dit  LCPC)).
+V.3.4  -AUTRES  ESSAIS  SUR  LES  BITUMES  PURS.
+Il  existe  un  grand  nombre  d’autres  essais  utilisés  pour  caractériser  les
+bitumes.  Parmi  les  plus  connus,  on  citera  :
+- LE  POINT  DE  FRASS  : Il  s’agit  de  la  température  de  fragilité  : on  dépose
+un  film  de  bitume  d'une  épaisseur  normalisée  sur  une  petite  lamelle  d'acier  ; on  plie  la
+lamelle  à température  décroissante  jusqu'à  rupture  du  film.  Sur  des  bitumes  purs  et  "neufs”,
+le  point  de  Frass  varie  entre  -20°C  et  0°C.
+- LA  TENEUR  EN  ASPHALTENES  : Elle  sert  de  point  de  repère  pour
+caractériser  le  vieillissement  du  bitume.  (On  mesure  la  proportion  de  bitume  non  soluble
+dans  l'heptane).
+- L'ESSAI  DE  VIEILLISSEMENT  RTFOT  (Rolling  Thin  Film  Oven  Test)  :
+Cet  essai  a pour  objectif  de  mesurer  le  vieillissement  du  bitume  lors  des  opérations  de
+fabrication  et  de  mise  en  oeuvre  des  enrobés  à chaud  (voir  chapitre  sur  "les  enrobés  à
+chaud").  Il  est  pratiqué  sur  un  film  mince  de  bitume  à la  température  de  163°C  en  présence
+d'air.  La  norme  NFT  66  032  précise  le  pourcentage  de  pénétrabilité  restante  et  la  différence
+maximale  de  TB  A après  et  avant  essai.
+V.4  - Propriétés  des  bitumes
+Les  propriétés  spécifiques  d’un  liant  sont  à la  fois  de  lier  - phénomène
+d’adhésion  - et  de  maintenir  réunis  les  granulats  au  sein  du  composite  - ce  qui  met  en  jeu  les
+propriétés  rhéologiques  du  liant.  M
+V.4.1  - PROPRIETES  RHEOLOGIQUES  DU  BITUME
+(CF.  COURS  DE  M.M.C.)
+Les  bitumes  sont  des  matériaux  dits  visco-élastiques.  c'est-à-dire  qu'ils
+réagissent,  soit  de  façon  élastique,  soit  de  façon  visqueuse  selon  les  conditions  de
+sollicitations.
+En  fait,  ils  sont  sensibles  :
+- à la  température
+- au  temps  de  charge.
+Ce  comportement  particulier  est  très  bien  illustré  par  les  essais  de  mesure  de
+module  évoqués  dans  le  chapitre  "Dimensionnement  des  chaussées”.
+Outre  l'influence  de  la  température  et  du  temps  de  charge,  le  module  du
+bitume  dépend  également  :
+- de  sa  consistance  (caractérisée  par  sa  catégorie).  C'est  ainsi  que  pour  des
+mêmes  conditions  de  température  et  de  temps  de  charge,  un  bitume  dur  type  20/30  sera
+beaucoup  plus  rigide  qu'un  bitume  mou  du  type  180/220,
+- de  sa  susceptibilité  thermique  (c'est-à-dire  sa  sensibilité  à la  température)
+caractérisée  par  l'indice  de  pénétrabilité  IP.
+Module  en  MPa
+Variation  du  module  d'un  bitume  moyennement  susceptible  (IPs  0,  TBA  =56°C)
+en  fonction  de  la  température  et  du  temps  de  charge.
+V.4.2  - MOUILLABILI TE  - ADHESIVITE
+Les  propriétés  agglomérantes  du  bitume  sont  liées  à sa  faculté  de  mouiller  les
+granulats  qu’il  est  chargé  d’enrober.  Les  choses  se  passent  généralement  assez  bien  à chaud
+(>  160°C)  avec  des  granulats  propres  mais  il  peut  en  être  autrement  à froid  (<  100°C)  :
+l’eau,  partenaire  pratiquement  omniprésent  sur  nos  chantiers,  possède  un  meilleur  pouvoir
+mouillant  vis  à vis  des  granulats  que  les  bitumes.  Il  faut  donc  trouver  des  solutions  pour
+inverser  cette  tendance,  aussi  bien  pour  l’enrobage  (rechercher  l’adhésivité  active  du  liant
+d’enrobage)  que  pour  la  résistance  au  désenrobage  (adhésivité  passive).  Pour  cette  raison,
+on  peut  être  amené  avec  certains  types  de  granulats  à utiliser  des  dopes  d'adhésivité,  (voir
+chapitre  sur  "Les  enduits  superficiels")
+VI  - LES  EMULSIONS  DE  BITUME
+Une  émulsion  est  une  dispersion  intime  de  deux  corps  insolubles  l'un  dans
+Les  émulsions  de  bitume  sont  donc  des  systèmes  hétérogènes  constitués  par  la
+dispersion  de  fines  particules  d’un  liquide,  en  l’occurrence  le  bitume,  dans  un  autre  liquide,
+ici  l’eau,  l’ensemble  étant  stabilisé  par  un  émulsifiant.  Ce  dernier  est  généralement  de  type
+cationique  c’est-à-dire  composé  d’un  cation  organique  obtenu  par  neutralisation  d’une  amine
+grasse  par  l’acide  chlorhydrique.
+Au  contact  des  granulats  et  plus  généralement  des  surfaces  minérales  ce
+système  perd  sa  stabilité.  L’émulsion  rompt  et  le  bitume  se  dépose  sur  la  surface  minérale.
+Ce  phénomène  est  plus  ou  moins  rapide  selon  la  formulation  de  l’émulsion  utilisée.
+Le  gros  intérêt  des  émulsions  est  de  permettre  l'utilisation  du  bitume  à
+température  ambiante  (aux  environs  de  50°C,  l'émulsion  a la  consistance  de  l'eau).
+Une  émulsion  est  qualifiée  par  :
+- son  type  : en  général  cationique  (acide),  quelque  fois  anionique  (basique),
+- son  pourcentage  de  bitume  : il  varie  entre  50  et  70%,
+- la  catégorie  du  bitume  de  base,
+- sa  vitesse  de  rupture  (rapide,  semi-rapide,  lente,  surstabilisée),
+- sa  pseudo-viscosité  à 25  °C,
+- son  adhésivité  vis  à vis  différents  types  de  granulats.
+Exemple  : Emulsion  cationique  ï*§5%  de  bitume  180/220,  à rupture  rapide.
+Utilisation  des  émulsions  de  bitume.
+' Avec  près  de  1,2  Millions  de  tonnes  produites  chaque  année,  la  France  est  le
+deuxième  producteur  mondial  d'émulsion  de  bitume  (après  les  U.S.A.).
+La  ventilation  approximative  des  tonnages  consommés  en  fonction  des
+différentes  techniques  peut  s'estimer  à :
+- Enduits  superficiels  (1)  : 65%
+- Couches  d'accrochage  (2)  : 10%
+- Grave-émulsion  (3)  : 10%
+- Coulis  (4)  enrobés  à froid  : 5%
+- Stabilisation  - petit  entretien  : 10%
+(1)  Technique  de  couche  de  surface.
+(2)  Utilisé  pour  coller  les  différentes  couches  d'une  chaussée  entre  elles
+(Emulsion  à rupture  rapide).
+(3)  Mélange  à froid  de  granulats  0/14  ou  0/20  enrobés  avec  environ  6%
+d'émulsion  à 60%  pour  constituer  des  couches  de  base  ou  de  liaison  de  chaussées  peu
+circulées.  #
+(4)  Couche  de  roulement  constituée  par  un  mélange  de  granulats  0/6  ou  0/10
+enrobés  avec  de  l'émulsion  et  coulés  à froid  en  épaisseur  de  8 à 10  mm.
+VU  - LES  BITUMES  FLUXES  ET  BITUMES  FLUIDIFIES
+Il  s'agit  de  bitumes  purs  que  l'on  a "ramollis"  par  ajout  de  fluxants,  comme
+des  huiles  de  houilles  (bitumes  fluxés)  ou  des  coupes  pétrolières  comme  le  kérosène
+(bitumes  fluidifiés)  dans  le  but  de  pouvoir  répandre  le  liant  à des  températures  plus  faibles
+que  celles  nécessaires  avec  les  bitumes  purs  qui,  rappelons  le,  sont  comprises  entre  150  et
+180°C.
+Ces  deux  produits  seront  revus  dans  le  chapitre  consacré  aux  enduits
+superficiels.
+VIII  - LES  BITUMES  MODIFIES
+Pour  faire  face  à l'augmentation  du  trafic  Poids  Lourds  en  quantité  et  en
+agressivité,  l'industrie  routière  française  a développé  au  cours  de  ces  vingt  dernières  années
+de  nouveaux  liants  obtenus  par  un  mélange  de  bitume  pur  et  d'additifs  issus  de  l'industrie
+chimique,  essentiellement  des  élastomères  et  des  plastomères.
+Les  deux  additifs  les  plus  .couramment  utilisés  sont  :
+- le  SBS  (Styrène  - Butadiène  - Styrène)
+- LEVA  (Ethylène  - Vinyle  - Acétate).
+On  sait  également  modifier  les  caractéristiques  des  bitumes  par  l'addition  de
+produits  connus  : la  poudrette  de  caoutchouc  récupérée  lors  du  rechapage  des  pneumatiques
+de  poids  lourds,  les  fibres  minérales,  ou  encore  des  déchets  de  câbles  électriques
+(polypropylène).
+L'objectif  de  ces  ajouts  d'additifs  est  de  rendre  le  bitume  moins  fragile  et
+cassant  à basse  température  (-10  à -20°C),  et  au  contraire  plus  rigide  à température  élevée
+(50  à 60°C).
+IX  - INCIDENCE  DU  PROGRAMME  S.H.R.P.  SUR  LES  BITUMES
+Un  important  programme  de  recherche  vient  d'être  réalisé  aux  Etats-Unis
+sous  le  nom  de  programme  S.H.R.P.  (Strategie  Highway  Research  Programme).  On  peut
+penser  que  ces  travaux  déboucheront  à moyen  terme  sur  de  nouvelles  spécifications  sur  les
+bitumes.
+Parmi  les  nouveaux  essais  résultants  de  cette  étude,  on  notera  :
+- l'essai  P.A.V.  (Pressurizecf* Aging  Index)  qui  est  sensé  traduire  le
+vieillissement  du  bitume  sur  la  route  pendant  quelques  années  (environ  5 à 10  ans).
+- l'essai  B.B.R.  (Bending  Beam  Rheometer)  qui  a pour  objectif  d'étudier  le
+comportement  du  bitume  à basse  température.
+La  mise  au  point  de  nouveaux  essais  et  de  nouvelles  spécifications  sur  les
+bitumes  sont  d'une  importance  capitale  pour  la  construction  et  l'entretien  des  routes,  car  à la
+fin  du  XXème  siècle,  la  quasi  totalité  des  travaux  routiers  réalisés  en  France  font  appel  au
+BIBLIOGRAPHIE
+Fascicule  24  du  C.C.T.G.  "Fourniture  des  liants  hydrocarbonés".
+"Liants  hydrocarbonés"  - Guide  pratique  Je  construction  routière.  (Revue  générale  des
+Routes  n°  573  et  574  (1981)).
+"Dossier  Bitume”.  Revue  "bitume  actualité"  (Décembre  1994).
+"Les  émulsions  de  bitume".  Section  des  fabricants  d'émulsion  routières  de  bitume  (Sferb)  - 1994.
+"L'émulsion  de  bitume  dans  la  route".  J.  GAULTIER  - USIRF  - R.G.R.A.  - 1995.
+"Enrobés  hydrocarbonés  à chaud"  - Guide  d'application  des  normes  pour  le  réseau  routier
+national  non  concédé.  (S.E.T.R.A.  - L.C.P.C.  - 1994).
+Normes  NF  T 65.000  à T 65.004.  Liants  hydrocarbonés  - Spécifications  des  bitumes  purs,
+fluidifiés,  fluxés,  composés.
+ES  PONTS
+ves  MOUTON
+CHAUSSEES
+On  range  souvent  dans  cette  famille,  non  seulement  les  ciments  qui  sont
+d’authentiques  matériaux  hydraulique^  mais  encore  les  chaux,  les  laitiers,  les  pouzzolanes
+et  les  cendres  volantes  qui  ne  le  sont  pas  ou  très  peu.  Pour  bien  préciser  les  choses  et  mieux
+comprendre  leurs  modes  d’action,  le  plus  simple  est  de  décrire  successivement  ces
+matériaux  en  conservant  le  même  schéma  de  présentation.
+I - LES  CHAUX
+Lorsqu’on  chauffe  à haute  température  (>900°C)  de  la  craie  ou  plus
+généralement  du  calcaire,  le  carbonate  de  calcium  se  décompose  selon  :
+Ca  C03  > CaO  + C02  *
+Le  produit  obtenu  est  la  chaux  vive  que  l’on  peut  “ éteindre  ” par  action  de
+l’eau  selon  :
+CaO  + H20  » Ca(OH)2
+Processus  de  prise  de  la  chaux
+La  prise  de  la  chaux  se  fait  selon  le  processus  inverse,  c’est-à-dire  que  le  C02
+de  l’air  réagit  lentement  avec  la  chaux  pour  résonner  du  carbonate  de  calcium,  généralement
+sous  forme  minéralogique  de  calcite.  Ce  phénomène  n’a  rien  d’’’hydraulique".  En  effet,
+comme  on  le  verra  plus  loin  à propos  du  ciment,  un  liant  "hydraulique"  a la  propriété  de
+faire  prise  et  durcir  par  réaction  chimique  avec  l'eau.
+Differents  types  de  chaux
+Il  existe  divers  matériaux  appelés  chaux  qui  diffèrent  entre  eux  par  leur
+teneur  en  impuretés  (cf.  nonnes  NF  P 15  310  et  NF  P 15  312),  les  chaux  dites  grasses  et  en
+Utilisations  routières  des  chaux
+En  technique  routière,  on  utilise  les  chaux  comme  stabilisants  ou  pour  rendre
+compactables  des  limons  trop  humides.  La  chaux  est  également  utilisée  comme  on  le  verra
+plus  loin,  pour  enclencher  le  phénomène  de  prise  des  laitiers  granulés  et  également  en
+addition  avec  d'autres  liants  (pouzzolanes  et  cendres  volantes  silico-alumineuses).
+II  - LES  CIMENTS
+Le  principe  actif  des  ciments^èlassiques,  appelés  ciments  Portland,  est  le
+clinker.  Il  est  formé  dans  un  four  à 1450°C  par  réaction  solide-liquide  entre  du  calcaire  et
+de  l’argile,  en  proportions  soigneusement  définies.  Le  calcaire  apporte  l’élément  Ca  et
+l’argile  les  éléments  Si  et  Al.  L’élément  fer  est  généralement  présent  dans  les  deux
+constituants.  Le  clinker  portland  ainsi  formé  est  ensuite  refroidi  brusquement  à l’air  et  broyé
+après  ajout  de  gypse  (cf.  cours  de  Matériaux  1ère  année).
+Differents  types  de  ciments
+Il  existe  sur  le  marché  de  nombreux  types  de  ciments  qui  diffèrent  à la  fois
+par  leur  classe  de  résistance  et  leur  composition  : on  peut  ajouter  au  clinker  : du  laitier  de
+haut-fourneau,  de  la  fumée  de  silice,  des  pouzzolanes,  des  cendres  volantes  de  centrales
+thermiques,  des  schistes  calcinés  ou  même  des  fines  de  calcaire.
+Les  différents  produits  disponibles  en  France,  appelés  ciments  portland
+composés,  ciments  de  haut-fourneau  ou  ciments  au  laitier  et  aux  cendres  sont  définis
+dans  la  norme  NF  P 15  301  (cf.  tableau  en  fin  de  chapitre).
+La  classe  de  résistance  d’un  ciment  est  déterminée  par  un  essai  sur  mortier
+normalisé  à l’échéance  de  28  jours.
+Processus  de  prise  du  ciment
+Le  ciment  est  un  liant  hydraulique,  c’est-à-dire  qu’il  a la  propriété  de  faire
+prise  et  de  durcir  par  réaction  chimique  avec  l’eau.
+Cette  propriété  des  matériaux  contenant  de  la  silice,  de  l’alumine  et  de  la
+chaux  ne  se  manifeste  que  dans  un  petit  domaine  du  diagramme  ternaire  correspondant
+(Fig.  1 ci-après).
+Fie  n°  1 - Diagramme  ternaire  Silice-Alumine-Chaux
+On  peut  écrire  schématiquement  :
+silicate  tricalcique  + eau  > silicate  de  calcium  hydraté  + chaux
+(constituant  principal  (polymère  inorganique  responsable
+du  clinker  ponland)  de  la  cohésion  du  ciment  hydraté )
+La  chaux  produite  par  cette  réaction  explique  le  caractère  hautement  basique
+du  mortier  frais  (pH  « 12,6).
+La  prise  proprement  dite  prend  en  compte  le  raidissement  du  mélange  initial.
+Elle  est  caractérisée  par  un  essai  tout  à fail^emblable  à la  pénétrabilité  utilisée  pour  les
+bitumes  (essai  de  prise  à l’aiguille  de  Vicat).  Elle  est  caractéristique  du  ciment  lui-même.
+Pour  un  ciment  classique,  elle  se  situe  entre  2 et  4 heures  après  le  mélange.
+Le  durcissement  par  contre  concerne  le  mortier  (c'est-à-dire  pour  l'essai,
+d'un  mélange  de  ciment,  de  sable  0/2  et  d'eau)  : il  manifeste  la  cohésion  de  la  pierre
+artificielle  fabriquée  avec  le  ciment,  l’eau  et  le  squelette  minéral,  en  l’occurrence  le  sable
+dans  le  cas  du  mortier.  C’est  pourquoi  on  le  caractérise  par  un  essai  de  résistance,  sur
+mortier  normal,  à diverses  échéances  : 28  jours  pour  la  classe  de  résistance,  2 jours  pour  la
+Utilisations  routières  des  ciments
+En  génie  civil,  les  ciments  sont  essentiellement  utilisés  pour  fabriquer  des
+bétons  (cf.  cours  de  Béton  Armé,  2ème  année).
+En  technique  routière,  l’utilisation  la  plus  massive  est  celle  des  chaussées  en
+béton.  Dans  ce  cas  on  utilise  le  plus  généralement  des  ciments  portland  avec  ou  sans  ajout,
+à faible  teneur  en  aluminate  tricalcique  (composant  minoritaire  du  clinker  ayant  une  grande
+influence  sur  sa  réactivité  initiale)  et  à granularité  assez  grossière,  notamment  pauvre  en
+éléments  fins.
+L’autre  utilisation  notable  est  la  construction  d’assises  en  graves-ciment.  Ici
+on  utilise  tous  les  types  de  ciments  proposas,  le  critère  de  prix  étant  généralement  un
+élément  déterminant.  On  peut  signaler  cependant  l'existence  de  ciments  à prise  lente,  c'est-
+à-dire  supérieure  à 4 heures,  conçus  spécialement  pour  le  traitement  des  assises.
+III  - LES  LAITIERS  GRANULES  DE  HAUT  FOURNEAU
+Dans  un  haut  fourneau  la  production  de  la  fonte  s’accompagne  de  celle  d'un
+liquide  surnageant  où  se  retrouve  la  gangue  du  minerai  combinée  aux  fondants  ajoutés.  Ce
+liquide,  sous-produit  de  l’industrie  sidérurgique  est  le  laitier.
+La  composition  potentielle  du  laitier  se  place  dans  le  diagramme  ternaire  de  la
+fig.  1.  Cependant  ce  diagramme  (thermodynamique)  ne  rend  pas  compte  de  la  réactivité
+effective  (cinétique)  des  systèmes  représentés.  Pour  que  le  laitier  puisse  être  utilisé  comme
+liant,  il  faut  pouvoir  l'utiliser  dans  un  état  réactif.  A cet  effet,  on  fait  entrer  en  contact
+brutalement  le  laitier  en  fusion  avec  des  masses  importantes  d’eau  : le  procédé  le  plus
+couramment  employé  consiste  à diriger  le  jet  de  laitier  dans  un  pot  de  granulation  où  il
+rencontre  de  puissants  jets  d’eau  qui  le  divisent  en  fines  gouttelettes  brutalement  refroidies.
+Cette  trempe  donne  au  laitier  granulé  des  propriétés  faiblement  hydrauliques.
+Processus  de  prise  du  laitier
+Utilisé  seul,  le  laitier  ne  fait  prise  qu’au  bout  d’un  temps  de  latence  élevé.  On
+peut  activer  le  phénomène  en  ajoutant  de  la  chaux  et  en  jouant  sur  la  finesse  de  mouture  : la
+vitesse  de  réaction  solide-liquide  est  d’autant  plus  rapide  que  les  surfaces  d’échange  sont
+plus  grandes  donc  que  le  solide  est  plus  finement  divisé.
+L’activité  du  laitier  granulé  seul  peut  être  déterminée  par  un  essai  spécifique
+dont  le  résultat  se  traduit  par  un  coefficient  d’activité  (coefficient  a)  :
+a = S . P . 10‘3
+si  on  appelle  S la  surface  spécifique  du  laitier  tamisé  à 80  jim  et  P le  pourcentage  de  fines
+< 80  pm  obtenues  après  broyage  de  la  fraction  0/5  mm  du  laitier  dans  un  broyeur  à
+Son  intérêt  est  de  traduire  une  bonne  corrélation  avec  les  résistances  à la
+rupture  obtenues  sur  des  mélanges  après  60  jours  de  durcissement.  Ce  coefficient,
+déterminé  sur  les  laitiers  de  fraîche  production,  caractérise  d’ailleurs  plutôt  la  rapidité  du
+durcissement  que  la  valeur  des  résistances  finales,  obtenues  en  général  au  bout  d'un  an.
+En  tout  état  de  cause,.,  le  laitier  granulé  reste  un  liant  à prise  lente  et  on  doit
+utiliser  cette  propriété  à son  avantage.
+Il  faut  cependant  signaler  que  la  production  de  ce  matériau  est  fortement
+tributaire  de  la  production  sidérurgique.
+Differents  types  de  laitiers
+On  distingue  4 classes  d’activité  suivant  la  valeur  du  coefficient  a : 0-20,  20-
+40,  40-60  et  > 60.  Les  3 dernières  classes  sont  seules  utilisables  pour  le  traitement  des
+graves.
+Utilisations  routières  des  laitiers  granules
+Le  laitier  granulé  est  incorporé  dans  certains  ciments  (CPJ-CEM  II/A  - S ou
+CPJ-CEM  II/B  - S,  cf.  Tableau  en  fin  de  chapitre)  ou  peut  être  employé  comme  tel  dans  les
+chaussées  en  béton.
+Mais  son  utilisation  principale  en  technique  routière  est  la  réalisation
+d’assises  en  graves-laitier.
+IV  - LES  POUZZOLANES
+Les  pouzzolanes  naturelles  sont  des  matériaux  résultant  des  émissions
+explosives  de  laves  lors  des  phénomènes  volcaniques.  Elles  doivent  leur  nom  à Pouzzoles,
+petite  ville  située  au  pied  du  Vésuve  où  on  les  exploite  depuis  l’Antiquité.  Elles  englobent
+un  ensemble  de  couleurs  assez  variables,  entre  rouge  clair  et  noir,  constituées  de  cendres,
+ponces,  scories,  bombes  et  lapilli  (éléments  compris  entre  2 et  20  mm).
+Pour  les  utiliser,  on  les  broie  finement  jusqu’à  l’obtention  d’un  sable  0/4,  ce
+qui  consomme  une  énergie  importante  étant  donnée  la  très  grande  dureté  de  ces  matériaux.
+Processus  de  prise  des  pouzzolanes
+Les  pouzzolanes  n’ont  pas  de  propriétés  hydrauliques  c’est-à-dire  qu’elles  ne
+réagissent  pas  directement  avec  l’eau.  Par  contre,  si  on  les  mélange  avec  de  la  chaux,  elles
+réagissent  comme  un  liant  hydraulique.  Cela  se  comprend  aisément  avec  le  diagramme
+ternaire  de  la  figure  1,  l'addition  de  la  chaux  ayant  pour  effet  de  déplacer  le  mélange
+pouzzolane-chaux  vers  la  zone  du  clinlcer.
+On  dit  que  ce  matériau  a des  propriétés  pouzzolaniques,  c’est-à-dire  qu’il  a
+besoin  d’un  apport  de  chaux  pour  manifester  des  propriétés  hydrauliques.
+Utilisations  routières  des  pouzzolanes
+Leur  utilisation  principale  en  technique  routière  est  la  réalisation  d’assises  en
+graves-pouzzolanes.  Compte  tenu  du  fort  pourcentage  de  pouzzolane  (15  à 25%)  l'utilisation
+des  graves-pouzzolanes  est  concentrée  dans  les  régions  situées  à proximité  des  gisements
+(Massif  Central  essentiellement).  ^
+V - LES  CENDRES  VOLANTES
+Les  centrales  thermiques  produisent  des  quantités  importantes  de  résidus  de
+combustion,  dont  les  cendres  volantes  récupérées  par  dépoussiérage  des  fumées,  avant
+l’évacuation  dans  les  cheminées.  Ce  sont  des  matériaux  fins  (<  200/tm)  et  légers.
+Les  cendres  qui  proviennent  de  la  combustion  de  la  houille  comportent  une
+forte  teneur  en  silice  et  en  alumine  et  une  faible  teneur  en  chaux  et  en  sulfates.  Ce  sont  les
+cendres  dites  silico-alumineuses.  Elles  ont  des  propriétés  pouzzolaniques.
+Par  contre  les  cendres  qui  proviennent  de  la  combustion  du  lignite  français
+sont  caractérisées  par  des  teneurs  beaucoup  plus  faibles  en  silice  et  en  alumine,  mais  plus
+élevées  en  chaux  et  en  sulfates.  Ce  sont  les  cendres  dites  sulfo-calciques  que  l’on  trouve
+principalement  à Gardanne  près  d'Aix  en  Provence.  Elles  ont  des  propriétés  hydrauliques.
+Processus  de  prise  des  cendres  volantes
+Les  cendres  volantes  les  plus  utilisées  sont  de  type  silico-alumineux.  Elles  ont
+des  propriétés  pouzzolaniques  et  leur  processus  de,  prise  est  le  même  que  celui  des
+pouzzolanes.
+Utilisations  routières  des  cendres  volantes
+Leur  utilisation  principale  en  technique  routière  est  la  réalisation  d’assises  en
+graves-cendres  volantes.
+BIBLIOGRAPHIE
+[I]  Norme  Française  NF  P 15  301  - (Juin  1994).
+-*>■
+[II]  Cours  de  Matériaux  1ère  année  E.N.T.P.E.  - Les  ciments
+Y.  MOUTON-G.  CHANVILLARD.

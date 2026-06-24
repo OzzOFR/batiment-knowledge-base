@@ -1,0 +1,12 @@
+{
+  "identifier": "LivreBtp",
+  "titre": "Dictionnaire Technique du Bâtiment et des Travaux Publics",
+  "auteur": "Collectif",
+  "corps_etat": "encyclopedie-generale",
+  "date": "1950",
+  "source": "Archive.org",
+  "libre_droits": true,
+  "nb_caracteres": 136275,
+  "fichier_txt": "/home/ubuntu/batiment-knowledge-base/sources/gallica/LivreBtp.txt",
+  "fichier_md": "/home/ubuntu/batiment-knowledge-base/corpus/encyclopedie-generale/LivreBtp.md"
+}

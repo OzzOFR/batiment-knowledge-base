@@ -1,0 +1,3901 @@
+---
+titre: Nouvelle Encyclopédie Pratique du Bâtiment - Vol. 4 (Charpentes en bois et échafaudages)
+auteur: René Champly
+corps_etat: charpente-couverture
+source: Archive.org / Gallica BnF
+libre_droits: true
+---
+
+# Nouvelle Encyclopédie Pratique du Bâtiment - Vol. 4 (Charpentes en bois et échafaudages)
+
+**Auteur :** René Champly  
+**Corps d'état :** charpente-couverture
+
+---
+
+Nouvelle encyclopédie
+pratique du bâtiment et de
+l'habitation. Volume 4/
+rédigée par René Champly,
+avec le concours!...]
+Source gallica.bnf.fr/ Bibliothèque nationale de France
+(BnF
+Gallica
+Champly, René (1865-1940). Auteur du texte. Nouvelle
+encyclopédie pratique du bâtiment et de l'habitation. Volume 4 /
+rédigée par René Champly, avec le concours d'architectes et
+d'ingénieurs spécialistes. 1910-1914.
+1 / Les contenus accessibles sur le site Gallica sont pour la plupart
+des reproductions numériques d'oeuvres tombées dans le
+domaine public provenant des collections de la BnF. Leur
+réutilisation s'inscrit dans le cadre de la loi n°78-753 du 17 juillet
+1978 :
+- La réutilisation non commerciale de ces contenus est libre et
+gratuite dans le respect de la législation en vigueur et notamment
+du maintien de la mention de source.
+- La réutilisation commerciale de ces contenus est payante et fait
+l'objet d'une licence. Est entendue par réutilisation commerciale la
+revente de contenus sous forme de produits élaborés ou de
+fourniture de service.
+CLIQUER ICI POUR ACCÉDER AUXTARIFS ET À LA LICENCE
+2 / Les contenus de Gallica sont la propriété de la BnF au sens de
+l'article L.2112-1 du code général de la propriété des personnes
+publiques.
+3 / Quelques contenus sont soumis à un régime de réutilisation
+particulier. Il s'agit :
+- des reproductions de documents protégés par un droit d'auteur
+appartenant à un tiers. Ces documents ne peuvent être réutilisés,
+sauf dans le cadre de la copie privée, sans l'autorisation préalable
+du titulaire des droits.
+- des reproductions de documents conservés dans les
+bibliothèques ou autres institutions partenaires. Ceux-ci sont
+signalés par la mention Source gallica.BnF.fr / Bibliothèque
+municipale de ... (ou autre partenaire). L'utilisateur est invité à
+s'informer auprès de ces bibliothèques de leurs conditions de
+réutilisation.
+4 / Gallica constitue une base de données, dont la BnF est le
+producteur, protégée au sens des articles L341-1 et suivants du
+code de la propriété intellectuelle.
+5 / Les présentes conditions d'utilisation des contenus de Gallica
+sont régies par la loi française. En cas de réutilisation prévue dans
+un autre pays, il appartient à chaque utilisateur de vérifier la
+conformité de son projet avec le droit de ce pays.
+6/ L'utilisateur s'engage à respecter les présentes conditions
+d'utilisation ainsi que la législation en vigueur, notamment en
+matière de propriété intellectuelle. En cas de non respect de ces
+dispositions, il est notamment passible d'une amende prévue par
+la loi du 17 juillet 1978.
+7 / Pour obtenir un document de Gallica en haute définition,
+contacter
+utilisation.commerciale@bnf.fr.
+Source gallica.bnf.fr / Bibliothèque nationale de France
+;LLE ENCYCLOPÉDIE PRÂTIOCE
+3/4j262 jient et De Ii’Habithtion
+RÉDIGÉE P AK
+I^ené CHHWPuŸ, Ingénieur
+avec le concours ^'Architectes et d'ingénieurs spécialistes
+QUATRIÈME VOLUME
+estes es
+AVEC 192 FIGURES DANS LE TEXTE
+pa n is
+LIBRAIRIE GÉNÉRALE SCIENTIFIQUE ET INDUSTRIELLE
+H. DESFORGES
+29, Quai des Grands* Vugustjns, 29
+■HÉMflBH
+yUW
+NOUVELLE ENCYCLOPÉDIE PRATIQUE
+' !i BAI JVIctfT ET DE Il’HABITATION
+RÉDIGÉE PAR
+J^ené CHHNTPDY, Ingénieoif
+avec le concours d* Architectes et d'Inÿénieurs spécialistes
+QUATRIÈME VOLUME
+AVEC 192 FIGURES DANS i ,E TEXTE
+■ \
+PARIS
+LIBRAIRIE GÉNÉRALE SCIENTIFIftUE ET IHDUSTRIELLE
+H. DESFORGES
+29, )UAI des Grands-Augustins, 29
+PRÉFACE
+L art de la charpente est aussi vieux que le
+monde > puisque l’homme a toujours dû se mettre
+ù l’abri des vents, de la pluie, du froid et de la
+chaleur, mais jadis les bois étaient abondants
+et kon marché, les charpentiers les employaient
+avec nne grande prodigalité dont on peut se
+rendre compte en examinant les anciens plan¬
+chers à la Française dont il reste encore de nom¬
+breux spécimens. De nos jours Je prix des bo s
+>nMf bl* 1 !!hmi(■ augmenté; le déboisement
+et i 1 emploi des bois tendres pour la fabrication
+du papier ne permettent pas de prévoir une
+baisse de leurs prix, au contraire.
+‘ ' *pentier ne doit donc employer dans
+iS es ouvrages que le moins possible de bois tout en
+conservant les conditions nécessaires de sécu-
+rité . 1 art de la charpente est ainsi devenu une
+PRÉFACE
+science dans laquelle le calcul des résistances
+des bois et des fers tient la première place.
+Depuis plus de deux cents ans cette préoccu¬
+pation d’économie des bois existe et nous lui
+devons les premiers travaux de Ga Idée, de Bui-
+Ion, Rondelet et autres savants sur les charges
+que peuvent supporter les poutres.
+Dans ce petit livre, nous indiquerons sur tou
+les méthodes permettant de construire des char¬
+pentes solides et économiques, ce qui répond aux
+besoins actuels.
+René CHAMPLY.
+Nouvelle Encyclopédie Pratique
+DU BATI|ŸIEJlT ET DE ü’HABlTATIOB
+chapitre:
+PREMIER
+Des Bois de Charpente
+Les seuls bois employés dans les travaux cPentre¬
+preneur de charpente sont le chêne et le sapin, mais
+dans campagnes, on emploie à peu près indiffé¬
+remment tous les bois dont on dispose, qui ne coûtent
+<îue la peine de les abattre, malgré que beaucoup de
+ccs )ois ne présentent pas les qualités de durée et de
+résistance que Ton doit exiger d'un bois de charpente.
+Chêne. — C’est le meilleur bois de charpente, il est
+ur et résistant, se conserve dans l’air, dans la terre
+e ] t dans l’eau et ne subit que lentement l’action des
+alternatives d’humidité et de sécheresse qui désagrè¬
+gent rapidement tous les autres bois. Quand le chêne
+<^t débarrassé de son aubier , il ne craint pas les vers.
+. âge le meilleur pour 1 abatage des chênes est d’en-
+yiron cent ans. Les bois des arbres beaucoup plus
+eges sont cassants et sujets à la vermoulure. Les
+ehenes trop jeunes ont trop d’aubier. 11 y a diverses
+espèces de chênes : le chêne blanc ou pédoncule est le
+8 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+meilleur, son tronc est haut et régulier, son bois est
+à fibres parallèles et lisses, sa couleur jaune clair;
+le chêne rouvre ou chêne de Bourgogne, est plus petit,
+son bois est grossier et rebours,il est plus >tur et plus
+cassant que le précédent, sa couleur est brun clair;
+le chêne noir ou chêne Tauzin pousse dans 1 ouest et le
+midi ; son bois est dur et rebours ; le chêne vert ou
+yeuse , qui pousse dans le midi est dur et tourmenté.
+Les Vosges, la Hollande, l'Autriche et la Russie
+fournissent de beaux bois de chêne pour charpentes.
+Sapin. — Le sapin est le bois actuellement le plus
+emp loyé pour les charpentes à cause de son prix b eau-
+coup moins élevé que celui du chêne, de ses grandes
+dimensions et de sa longue durée q uand il est préservé
+de la pluie, ce qui est le cas dans les planchers et toi¬
+tures. Le sapin se conserve indéfiniment dans l'eau,
+mais il se pourrit rapidement dans la terre ou sous les
+alternatives de sécheresse et d'humidité. Le pin a des
+qualités analogues.
+Les bois de sapin des Vosges, de la Moselle et du
+Centre de la France qui sont saignés pour en tirer de
+la résine sont légers, sujets aux vers et ne présentent
+pas la même résistance que les sapins du Nord ou sapins
+rouges qui sont presque aussi solides que le chêne
+et ont une durée considérable. La Suède, la Norvège
+et la Russie fournissent d’excellents bois de sapin
+en grumes ou débités. Le mélèze et le pitchpin sont
+analogues au sapin.
+Peuplier. ■— Bois blanc et tendre, ne résiste pas
+à l'humidité mais se conserve bien au sec. Le tremble
+et le bouleau ont les mêmes propriétés.
+Châlaigner. —Se conserve indéfiniment dans l’eau
+qui le durcit, mais à l’air, il craint la vermoulure.
+BOIS DE CHARPENTE
+Platon
+ternes propriétés que le châtaignier
+Onne. C’est un bois dur et résistant, mais qui se
+tourmente beaucoup.
+p lletre - — Bois dur, mais cassant, fendif et sujet à la
+vermoulure, Quand d est vert, il se plie facilement.
+n a
+une, - Dur, pesant, à fibres parallèles, serrées
+élastiques, craint les vers et l’humidité.
+Acacia. — Dur, nerveux et résistant, se conserve
+S0US Beau et à l’air, mais il s’éclate et se fend
+facil
+e ni ont.
+m -
+} ^ -- s tendre, peu résistant, souvent creux
+'* 1 intérieur.
+UNous ne considérons ici les bois qu’au poi
+e emploi pour les ouvrages de charpen
+oint de vue
+charpente.)
+Poids du mètre cube des bois de charpente
+(selon, leur état de siccité)
+Aliène de Provence...
+*— de Champagne.
+— de Lorraine ...
+— d’Autriche ....
+Pin du Nord.
+Sapin ..
+Mélèze __
+Frêne.
+Orme .
+Châtaignier
+Hêtre.
+Peuplier
+Tremble.
+Aulne..
+Bouleau.
+Acacia .
+Tilleul ..
+* ■* * *
+« # p ■ 4
+* * * i p
+m * * * *
+i ■ i» * #
+* P * * « f
+“ * « P 4 PP
+* * » P
+P P P * * p
+p * ■ • |
+* P P * * p
+P p . , ■ p
+- P P - * * P
+1015 à
+643 à
+645 à
+800 à
+814 à
+450 à
+500 à
+650 à
+740 à
+650 à
+720 à
+870 à
+450 à
+540 à
+650 à
+780 à
+560 à
+1220
+988
+930
+830
+670
+785
+9 0
+690
+880
+610
+530
+800
+700
+800
+600
+10 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Abataze des arbres. — On doit abattre les arbres à la
+fin de F automne et au commencement de l'hiver,
+alors qu'ils ont le moins de sève, car le bois abattu
+avec la sève est sujet aux vers et à la pourriture.
+Pour bien faire écouler la sève, on entaille les arbres
+au pied tout autour de l'aubier, ou bien on les écorce
+au mois de mai et on les abat entre le 15 novembre
+et la fin de décembre.
+Structure et dessiccation des bois. — Les bois en
+grume se dessèchent très lentement et pendant cette
+période, les bois sont exposés à prendre des défauts :
+si l'on considère un arbre coupé perpendiculairement
+_tiüEipr:
+rArV~jn/fu-'ti
+L /
+<vY
+Soit
+K il if (4 r' y U
+/ fit c[( < - r
+Fig. 1
+à son axe, on voit qu'il est formé de couches concen¬
+triques de natures différentes, qui sont en partant de
+l'extérieur :
+Vécorce ou épiderme , qui protège i arbre des intem¬
+péries ;
+L ’enveloppe subéreuse qui orme plus tard l’écorce;
+Le liber, couche fibreuse ;
+Le cambium, par lequel se fait la montée de la seve;
+Vaubier, qui forme plus tard le bois parfait ;
+BOIS UK CHARPENTE
+Le bois parfait qui est la partie utilisable de l'arbre;
+La moelle qui devient le cœur quand l’arbre atteint
+un âge suffisant (fig. 1).
+Les rayons médullaires sont des veines par les¬
+quelles la sève circule entre la moelle et le cambium.
+Chaque année une couche d’aubier devient bois
+Parfait. En comptant le nombre des couches concen-
+Fig. 4. Fig. 5.
+triques, on détermine exactement l’âge d’un arbre.
+On constate dans certains arbres les défauts sui¬
+vants :
+La roulure (fig. 2). due à l’action du vent et du
+froid.
+La gélivure (fig. 3), due à la gelée.
+La gerce (fig. 4), due à la dessiccation inégale.
+La cadranure (fig. 5), produite par la réunion d’une
+gerce avec une gélivure.
+12 encyclopédie pratique du batiment
+L’excès des nœuds et de Y aubier donne des bois
+de qualité inférieure.
+Les bois creux sont ceux qui ont été saignés, ils
+manquent de résistance.
+Les bois trop jeunes ou trop vieux ne valent rien.
+On reconnaît qu’un bois est t rès bon quand 1 arbie
+—--—,---.—— --—J
+———-— 1 - 1 - 1 '
+Fig./i-
+Fig. 1
+écorcé est rond, droit et régulier, qu’il a peuVi point
+de nœuds, qu’il est dur, sonore au clioc, que ses
+copeaux sont longs, flexibles, élastiques, résistants,
+et d’une odeur aromatique agréable.
+Pour éviter les lenteurs et les inconvénients de la
+dessiccation en grumes, on débite les arbres peu de
+temps après l’abatage dans les conditions que l’on
+prévoit être les plus avantageuses pour leui emploi
+industriel.
+BÔÏS PE CHARPENTE 13
+Les arbres peuvent se débiter de différentes ma¬
+nières mais en observant .les principes suivants :
+Le bois tend à se voiler ou se coffiner et à se fendre
+dans le sens du cœur de l’arbre, comme le montre la
+figure 6 ; on dit alors que le bois tire à cœur. 11 tend
+Fig. 0.
+Fig. 10.
+aussi à sc fendre suivant les plans ou Mailles passant
+par les rayons médullaires. Lne planche perpendi¬
+culaire aux rayons médullaires est sujette à se voiler
+et à tirer à cœur.
+Les planches débitées selon la figure 7 auraient
+tendance à se voiler toutes comme la plant-lie p de la
+figure 6.
+Les figures ci-dessus montrent les diverses ma¬
+nières de débiter les arbres selon qu'on veut en tirer
+des planches plus ou moins épaisses ou des madriers,
+chevrons, etc., en évitant autant que possible que
+les bois débités n’aient tendance à tirer à cœur.
+Les bois débités sont empilés sur des chantiers
+qui les isolent du sol en séparant les planches ou les
+poutres par des lattes espacées d’un mètre environ,
+comme le montre la figure 11 ci-après, ce qui per¬
+met à l’air de circuler entre les pièces de bois et d’ac¬
+tiver le séchage en conservant les bois bien droits.
+Pour éviter que les planches ne se fendent, on en-
+14 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+fonce des S en feuillant d’acier aux endroits où l’on
+redoute des fentes (üg. 1 1 )• t . .,
+On empile les bois à sécher à l’abri de la pluie, soit
+sous des hangars, soit sous des toitures provisoire-
+Fig. 11.
+ment faites sur les tas de bois. Il faut deux ans pour
+sécher les bois de charpente et quatre ans pour ceux
+de menuiserie. „ . ,
+La dessiccation artificielle se fait en empilant les
+bois et en les espaçant dans des étuves à 40 degrés
+pour le chêne et à 80 ou 90 degrés pour les sapins et
+bois résineux. . „
+Le flottage consiste à immerger les bois dans 1 eau
+qui enlève rapidement la sève; les bois flottes se
+conservent bien, ils ne se gauchissent pas, mais ils
+sont moins durs que ceux desséchés naturellement.
+Le flottage nécessite un séjour de trois mois dans
+l’eau dormante, cinq à six semaines dans 1 eau cou¬
+rante et dix à douze jours dans l’eau chauffée a
+30 degrés.
+Les bois séchés à l’air chaud doivent d’abord avoir
+été flottés.
+Le débitage des bois se fait par fente à la hache en
+forêt, c’est ainsi qu’on fait le dégrossissage et 1 équar¬
+rissage des poutres et les bois de fente pour doue es,
+lattes, etc., et par sciage à la scie de long a.bras, a la
+scie à ruban, à la scie circulaire ou à la scie a lames
+multiples, ces machines étant mues au manège ou au
+moteur.
+BOIS DE CHARPENTE J5
+t "ki 11 cons * ri1 ^ maintenant de ces machines transpor¬
+te 8 Pour le débitage en forêt ; elles sont consti¬
+pe® P ar u n petit moteur à essence de pétrole installé
+j? 1 " un chariot avec la scie circulaire qu’il doit ac-
+donner. Le chariot est traîné par des chevaux jus-
+c P l a 1 endroit où les bois doivent être empilés.
+Conservation des bois. — Les bois abattus, comme
+' Savons dit, en novembre et décembre, se con-
+■^f^cnt naturellement mieux que les autres, surtout
+* 1 on a favorisé l'écoulement de la sève avant l'aba-
+^bds tous les bois sont forcément atteints par
+agents atmosphériques qui produisent plus ou
+j IOlns lentement une modification dans la structure
+a <as . Les alternatives d'humidité et de sécheresse
+Pourrissent le bois en favorisant le développement
+7* moisissures ; les vers attaquent les bois et pro-
+lUs °nt la vermoulure quelquefois très profonde des
+Poutres, ce qui peut amener des accidents.
+our protéger les Lois contre la pourriture et la
+crinoulure on a proposé un grand nombre de moyens
+Pu se résument en trois catégories :
+1 La carbonisation extérieure ;
+L'injection ;
+3° Les enduits.
+fi ;" n brûlant superficiellement les poteaux que Ton
+a Once dans le sol pour les clôtures ou autres usages
+Uï*i * , o ï
+a ugmente considérablement leui* durée. Pour
+J^boniser superficiellement les poutres et les plan¬
+es c I ll i doivent servir dans les endroits humides tels
+HU écuries, buanderies, ateliers ou dans Peau (ba-
+r> l IIX ’ palplanches, etc.) ou se sert d'un puisse
+j 'mimeau alimenté au gaz d'éclairage ou par t
+ant
+U ' | Cl J ” ^ —^ ~
+£ lles combustibles. La lampe chalumeau de M. de
+apparent résout ce problème quand on ne dispose
+16 ENCYCLOPÉDIE PRATIQUE DTJ BATIMENT
+pas du gaz d'éclairago* Le bois carbonisé à la surface
+est protégé de la putréfaction et des vers par la for- !
+malion de créosote au-dessous de la couche
+brûlée. I
+En injectant dans l’épaisseur du bois divers pro-
+its antiseptiques on lui permet de résister aux
+agents de destruction. Cette injection des bois peut
+se faire soit avant l’abatage des arbres, soit sur les
+bois en grumes ou débités. Le D r Boucherie a ima¬
+giné d’injecter les arbres sur pied en mettant à prolit
+la montée de la sève qui entraîne le liquide antisep- l
+tique : pour cela il incise le pied de l’arbre et l’entoure
+d’une bâche contenant le liquide à injecter ; la péné¬
+tration est rapide mais irrégulière. Pour injecter les
+bois en billes ou débités on les chauffe pour les des¬
+sécher puis on les plonge dans la solution antisep¬
+tique sous pression ; nombreux sont les dispositifs
+inventés pour rendre aussi complète que possible la
+pénétration, nos lecteurs en trouveront la descrip¬
+tion dans le Dictionnaire Lami, volume III, pages 773
+et suivantes et premier supplément, pages 613 et sui¬
+vantes. I
+Les liquides employés pour l’injection des bois
+sont :
+Solution de sulfate de cuivre neutre ou ammoniacal
+à 2 jj. 100. 1
+Solution de sulfate de fer (a l’inconvénient de désa
+gréger le bois).
+Solution de sulfate de zinc à 3 p.
+Solution de chlorure de zinc à 4 p
+Solution de sulfate d’alumine (alun).
+ion de sulfates de magnésie, de baryte, d®
+soude.
+Solution de carbonates de potasse, soude, ma'
+* * A
+srnesie.
+BOIS DE CHARPENTE 17
+Solution de chlorures de chaux, de sodium (sel
+marin).
+Solution de bichlorure de mercure (sublimé cor¬
+rosif), à 2 p. 100.
+Solution de ferrocyanure de potassium.
+Solution d'acides arsénieux et pyroligneux, phénol,
+orésol, carbolinéum, créosote brute.
+Solution d'azotate de potasse.
+Il est bon de remarquer que les bois injectés sont
+rendus à peu près incombustibles, c’est-à-dire qu’hs
+résistent mieux à l’incendie que les bois non in¬
+jectés.
+Les enduits sont les peintures à l’huile de lin ou
+aux huiles lourdes de houille, le goudron de Nor¬
+vège ou le goudron de gaz appliqués bouillants sur
+le bois sec, les vernis 4 la résine, le suit bouillant, le
+lait de chaux et un. produit appelé Carbonyle qui
+s’emploie froid ou chaud et dure, dit-on, quinze ans.
+L’end ait se fait toujours sur bois sec, après masti-
+quage des fentes, au pinceau ou par trempage assez
+prolongé pour que le liquide s’attache au bois et le
+pénètre. Un enduit renouvelé en temps voulu pré¬
+serve bien les bois de charpente exposés à l’air humide.
+On peut aussi employer comme enduits les anti¬
+septiques pour injection du bois.
+Bois ignifugés .—On injecte ou bien on trempe long¬
+temps (8 à 10 jours) les bois dans une solution d’alun
+à 5 p. 100 ou de silicate de potasse ou de soude. Ces
+silicates peuvent s’employer comme badigeon con¬
+curremment avec une couche de lait de chaux mé¬
+langé d’ocre ou de sable très Un, ce qui revêt le bois
+d’un enduit incombustible.
+U'après M. Barré, les bois imprégnés d’urine brû¬
+lent difficilement.
+18 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+î)’après M. Mandet, renduit de glycérocolle est
+fies meilleurs ; il se compose de :
+Dextrine blanche soluble adhésivc 1 k. 500
+Glycérine blonde à 28° . 1 k. 900
+Alun .... 0 k. 100
+Bois courbés . — En faisant séjourner les bois dé¬
+bités dans une étuve à vapeur d’eau chaude, ils de¬
+viennent assez élastiques pour être courbés sous
+l’action de poids, leviers ou presses convenablement
+disposés. En laissant refroidir et sécher ces bois dans
+la presse, ils conservent ensuite la courbure qu’on
+leur a imposée ; quand on ne dispose pas d’étuve à
+vapeur, on peut courber les bois en les chauffant à
+la flamme d’un feu clair en même temps qu’on les
+asperge d’eau pour les empêcher de brûler; pendant
+toute la durée de ce chauffage on force le dois à se
+cintrer sous l’action de poids ou de cordages disposés
+à cet effet. Quand le feu est éteint et le bois refroidi, il
+conserve sa courbure.
+Ces procédés sont employés dans la tonnellerie, le
+charronnage et aussi pour faire des pièces courbes
+pour charpentes.
+Ees mêmes procédés peuvent être employés pour
+redresser des bois gauchis.
+Rebouchage des bois . — On rebouche les trous et
+fentes avec du mastic de vitrier ou avec l'une des
+compositions suivantes :
+1 ) Sciure de bois fine, en poids ,.., .. 4
+Vernis à Phuiie de lin, en poids . 1
+Farine de blé ou fécule de pomme de terre .
+Gomme arabique .
+Eau chaude.
+i *
+É * * * * ■
+* s * « fl 1 * # É ■ #
+* % t •
+ROIS DE CHARPENTE
+dimensions des bois du Commerce
+— Longueurs 3 mètres et au-dessus :
+Gros battants ... 0.320 x 0.110
+Battants ...
+Petits battant:
+* # p
+*l*>i*»»*<<*«
+0.330 x 0.108
+0.230 x 0.075
+Longueurs 2 à 4 mètres :
+Membrures .
+1 * i « m
+. 160
+.081
+Chevrons __
+m v u m m
+.080
+.081
+Echantillons .
+f « 4P « : *
+.240
+.055
+Doublettes .
+.330
+.055
+Entre vous. . ..
+.240
+.035
+.330
+.035
+Feuillet
+V U rn * * * m m * i * # * « « I
+.240
+.027
+* « * * #
+. 240
+.022
+Panneau ..... ...
+.240
+.013
+.216
+,020
+Volige . .
+243
+0 .
+,013
+. 243
+,015
+216
+.013
+Sapin du Nord. — En longueurs de 2 mètres et au
+,Us par augmentation de 33 en 33 centimètres.
+Poutres . .
+0.400
+0.300
+0.300
+0.240
+Poutrelles
+0.350
+0.300
+»*■*•** *«*■»**«**
+0.200
+0.140
+Madriers . ,
+* * * * * * » * * * i « * » * 4 m
+0.110
+0.220
+Basting ..
+0.080
+0.220
+***•**•*•■ * * » • p- -
+0.170
+0.065
+Chevrons. .
+0.160
+0.065
+•*# * * * # * » t # « *.*»«.
+0.080
+0.080
+Hanches .
+****«•*/•*■•
+0.220
+0.027
+0.220
+0.034
+O.220
+0.041
+Feuillet .
+0.220
+0 . 05 i
+0.220
+0,010
+0.220
+0.014
+0.220
+0.018
+20 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Sapin de Lorraine.
+Madriers.
+Planches .
+.. 0.220 x 0.075
+.. 0.320x0.027
+et 0.320 X 0.034
+Les bois de charpente se vendent généralement
+au mètre cube ou stère , les prix varient considérable¬
+ment selon les cours, selon les contrées et selon la
+qualité des bois. Le cubage des bois équarris n’offre
+pas de difficultés, quant à l'appréciation du bois
+marchand que peut fournir un arbre, on emploi*;
+généralement la méthode dite au sixième déduit :
+on prend avec une ficelle la circonférence moyenne
+de l'arbre par-dessus l'écorce ; on déduit un sixième
+de la longueur trouvée puis on prend le quart de ce
+qui reste*; la dimension ainsi déterminée est consi¬
+dérée comme le côté d'une poutre carrée, équivalente
+au bois parfait, que peut fournir l’arbre. Exemple :
+un arbre de 10 mètres de longueur et de 2 m. 40 de
+circonférence moyenne par-dessus l’écorce donnera :
+2.40
+2.40
+= 0.50
+0.50 x 0.50 x 10 - 2 mètres cubes 500
+CHAPITRE II
+Résistance et calcul des poutres
+Les poutres employées à la construction des char-
+Pentes peuvent travailler de trois manières diffé¬
+rentes :
+À la traction (entrait, poinçon, moise),
+2° A la compression (arbalétrier, liernes, contre-
+hclies, poteaux).
+3° A la flexion (solives, pannes, sablières).
+Certaines pièces longues sont soumises en même
+( ' m PS à des efforts de traction et de flexion (tirant
+ou entrait) ou à des efforts de compression et de
+ex ion (arbalétriers).
+Nous ne ferons pas ici la discussion des formules,
+0ri la trouvera dans les traités de la résistance des
+Matériaux.
+1 ieces soumises à la traction simple. — La pièce
+®°umise à un effort de traction simple tend à s’al-
+l) uger jusqu’à une certaine limite d’élasticité, puis
+clJ e ko rompt.
+J/ 0 cl ’êne rompt sous un eiînrt de 6 à 8 kilos par miili*
+} re carré de section.
+. sapin du Nord se rompt sous un effort de 8 à 9 kilos par
+] nmétré carré de section.
+E N C YCLOPÉDIE P R AT IQ UE DU B AT I AI E N T
+Le sapin des Vosges se rompt sous un effort de 4 kilos par
+millimètre carré de section.
+Le frêne se rompt sous un effort de 8 à 12 kilos par millimètre
+carré de section.
+L’orme se rompt sous un effort de 7 à 10 kilos par milli¬
+mètre carré de section.
+Le hêtre se rompt sous un effort de 8 kilos per millimètre
+carré de section.
+Le bois de teck se rompt sous un effort de 11 kilos par milli¬
+mètre carré de section.
+Ces chiffres s'appliquent aux bois chargés dans le
+sens des fibres, ils sont intérieurs de moitié si la
+charge est perpendiculaire aux fibres.
+Le fer ordinaire se rompt sous une charge de 30 kilos par
+millimètre carré de section..
+Le fer très bon se rompt sous une charge de 5<> kilos par mil¬
+limètre carré de section.
+Le fil de fer non recuit se rompt sous une charge de 60 à
+80 kilos par millimètre carré de section.
+L’acier ordinaire se rompt sous une charge de 40 kilos par
+millimètre carré de section.
+L'acier très bon se rompt sous une charge de 80 kilos par
+millimètre carré de section.
+La fonte se rompt sous une charge de 12 à 13 kilos par milli¬
+mètre carré de section.
+Pour calculer la section à donner à une pièce sou¬
+mise à une traction T, on devra d'abord se rendre
+compte de la qualité de la matière employée et ne la
+charger qu'au dixième de la charge de rupture R in¬
+diquée ci-dessus. Si la pièce est soumise à des vibra¬
+tions et à des à-coups fréquents, il ne faut la charger
+qu’au vingtième de la charge de rupture R ; la section
+de la pièce en millimètres carrés sera donc, donnée
+par la formule :
+, 10 T r , 20 T
+S = ou S =
+Si la pièce a une grande longueur, il faut ajouter
+son propre poids à la charge qu'elle supporte.
+résistance et calcul des poutres 23
+Pièces soumises à la compression . — Le calcul est
+e même que ci-dessus, voici les charges de rupture par
+compression des différents matériaux de charpente :
+Le chêne s’écrase sous une charge de 3,5 à 5 kilos par milli-
+m 'tre carré.
+sapin du Nord s'écrase sous une charge de 3,5 à 5,5 kilos
+P-il millimètre carré.
+s *î!. )in fJes Vos g es s’écrase sous une charge de 3 à 4 kilos
+P ar millimètre carré.
+r J; e hôtre s’écrase sous une charge de 3 à 4 kilos par milli¬
+métré carré.
+caiVé° rme s écrase S011S une char g e de 1 kilo par millimètre
+Le fer s’écrase sous une charge de 35 kilos par millimètre
+wi rg. 1
+carré f ° nte s écrase SÜUS une charge de 75 kilos par millimètre
+L’acier s’écrase sous une charge de 40 à 100 kilos par milli¬
+métré carré. 1
+-S charges de sécurité à adopter sont comme ci-
+' essus de 1 /10 e à 1 /20 e des charges de rupture.
+Quand la pièce chargée est très longue il faut tenir
+compte -les effets de flamba ge (iui se produisent tou¬
+jours.
+h) après Rondelet, la résistance des poutres à Técra-
+Se ment, à mesure que leur longueur augmente relati¬
+vement à leur section, diminue suivant le tableau
+suivant :
+Soit 1 la résistance à l’écrasement d’une pièce
+r ès courte, sa résistance deviendra :
+5/6
+1/2
+1/3
+1/6
+1/12
+1 /24
+quand sa hauteur sera 12 fois le petit côté desa base.
+— — 36 — —
+— — 48 —■ —
+— — 60 — —
+— — 72 — _
+Pour une pièce cylindrique, on prend le diamètre
+pour petit côté de la base.
+24 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Pièces soumises à la flexion. — 1° Cas d'une pièce
+encastrée par une de ses extrémités , — Les fibres ten¬
+dent à se rompre en t et sont comprimées en c ; d'un ■
+bout à l'autre de la pièce encastrée, les fibres supé¬
+rieures sont soumises à la traction et les fibres infé¬
+rieures soumises à la compression.
+Si la charge P est au bout de la pièce, en tenant
+compte du poids propre p de la pièce encastrée l'ef¬
+fort qui tend à rompre les fibres en te est donné par
+la formule :
+Si le poids P est uniformément réparti sur toute
+la longueur de la poutre, la formule devient :
+Au point d'encastrement te, la résistance de ia
+poutre est proportionnelle à sa largeur b et au carré
+de sa hauteur h, l'énergie qu'elle oppose à la rupture
+est donnée par la formule :
+RÉSISTANCE ET CALCUL DES POUTRES 25
+<iui doit être égale à T effort imposé par la charge P.
+On aura donc pour le calcul des poutres encastrées
+pur une extrémité :
+H bh 2
+si le poids P est au bout de la poutre»
+et l £-+-£
+’éparti,
+si le poids P est uniformément
+a étant la charge de rupture et de compression de
+à matière formant la poutre (si la poutre est légère
+011 peut négliger la valeur de p).
+Généralement on fait pour le bois, 2 b = h ou
+^ = h et pour le fer ou la fonte avec nervures entre
+126 = h et 46 - h.
+Pour les pièces en bois isolées on fait b = h.
+Cas d’une poutre posée sur deux appuis. — Nous
+apposerons la charge P placée au milieu de la poutre
+Fig. 13.
+0U bien uniformément répartie. La poutre tend à se
+rompre au milieu ; les fibres sont comprimées en c
+Rendues en t, i ! en est ainsi sur toute la longueur de
+ia poutre. La résistance que présente la poutre au
+2b ENCYCLOPEDIE PRATIQUE DU BATIMENT
+point do rupture est évidemment la même que dans
+le cas précédent au point d'encastrement.
+L étant la longueur de la poutre ;
+P la charge ;
+p le poids de la poutre ;
+H la charge de rupture des fibres tendues et com¬
+primées ;
+b la largeur ou épaisseur de la poutre ;
+h } sa hauteur,
+on a dans le cas de la charge au milieu de la poutre i
+h ( P . P\ RM»
+4 \ ■ 2/ “
+et dans le cas de la charge uniformément répartie :
+R hh*
+on fait les dimensions b et h comme il est dit nlus
+haut, » r
+3° Cas d une poutre encastrée à ses deux extrémités.
+' La poutre tend à se rompre aux points d'encas-
+ement et au milieu. La charge que peut porter la
+poutre encastrée à ses deux extrémités est une demie
+lois plus grande que celle que peut porter la même
+RESISTANCE ET CALCUL DES POUTRES
+poutre simplement posée sur deux appuis, ce qui
+transforme comme suit les formules ci-dessus :
+il.-, ÿ
+R bh 2 L / p\ R bh-
+— et 12 1 + f) - —
+application de ces formules au calcul des poutres. —
+une poutre de longueur L qui doit être chargée
+Ru poids P et dont le poids propre est Il suffit
+pour déterminer le produit bh 2 de résoudre les for¬
+mules ci-dessus en isolant le terme bh 2 . On fera en-
+s uite b — h ou b = — ou b — — selon que la poutre
+L à
+etl bots est isolée ou entretoisée avec d’autres pou-
+l€iS - (Pour les poutres en fer, voir le volume Char¬
+pentes en fer.)
+. il faudra tenir compte du coefficient de sécu-
+Rté qui doit être prévu entre 10 et 20 selon que la
+Poutre est soumise ou non à des vibrations et aussi
+Sî uvant les conditions atmosphériques dans les¬
+quelles elle doit travailler. Pour les charpentes de
+JL * , . ^ ^ *
+«timents d'habitation on multipliera donc le poids P
+10, mais pour les planchers d'usines, les ponts et
+01 ivrages d'art on multipliera le poids P par 15 ou 20
+^‘lon les circonstances :
+Exemple : soit une poutre de 4 mètres de longueur
+Uniformément cliargée d’un poids total de 5000 kilos
+1 “ posée sur deux appuis, le poids de la poutre est
+n abord considéré comme négligeable ; la formule
+Rbh 2 , . . PL R bh 2
+- devient —— = ■
+peut s'écrire
+Ur =
+GPL 3PL
+8 R
+28 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Si la poutre est en sapin, H - 600 kilos par centi¬
+mètre carré , 10 P = 50000 kilos, L — 400 centimètres,
+on a donc
+,jo 3 x 50000 x 400
+bh - — rrwo — - 25000
+Si nous faisons b = h, nous aurons :
+=>7 2
+5000 = 29 cm. environ et h = 29 cm. environ.
+Si nous faisons b = -, nous aurons
+3/25000
+= 19 cm. environ et h - 38 cm, environ.
+Si nous faisons b - nous aurons
+25000
+— cm. environ et k — 45 cm. environ .
+Remarques . — Les calculs ci-dessus prouvent qu’il
+est avantageux au point de vue de l'économie du
+cube de bois employé pour supporter une charge
+donnée, d’avoir des poutres plus hautes que larges,
+mais il faut remarquer que ces poutres sont moins
+élastiques que les poutres à section carrée.
+La théorie que nous avons faite rapidement montre
+que Pon peut entailler, sans compromettre sa résis¬
+tance, une poutre dans sa partie supérieure, à con¬
+dition que les entailles soient parfaitement remplies
+de bois résistant à la compression aussi bien que le
+bois de la poutre elle-même.
+RÉSISTANCE ET CALCUL DES POUTRES
+Les assemblages de bois de charpente sont conçus
+de façon à ne pas compromettre la solidité des poutres
+chargées à la flexion, c'est-à-dire que les mortaises
+doivent toujours être percées dans les parties où les
+libres travaillent à la compression. Les tenons doivent
+Emplir parfaitement ces mortaises et y être emman¬
+chés à force afin de remplacer totalement le bois en¬
+levé.
+La résistance d’une pièce de bois d’une section dé¬
+terminée dépend, comme nous l’avons vu, de la
+ferme de cette section ; la figure 15 montre une même
+Action sous différentes formes ;
+b = h, résistance
+h , . , H bh“
+b = -, résistance —;—
+o b
+OR/r 1
+. h t . RM'
+b = -, résistance ——
+2 b
+section circulaire,
+résistance
+R-r 3
+r étant Je rayon du cercle.
+1 J T
+■ !
+30 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+, Formes à donner aux charpentes. — Les charpentes
+«es planchers doivent être combinées de façon que
+Jes charges se répartissent aussi également que possi¬
+ble sur toute la longueur dos poutres et que celles-ci
+soient également chargées lorsqu’elles sont du même
+équarrissage.
+Dans les pans de bois et les combles supportant
+des oJIorts latéraux dus aux charges normales et aux
+pressions du vent, on doit employer exclusivement
+la orme triangulaire car le triangle est la seule figure
+géométrique indéformable. Tout assemblage de bois
+de charpente non maintenu rigide par des gros murs
+doit donc être rendu indéformable par la liaison de
+tontes ses parties au moyen de poutres formant entre
+elles des triangles ; ceci est indispensable dans les
+combles et toitures et dans les constructions élevées
+sur de simples poteaux, mais, même quand les pou¬
+tres son [. maintenues par des murs empêchant toute
+déformation de la charpente, il n’est pas inutile d’em¬
+ployer des formes triangulées pour les charpentes qui
+en ce cas, donnent une meilleure liaison et une plus
+grande solidité au bâtiment.
+J.es maîtresses poutres tics planchers et toitures
+clotvont être chaînées avec les murs comme nous
+indiquerons plus loin ; elles doivent reposer sur des
+assises larges, en pierre, pour répartir leur charge sur
+une grande surface du mur.
+Position des bois dans les charpentes . — Le cœur
+u lois ou le côté du bois débité qui est du côté du
+cœur de 1 arbre doit toujours être placé du côté d’où
+vien , la poussée, car le bois a une tendance à se
+courber a 1 opposé du cœur de l’arbre et la poussée
+de la charge tendra à le redresser. Pour les poteaux,
+on placera le coeur à l’intérieur pour recevoir la
+RÉSISTANCE et calcul des poutres 31
+poussée des liernes ou bras do force qui s'appuient
+Tl v P ° teau * ^ our ^ es solives de planchers, tirants,
+r aletriers, pannes, etc, on mettra le cœur en des-
+■ °n dit aussi que le bois doit toujours être posé
+i.*! r - S ° n rai ^ e i comi Ro le montre la figure 16, ce qui
+OMent a mettre le cœur en dessus, les bois ayant
+Fig. 16.
+. ijouîs tendance à se gauchir comme le montre
+ld j| gure 6.
+CHAPITRE III
+Outils du charpentier
+1 Cordeau pour tracer 'es lignes droites sur le
+2 Fil à plomb.
+3 Niveau triangulaire.
+4 Mètre pliant.
+5 Jauge réglette pour mesurer les profondeurs.
+6 Rouanne pour marquer les bois.
+7 Décamètre à ruban.
+8 Niveau à bulle d’air.
+9 Compas droit.
+10 C o mp as d'é p aisseu r.
+11 Equerre à écharpe.
+12 Sauterelle ou fausse équerre.
+13 Trusquin à tracer les bois.
+14 Clefs pour serrer les écrous.
+15 Tréteau.
+16 Vilebrequin.
+17 Marteau.
+18 Scie de long.
+19 Scie de travers.
+20 Scie allemande ou à refendre.
+21 Scie égoïne*
+22 Varlope ou riflard.
+ENCYCLOPEDIE PRATIQUE DU BATIMENT 33
+34 OUTILS DU CHARPENTIER
+23 Scie à tenons ou à araser.
+24 Chevillette.
+25 Crochet d’assemblage ou clameau.
+26 Plane ou pleine.
+27 Besaiguë à planche et à bédane.
+28 Besaiguë à gouge.
+29 Pince pour arracher les clous.
+30 Pince à levier et pied de biche.
+31 Mèche ou tarière à cuiller.
+32 Mèche ou tarière «à vis à double traçoir.
+33 Mèche ou tarière de Styrie.
+34 Cognée.
+35 Cognée lyonnaise.
+36 et 37 Cognées à tête.
+38 Herminette.
+39 Hachette à main.
+40 Manche pour tarière.
+41 Piochon.
+42 Ciseau tout acier.
+43 Serre-joints.
+44-45-46 Bouvets à joindre.
+47 Rabot à moulurer.
+48 Ciseau manche bois.
+49 Tournevis,
+CHAPITRE IV
+Assemblage des bois
+Rassemblent par allongement, c'est-à-
+Cro ■ ° l ^ ou P ar cnture des deux pièces ; par
+nt,f Gment ’ dé ^ uerre ou obliquement ; et en lin par
+on \ \ Cement ' c'est-à-dire par superposition de deux
+Plusieurs pièces l'une sur l'autre.
+p. Assemblage bout à bout ou ' entures.
+b- 18. Joint plat , l'assemblage est maintenu
+z ;
+T~ ? ? À
+1 ! >-7/
+-1-—1—l M
+Fig. 18 .
+Fig. 19.
+***** plaques.de tôle boulonnées ensemble à tra-
+^ le bois.
+^UiVb J° !n( à mi-bois à coupes d'équerre. L'as-
+£e e ‘ st assura P ar des clous, vis ou boulons,
+à p a11 ^ cet assemblage est d* affaiblir les pièces
+ndroit de la coupe d’équerre.
+*£>• ib. - Lnture à fausse coupe avec êparlements.
+36 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Fig. 21. — Enîure à sifflet. Ces deux assemblages
+sont bons, la longueur à leur donner est de 3 à 4 fois
+j i 9
+r r
+tr ~ 1
+i -
+1 »
+__ i
+f /
+\ p
+Fig. 20.
+Fig. 21.
+l'épaisseur des bois ; on les maintient par des bou¬
+lons ou des colliers en fer forgé.
+Fig. 22.
+Entui'o à mors d’âne.
+Fig. 23.
+Enture à chaperon
+Fig. 24.
+Enture à paume.
+Les clameaux (fig. 30) sont des crochets en fer ser¬
+vant à maintenir le serrage des joints d'assemblage ;
+Enture à paume et â repos.
+Fig. 30.
+Enture à clameaux
+par leur forme (fig. 1 l-2ô) ils tendent, quand on les
+enfonce dans le bois, à rapprocher le s deux pièces
+assemblées.
+' assemblage des bois 37
+maintenir Jntli de Jupiter simple ; le serrage est
+^contenu par un coin c. b
+deS g * il 2 ' 7- 7> w ^ iiter P lus soli d« que le précé-
+Ou mam tient généralement les assemblages à trait
+J c _
+rr——-—- ~n
+—-Z_Z_ // 1
+ŸÀ J
+h r ■ ^ j
+# + -
+Fig. 33.
+Fig. 34.
+de J upiter par des boulons et des colliers ; la longueur
+de hoir aU J<imt ° St 3 à 4 füis ^aisseur «le la pièce
+nir in,.'!u" -~i A 58 ® 11 1 l'pge à enjourchement, à mainte-
+né ( J " ievi rs ’ 1)0ulons ou plaques de tôle houlon-
+d’arm] ~~ AsSCnil> ‘ a ^ 0 à 9 ueue d’hironde ou queue
+de avec ou sans repos. Cet assemblage se fait
+Fig. 35,
+aussi avec deux queues d’aronde pénétrant de chacune
+68 pièces dans l’autre pièce.
+f 0 Flg ; •**• — Assemblage bout à bout avec, goujon en
+’ s applique surtout aux poteaux et pièces verti-
+s ne subissant pas de poussées latérales.
+de* | lr '? COmbmaison ,le Pâques en tôle serrées par
+ne boulons 8ur les diverses enturcs, on arrive à don-
+uue grande résistance à ces assemblages. L’emploi
+38 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+de colliers de serrage (fig. 36 et 37) est aussi très
+recommandable quand on a besoin d’une grande
+solidité.
+2° Assemblages par croisement. — Ces assemblages
+sont constitués par un tenon pénétrant dans une
+mortaise ; une cheville en bois de fil (chêne ou
+acacia) maintient l'assemblage; la cheville ne doit
+pas intervenir pour la résistance aux efforts que
+l’assemblage doit supporter, c’est-à-dire qu’au
+besoin l’assemblage doit, s’il est bien fait, se main¬
+tenir sans cheville. Dans les travaux de menuiserie,
+on coupe les chevilles et on les arase à fleur du
+bois, mais, dans les travaux de charpente, on les
+laisse généralement dépasser de chaque côté des
+poutres, de façon à pouvoir les enfoncer si le bois
+se dessèche ou les retirer facilement s’il faut démon¬
+ter la charpente.
+Le tenon a au moins un tiers de l’épaisseur de la
+pièce de bois et jamais beaucoup plus de ce tiers.
+Le tenon doit pénétrer exactement et à force dans
+la ni -h taise, il ne doit pas en toucher le fond, de
+manière que les épauJements ou jouées de chaque
+côté du tenon viennent porter sur la pièce mort aisée.
+Les tenons se font à la scie, les mortaises au ciseau
+et avec la besaiguë. I >ans les usines, on fait les petites
+mortaises avec des machines à mortaiser et les tenons
+avec des machines tenonncu.se s.
+DK S BOIS
+La lig. o S montre un assemblage à simple tenon ot
+mortaise avec cheville. La flg. 39 montre le même as-
+Fi". 38.
+Fig. 39.
+semblage, mais ici le tenon fait saillie et porte une
+ortc che\ ille ou clef sous la pièce mortaisée j cet as-
+sembiage est bon quand la pièce doit subir des efforts
+Ue traction.
+Pour éviter la rupture du tenon, on peut le munir
+ün re nfort ou chaperon comme dans la fig. 40 (usité
+40 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+pour les solives de planchers). La iig. 41 est un assem¬
+blage avec double tenon avantageux pour les pièces
+£¥ a I- C ■ i ■ ■
+Fig. 42.
+de bois ayant une grande largeur. La fig. 42 est un
+assemblage à tenon avec ej ■ • • 1 ' 1
+mort aisée et les fig. 43 et 44 sont des assembla
+ges
+Fig. 43. Fig. 44.
+obliques à tenon et mortaise avec simple et double
+embrèvement ou crans. Ces assemblages sont usités
+pour F arbalétrier avec le tirant et le poinçon.
+La fig, 45 est un assemblage à enfoarchôment, il
+comporte une mortaise ouverte au bout de la pièce
+de bois. La üg. 46 est un assemblage à en lourd lement
+et embrèvement.
+Le dé joute ment est Fassemblage de deux ou trois
+pièces se contrebutant dans une même mortaise
+ASSEMBLAGE UES BOIS 41
+{%. 47) ; il est dit en entaille ou en tour ronde , selon
+Çu’il est parallèle ou oblique aux faces de bois. La
+Fig- 45.
+Fig. 46.
+%. 49 montre l'assemblage en désaboutement simple
+la fig. 48 le désaboutement déarmature.
+Fig- 48.
+Fig. 49.
+L'assemblage à oulice (tig. 50) est celui de deux
+Pièces en prolongement avec une troisième pièce
+Clique.
+Fig. 50.
+L ’enlaçure est un assemblage à onfourchement
+Maintenu jiar une forte ciievi le conique faisant serrer
+—-—
+-,—-
+42 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+les pièces assemblées. La fig. 51 montre un assemblage
+d'équerre à queue d’arondc, usité pour les solives de
+planchers.
+I ’êdenture {itg. 52) sert à assembler les chevrons
+Fig. 52.
+avec les pannes ; elle est simple ou avec un petit
+tenon réservé dans son milieu pour empêcher le glis-
+If j cr t
+55.
+se ment latéral du chevron sur la panne,
+nient, on se contente de fixer rédenture
+clou en fer.
+t lé né raie -
+* un fort
+ASSEMBLAGE DES BOIS 43
+L'assemblage des pièces se croisant sous un angle
+quelconque, se fait aussi à mi-bois avec ou sans ombré-
+v ement, comme pour [es pièces bout à bout, et, pour
+les encadrements et moulures apparentes, on emploie
+Assemblage à onglet (fig. 53 et 55) que Ton peut
+renforcer par une clef de joint engagée dans une
+entaille pratiquée dans 1 épaisseur des deux pièces
+<% 54).
+3° Assemblages par renforcement. — L'assemblage
+u ramure et languette est celui des lames de parquet
+eïïl pl°ie de même avec deux ou plusieurs rainures
+. cnguettes pour réunir des pièces jumelées , comme
+10 montre la fig. 56.
+qv L assemblage pat embrèvement est représenté fig. 57
+c ? es pièces sont d'épaisseurs inégales et laissent des
+lUf ups de chaque côté de la partie assemblée.
+Poutres composées et armées. — La rareté et le
+tio^ ( l° s l )ü is de grande longueur et de forte sec-
+j . , 11 que l'on est souvent obligé de réunir plusieurs
+de kois pour constituer une poutre offrant une
+^istance suffisante pour un travail déterminé. Ces
+_ Semblages sont faits conformément aux remarques
+nous avons indiquées chapitre II sur la manière
+44 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+dont travaillent les différentes parties d'une poutre
+chargée.
+Pour les poutres d’assemblage formées par la réunion
+de plusieurs pièces de bois réunies par des endeniuT
+avec clefs et boulons, ou des traits Jupiter, on u e
+assemblage des bois 45
+(iim j° mpter <Iue sur Jes trois quarts de la résistance
+môrn nnerait Une P° utre d ' une seule venue et de
+aVf , , Stc ^ 1011 * ces poutres d'assemblage se desserrent
+f 0 tem P» et fléchissent ensuite.
+inf<v! lg ' ° 8 , montre une poutre formée d'une partie
+et a j re ( Pune seule pièce travaillant à la traction
+pr<>l ?• r partieS su P érie ures travaillant à la com-
+ture,, Ges tr01s P ièces s °nt réunies par des enden-
+^} 7 Q C 7aa UlèreS ° U Crans et P ar des Voulons. Les
+c éde V , sont dcs l JOutres composées comme la pré-
+la i ; ! * rnais avec des clefs (ie serrage. Pour augmenter
+mili f 1( ' * ces sortes de poutres, on les soulève au
+r uiir> 1 11 n chantier et on les charge à leurs extré-
+Serra . P endant jG ur construction, de façon qu'après
+ci, , r i ' ' bds et boulons, elles soient légèrement
+de ir e es vers le haut ( flèche del /60 à 1 /100 e de la portée
+eiiv Les endents doivent être distants entre
+_ ue la hauteur de la poutre.
+^aipff bîs^poutres assemblées par endents ou cré-
+hiférL Passem b la g e doit avoir lieu vers le tiers
+t'ûiiiv 1:j aux extrémités et vers le tiers supérieur au
+boit, U ’ afln d'avoir le maximum de résistance des
+^. fc T È
+-î**montre un assemblage à clefs pour
+r \ oi licales, les endents sont rectangulaires.
+C'intp' ^ ure 62 montre l'assemblage d'une poutre
+J ee en L'ois parties,
+treiii?- (; t 64 sont de véritables poutres à
+p ", composées de deux moïses réunies par des
+3 °Uïn ? soumises a la compression. Chaque moise est
+Se od)ffV' deux poutres parallèles boulonnées en-
+«‘..La figure 63 est dite poutre américaine .
+°bli a ? nt donnée une P°otre, en la refendant un peu
+deijy en assemblant par des boulons les
+parties comme le montre la figure 65, on obtient
+46 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+plus de rigidité que n’en aurait donné la poutre non ;
+refendue. < 1
+Pour renforcer les poutres en bois, on emploie des
+Fig. 65.
+armatures en 1er. Par exemple on compose une poutre
+au moyen de deux parties en bois entre lesquelles on
+place une lame de fer large-plat , dont la largeur égalé
+la hauteur de la poutre, ou encore un 1er à 1 , le tout
+serré par des boulons distants d'environ deux fois
+Fig. 66, Fig. 67
+la hauteur de la poutre. On peut encore armer une
+poutre en bois comme le montrent les fig. 66 et 67 qui
+comportent un ou deux poinçons p parfaitement ri¬
+gides, en bois ou en fonte et. un tirant en fer rond tri'*
+solidement ancré aux deux extrémités de la poutre-
+La tension ou raidissage du tirant en fer s'obtient
+au moyen d'un tendeur à lanterne placé au milieu du
+tirant. On peut ainsi constituer des poutres de grande
+portée très légères et très résistantes.
+CHAPITRE V
+Poteaux, Murs et Clôtures en bois
+80 ,;^ ~ Los supports des planchers ou toiture:
+ra Wi? U f <>nt < ‘°5 lst ^ u, ‘ s P ar poteaux en bois, gêné
+dé s pJ ' • en c ^® ne î tle * orme carrée, reposant sur de:
+iHaint ] >lerre S< ' e ^ is dans le sol (fig. 68 ), Le poteau esi
+rr 1111 (>,i fd a( ‘c sur le dé au moyen d’un goujon er
+PoC\ e î lc ? re P ar uûe semelle de fonte, i^a base di
+L fl ( 01 ^ ( ’^ ro goudronnée pour éviter la pourriture
+(i t à j ° ° au Çst assemblé dans la solive qu’il supporte
+fié**'"*®* d ast r,, ^c par deux bras de force , contre
+... r S OU aiswlirro _ -.1_i__ ,
+et 1
+V ais setters a. Souvent, on place entre Je poteai
+y p ^ ^IIOIU 1U jJUL/CcL
+Cfi cjj lVe un chapeau c (fig. 69) qui répartit la charge
+f lefs o^ 6 ? 11 ° s1, r ‘ ^ hi a ^ a s °Ji ve par des goujons ou de
+Ugée , ° S 1>ouions * Dans * a ri g. 70, la solive est sou
+^ardq >a ! Un,! seme ^ c 011 doublure ,ç, sur laquelle s’as
+doit êm con t ,r eliches a. La charge d’un poteai
+**U pii ^ soigneusement calculée comme il a été dii
+fta pitre 1 ï
+q .
+brio ^ es S a ^ an dages, murs légers ou cloisons
+s e foii | Uc s sur champ, sur plat ou en carreaux déplâtré,
+^inu^ e ^ tre des P oteaux en Lois /?, présentant des
+‘ dans lesquelles vient s’encastrer la maçon-
+48 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+nerie c |fig. 71). L'enduit ee vient ensuite affleurer les
+parements du poteau. Les poteaux ont 0,08 x 0,08
+ou plus selon l'épaisseur de la cloison ; on les place à
+1 m. 50 de distance les uns des autres.
+Résistance des poteaux en bois
+(Chêne et sapin de qualité ordinaire.)
+COTÉ
+CHARGES DE SÉCURITÉ DONT
+ON PEUT CHARGER
+uu carré
+les poteaux dont les hauteurs sont
+e n
+, —- » 1 -j m i
+eentimêt.
+3 mètres
+4 mètres
+5 mètres
+6 mètres
+8 mètres
+1.650
+1.000
+2.200
+1.450
+2.800
+1.950
+1.250
+3.500
+2.600
+2.000
+4.400
+3.300
+2.400
+5.400
+4.000
+3.100
+2.500
+1 6.500
+5.000
+3.800
+2.900
+! 7.700
+5,950
+4.600
+3.600
+8.900
+1 7.000
+5.500
+4.300
+10.300 1
+8.200
+6.400
+5.100
+11.800
+9.500
+7.600
+6.200
+13.400
+11.000
+9.000
+7.200
+5.000
+15.100
+12.500
+10.300
+8.400
+5.700
+16.800
+14.100
+11.600
+9.600
+6.700
+18.500
+15.800
+13.100
+10.900
+7.700
+17.800
+14.900
+12.400
+8.800
+16.000
+Pour les séparations légères dans les appartement^
+on emploie :
+1° Cloisons en menuiserie à claire-voie, latte es
+chêne, hourdées et ravalées en plâtre sur chaque nau 1 '
+ment.
+2° Cloisons en planches jointives lattées et enduit® 3
+de plâtre ou de chaux de chaque côté.
+3° Cloisons en briques pleines ou creuses sur chaud 1
+y p
+t\ h h !\ t\ h (\
+s Ou r;
+Fi g. 68 à 79,
+OU SUI
+s au nie
+m. 11 d'épaisseur)
+MURS ET CLOTURES EN BOIS
+50 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+4° Cloisons en carreaux de plâtre ou en parpaings I
+pleins ou creux. " J
+Toutes ces cloisons se font entre des poteaux en I
+bois cloués au plancher et au plafond.- !> our augrnen- I
+ter radhérence du mortier aux poteaux, on larde I
+ceux-ci avec des clous à bateaux. !
+Les cloisons en carreaux de plâtre de 0,08 y com- [
+pris les enduits reviennent à environ 4 fr. 50 le m. carré, j
+Bardàges en planches . — Les revêtements ou ban¬
+dages en planches se font en plane)Les ou solives join¬
+tives avec couvre-joints cloués (üg. 72) ; en parquet
+ou planches assemblées à rainure et languette (üg. 73)
+ou encore en planches à recouvrement (lig. 74) clouées
+sur poteaux et traverses et ensemble pour favoriser
+l'écoulement des eaux qui tombent sur le mur.
+Un autre système rep résenté fig. 75 et 76 consiste à po¬
+ser des madriers entre des poteaux munis de rainures.
+Murs en bois. — Dans les pays où les bois sont très
+bon marché, ou fait des murs en troncs d'arbres assem-
+Fig. RO.
+blés comme le montre la lig. 80, la partie A venant
+s'assembler en B pour former un angle de mur d e-
+q uerre.
+La lig. 77 montre un mur en Dois à douille pare-
+MURS ET CLOTURES EN BOIS 51
+ereux au milieu, ce qui garantit de la chaleur
+j üu ' ro *d. Pour augmenter le confortable de ce genre
+' murs » 011 emploie en Amérique les procédés sui-
+dnts : ia paroi extérieure est formée de deux épais-
+de plantées entre lesquelles on interpose une
+p tu . e de papier goudronné ou de papier d'amiante
+mduit d’huile siccative ; la paroi intérieure est un
+aitis à claire-voie avec enduit de mortier épais.
+Clôtures à claire-voie. — Ces clôtures sont en lattes
+! châtaignier réunies par des (ils de fer, on. les vend
+° ut es faites chez les treillageurs. Les clôtures repré¬
+sentées fig, 79 sont formées par deux ou trois traverses
+* üi 'izon taies sur lesquelles sont clouées des traverses
+prticales rap pointé es en haut et distantes de G ni. 16
+Uîl -c de l’autre ; les portes des clôtures se font avec
+ll|v ( B 7 J-
+i ’ 5 petite charpente en bois, représentée fig. 78, sur
+on cloue dos traverses verticales en nombre
+iant.
+^ Pans de bois. — Les murs en pans de bois hourdés
+v J re, ï)]»lissages en maçonneries grossières sont encore
+^éployés dans beaucoup de campagnes ; ils permet-
+îl ^ d'obtenir des maisons de plusieurs étages et,
+ll ' in -d ils sont bien construits en bois de chêne, ils
+11 . L'ès solides, mais sujets à la destruction par
+Mendie.
+pp^, tS P ans de bois sont formés de poteaux verticaux
+1 1 s 0u moins espacés ; ces poteaux s’assemblent
+. _ en °ns et mortaises dans des pièces horizontales
+p Pelé es sablières. Aux angles du bâtiment sont les
+de eCtÜX corn ^ ers / ceux qui forment les ouvertures
+portes et fenêtres se nomment poteaux d’huis-
+i, es » Ru-dessus des ouvertures sont les linteaux et
+a Partie inférieure de l’ouverture est i appui. Entre
+52 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+les poteaux principaux sont les -poteaux de remplissage.
+Sous les appuis et au-dessus des linteaux sont les
+potelets de remplissage. Afin d’empêcher le gauchisse¬
+ment latéral du pan de bois, on réunit les poteaux et
+les sablières par des pièces obliques assemblées à
+mi-bois ou à oulice ; ces pièces se nomment décharges ,
+guettes ou croix de Saint-André ; les poteaux assem¬
+blés obliquement sur ces pièces se nomment tour ni ces.
+Quand une ouverture est large, le poitrail qui forme
+son linteau doit être soulagé par des décharges obliques
+convenablement établies * les poteaux qui soutiennent
+ce poitrail se nomment trumeaux d'étrier.
+Tous les assemblages à tenons et mortaises doivent
+être entrés à force et chevillés en chêne refendu.
+Les pans de bois doivent reposer sur de petits murs
+en maçonnerie élevés à 0 m. 50 au moins au-dessus
+du sol pour arrêter F humidité.
+Pour un pan de bois élevé de 3 à 4 étages, construit
+en chêne ou en sapin du Nord et dans lequel les inter¬
+valles entre les poteaux sont égaux à F épaisseur
+même du pan de bois, les principales pièces doivent
+avoir les dimensions suivantes en carré :
+Poteaux corniers.* •
+Poteaux d’huisserie et trumeaux d étrier
+Sablières ..•
+Décharges, guettes, croix de St-André ..
+Poteaux de remplissage et tournices
+0 m, 25 à 0 m. 2?
+0 m. 25 à 0 m. 2'
+0 m. 21 à 0 m. 2^
+0 m, 46 à 0 m. Q
+0 m. 13 à 0 m. F?
+Les cloisons intérieures portant plancher sont faites,
+scion les mêmes règles et avec des bois de mêmes di
+mensions que les murs de face.
+On se sert d’armatures en fer plat de 40 x 7 od
+50 x 9 pour réunir et consolider ensemble les divers
+murs d’un édifice en pans de bois ; ces armatures en
+forme de crochet ou d’équerre sont clouées sur l e;i
+pièces de bois avec de forts clous à bateaux et recoU'
+tou us Et clôtures en bois
+K i
+ite par le mortier de chaux qui les préserve
+de la rouille.
+Fig, 81.
+tîgure 81 montre une huisserie en pans de bois
+ec renforcement par un tirant en fer reliant la
+Fig. 82
+54 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+guette au poteau d'huisserie . La fig. 82 montre un bâti¬
+ment de plusieurs étages en pans de bois.
+Le remplissage entre les pans de bois se l’ait en lar¬
+dant de clous à bateaux les pièces de bois et en com¬
+blant les vides avec des maçonneries grossières faites
+de déchets de pierre ou brique et de plâtras reliés par
+un mortier de chaux. On fait ensuite le ravalement
+des deux parements avec enduit et crépissage.
+En France, il est défendu de construire en pans de
+bois sur la voie publique, mais, dans les bâtiments
+dont la profondeur excède 8 mètres, il est permis de
+construire la façade en pierres jusqu'au premier étage
+et au-dessus en pans de bois jusqu'à 15 m. 60 de hau¬
+teur. Pour augmenter la résistance à l'incendie, ou
+peut recouvrir les pans de bois d'un lattis en chêne
+qui reçoit l'enduit.
+11 est interdit de poser des entablements en pierre
+sur des pans de bois et d’adosser des cheminées contre
+les pans de bois; l'espace ou tour du chat entre la che¬
+minée et le pan de bois doit être d'au moins 0 m. 16*
+Un règlement fixe l'espacement des poteaux à
+0 m. 27 au maximum.
+CHAPITRE VI
+Planchers en bois
+üc^ Splanchers ’ s ®P arant fcs divers étages des édi-
+i ;i composent < J "une charpente horizontale dans
+flex* ° t0U ^ €S ies P outres et solives travaillent à la
+noi l0ïi ot doivent être considérées comme des poutres
+fuit i Gnc ?- s î rées a ieurs extrémités ; sous le plancher, on
+| iHr . e Plafond et sur le plancher on pose le dallage ou
+dr p J e ^ a ^ c * Afin d’empêcher la propagation du sonet
+*• ciupi'ralure a J \ avers les planchers, on les garnit
+lf hour , dis convenable.
+on r> m dob te ] 11 un plancher d'épaisseur constante,
+de m^ Ut J ° constituer P ar ,ine série de poutres toutes
+p 0r ^ lenie e( 1 uarrissage, bastings ou madriers, selon la
+l'ern n pl ? cés . à distance égale les uns des autres, ceci
+fdun m ^ avo * r facilement un plafond entièrement
+a v ‘ , a f s ? 1 ! U and il s'agit de couvrir de grands espaces
+e Sp de ion gues portées, on est obligé de diviser ces
+ki y^ eS par des poutres de grande section sur lesquel-
+Le \ eûIleilt s'appuyer les rangs de solives plus petites.
+Cf)j gs Relier présente alors en dessous la forme de
+d u "? n8 ( î u f peuvent convenir à des motifs décoratifs
+pialunnaee
+Fig. 8:i.
+La fig. 83 représente les divers dispositifs des p° u
+très dans les planchers.
+56 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+PLANCHERS EN BOIS 57
+t est une maîtresse poutre sur laquelle portent d'au-
+^ poutres principales ; cette maîtresse poutre doit
+]l °*cr s Ur des appuis très solides sur les murs, car
+planche^ 16 ^ grantle partie de la cIiar g e totale du
+Pp et rp sont les poutres ou solives d’enchevêtrure
+1 Peuvent supporter elles-mêmes d'autres solives.
+J e sont J es êtres Mous qui maintiennent l’équi-
+uè }' 1U( e eïd ' re ^ es solives d'enchevêtrure et les em™
+ohent de se coucher sous la charge.
+Sont des solives de remplissage , elles portent sur
+P outre 211 UrS ° U SUr Un mur et SUr une m aîtresse
+^olh SOn ^ des c ^ eç ^ tres portant sur un mur et sur une
+d’enchevêtrure ou de remplissage, ils reçoivent
+S(i vp 0 ^ dos solives de remplissage. Les chevêtres
+des a / 0nt aufcour des cages d'escaliers et aussi autour
+qui Cheminées P our form or dans le plancher un vide
+| Ust ^ a rem pü par un hourdis de matériaux incom-
+Hbles ; ce remplissage se nomme trémie.
+% ^y e lqueîois les chevêtres reposent sur des corbeaux
+’ u pierre ou en fer scellés dans le mur.
+On jaux-chevêtre destiné a remplir une partie ne
+P ace laissé libre par les chevêtres,
+Yg|. ^Ont des linçoirs portant sur les solives d'enche-
+pl is n,re et recevant les abouts des solives de rem-
+dii S ''^° » 0n pl ace l° s linçoirs en lace des points faibles
+r p 111 ! fonetres, portes, haies, passages de tuyaux
+0 cll onimée. En ce dernier cas, le linçoir doit être à
+W ]'l du “^.fî 1>es P ace vide est rempli de maté-
+s llp et rs sont des solives boiteuses reposant d'un bout
+un mur et de l'autre sur un chevêtre.
+Oij i, ' S(> ot des lambourdes appliquées contre les murs
+6 ° s Sûnt scellées par des crampons en fer ou sup-
+58 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+portées par des corbeaux ; elles reçoivent les abouts
+dos solives de remplissage.
+On voit en L m des lambourdes accolées clouées ou
+boulonnées contre la maîtresse poutre pour recevoir
+les abouts des solives de remplissage.
+E est une enchevêtrure faite dans un angle pour le
+placement d'une cheminée ; l'espace laissé libie jus
+qu'aux murs est rempli par des barreaux de 1er.
+Les liernes n sont des pièces entaillées au droit d« s
+solives et placées sur elles pour en maintenir l’écar¬
+tement et l'aplomb.
+Les solives sont posées sur les poutres principal
+soit côte à côte, comme eu 1, soit bout à bout, en »
+soit assemblées par encastrement ou par tenon av
+renfort, comme en 3. Kn ce dernier cas, la soli\ e s®
+trouve de niveau en dessus avec la poutre.
+La ûg. 84 montre les différents modes d'assembla^
+des solives avec une maîtresse poutre : A est un a *^
+semblage à entaille à double renfort, B une que^
+d'aronde, C un tenon à renfort. Ges assemblage °* v
+l'inconvénient d'affaiblir les poutrelles et la poùtr
+PEANCIiivKS EN Bois
+montre l'assemblage de poutrelles avec, une
+maîtresse poutre qui est seule entaillée ; c'est ainsi que
+Fig* 85.
+sont planchers dits à la Française qui ne
+f Plus guère usités.
+corn° UVt , n l ’ on Prière P°ser les solives sur lambourdes
+e (i montre la üg. 86 où la solive repose simple-
+SUl la lambourde et la üg. 87 où les solives
+fi ont
+Fijf. 80
+la î a ® Se mblees à entaille ou à queue d'aronde avec
+d mbourde.
+60 ENCYCLOPEDIE PRATIQUE DU BATIMENT
+Les lambourdes sont arrêtées contre les murs par
+des crampons en fer ou posées sur des corbeaux , elles
+sont soutenues contre les poutres par des tire-fonds,
+des boulons, ou mieux par des étriers en fer forge
+comme le montrent les figures 88, 89, 90 et 91 ci-
+dessous. On donne aux lambourdes 0 m. 08 à 0 m.U
+Fig. 88 à 91.
+d’équarrissage ou encore en largeur la même grosseur
+que les solives et en hauteur une lois et demi la hau-
+teur des solives.
+Pour P assemblage des chevêtres et enchevêtrures,
+on emploie l’un des systèmes à tenon et mortaise indi¬
+qués ci-dessus, mais il est nécessaire de renforcer cet
+assemblage au moyen d’étriers en fer forgé accroches
+sur les solives d’enchevêtrure et, soutenant le chevetre
+ou autre solive perpendiculaire.
+De même, si l’on craint que les solives ne se dis¬
+joignent, on peut les relier ensemble par des fers pla^
+et des clous ou crampons.
+Pour consolider l'appui des solives dans les murs on
+peut placer en dessous une bande de fer plat de 60 x ;
+scellée à queue de carpe dans le mur, faisant saillie a
+PLANCHERS EN BOIS 61
+H te rieur de 0 ni. 20 environ et percée de deux trous
+Par lesquels on enfonce des clous ou tire-fonds dans la
+■ 0 r\ e. On a ainsi une espèce de corbeau en fer qui
+outient la solive à sa sortie du mur. Ce moyen peut
+, re employé pour réparer des solives pourries dans
+an rnur.
+Les solives sont écartées les unes des autres :
+, e 0 m. 80 pour charges légères.
+! !n 60 P our planchers ordinaires d’appartement,
+co rn. 40 pour fortes charges.
+' e 0 m. 25 pour très fortes charges.
+VoV° Uî » ^ eS so ^ ves écartées de 0 m. 70 d’axe en axe
+i d après M. Barré, les dimensions à donner selon
+la portée :
+Pour chambres et habitations, charge 250 kilo-
+gommes par mètre carré.
+°^ e J* m - Largeur 0 m. 06 Hauteur 0 m. 18
+^ i ~ 0 m. 08 — 0 m. 22
+° — 0 m. 10 — 0 m. 26
+Pour bureaux, salles de réception, charge 350 kilo-
+o ammes par mètre carré.
+^tée 3 m. Largeur 0 m. 07 Hauteur 0 m. 22
+^ 1 " 0 m. 08 — 0 m. 24
+, 5 — 0 m. 10 — o m. 28
+^ J — 0 m. 11 — 0 m. 33
+1 ~ 0 m. 12 — 0 m, 36
+Ci. ? ( L‘hors des données ci-dessus applicables aux
+c ® les plus usuels, il est absolument nécessaire de
+vjj Cüler la charge supportée par mètre carré d’un
+<uieher destiné à un usage industriel et de détermi-
+^ les dimensions nécessaires à chaque poutre ou
+nn iVe dudit plancher en employant Içs règles que
+avons données au chapitre II.
+qu 110u ^ servir du tableau ci-après, supposons
+g JV 011 ^ ouille savoir les dimensions d ’une poutre de
+e tres de portée devant être chargée uniformément
+62 ENCYCLOPÉDIE PRATIQUÉ DU BATIMENT
+de 300 kilogrammes; on pourra considérer cette poutre
+comme formée de trois poutres accolées de 10 centi¬
+mètres de largeur chacune et lui donner 30 cm. x30 c m
+ou encore la considérer comme formée de doux poutres
+Résistance des bois à la flexion
+ne ou sapin de qualité ordinaire.)
+CHARGE DE SÉCURITÉ UNIFORMÉMENT RÉPARTIE
+dont mi peut charger une poutre de 10 centuu Uvs
+de largeur, posée sur deux appuis espaces de .
+t mèt.
+2 mèt.
+4 mèt.
+kilogr.
+kilogr.
+kilogr.
+280
+140
+470
+220
+760
+370
+160
+1.140
+560
+240
+1.530
+740.
+320
+2.040
+990
+450
+2.570
+1,250
+580
+3.190
+1.570
+720
+3.820
+1.880
+870
+4.580
+2.250
+1.050
+5.390
+2.660
+1.150
+6.210
+3.060
+1.450
+7.170
+3.540
+1.680
+8.130
+4.020
+1.910
+9.230
+4,560
+2.180
+10,320
+5.110
+2.450
+11.500
+5.700
+2.700
+12.500
+6.000
+3.000
+8 mi t
+accolées de 10 centimètres de largeur chacune et
+lui donner alors 36 cm. x 20 cm., ce qui est avau-
+au point de vue de l'économie du cube de
+Appui des poutres dans les murs. — J/extrémité
+une poutre scellée dans la maçonnerie d'un mur se
+PLANCHERS EN BOIS
+Pour évii!.t lü, ! 8 . ut ’ si ,u rn,lr cst tant «oit peu humide,
+des solill * inconvénient, on peint les extrémités
+épaisse n dVe ° ' " goudron 011 de la peinture à l’huile
+soufre u n ,l ' ul ,m ! !or<! * os enduire d’argile ou de
+chape en n i-+ eVetant 168 al)oul s des so üves avec une
+on obtl, ’ t ‘ r ° ° U f 60 Une fcuiik ‘ c| e zillt ' ou de plomb
+leurs J " assoz ,)ons rés ultats. Mais l’un des meil-
+dans lo n 5 ’ 011 '! de dllJ l. lüser la portée de la poutre
+du bois 1Ul ’ fa ?° n <!U ’ d >' ait autour de l’extrémité
+auto, , r ClrCuIation d’air- A cet effet, on ménage
+mur,, ' extrémités des poutres portant dans 'le
+queravto- e ^ e - Petiteni0he ( ‘ uü Voa («ît communi-
+ün . extérieur par un petit conduit masqué par
+corhes, taU k<,rc é d un trou. Les poutres posées sur
+bien ,x son . t tenues à une petite distance du mur ou
+feui|i_ , 0 , rsolees )>ar une couclie de bitume ou une
+e <le Plomb ou do zinc (hg. 88).
+Chaîna
+ta n t P T"“,? e f et ancra ëes. — Afin de maintenir cons-
+la coi.s*-' 1St “ oe d f. s murs entre eux et d’augmenter
+nient h 1 ‘.é la solidité du bâtiment, on relie solide-
+nnirs, prmcipales poutres des planchers avec les
+les " ,0 y° n d’armatures en fer cramponnées dans
+mur „ J"* , et arcetees sur le parement extérieur du
+«n font* UD e0r0U serrant sur une l ar ge plaque en fer ou
+s'enro.u ’ 1 ? U encore par ,lnô barro de fer sur laquelle
+le r 6 i armature ou ancre, comme
+l)n 0rith ; fy?* 92. Quelquefois on
+c ar rn ° a sceller l’ancre à queue de
+cr a ^ dans le mur, mais ce mode d’an-
+j-P ne vaut pas ceux ci-dessus.
+k ch :^tresse poutre ainsi ancrée
+Fig. 92
+)<m * î0 ™ un excellent
+il «? des murs entre eux, mais
+Necessaire, dans les bâtiments lourdement char-
+T^nr
+IMm
+asm
+64 encyclopédie pratique du batiment
+gés ou exposés à des trépidations, de relier encore les
+murs par des chaînages continus formés de barres de
+fer carré de 18/18 ou 20/20 ou de fer plat 30 x ÿ
+soudées bout à bout ou assemblées par des clefs de
+serrage, comme le montre la fig. 93 qui est un assem-
+«s. •» mm m Ü:
+blase à double coin de serrage.
+n à
+Dans les bâtiments importants ou isolés, on chaîne
+non seulement les murs parallèles entre eux, mais
+on porte aussi des chaînages en diagonale, qui son
+alors faits en fer rond ou carré de 30 mm. x 30 m 1 »-
+i Vs chaînages sont ancrés à rextérieur des murs s u
+des plaques larges en fonte ornée ou sur des piè<^
+en fer forgé en forme d’S ou d’X formant motifs déc j
+ratifs et répartissant l’appui sur une large surface <
+mur. Les chaînages et ancrages doivent être pem
+à deux couches de minium, ils sont généralement cU
+simulés dans l’épaisseur des planchers.
+Toutes les ferrures de planchers doivent être p^
+tes à deux couches de minium afin d en éviter 1 oXj
+dation.
+Portée des solives dans les murs. — Les poutres ( 1 ^
+reposent sur les jnurs doivent y pénétrer au mot
+PLANCHERS EN BOIS 65
+Jusqu'à la moitié de .l'épaisseur du mur ; pour les murs
+citoyens, l'article 657 du Code civil dit que tout co¬
+propriétaire a le droit d'y placer des poutres dans
+toute l'épaisseur du mur à 54 millimètres près , sans
+Préjudice du droit qu'a le voisin de faire réduire la
+Poutre à I'ébauchoir, jusqu'à la moitié du mur, dans
+e c as où il voudrait lui-même asseoir des poutres
+<nis le même lieu ou y adosser une cheminée,
+Les poutres en fer ne doivent être engagées que jus-
+j u ù la moitié du mur mitoyen, car 'e voisin serait
+' a,is P impossibilité de faire réduire la longueur de ces
+Poutres, selon son droit, en cas de nécessité.
+Planchers d’enrayure ou d’assemblage. - Quand on
+yo dispose pas de bois assez longs pour aller d'un mur
+'"! i ^uore, on forme le plancher entièrement au moyen
+o solives boiteuses se soutenant les unes lés autres :
+e * s s ont les planchers Serlio représentés fîg. 95 et 96
+lesquels on voit quatre et trois maîtresses solives
+J °lteuses soutenant des solives plus petites. La fîg. 98
+QOntre un plancher formé aussi de solives boiteuses
+J^nies ensemble deux à deux par des boulonnages.
+Los fîg .97 e t 100 montrent des planchers dits kcompar-
+J * VJ *
+lr>l ents, à ai.rayare ou polygonaux . Tous ces genres de
+ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Fig. 99.’
+Fig. 98.
+Vie. 99
+plane! 1ers ont l’inconvénient de présenter un trop
+grand nombre d'assemblages et d'être très flexibles?
+iis s'affaissent avec le temps et ne peuvent supporter
+que de faibles charges.
+I‘LAN CH ERS K N BOIS
+n a ^ montre un plancher d’enrayure dont les
+p resse 8 poutres se réunissent sur un poinçon ou
+desV 1 . C€n ^ r ^l* ^ îins oes planchers, les équarrissages
+p , 018 se déduisent au fur et à mesure qu'ils se rap-
+P^s fain^ U Centre ’ ^ eurs P ortées devenant de plus en
+Fig. 100.
+T\ *
+^*on des solives d un plancher. — 11 y a é
+4 pj 10 ' de ,)0is P our une résistance égale du plancher
+solives entre les murs les plus rapprochés.
+vrort’ ? anS un P lancîier rectangulaire, les solives de-
+Un j etre Parallèles aux murs les plus courts. Dans
+en | lancher par ré, il y a avantage à diviser le carré
+vien^ 1 * Parties par une maîtresse poutre sur laquelle
+Æ* ^Ppuyer deux sérias de solives courtes.
+montre les dispositifs à employer dans le cas
+P ancher rectangulaire et d'un plancher carré.
+^ i res des planchers. Rempli
+ni ’ uuiflt fia
+j ■ les plus si un
+tlanc hos ( |o. 0 m. I)
+ssages. — Dans les plan-
+îles, on cloue sur les solives des
+<)27 à 0 m. 034 d'épaisseur parfai-
+68 encyclopédie pratique du batiment
+tcrncnt jointives ou assemblées à languette et rainure
+comme des lames de parquet. Ces planchers primitifs
+ont rinconvénient de laisser passer les poussières,
+le bruit et le froid. < )n améliore Je plancher en clouant
+des lattes, espacées d’environ 1/2 centimètre, par
+dessous les solives et en faisant un plafonnage au
+plâtre. Mais pour avoir un bon plancher insonore et
+protégeant des variations de température, il est né¬
+cessaire de faire entre les solives un remplissage ou
+hourdis d'entre vous. La fig. 101 montre un plancher
+creux avec un simple plafonnage sous les solives.
+\f y
+- V/ . /fs V*, i
+* W “-‘ M ‘iliUi, '■ JmM.-I.-V-
+Fig. nu
+La ûg. 102 montre un plancher dans lequel les so¬
+lives sont lardées de clous à bateaux à leur base et
+entre lesquelles on a formé avec du plâtre des au gels
+formant entre vous. Cette couche de plâtre est coulée
+—*—
+— * ■
+++* ■ - ■ —:
+S. ■
+Fig. 102.
+par dessus le lattis destiné à recevoir le plafonnage
+on lui donne 4 à 6 centimètres d'épaisseur ; pour éco¬
+nomise]* le plâtre neuf, on noie dans cette couche des
+morceaux de vieux plâtras. Ensuite, on cloue le pa r '
+quel sur les solives et le gobetage ou plafonnage au-
+dessous est fait à la taloche.
+On emploie maintenant pour garnir les plancher®
+entre les solives, des hourdis en terre cuite, qui se
+l’LAN Cil K US K N BOTS
+£ 03e “ 4 s ur deux lattes clouées à la base des solives.
+|.^ ourdis sont creux et forment un remplissage
+insonore et résistant à l’incendie. Leur surface
+.. ^gueuse et permet au plâtre du plafonnage d’y
+pi U rer ^ 0I ^ emen f- Quelquefois ces liourdis sont déco-
+^es et on les pose sur des moulures comme le montre
+!g. 103 ; ils remplacent alors le plafonnage au
+Ptütre.
+Fig. 103.
+os fig. 104 a 107 montrent l’emploi d’un nouveau
+ateriau : c est le carreau de liège aggloméré qui se
+s ° Se sirr : S01IS ou entre les solives. Ces liourdis en liège
+‘ ° rj f très légers, insonores et mauvais conducteurs de
+la Valeur.
+'I ’* ■ ■< -
+- 1 - —---• I ' 1
+J r v; -:
+él ItFi" 1 .ii | . ^ . | L1 ,
+Jfi L*Ua-
+.. • *-■**- "'llüli .r|>*.
+~ . g- ^ ■
+1 ih.jit . m <«ÉI ..-tu.
+Fig. 104>t07.
+Quand on veut poser un carrelage sur un plancher,
+° ri c ‘l°ue sur les solives un lattis jointif que l’on recou-
+J. rti J^une couche de plâtre ou de mortier, de 4 à 5 cen-
+^mètres d’épaisseur, sur laquelle on pose les carreaux
+a oains de plâtre ou de ciment.
+Quand on veut faire un remplissage en augets de
+P âtre entre des solives très espacées, on dispose
+r dre elles des étriers formés de fanions en fer rond
+70 ENCYCLOPEDIE PRATIQUE DU BATIMENT
+ou carré de 7 millimètres de grosseur, de façon à
+armer la couche de plâtre et à la rendre très résis¬
+tante. Nous reviendrons sur ce procédé à propos des
+planchers en fer.
+Surcharges des planchers. — En dehors du poids
+propre d’un plancher, on doit estimer comme suit
+la Surcharge d’un plancher :
+Pour chambre (l'appartement. 150 kilos par mètre carré
+Pour Salle de danse ou de réunion .. 400 —
+Pour grenier à foin . 400 —
+Pour grenier à blé.. 460 —
+Pour magasin, très variable 400 à 1000 —•
+Poids des planchers. -— Nous donnons ci-après les
+cas les plus usuels :
+Parquet en sapin, sur solives sapin, 58 à 48 kilos par mètre
+carré.
+Parquet en chôme sur solives chôme, 57 à 65 kilos par mètre
+carré.
+Parquet sapin, plafond et entrevous légers. 47 à 105 kilos
+par mètre carré.
+Parquet chêne, plafond et entrevous légers, 80 à 132 kiles¬
+par mètre carré.
+Parquet, entrevous épais en plaire ni plafond. 280 à 875 kr*
+Il est préférable de calculer pour chaque cas parti'
+culier le poids exact du plancher en additionnant l eS
+poids du mètre carré de chacun de ses éléments d'a¬
+près le tableau ci-dessous.
+Poids au mètre superficiel de différents éléments de plancha'*
+et des parties de construction qui tes chargent.
+kg-
+Parquet chêne de 0 in. 27 ..... 23 0.
+— sapin, — 1? JL
+Lambourdes pour parquet à l'anglaise. 5 JL
+— — point de Hongrie.. ^ in
+•— — retourné en tous sens .... H
+PLANCHERS EN BOTS 71
+Cloison légère de 0 m. 08 compris enduits.. no 00
+de 0 m. 08 en brique sur champ compris enduits 140 00
+deOm. 15
+de 0 m. 25
+de 0 m. 35
+263 00
+438 00
+613 00
+épaisseur 10 cm
+— 12 —
+— 14 —
+— 16 —
+t * ~~ 18 —
+- Y| i e en plâtre, 2 cm. 5
+— 5 cm.
+//ourdis en plâtre
+• * A
+* i
+-Il « i
+****!•» • *
+******
+• * t
+140
+165
+195
+225
+259
+Poutres et solives pour planchers. — On trouve dans
+e commerce des poutres sapin aux dimensions sui-
+( ‘des en centimètres : 30 x 40, 30 x 35, 24 x 30,
+madriers, 8 x 22, 10 x 23, des bastings, 6 x 15
+J* 11 6 x 17, des chevrons ou poutrelles, 6 x 8, 8 x 8 et
+k X 11 ; les planches et parquets ont 0,018, 0,027
+e * 0,032 à 0,034 d'épaisseur.
+CHAPITRE VU
+Combles en bois
+!,e comble ou ensemble de la charpente qui sup'
+porte la toiture d'une maison prend des noms divers
+selon Je nombre et la forme des pentes qui le com-
+posent.
+L 'appentis n'a qu’une seule pente (fig. 108).
+La toiture sur pignons a deux pentes, rampants ou
+égouts inclinés en sens contraire et réunis en haut pai'
+le faîtage qui est généralement parallèle à la grande
+longueur du bâtiment ■ chacune des pentes du toit
+forme un long-pan (fig. 109).
+La toiture à croupes se compose de deux longs-pan$
+et de deux croupes qui sont des petites pentes reliant
+le faîtage aux murs de côté (fig. 110).
+La toiture en pavillon est formée de quatre croupi
+se reliant en un seul point ; un pavillon peut corupoi
+ter autant de croupes qu’il a do murs de côté (hg. I H)'
+On dit qu’un comble est boiteux quand, les mur»
+du bâtiment n’étant pas parallèles, l’un des égout»
+du toit n’est pas parallèle au faîtage (fig. 112).
+Les toitures peuvent comporter d’infinies disp 0 '
+sitifs formés de croupes raccordées par des faîtag eS
+et des noues servant à l’écoulement des eaux pl ü '
+' laies, nous en montrons quelques spécimens (fig,
+14 > 115 et 119).
+ENCYCLOPEDIE PRÀTIODE DU BATIMENT
+Les combles brisés à la Mansard sont formés de
+parties presque verticales avec fenêtres et d'un toit
+à deux ou quatre croupes (lig. 116).
+Les combles sont composés d’un certain nombre de
+fermes supportant les pannes , le faîtage et les che¬
+vrons qui reçoivent la couverture proprement dite.
+L'appentis simple se compose de poutres ou che¬
+vrons s'appuyant directement sur deux murs de
+hauteur différente (fig. 117).
+La toiture la plus simple ensuite est celle composée
+de poutres horizontales ou pannes posées entre deux
+pignons formés par les murs du bâtiment (fig. 118).
+Dès que la portée entre les murs dépasse 5 mètres,
+il iaut placer entre eux des fermes de charpente com¬
+posées de poutres assemblées suivant des formes
+triangulêes <;t in<lél'orniables calculées pour offrir 1 a
+plus grande résistance à l’écrasement.
+La figure 120 est un schéma d’une ferme en bois
+comprenant toutes les pièces de cette sorte de char¬
+pente.
+L f entrait ou tirant E reçoit les abouts des arba¬
+létriers et du poinçon, quand la ferme ne comporte
+pas d’entrait retroussé ; l’entrait est soumis à la trac¬
+tion.
+Le sous-entrait S soutient l’entrait et son assert 1 '
+blage avec les arbalétriers auxquels il est relié pa r
+une ferrure.
+L 'entrait retroussé E assemblé aux arbalétriers et
+au poinçon ; pièce soumise à la traction.
+Les arbalétriers A inclinés suivant la pente
+et assemblés sur le poinçon ; pièces soumises à la com
+pression et à la flexion. Ils sont quelquefois renforce 5
+sur une partie de leur longueur par des sous-a
+trier s (fig. 123).
+a est un aisselier , soumis à la compression.
+combt.es en nois
+Fig. 120 — Schéma d'une ferme en bois.
+76 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+P poinçon , soutient le tirant, est soumis à la trac¬
+tion.
+/ / contre fiches ou lier ne s soumises à la compres¬
+sion.
+j jambette soumise à la compression.
+F faîtage, délardé suivant les pentes du toit, sou¬
+mis à la flexion ; il est réuni au poinçon par des liernes l
+ou SOUS- faîtes ou lien de faite, soumises à la compression.
+b est un blochet qui est le plus souvent formé par
+une moïse représentée à part ; la nioise se com¬
+pose de deux madriers ou bastings serrés par un bou¬
+lon sur l’arbalétrier.
+p p sont les pannes recevant les chevrons C dont
+les bouts vont s’appuyer d’un côté sur le faîtage et
+de l’autre sur la sablière SA. Toutes ces pièces sont
+soumises à la flexion.
+Les pannes sont arrêtées par des tasseaux, chan~
+tignolles ou èchantignolles t, clouées ou assemblées sur
+les arbalétriers.
+Le coyau C est un petit chevron posé sur le che¬
+vron et sur le haut du mur ou sur une sablière avec
+lesquels il est assemblé. Les coyaux n’ont leur raison
+d’être que dans les toits à très forte pente.
+Dans les combles Mansard, la panne qui est à
+l’angle des deux pentes du toit se nomme panne de
+brisis .
+Tous les -assemblages des pièces coin])osant un®
+ferme sont faits à tenons et mortaises avec chevilles
+en bois. Spécialement, l’assemblage des arbalétriers
+avec le tirant doit être très solide : on le fait à tenon
+et mortaise avec embrèvement ou crémaillères et
+on le maintient par des liens en fer. Dans certaines
+fermes de grande portée, l’arbalétrier est assemblé
+dans un sabot en fer ou en fonte boulonné et encastré
+dans le tirant.
+COMBLES EN BOLS
+/ i
+es chevrons sont en bois de 6 x 8 ou 8 x 11, ils
+i°tr- t!hPaCéS en ^ re ^ ^ m . 50 et reçoivent le
+' is ou le voligeage sur lesquels est posée la c cu¬
+lture.
+pannes sont distantes de 2 à 3 mètres.
+es pace entre les fermes est de 3 à 4 mètres,
+i, .ans les toitures comportant une croupe, les arbu-
+Iiers qui forment les angles se nomment arêtiers.
+Fig. 121
+j^our les portées au-dessous de 1.0 mètres on cons-
+j ue les fermes avec un nombre plus réduit de pièces.
+figure 121 montre un comble avec entrait, entrait
+^troussé et poinçon, la figure 122 un comble avec
+eri trait, poinçon et deux contrefiches. Pour les
+îs portées, on soutient F arbalétrier par des
+0| us-arbalétriers et l’entrait par des sous-entraits ,
+e °mme le montre la figure 123.
+Un peut aussi reporter une partie du poids de la
+' harp en te sur le corps des murs, en employant les formes
+78 ENCYCLOPÉDIE PRATIQUE DU B AT IME NI
+(fus (‘ombles Pig. 124 h 125, dans lesquels Yentrait est
+constitué par une poutre du plancher ; les arbalétriers
+sont soutenus par des Hochets et réunis par un entrait
+retroussé. Cette construction permet d’avoir des
+greniers élevés. -
+COMBLES EN BOIS 79
+f ) i
+JaiiH les fermes ci-dessus, rentrait retroussé ainsi
+He les bloehets sont souvent constitués par des
+su ^f> S -) entaillées et serrées par des boulons
+1 arbalétrier et le poinçon.
+■L assemblage des arbalétriers avec le poinçon est
+, . ll fcnon et mortaise, chevillé, mais en outre, le
+poinçon est taillé en forme de queue d'aroncle (fig. 120)
+l ü de recevoir normalement la poussée des deux ar¬
+balétriers.
+Voici comment s’établit l'équilibre d'une ferme
+arpente des modèles ci-dessus : la charge tend
+Fig. 126.
+à f ■
+p io aire fléchir l'entrait et à écarter l'un de l'autre les
+p - . s ( A ,S arbalétriers qui sont buttés à leur partie su-
+^écartant, les arbalétriers tirent
+Vitrait, ce qui s’oppose à son
+—,, a P)UJI iitj L" 11 lSt>cm tJIi t * le
+prenant appui sur la poutre armée formée par
+te •* ar ^ a iétriers soutient le poids propre de l’en-
+C( .| e *' ia charge que peut supporter celui-ci. Toute
+)L. e c i l arge se trouve ainsi reportée sur les murs du
+Citent par l'intermédiaire des arbalétriers.
+jlj ^ figure 126 montre la coupe d'un comble à la
+^\^ riSar ^" > ^ a partie supérieure ou faux-comble repose
+dt-ux jambettes presque verticales. Il est néces-
+Uf^ r< fli er les jambettes à t’entrait au moyen de
+7 s ou bras de force (qui ne sont pas dessinés ici)
+80 ENCYCLOPÉDIE PRATIQUE PU BATIMENT
+de façon à rendre la partie trapézoïdale indéformable ;
+cotte partie ou brisis est limitée en haut par la panne
+Fig. 127 à 137.
+de brisis et en lias par les sablières ; entre ces deux pou-
+très sont les chevrons de brisis qui reçoivent du zi Ilt '
+ou de l'ardoise.
+COMBLES EN BOIS
+ch Û com ' do brisé Mansard permet de faire des
+^ambres de 2 m. 50 à 3 m. 50 de hauteur, mais ce
+p '^ l ‘ s locaux très chauds en été et froids en hiver.
+c 1 ° Ur dé t en ni ne r les meilleu res \ > rop o rt ions d’un
+-omlde Mansard, M. Barré indique le procédé suivant’:
+do 1 ^ * 0U ^ nscj ^’ la silhouette du comble dans une
+in * 1 ~ rc onférenee, Je brisis est le côté du décagone
+; pour obtenir un comble plus élevé, on décrit
+Fig. 138.
+la base une demi-circonférence et, au point le
+^ haut, on mène une tangente dont la 'Ongueur est
+J 6 du rayon ; c’est l 'entrait du faux comble, lecruel
+* Pour hauteur 1/3 du rayon. » 1
+(iit 1 ^ figures 12/ à 137 montrent emploi des fermes
+1 icdincs cjui sont utilisées pour des ctiurpentes
+Seres, de grande portée et avec toitures à faible
+J" nte * Ces fermes sont composées d’un entrait, d’un
+j ^ dtJ ux arbalétriers et d’un nombre convenable de
+^bettes ou poinçons verticaux avec des liernes ohli-
+^. üs qui forment moïses sur l’entrait et les arbalé-
+ç i iers * Ces fermes sont applicables à toute forme de
+arpente et spécialement aux combles Sheed
+J °Ur usines (fig. 137).
+■bu figure 13S montre une ferme du même genre,
+H2 ENCYCLOPEDIE PRATIQUE 1) U BATIMENT
+dont le mode d’assemblage, avec (tes plaques de tôle
+formant crampon dans le bois et boulonnées, est
+dû à M. Laillet. Ce système permet de faire des char-
+pentes légères, économiques et facilement démon¬
+tables.
+Ainsi qu'on le voit par nos gravures, les fermes amé¬
+ricaines réalisent une triangulation régulière qui
+donne à l’ensemble une grande rigidité et permet
+d'employer des bois de faible échantillon; ces fermes
+se font en madriers 8/22 et en bastings 6/16; son-
+vent on fait en fer le s parties qui travaillent à b 1
+traction, c’est-à-dire les bernes obliques et les en-
+traits.
+Les figures 139 et 140 montrent deux schémas d®
+combles retroussés dans lesquels l’entrait est remplacé
+par de grandes moïses articulées sur les arbalétriers
+entre elles.
+La ligure 141 est à gauche, une ferme Polonceoiï »
+à une seule contreficiw et à droite à deux contré
+fiches.
+Dans ces fermes le tirant se fait généralement
+en fer avec un serrage à lanterne permettant de
+régler exactement salongueur. Les combles Poloncea* 1
+se font jusqu’à 35 mètres de portée.
+La fig ure 142 est un <<mihio retroussé avec mois es
+blochets et bernes de soutien.
+La figure 143 montre un autre système de coml-^ 0
+O ** i
+retroussé consolidé par des blochets et des bernes
+supportant un plancher par des tirants en fer. f> a
+figure 144 est un comble d’atelier avec lanterneau ; h*
+arbalétriers sont renforcés par des sou s- arbalétrier*"'
+La figure 145 est une charpente de hangar sur p 0 '
+teaux.et la figure 146 une charpente pour très grand 1 '
+portée dans laquelle les arbalétriers doivent néon"'
+sairement être soutenus vers leur base pur des sou$'
+COMBLES EN BOIS
+Fig. 139 à 142.
+ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Fi". 143 à 146.
+COMBLES EN BOTS
+'(ilêtriers qui ne sont pas indiqués sur le schéma c-i-
+joint.
+La ü gure 147 montre ia construction d'un hangar
+** poteaux avec entrait retroussé ; ce système con-
+pour des hangars couverts en matériaux légers,
+g . ^pourrait faire un volume entier avec des cro-
+a . ls . ^ ern < ie < de charpentes, nous devons nous borner
+En ^ ^ ;S P El s usités et les plus économiques,
+principe toute combinaison de ferme de charpente
+onne du moment qu'elle comporte une triangu-
+Fig, 147.
+Mion qui la rend indéformable et que ses diverses
+Pièces se soutiennent mutuellement pour éviter de
+r°p grandes portées qui risqueraient de fléchir ou de
+/ aniber, c'est-à-dire de se coucher sous la charge. Mais
+11 1 - ibinaisons de charpentes pour combles
+r jc sont pas également économiques sous le rapport
+Remploi du bois. Dans les anciennes constructions
+0l ^a généralement employé beaucoup plus de bois
+qu'il n'en aurait fallu ; aujourd'hui que le bois est très
+' icr, on a avantage à construire suivant les sys-
+cmes dits américains ou articulés qui comportent
+emploi de nombreuses moïses avec boulons et tirants
+* u fer. {. est dans ce sens que nous avons choisi les
+exemples ci-dessus.
+Les combles Pombla (%. 148), sont composés d'un
+86 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+madrier courbé par un tirant en fer rond avec serrage
+à lanterne. Sur le madrier sont assemblés les arba¬
+létriers par des jambettes et des bernes en bois.
+Fi". 148.
+Dans toutes les constructions légères de ce genre où
+l'on emploie le fer et le bois, les parties soumises à la
+compression so font en bois ou en fonte et les pièces
+soumises à la traction se fori f en fer ; on a ainsi une
+bonne et économique utilisation de ces matériaux
+étant données leurs qualités respectives.
+Les combles SUeed sont employés pour toiture*
+d'ateliers (fig. 149). Le côté vertical est vitré et ex¬
+posé au nord, de préférence à toute autre orientation?
+s 7
+COMBLES EN BOIS
+d éviter le soleil ardent. Le côté incliné est géné¬
+ralement couvert en tuiles ou en zinc. Les chéneaux
+noues qui relient deux combles Sheetl doivent être
+Profonds et larges pour recevoir la neige qui tend à
+amasser entre les pentes de la toiture en dents de
+* cte formée par une suite de combles Sheed.
+■Les combles Philibert Delorme ne sont plus guère
+agités aujourd’hui ; ils se composent d’une série de
+Entres en planches chevillées ensemble et formant une
+v °ûte plus ou moins élevée .
+Les combles Emy (tîg. 150) sont formés à l’intrados
+. an arc en plein cintre construit avec des madriers
+Jointifs courbés et reliés ensemble par des ferrures ;
+a l’extrados de deux poteaux verticaux, de deux
+arbalétriers, de deux aisseiiers et d’un entrait moisés.
+L® tout est relié par des moises pendantes, des bou-
+ENCYCLOPEDIE PRATIQUE DU BATIMENT
+loris et des étriers en fer. La portée peut être de 2 fi à
+30 mètres.
+Le comble du général Ardant représenté figure 151
+est d'une construction analogue à celle du colonel
+Emy, mais elle, est plus simple et convient pour de
+grands combles de grande hauteur.
+Fig. 151.
+Efforts latéraux . Roulement. ■— Les combles sont
+soumis à des efforts latéraux provenant du vent ou
+d'inégalités de la charge qu'ils supportent. Quand un
+comble est maintenu entre deux pignons très rap'
+procliés, ce sont ces pignons qui s'opposent à la dé¬
+formation latérale de la charpente : les pannes, faî¬
+tage et sablières sont scellés dans les murs pignons-
+Mais, dès que le comble comporte plusieurs fermes,
+il est nécessaire d'empocher leur roulement latéral
+en les contreventant au moyen de lier nés ou bras d e
+force qui relient les poinçons aux faîtages, les poteau*
+aux sablières et même, dans certains cas de fermes
+à grande portée, les jambe! tes ou moïses aux pannes.
+COMBLES EN LOIS
+jiomÿon - f?
+ém _%
+l'ig. 152 à 155
+90 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+La figure 152 montre ia liaison d’un faîtage avec
+les poinçons et rentrait. La ligure 153 montre un
+plancher avec comble au-dessus, le tout sur poteau*
+est c ont reventé par deux rangs de bernes. La fi¬
+gure 147 montre l’emploi des bernes pour contreventer
+latéralement un hangar. Même quand il existe un
+remplissage en maçonnerie entre les poteaux, il est
+lion de les trianguler avec les sablières.
+On obtient aussi un bon contreventement latéral des
+combles en reliant le faîtage au sous-faîte par de K ia11
+des croix de Saint-André qui entretoisent le faîtage,
+les poinçons et le sous-faîte.
+M. Deviüez indique le moyen suivant de donnei
+de la stabilité latérale aux combles : en clouant les
+voliges sur les chevrons et en les inclinant dans un sens
+pour une partie de la couverture et dans un autre sens
+pour une partie voisine ; ces changements dhncbnai-
+son se renouvellent de distance en distant t.
+Croupes. — Les croupes (fig. 110 et 111) servent à
+terminer l’about d’une toiture ou à relier deux eorp»
+de bâtiment so croisant sous un angle quelconque-
+La croupe s’appuie sur la dernière ferme de long-pa»
+dont on voit Ventrait et le poinçon sur la figure Lh-
+De cet endroit part un demi-enlrait qui va jusqu J" 1
+mur perpendiculaire ; deux goussets supportent deux
+coyers qui vont aux angles du bâtiment ; les arba e
+triers de la croupe partent du sommet du poinçon «'
+vont aboutir aux bouts des coyers et du demi-en-
+trait ; les arbalétriers d’angle,plus longs que les autres.
+se nomment arêtiers. La figure 155 montre le menu
+dispositif adapté à une croupe biaise : dans 1 une e
+l’autre les axes des coyers et du demi-entrait doiven
+passer par l’axe du poinçon. Le demi-entrait et so
+arbalétrier, forme la demi-ferme de croupe,
+COMBLES EN BOIS
+cro ers avec les arêtiers forment les demi-fer mes d’arê
+lier.
+une
+Les figures 156 et 157 montrent l’une ie p
+Cr oupe en bout d'un bâtiment, l’autre le plan d’une
+c roupe a la réunion de deux corps de bâtiment à angle
+droit.
+Fig. 156*157.
+Dans ces figures, on voit comment les pannes des
+* ( >ngs-pans viennent se réunir bout à bout avec les
+Pannes de croupe, sur la partie supérieure des arêtiers.
+1 n voit que tous les chevrons sont parallèles mais de
+plus en plus courts quand on se rapproche des angles
+du bâtiment.
+Ces chevrons appelés timpartons , portent en bas
+*ur la sablière et en haut sur l’arêtier.
+92 ENCYCLOPÉDIE PRATIQUE DIT BATIMENT
+La poussée des arêtiers, de l'arbalétrier de croupe
+et des chevrons est soutenue par les coyers et le demi-
+entrait et ne se fait pas sentir sur les murs.
+Un toit en pavillon est la réunion de deux croupes
+adossées par une ferme de long-pan, sa construction
+représente donc deux lois les ligures 154 ou 156 ados¬
+sées respectivement.
+Combles de clochers. — Les combles de pigeonnier,
+de clochers ou flèches sont constitués comme les
+croupes par un poinçon p (fîg. 158 et 159), reposant
+159.
+Fig. 158 et
+sur un entrait tout autour du centre duquel rayon'
+nent des dcmi-entraits a et des coyers c soutenus pa r
+des goussets.
+Les arbalétriers-arêtiers s’assemblent tous en haut
+du poinçon que l’on fait polygonal avec autant de
+côtés qu’il y a d’arêtiers à assembler.
+L’écartement des arêtiers est maintenu par des
+COMBLES EN BOIS 93
+Pannes assemblées à diverses hauteurs et qui reçoi-
+' le chevronnage.
+('Ombles sphériques .—Les combles de dômes, ou
+s Phériques, sont composés de demi-fermes ou poutres
+imposées comme le montre la figure 160, se réunis-
+s aut à un poinçon au sommet. Ces demi-fermes sont
+ancrées ensemble et avec le poinçon par des Ferrures
+s °üdes.
+pimensions des combles, — Pour calculer les divers
+’'' !l| .ents d'un comble il faut déterminer la charge
+HU il aura à supporter et qui sc compose :
+1° I)u poids propre du comble dont on évalue le cube
+^'liois à environ Orne. 070 par mètre carré de surface
+couverte pour un comble moyen et 0 me. 100par mètre
+Ca rré de surface couverte pour un grand comble.
+2° Du poids de la couverture qui doit être calculé
+la surface effective de la toiture.
+Le tableau ci-après donne les poids approxi¬
+matifs des toitures et les pentes à adopter selon le
+genre de couverture.
+encyclopédie pratique du batiment
+N AT U RE
+de la
+COUVERTURE
+Poids du
+mètre carré
+mis en plane
+Pente
+d u
+toit
+Mds de h
+rhnrjiniL jinr
+m. du tm "luit
+Bardeaux chêne .
+kilos :
+Degrés :
+kilos :
+—* sapin..
+Tuiles plates .
+82 à 85
+27 à 60
+Autres tuiles à sec.
+21 à 27
+Tuiles creuses maçonnées .
+138
+Ardoises.
+24 à 28
+33 à 45
+Zinc, tôle, plomb.
+6 à 8
+18 à 25
+34 1
+Papier goudronné .......
+6 à 8
+18 à 25
+Fibro-ciment.
+. 10
+18 à 25
+Verre . .j
+18 à 25
+Il faut ajouter à ces poids la charge possible de
+neige suivant tes pays, 10 à 25 kilos par mètre carré,
+et la pression du vent suivant la pente du toit.
+En 1 "rance on peut estimer comme suit la surcharge
+due à la pression du vent.
+Pente de 18 à 25°, surcharge du vent, 10 à 15 kilos par m. <!•
+— 25à35<> — 15 à 25 —
+— 35 à 60° — 20 à 30 —
+Les ci libres les plus élevés do ce tableau étant pris
+dans le cas de toitures au bord de la mer et dans les
+grandes plaines très exposées aux vents.
+Par exemple, pour une toiture en tuiles dans une
+région très exposée au vent, on aura :
+Poids de la charpente .,
+— tuile _
+N eig-e ..
+Vent.
+*«####
+¥*•*■*
+50 kilos
+B0 —
+20 —
+25 —
+Charge totale. 175 ki
+par mètre carré de toiture.
+Pour avoir le poids par mètre carré de surface cou
+verte, il suffit de multiplier ce chiffre par-
+1 1 cos<
+aétant P angle de pente du toit.
+COMBLES EN BOIS
+pour
+lahleau ri-dessous donne les angles de pente
+les diverses portées et hauteur de combles.
+Portée
+Ut ferme
+Hauteur
+du co mille
+Pente
+du toit
+par mètre
+Angle
+de pente
+Valeur
+de cos k
+45 °
+0.707
+0.666
+33°6
+0.832
+0.50 j
+26°5
+0.894
+0,40
+22 °
+0.928
+0.333
+18°5
+0.948
+0.285
+4 6 °
+0 . 96
+0 . 25
+14 °
+0.97
+0.22
+12°5
+0.976
+0.20
+14°3
+0.98
+Rondelet dit que la pente des toits doit être propor-
+lonnée à la latitude du pays, c'est-à-dire que les
+Pentes des toits doivent augmenter au fur et à mesure
+q^e l’on se rapproche des pôles de la terre. Il conseille
+e prendre la latitude du lieu et d'en retrancher la
+^titude du tropique qui est de 23°5 environ; on a
+^insi l'angle de pente convenable pour les toitures.
+Ainsi Lyon étant à 45°5 environ, si l'on retranche
+ü ‘ 0 chiffre 23°5, il reste 22 degrés pour l’inclinaison
+toits à Lyon.
+Paris étant à 49° de latitude, en retranchant 23°5,
+preste 25°5 pour la pente des toits à Paris. Mais cette
+doil être modifiée selon Je genre de couverture
+exige plus de pente avec des tuiles plates ou des
+Ardoises qu'avec des tuiles romaines ou du zinc ;
+^Ue doit surtout être modifiée selon l'exposition des
+Çitures et le régime des vents dans la région. C'est
+^iiisi que les toits exposés au sud ou à l’ouest dans les
+r(l gions de Paris et de l’ouest de la France doivent
+uv oir plus de pente que ceux exposés au nord ou à
+U6 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+l'est, car les grandes pluies viennent généralement du
+sud et de l'ouest.
+11 n'y a donc pas de règle absolue en cette matière.
+Calcul des équarrissages des bois pour combles. —
+On établira la charge supportée par chaque pièce du
+comble et on déterminera si celte pièce travaille à la
+compression, à la traction ou à la flexion ou si elle
+subit des efforts multiples de compression et de
+flexion (cas des arbalétriers). Le calcul des équarrissages
+sera fait selon les indications données ci-dessus à
+propos de la résistance des poutres. < li-après nous
+reproduisons deux tableaux où Ton trouvera des
+approximations sur la force des bois à employer
+dans les toitures ordinaires.
+Lucarnes . -— Les lucarnes se font en arc de dé¬
+charge reposant sur deux chevrons cc dits chevrons
+de jouée qui supportent un linçoir l ou traverse hori¬
+zontale de décharge sur laquelle viennent reposer
+les chevrons dd qui sont coupés pour former la lucarne:
+celle-ci se compose d'une petite toiture formée d’un
+faîtage et de deux sablières ancrés dans les che¬
+vrons de jouée et dans le linçoir et reposant en avant
+COMBLES EN BOIS
+■4*j
+<NÏ
+Ifi
+'■'-4
+*Jï
+JV1
+1 X
+vrt X
+* CM
+•»—1
+*e“<
+•CO
+T-<
+t .
+p-4
+*ri
+CO X
+*tH
+«rfH
+€ J
+-V—4
+«*H
+*r*
+i ■
+*rH
+15 x 18
+15 x 15
+VMl
+r-l
+*zri
+rrH
+*T^
+f/J
+U->
+^~ l
+*rH
+T-i
+1 X
+à I
+_■*_ 4 V
+£-4
+* ■—«*
+î-ï
+♦ »
+COI
+CO *
+<ï*
+*çH
+Equarrissage des bois dans les combles (1)
+désignation
+Ferme simple
+Portée de :
+Ferme à entrait
+retroussé et arbat trier
+allant du faite au tirant i
+1 des
+Portée de :
+1 PIÊCES
+6 métrés
+12 m très
+6 mètres
+i 2 mô très
+I Tirant ne portant
+I pas plancher .
+0,27x0,24
+0,40x0,36
+1 Tirant portant
+| plancher.
+0,32x0,27
+0,47x0,37
+0,43 x 0,20
+0,63x0,45
+I Kntrait retroussé
+0,21x0,19
+0,33x0,30
+1 .1 ambes de force .
+I Arbalétriers ....
+0,22 x 0,10
+0,32x0,30
+0,22x0,19
+0,32x0,30
+1 Poinçon.
+0,19x0,19
+0,30x0,30
+0,19x0,19
+0,30x0,30
+1 Contrefiches et
+1 jambetles ...
+0,16x0,16
+0,21x0,21
+0,15x0,15
+0,22x0,22
+I Aisseliers ......
+0,19 x 0,15
+0,30x0,22
+il l 1 9,Î trcl^C .* *
+0,19x0,19
+0,22x0,19
+0,19x0,16
+0,22x0,19
+1 Liens de faite ...
+0,15x0,15
+0,17x0,17
+<►,15x0,15
+'0,17x0,17.
+1 Pau mes, tasseaux
+1 chantignoles .
+0.19x0,19
+0,22x0.22
+0,19x0.19
+0 , 22 x 0,22
+1 1 jrrneç .
+1 }>
+Il Sablières
+0,12x0.23
+0,16x0,23
+0.12x0,23
+0 , 16 x 0,28
+1 Blochets .......
+1 *
+I Chevrons.
+0,09x0,09
+0,11x0,11
+o,09 x 0,09
+0,11 x 0.11
+0,01 x 0,09
+I Coyaux .
+(►,08x0,07
+0,10x0,09
+0,08x0,07
+1 Chu ni al tes --
+0,16x0,03
+0,20x0,05
+0,18x0,03
+0.20x0,05
+| (i) Extrait des Construrtums Ciriles deE. Barbcrot, architecte. ^
+hqnurnssage des hors dons les combles (I )
+désignation
+des
+Ferme à entrait
+retroussé et jambes
+de forcé
+Portée de ;
+Combles
+à la Mansard
+Portée de :
+PIÊ CE S
+6 métrés
+12 métrés
+6 mètres
+12 métrés
+^ irant ne portant
+pas plancher. -
+tirant portant
+plancher.
+0,42x0.30
+0,63x0,45
+0,42x0,30
+0,63 + 0,45
+Entrait retroussé
+0,21 x 0,19
+0,33x0,30
+0,23x0,20
+0,36x0,33
+Jambes de H iree ,
+0,24x0,19
+0,35x0,30
+0,22 x 0,20
+0,34x0,33
+Arbalétriers ....
+0,18x0,15
+0,27x0,22
+0,20x0.18
+0,30x0,28
+Poinçon.
+0,15x0,15
+0,22x0,22
+0,18x0,18
+0.28x0,28
+C ont refiches et
+jambettes ...
+0.14x0,1
+0.18x0,18
+0,14x0,14
+0.18x0,1 8
+Aisseliers
+0,19x0,15
+0,30 x 0,22
+0,20x0.13
+0,33x0,22
+Paît âge .......
+0,19x0,16
+0,22x0,19
+0,19x0,16
+0,22x0,19
+Liens de faîte ,..
+0,15x0.15
+0,17x0,17
+0.15x0,15
+0,17x0,17
+Pau mes, tasse aux
+chantignoles..
+0,19x0,19
+0,22x0,22
+0,19x0,19
+0.22x0,22
+Liernes..
+0.19x0,19
+0,22x0,22
+0.20x0,20
+0,23x0,23
+Sablières .
+U, 12x0,23
+0,16x0,28
+0,12x0,23
+0.16x0,28
+Blochets.
+0,18x0.14
+0,22x0,16
+0.18x0,14
+0,22x0,16
+Chevrons.
+0,09x0,09
+0,11x0,11
+0,09x0.09
+0,11x0,11
+Coyaux .
+0,08x0,07
+0,10x0,09
+0,08x0,07
+0,10x0,09
+Chanlattes.
+0,16x0,03
+0,20x0,05
+0,16x0,03
+0,20x0,05
+jl ’ Extrait des C'msfruciit)n.s Ciriies, de Ji. Barberot, architecte
+100 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+sur deux arêtiers et sur deux jambages en bois ou en
+maçonnerie surmontés d’un linteau formant entrait
+et d’un poinçon comme le montre la figure 161.
+Pes lucarnes et œils-de-bœuf ne doivent jamais
+faire saillie sur le mur extérieur. Le règlement du
+23 juillet 1884 ordonne qu'à Paris l’ensemble des lar¬
+geurs des lucarnes d’un bâtiment ne doit pas excéder
+les 2/3 de la longueur de la façade du bâtiment. Les
+toitures de ces lucarnes ne doivent pas faire saillie
+rie plus de 0 m. 50 sur le périmètre légal mesuré sui¬
+vant le rayon dudit périmètre.
+CHAPITRE VIII
+Constructions démontables
+--—-_-
+gs constructions peuvent être conçues de deux
+1 9 ni ères différentes :
+10 Une charpente démontable formant toute la
+l'ig. 162
+^rcasse du bâtiment et sur laquelle viennent se
+^ Gr <wec des boulons et des agrafes en fer des pan-
+Gaux en bois pleins ou formant portes et fenêtres
+162 ).
+102
+ENCYCÏ.OPKIHE PRATIQUE MU BATIMENT
+2° Un certain nombre de panneaux en bois à dou¬
+ble épaisseur assemblés avec des boulons, des tringles
+ou des agrafes en fer et formant les murs et cloisons
+du bâtiment. Sur ces murs en bois viennent se
+boulonner les fermes d'une charpente légère recou¬
+verte de panneaux de toiture ou de tôle ondulée gal¬
+vanisée.
+Fig. 163.
+Les constructions démontables à double paroi en
+bois coûtent généralement plus cher qu’une construc¬
+tion en maçonnerie et présentent moins de confor¬
+table et pins de risque d'incendie. La meilleure solu¬
+tion des constructions démontables, qui doivent sé¬
+journer un certain temps dans le même endroit, con¬
+siste à faire une charpente démontable formant toute
+la carcasse et la toiture du bâtiment et à remplir les
+intervalles avec des maçonneries légères en briques
+ou en carreaux de plâtre maçonnés au plâtre. Les
+parquets et plafonds sont faits avec des panneaux de
+bois et la toiture en tôle ondulée. On obtient ainsi
+des constructions peu coûteuses et que l’on peut dé-
+CONSTRUCTIONS DEMONTABLES 103
+placer on perdant seulement la valeur de la main-
+d’œuvre et du plâtre nécessaires à l’exécution des
+Maçonneries de remplissage. Ces constructions re¬
+viennent moins cher que celles à panneaux de bois et
+y ont plus confortables.
+Charpentes démontables à éléments interchangeables
+de R, Champly. -— Nous avons fait breveter en
+un système très simple pour cons¬
+truire des charpentes légères au
+Moyen de poutrelles assemblées
+par un boulon et un crochet
+av ec p artie fil été cotée rou, comme
+le montre la fig. 163 : le boulon
+serre les poutrelles dans un plan
+et le crochet, accroché sur le bou¬
+lon, serre les poutrelles dans un
+plan perpendiculaire. Cet assem¬
+blage est très rigide et très
+solide. En calculant la longueur
+des poutrelles de manière
+qu’elles soient entre elles comme
+, V 2 , v /3 e
+1, V 2, V 3 et 2, nous pouvons
+construire avec ces poutrelles,
+* ^
+Mterehangeables entre elles, ton¬
+tes sortes de charpentes de toutes
+formes et de toutes dimensions
+avec toiture en pente de 30 de¬
+grés. La fig. 164 montre l'ap¬
+plication de notre système d'assemblage des bois à
+un échafaudage roulant démontable de 8 mètres
+■ a
+<: c hauteur. Ce procédé est aussi appliqué à des ba¬
+raques démontables, à des hangars forains et pour
+aéroplanes.
+Fig. 164
+CHAPITRE IX
+Echafaudages» Etalements» Cintres
+Les échafaudages ou échafauds se font verticaux
+pour la construction des murs et les ravalements»
+horizontaux pour les plafonnages» voûtes et re joint oie-
+nients, volants pour les petits travaux de rejointe-
+ments et de peinture.
+Pour rédification des échafaudages, on emploie des
+échasses , ceo perches ou baliveaux en sapin, mélèze ou
+aulne plus ou moins gros selon la charge que l’écha¬
+faud doit su])porter et longs de 4 à 15 mètres selon la
+hauteur. Pour les grandes hauteurs, on joint bout à
+bout les écoperches avec une li¬
+gature très solide en cordages,
+comme le montre la üg. 165. Les
+âges sont verticaux,.re-
+'S aux murs du bâtimont pardes
+boulins en chêne ou en frêne de
+2 m. 50 de longueur scellés dans
+le mur par des patins en plâtre
+et ligaturés sur les écoperches
+(fig. 165). Les écoperches sont
+scellées dans le sol avec du plâtre.
+On relie les écoperches entre elles
+et les boulins entre eux avec des filières qui sont
+Fig. 165.
+des planches ou des écoperches ] lacées horizonta
+lement et ligaturées sur les boulins et les écoper-
+ECHAFAUDAGES, ÉTAIEMENTS, CINTKES 105
+ches verticales. On met généralement les rangées de
+boulins à 1 m. 80 les unes des autres en hauteur et
+les écoperches à 2 mètres de distance horizontale. Les
+Fig. 166 à 173.
+cordages d’assemblage se nomment troussières . Sur
+les boulins, on pose des planches de 3 à 5 centimè¬
+tres d'épaisseur pour former une plateforme con¬
+tinue sur laquelle les ouvriers peuvent dépo.s< r les
+matériaux ut travailler à Taise.
+//////,
+. . *1
+106 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Lus échafaudages horizontaux se font sur tréteaux
+ou sur des mortzeis qui sont des boulins de 4 mètres
+environ de longueur. On étain les planches en dessous
+avec des boulins posés debout.
+La fig. 166 représente un câble d’acier avec cosse
+et anneau pour le levage des matériaux sur les écha¬
+faudages au moyen d’un treuil ; les fig. 167 et 169 des
+palans en acier et en bois avec poulies en cuivre et les
+lig. 168, 170 et i /! des crochets de sûreté employés
+pour le levage des matériaux.
+La lig. 172 montre un procédé pour l’assemblage
+des écoperches et des boulins au moyen d’une chaîne
+et d’une presse à vis. Ces chaînes remplacent les trous-
+siêres dans les échafaudages impor¬
+tants ; elles rendent des services pour
+la construction des ponts et charpen¬
+tes provisoires.
+La fig, 173 montre un échafaudage
+volant soutenu par deux palans et ac¬
+croche à des potences provisoirement
+établies au sommet du mur. Cet écha¬
+faudage sert surtout aux travaux de
+peinture et de ravalement.
+Quelquefois l’échafaudage se réduit
+simplement à une sellette accrochée
+par des bretelles à une corde à nœuds.
+L’ouvrier assis sur la sellette a les jam¬
+bes munies de lanières avec des cro¬
+chets qui se prennent sur la corde à
+nœuds.
+On fait aussi un échafaudage léger
+o o
+avec des cordes supportant des boulins,
+comme le montre la lig. 174, de façon à former une
+suite d’étriers d’environ i m. F>0 de largeur sur les¬
+quels on pose les planches.
+Fig. 17 '.
+ÉCHAFAUDAGES, ÉTAIEMENTS, CINTRES 107
+Los échafaudages en bascule se font comme le mon-
+Ire la fig. 174 bis avec des poutrelles en porte à faux
+sur les appuis des fenêtres; le mouvement de bascule
+est empêché par des étais verticaux posés entre la
+queue de la poutrelle et le plafond de l’étage. Si
+1 on emploie le dispositif de la hg, 17o où 1 échafau¬
+dage est supporté par des boulins inclinés, il faut
+avoir soin d’ancrer très solidement les boulins hori-
+r- i— l.
+p ™ 1
+Fïf?. 174 bis.
+zontaux dans le mur, soit par des scellements, soit
+avec des cordages, car l’échafaud tend a s écarter
+du mur.
+La fig. 176 montre un système d échafaudage com¬
+posé de fortes échelles verticales réunies entre elles
+par des filières et des croix de- Saint-André , le tout
+assemblé par des boulons. Ce système d’échafaudage
+est très solide et permet d’atteindre de grandes
+108 ENCYCLOPEDIE PRATIQUE DU BATIMENT
+lenteurs avec sécurité pour les ouvriers. 11 y a une
+échelle tous les 2 mètres.
+Les échelles servant a la montée des ouvriers et des
+Fig. 17 G.
+matériaux sur les échafaudages doivent être très so¬
+lides et être attachées à leur sommet avec un < orda^e
+sur la filière de l'échafaudage. Si l’échelle est très
+longue et risque de fléchir, on la soutient au milieu
+par des écoperches liées avec des cordes sur les mon¬
+tants de l’échelle.
+Sapines et chèvres. — Quand on doit construire un
+immeuble important, on élève sur le trottoir une
+sapine formée de quatre mâts ayant la hauteur de la
+construction
+édifier
+on scelle ces mâts dans le soi
+avec des pierrailles et du plâtre et on les réunit par des
+traverses horizontales et des croix de Saint-André
+ÉCHAFAUDAGES. ÉTALEMENTS, CINTRES 109
+clouées ou boulonnées à la hauteur de chaque étage
+(fig. 177).
+Les matériaux sont montés dans l'intérieur de la
+rapine par un treuil supérieur (fig.
+1/8) ou par un treuil inférieur
+179 et 180) dont le câblepasse
+SUr une poulie de renvoi placée
+au sommet de la sapine.
+On se sert aussi d’une grue ou
+c 'lièvre placée au sommet d’un
+ill ur déjà construit. La chèvre dont
+charpentiers se servent fréquem¬
+ment pour lever les fermes et les
+poutres est maintenue en arrière
+l )£ ir deux haubans et retenue en
+uvant par un contre-hauban ; cet
+a Ppareil est trop connu pour que
+n °us le décrivions ici. Quand on n’a
+qu’une charge relativement faible à
+lever, on peut remplacer la chèvre
+par une échelle haubannée , c'est-à-
+dire maintenue presque verticale
+p ar trois
+ou quatre
+haubans
+fixés à son
+sommet
+et ancrés
+dans le sol à distance con¬
+venable (la longueur de Pé-
+chelle à partir de son pied).
+I 1 itr. 1 **TO . On attache au sommet de
+l’échelle un palan et l’on
+peut lever ainsi des pièces
+Fig. 177.
+■g- 178. —Treuil pour placer
+sommet «les sapines.
+posant plusieurs centaines de kilos,
+110 ENCYCLOl'ÉHIE PRATIQUE DU BATI MEUS T
+Pour les édifices de grande importance, on em¬
+ploie de grands échafauds qui sont de véritables
+charpentes assemblées avec des moises et des bou¬
+lons de façon à en permettre le démontage et le
+déplacement rapides. On fait aussi usage d'échafau¬
+dages roulants sur rails en fer posés sur des traver¬
+ses dans le sol. A Paris, depuis quelques années,
+quand on a un bâtiment important à construire,
+Fig. 179-180. — Treuils à simple engrenage et à double engrenage
+se fixant en bas des chèvres ou sapines.
+011 fait une énorme maison en bois avec baies vitrées,
+dans l'intérieur de laquelle on construit le bâti¬
+ment en maçonnerie avec sa charpente et sa toi¬
+ture. On ne démolit cet abri provisoire que lorsque
+le bâtiment est terminé : ce procédé permet de
+travailler malgré Je froid et les intempéries et
+d'exécuter très rapidement les travaux les plus
+considérables.
+ÉCHAFAUDAGES, ÉTALEMENTS, CINTRES
+111
+Ordonnance du Préfet de police concernant les
+c hafaudages sur la voie publique à Paris (12 mai :
+I itrc premier. ■— Echafaudages fixes scellés
+ou non dans les murs de face.
+Article premier.
+Tout échafaudage fixe, scellé
+0u n on dans un mur de face, et portant sur le sol,
+<*nra ses planchers garnis de garde-corps sur les trois
+eûtes faisant face au vide.
+Art. 2. — Les planches placées en travers des bou-
+lus horizontaux pour former plancher, devront être
+Posées jointives et être assez longues pour porter au
+moins sur 3 boulins.
+Art. 3. —Les garde-corps auront 0 m. 90 de hauteur
+nu moins ; ils seront ou pleins ou composés d'une tra¬
+verse d’appui solidement fixée; quand ils ne seront
+pas pleins, le plancher devra être entouré d’une plin¬
+the ayant au minimum 0 m. 25 de hauteur.
+Art. 4. — Tout échafaudage fixe dont la hauteur
+au-dessus du sol dépassera 6 mètres, sera muni d’un
+plancher do sûreté construit dans les conditions indi¬
+quées à F article 2 ci-dessus et posé à 4 mètres environ
+au-dessus du sol de la rue.
+Art. Ô. — Partout où travailleront des ouvriers sur
+Un échafaudage fixe, il sera disposé des toiles pour
+arrêter les poussières et empêcher la chute sur la voie
+publique des éclats de pierre ou de plâtre.
+Titre IL — Echafauda ges fixes en bascule et en
+saillie sur le. mur de face.
+Art. G. — Les pièces posées en bascule pour recevoir
+112 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+l'échafaudage seront de fort équarrissage, si eJies sont
+en charpente ; de gros échantillons, si elles sont en fer.
+Elles recevront un plancher de madriers qui repo¬
+seront sur trois traverses au moins.
+Les dispositions des articles 1, 2, 3 et 5 ci-dessus
+sont applicables aux échafaudages établis en bascule.
+Art. 7. — U est fait exception pour les échafaudages
+légers employés sur les toits. Toutefois, ces échafau¬
+dages devront également reposer sur 3 traverses
+fixées solidement aux parties résistantes de la cons¬
+truction et êt re munis, sur le côté faisant face au vide,
+d'un garde-corps ci d'une plinthe disposée conve¬
+nablement.
+fibre 111. — Echafaudages mobiles ou fixes
+suspejuins par des cordages .
+Art. 8. — Tout échafaudage mobile aura son plan¬
+cher garni d'un garde-corps sur les 4 faces et sera sus¬
+pendu par 3 cordages au moins.
+Art. 9. — Le plancher, qu’il soit en métal ou en
+bois, sera composé de fortes pièces solidement assem¬
+blées.
+Art. 10. — Les garde-corps seront composés d'une
+traverse d'appui posée à la hauteur de 0 m. 90 sur les
+3 côtés faisant face au vide et de U m. 70 sur le côté
+faisant face ù la construction. CeU e traverse sera portée
+par des montants espacés de 1 m. 50 au plus et soli¬
+dement fixés au plancher. En outre, il y aura par le
+bas une plinthe de 0 m. 25 de hauteur au moins.
+Cet ensemble de plancher et de garde-corps, formant
+ce qu’on appelle la cage, devra être assemblé et rendu
+fixe dans toutes les parties avant la suspension.
+ECHAFAUDAGES, ÉTAIEMENTS, CINTRES 113
+, 11' — Les cordages de suspension s’adapteront
+a c ‘ es étriers en fer passant sons le plancher, garnis
+en baut d’un crochet en spirale, et établis de manière
+a supporter par un épaulement externe la traverse
+supérieure du garde-corps.
+Ls se manœuvreront par des moufles amarrées ou
+*xées aux parties résistantes de la construction, telles
+U 11 " murs pignons ou de refend, souches de cheminées,
+arbalétriers et pannes de combles, etc. Les chevrons,
+balcons, barres d’appui ou autres parties légères de la
+1 Obstruction nu pourront, dans aucun cas, servir à cet
+12. — Les dispositions des articles 8 et 9 et
+paragraphe 1 er de l’article 10 sont seuls applicables
+aux échafaudages fixes suspendus par des cordages.
+r ■ 'I m
+titre IV. — Echafaudages métalliques roulants.
+13. — L’échafaudage roulant sur les barres
+n * &
+appui de balcon sera en fer et ne pourra contenir
+( f u un seul ouvrier.
+il sera muni, sur le » <> 1 «■ opposé au balron, d’un
+garde-eorpsà une hauteur de U m. 50 et le siège en sera
+solidement fixé par l’armature.
+* *
+Les étalements , étrêsillonnements et chevalements se
+font avec des boulins ou des morceaux de troncs de
+sapin nommés étais ou élançons, plus ou moins gros
+-On l’importance de la charge à soutenir, et avec des
+planches épaisses ou couchis et des semelles en ma-
+driers destinées a répartir la pression des étais sur une
+iai’ge surface du mur à soutenir et du sol. Les lig. 8
+114 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+et 182 montrent rétrésillonnement des parois d'une
+Fier, 181 . — Etayage d’un talus de fouille.
+fouille ; on force les étais avec une pince et on les
+maintient en place avec des coins cloués ou avec des
+Fig. 182. — Etayage d’une tranchée.
+broches en fer. On relie les étais entre eux avec des
+moïses pour leur donner [dus de solidité. Les lig. 183
+Echafaudages, êtaiements, cintres lif
+' t 18 1 montrent l’étaiement d’un mur dé bâtiment :
+s pieds des («tais reposent sur une large semelle ;
+aus lu 184 une plate-forme en madriers est posée
+le mur et la semelle est enfoncée en terre perpendi¬
+culairement aux élançons.
+Pour faire les travaux en sous-œuvre, on pose sous
+' planchers (fig. 185) et sous les murs (fig. 186) des
+l( Q <uetavrils formés d’étais imposant sur des semelles
+supportant la charge par un chapeau qui peut être
+Ue forte poutre si la charge est considérable. Les
+* ais sont calculés assez longs pour qu’ils puissent
+y.* 8 forcés à la pince dans une position presque ver-
+I( H est nécessaire, dans ces travaux en sous-
+j~cr\ re, d*ètrèsillonner les portes et les fenêtres comme
+f Contre la tig. 186 afin d’empêcher la dislocation
+aes murs.
+Pour reconstruire un mur dans toute sa hauteur, on
+me tous h*s planchers on faisant porter les étais les
+us au-dessus des autres, comme le montre la fig. 185.
+116 ENCYCLOPÉDIE PRATIQUE DU BATIMENT
+Les cintres son! les formes en bois sur lesquelles
+Fig. 185.
+on construit les voûtes en maçonnerie ou
+en béton.
+Pour les
+Fig. Î8G.
+petites voûtes, on
+fait les cintres avec des
+à la courbure delà voûte
+Echafaudages, étaiements, cintres 117
+^ clouées ensemble (fig. 187); ces planches se nom-
+j Gn ^ es vea ux. Sur les veaux assemblés, on cloue des
+P anches, voliges ou madriers formant un couchis sur
+Fi", r 87.
+e( ÏUel sera construit la voûte. Les cintres sont droits,
+courbes, d’équerre, etc., selon la forme de la voûte et
+Ses divers raccordements ; leur forme extérieure doit
+être exactement la forme intérieure de la voûte ter-
+min ^ e - La solidité des çhitres doit être suffisante pour
+apporter le poids des matériaux constituant la voûte.
+J 18 encyclopédie pratique du batiment
+La fig. 188 montre la manière do soutenir un petit
+cintre au moyen de piédroits formés d'étais ordinaires.
+Les cintres pour l.es voûtes de grande portée d'é¬
+glises, de ponts, de tunnels, etc., sont d'importants
+ouvrages de charpente présentant nécessairement
+une grande solidité et composés de poteaux, d'arba-
+létriers, de moises, bernes, semelles, etc., réunis par des
+assemblages et des boulonnages démontables, de façon
+qu'autant que possible un même cintre puisse servir
+à la confection de toutes les voûtes semblables.
+La iig. 189 montre un de ces cintres en charpente
+soutenant un couchis de madriers sous une voûte
+dissymétrique. Le décintrage des voûtes ne doit sc
+faire que lorsque le mortier est. suffisamment sec ; pour
+décintrer une ponte , on relâche peu à peu tous les étais
+soutenant les cintres en agissant sur eux avec une
+pince et non avec un marteau, ce qui ébranlerait inu¬
+tilement la maçonnerie.
+Quand il s'agit d’ouvrages très importants, on fait
+AF A Un An ES, ÉÏAIEMENTS, CINTRES 119
+sacs ^^ ,° ta * s ^ es cintres sur des vérins ou sur des
+f i p î " ce facilite le décintrage et permet
+façon COn - Ulre A tr ® s lentement et régulièrement, de
+ffr p e • a Aoûté se tasse également et prenne pro¬
+gressivement son assise définitive.
+CHAPITRE X
+Manière de procéder pour la construction
+des Charpentes en général
+La construction dos charpentes comprend trois
+)hases distinctes qu’il importe de bien exécuter pour
+obtenir un travail facile et bien fait ; ce sont :
+1° Le dessin ou épure sur papier et le calcul des
+divers éléments de la charpente ;
+2° L’épure en grandeur d’exécution sur une aire
+plane et horizontale ;
+3° Le travail des bois sur l’aire, leur montage à pied
+d’œuvre, le levage et la mise en place.
+Nous allons étudier successivement ces diverses opé¬
+rations. ' Aj
+1° Epure-dessin et calculs. — b ait es d abord un cro¬
+quis indiquant la forme du plancher ou du terrain à
+couvrir et remplacement des principales poutres ou
+fermes. S’il s’agit d’un plancher, déterminer Rempla¬
+cement des maîtresses poutres, des chevêtres, ainsi
+que les espacements les plus favorables à donner aux
+bois pour la beauté du travail en même temps que
+pour l’économie du cube de bois à employer. Voir à
+W '
+construction DES CHARPENTES en général 121
+ét* S ^f^* C ° ^ 11 * es * ^ P a £ e 67. Ce premier travail
+ant tait, déterminer le poids approximatif du plan-
+îtr (\ ou* page 70) et la charge qu'il devra supporter.
+i V< ^? ces cléments, vous pourrez calculer facilement
+charge que supporteront chacune des maîtresses
+°mics et les solives de remplissage, ce qui vous per-
+^ ettra de calculer la section de ces poutres et solives,
+eu enant compte de leur longueur, selon ce qui est
+^ pages 27 et suivantes.
+Ayant ainsi déterminé les dimensions des bois du
+1 aiuhet, faites une épure exacte sur panier à une
+ec heÜe donnée.
+échelle à laquelle on fait l'épure ne doit pas être
+U) S{ ' UU ^ asar 6 : las plus commodes sont celles de
+v . c ; ent imètres, 5 centimètres, 2 centimètres et 1 een-
+£ ^ le P ar m(1 tre. On choisit l’une ou l’autre selon
+7 lmens ions de 1 ouvrage qu'il s’agit de représenter
+1 Selon la grandeur des planches d'étude dont on
+J ^
+p , . )lu 0 sur P a pi er permet de juger exactement de
+Co n * f ïa l ) le du travail et de vérifier si les calculs sont
+n rr a‘ ts * • si i la répartition des bois est bonne et éco-
+c*o ^ aitos sur 1 épure tous les changements et
+t^ireeti o ns que vous jugerez utiles, de façon que le
+a\ail soit definitivement arreté sur le papier avant
+ro donné aux ouvriers.
+O J J
+cl v ^ " 1 ^ ^ ^ mie charpente de toiture, il y a plusieurs
+a considérer dans fa confection du croquis et
+La lorrne des fermes, la pente des toits, le
+1 e , triangulation des bois : tout ceci dépend de
+ca i° rtee ^ans œuvre, des conditions climatériques lo-
+pl j CS .i ^ c l iar g e imposée par la couverture et les
+m îeis de greniers qui peuvent être supportés en
+P tie par les fermes du toit.
+les petites portées de 1 à 12 mètres, on fait
+122 MH ‘Y Kl/l.K !•: NCYCLOPKDIE DU PATI MK NT
+; enfin pour les gr£ >es,
+les fermes des ligures 121 et 122; pour les portées
+de 10 à 20 mètres, on fait les fermes des figures 123 à
+125 ou bien des fermes américaines représentées dans
+les figures 127 à !
+en fait des fermes de Polonceau à plusieurs contre-
+fiches avec tirants en fer.
+Il faut déterminer l'espacement des fermes, selon
+la forme du terrain et la charge à supporter : cet es¬
+pacement peut varier de 3 à 5 mètres ; il y a avantage
+à ne pas trop espacer les fermes, ce qui permet d'em¬
+ployer des bois de moindre équarrissage pour les
+pannes et faîtages.
+Déterminez la charge que supportera chaque ferme
+et qui est composée du poids de la charpente, plus le
+poids de la couv erture, plus le poids des planchers,
+transmissions, marchandises, etc., que la ferme doit
+recevoir. 11 faut encore ajouter à res charges les sur¬
+charges arc idiml elles du vent et de la neige. .Nous
+avons donné dans ce livre tous les éléments néces¬
+saires à la détermination de ces poids par mètre carré
+de surface couverte.
+Connaissant la charge totale que supporte une
+ferme, il faut maintenant déterminer la charge que
+supporte chacun des éléments de la ferme.
+Si la ferme repose sur deux poteaux, comme c'est le
+cas dans les hangars, il est évident que chaque poteau
+supporte J a moitié de la charge totale, par compres¬
+sion.
+L'arbalétrier d'un appentis supporte la charge
+totale de la toiture : il est soumis à un effort de flexion
+et à un effort de compression provenant de la ten¬
+dance qu'a la toiture à glisser sur la pente du toit.
+Si nous appelons P la charge totale, considérée comme
+uniformément répartie sur toute la longueur de l'ar¬
+balétrier, la force qui tend à le rompre a pour exprès-
+CONSTRUCTION DES CTTARDENTES EK GENERAL '123
+base
+Sl0n ~2 008 a ' ( y - étant l’angle de pente du toit), et la
+forci' qui tend à le comprimer est P sin
+Ces deux formules permettent de calculer les di¬
+mensions de rarbalétrier, en le considérant comme
+un*! poutre non encastrée et en appliquant les for-
+mules de la page 26. il faut tenir compte dans le
+des poteaux et arbalétriers des effets de flam-
+g ( ‘ qui peuvent se produire sur les pièces très lon-
+gu*!s soumises à la compression (voir page 23).
+Qu peut atténuer ces effets de flambage en réunis-
+s ant les arbalétriers entre eux et au poinçon par des
+mot.ses et en mettant des lier ne s ou bras de force entre
+* es poteaux et les sablières et l’entrait.
+Los arbalétriers d’une ferme à deux pentes sup¬
+portent chacun la moitié de la charge totale en ce
+flui concerne l'effort de flexion, mais iis opèrent Lun
+* 1il ^ filtre un effort de compression de sorte que la
+orniule applicable devient pour l'effort de flexion.
+— COS «
+otant la charge totale de la toiture.
+Les arbalétriers exercent l’un surl’aut re une poussée
+dont la valeur est -—r—. Cette poussée, dont l’im-
+2 sin at
+portance devient considérable dans le < as des toits à
+L'ès faible pente, se reporte sur Centrait qu’elle tend
+ù T P COS a «
+r ompre avec une force -— : -; P étant la charge
+2 sm a
+totale supportée par chaque ferme du comble.
+L entrait est soumis à un effort de flexion pro¬
+venant de son propre poids et des charges qu’il peut
+ecevoir d’un plancher, de marchandises, transmis-
+Sl01 <s, etc. 11 doit être considéré comme une poutre
+124 NOUVELLE ENCYCLOPÉDIE 1>U BA.TIMENT
+non encastrée (voir page 26) au point de vue de la
+flexion* *\(ais il supporte en outre un effort de trac¬
+tion provenant de la compression des arbalétriers
+dont la composante horizontale a pour expression
+les formules ci-dessus.
+Le poinçon est soumis à un effort de traction pro¬
+venant de l’appui des liernes qui soutiennent les
+arbalétriers, du soutien du poids do rentrait et des
+charges que celui-ci peut recevoir. Remarquons en
+passant que dans-le cas d'un entrait portant plancher,
+la charge de ce plancher se reporte, par l'intermé¬
+diaire du poinçon, sur les deux arbalétriers et qu’il
+y a lieu d'ajouter la moitié de cette charge à la charge
+totale de la toiture pour le calcul des arbalétriers.
+L'effort de traction imposé au poinçon peut être
+évalué à la moitié de la charge de l'entrait plus le
+quart de la charge totale des arbalétriers.
+Le ealeul de l'effort de traction d’une moïse se fait
+comme celui de l'entrait ordinaire.
+Un entrait retroussé , soutenu par des jambettes et
+des bloc bots, se calcule de même, car il ne supporte
+plus qu'une partie de la traction imposée par la
+tendance d'écartement des arbalétriers (fig. 124),
+mais, dans les charpentes légères, on fait quelquefois
+emploi d’un entrait retroussé, moïse, non soutenu par
+des aisseliers, bras de force et blochets ; en ce cas, il
+est bien évident que plus on rapproche cet entrait
+retroussé du faîtage plus l’effort de traction qu'il
+subit augmente. Il faut donc multiplier l'expression
+j } (Mis" y* fj
+ci-dessus, -2———- par le rapport —, L étant la
+2 sin « ' 1 l
+longueur totale de l'arbalétrier et l la distance du
+faîtage au point d’attache de l’entrait sur l'arbalé¬
+trier. .1 lisons de suite que cette forme de charpente
+C 0 N ST R U CTI ON DES OIT ARI> ENTES E N G K N É RM. 125
+défectueuse, car elle laisse rarbalétrier soumis à
+1111 effort de rupture au point d’attache de l’entrait.
+Jhms les explications qui précèdent, nous avons
+envisagé seulement les cas élémentaires les plus fré¬
+quents et simplifié autant que possible les formules ;
+Jl °us donnons ci-après les valeurs des sinus et cosinus
+pour les angles de pente usuels de 10 à 70 degrés.
+! )(»jrvs
+10 .
+15.
+20 .
+25.
+30.
+35.
+40.
+45.
+50.
+55.
+60.
+'*»■***
+■I* ■ * i i f i
+» B- * + -I H «I * m
+■ * f *
+##****
+***■*»#
+* # *
+* * * |>
+■ « ■ i
+* f> i #
+sinus
+0.17
+0,26
+0,34
+0,42
+0,50
+0,57
+0,64
+0.70
+0,76
+0,82
+0.86
+0,90
+0,94
+cosinus
+0,98
+0,96
+0,94
+0,90
+0,86
+0,82
+0,76
+0,70
+0,64
+0,57
+0,50
+0,42
+0.34
+dons le calcul des combles à la Mansard, la partie
+f f -k * ^
+1 u |'eneuro ou faux comble se calcule comme un
+! ° m |de composé de deux arbalétriers et d’un entrait ;
+jambettes sont considérées comme travaillant
+simplement à la compression et supportant chacune
+i{ moitié de la charge totale du comble,
+nés calculs des i ormes de I ) oloneeau et des fermes
+glaises ou américaines sont des opérations assez
+* 0,| i['liquées lorsque l’on veut les faire avec une exac-
+itude rigoureuse. INous prions nos lecteurs de <on-
+mjIUo- à cet égard Y Aide-mémoire de F Ingénieur de
+Harré et Vigreux ; mais il est cependant facile de
+( ‘deuler approximativement les charges supportées
+j ,c,r * es divers éléments des fermes de Polonceau en
+Aes considérant comme des combles à entrait retroussé
+^ appliquant aux arbalétriers et à l’entrait re^
+126 NOUVELLE ENCYCLOPÉDIE DU BATIMENT
+troussé de ces combles les formules simples que nous
+avons données précédemment. Quant aux tirants
+qui soutiennent les arbalétriers par l'intermédiaire
+des contre!iches soumises à la compression, on peut
+assimiler cet ensemble à une poutre armée dont nous
+donnons ci-après le calcul.
+Calcul (Varie poutre année. — Si nous considérons
+une poutre armée (fig. 67), le poinçon p est soumis à
+. ‘ P
+une compression que l ’on peut évaluer à - en sup-
+'f;
+posant qu'il supporte tout l’effort de flexion imposé
+à la poutre qu'il soutient. Les tirants subissent chacun
+«. ’ ' . p
+un eilort de traction égal à-—;-.« étant l'angle
+4 sui. *
+que lait le tirant avec J a poutre.
+* *
+AL L. A. Barré a publié dans la Semaine des Cons¬
+tructeurs un système de calcul très simple pour les
+fermes des combles ordinaires, nous le reproduisons
+ci-après :
+Prenons l'exemple d'une ferme aussi simple que
+possible (fig. 190), formée de deux arbalétriers, d’un
+entrait ou tirant, d'un poinçon et de contreliebrs sou¬
+lageant les arbalétriers, et déterminons les efforts
+des diverses pièces de cette ferme.
+Ejjort d’extension de rentrait. —L'entrait AM main¬
+tient l’érurtement des pieds des arbalétriers, comme le
+ferait une corde tendue. Si l’on supprimait cet en¬
+trait, il faudrait, pour maintenir l'écartement des
+arbalétriers, exercer, sur le pied A, un effort T de
+sens /. Il en résulte que l’effort moléculaire de l'en¬
+trait AAI sur le point d’attache A est nécessairement
+If P
+construction ues ou a hi» en tes en général 127
+' S, ‘ ,ls /• Mais il faut bien remarquer que l’entrait
+" c °mpose de dfiix tronçons : l’un AM, dans la demi*
+r J>e de gauche, et l’autre dans la demi-ferme de
+(jle , il
+x 11011 représentée dans la figure. Le premier
+4^ s nbit une extension T, entre ses deux ex-
+mités A et M ; ce qui veut dire que ce tronçon exerce
+traction dans le sens /, de A vers M et aussi M
+UIle traction égale dans le sens /, de M vers A.
+^ mis la demi-ferme de droite, on appliquerait ies
+f mies considérations au second tronçon de l’entrait.
+1 tJort de compression . — L’arbalétrier GA, chargé
+v, l po *■
+Fig. 190.
+les pannes A, B, G, tend à se comprimer entre scs
+j-UX extrémités A et C ; mais il est essentiel de remar-
+Bc ^arbalétrier est formé de deux tronçons AB,
+IjC premier tronçon AB est soumis à un effort de
+.^pression a entre ses deux extrémités. Ce qui doit
+e mteiprété ainsi : le tronçon AB exerce en A une
+^fission a dans le sens AB, et en B, une autre réaction
+s , eils contraire, de A vers B. Le second tronçon BG
+_ de même une compression b entre ses extrémités,
+eut ^ c 011 trèfle lie BD subit un effort de compression
+ses deux extrémités, par la raison que si on sup-
+128 NOUVELLE ENCYCLOPÉDIE DU BATIMENT
+primait cette pièce, il faudrait, pour maintenir l'équi¬
+libre des points B, D, y appliquer des forces dans les
+sens indiqués par les flèches.
+kn résumé, au point de vue graphique, reffort de
+compression d'une pièce BA sur l’extrémité A, est
+dirige vers ce point A,tandis qu’un effort d'extension
+i de l'entrait AM par rapport au même point A, tend
+à s éloigner de A. 11 est facile de vérifier le sens des
+flèches pour le point B. *
+1 détermination des efforts. —■ Nous admettrons que
+les pannes soient chargées comme l’indique la figure
+190 ; savoir :
+750 k sur la panne A
+1500 » B
+750 en G pour la demi-ferme
+La demi-ferme pèse J. 000 kilog. La réaction verti¬
+cale est égale au poids total 3.000 kilog. « )n doit en
+retrancher le poids 750 kilog., appliqué en A ; on a
+donc pour la réaction effective :
+R = 3000 — 750 = 2250 k.
+Le poinJ d'appui A de la ferme est soumis aux trois
+forces :
+R la réaction verticale de l’appui A ;
+a la compression de l’arbalétrier en A;
+T P extension de l’entrait.
+()n exprime que ces forces sont en équilibre en cons-
+truisant ( I i g. 13l ) un triangle dont les côtés sont parai*
+Jèles aux trois directions R, a et T. On connaît R
+— 2250 kilog. ; le tracé fait connaître la traction
+T= 3700 kilog. sur l’entrait AM, et la compression
+a — 4500 kilog, au pied A de l’arbalétrier. On peut
+vérifier qu'en parcourant le périmètre du triangle
+CONSTRUCTl ON DÉS CH ARPENTES E N G É N KH Al, 1 >
+^ ans le* sens connu de la réaction R, le triangle se
+^'rme ( 1). Les sens dos côtés T et a de ce triangle, re¬
+portes sur la figure 100, montrent que T est un effort
+de traction et a un effort de compression.
+Equilibre du point B. — Ce point est soumis à l'ac-
+iïûn do quatre forces :
+Poids de la panne. P = 1500k
+Compression de AB .... a ~ 4500k
+Compression b de CB
+Compression c de la contreûche.
+l j c diagramme de ces quatre forces vsL un quadrila-
+, l “ h> (fig. 192), dont les côtés sont parallèles aux direc-
+Fïg. MU.
+Fig. 192.
+1 '°us de ces forces. On tracera donc a = 4500 kiiog. ,
+puis P — 1500 kilog. ; le tracé s'achève en menant
+des parallèles à l'arbalétrier et à la contrefiche et
+dorme b = 3000 kilog. ; c = 1600 kilog. On remarque
+qu'en parcourant le périmètre de la figure dans un
+uienie sens donné par P, le quadrilatère se ferme et
+k-s différents sens des côtés, rapportés au point B
+(%■ 1.90), permettent de vérifier que b et c sont des
+efforts de compression.
+, P ) Kn général, si des forces appliquées en un point sont en
+équilibre, le polygone formé par des droites parallèles et. pro¬
+portionnelles à ces forces, et de même sens, se ferme de lui-
+même.
+130
+N O U V E LL 13 K N GY CLOP'Ê DIE' n TI BAT1MEM
+Dans les diagrammes, les efforts de compression
+sont marqués en traits forts, les efforts d'extension
+et les charges verticales en traits fins.
+* *
+Epaisseurs relatives des bois. — Ayant calculé les
+équarrissages des bois et la section des fers d’après les
+données ci-dessus, il faut tenir compte des assem¬
+blages qu'ils doivent recevoir et qui nécessitent d’y
+pratiquer des entailles, édentures, embrèvements,
+mortaises, etc. Un sera conduit ainsi à renforcer
+certaines pièces particulièrement obligées à recevoir
+beaucoup d’assemblages : tels sont le poinçon qui
+reçoit l’assemblage des arbalétriers, des liernes et les
+entailles pour les moises formant tirants ou en trait s.
+1 j( i poinçon doit donc avoir une épaisseur au moins
+égale à celle des arbalétriers. Les poteaux qui reçoi-
+\ ent 1 entrait, les blochets, les liernes d'assemblage à
+1 entrait et aux sablières doivent être aussi renfor¬
+cés en conséquence.
+La prévision des équarrissages des bois d’un com¬
+ble est donc line opération qui demande non seule¬
+ment des calculs, mais encore une grande expérience
+de la part du charpentier.
+2° Epure en grandeur d’exécution. Tracé des bois. —
+Pour couper exactement les pièces de bois à la lon-
+g'icur et suivant les angles nécessaires et pour tracer
+les tenons et mortaises dans la forme et la direction
+l onvenables, il faut luire une épure en grandeur
+d’exécution sur un terrain horizontal appelé aire.
+L'aire du charpentier se fait en creusant une forme
+d environ lo à 20 centimètres de profondeur et d’une
+CONSTRUCTION DES CHARPENTES EN GÉNÉRAI. .131
+surface suffisante pour recevoir à plat les plus grandes
+( 'h arpentes dont on peut prévoir la construction ; on
+remplit cette forme avec des plâtras que l’on pilonne
+en les humectant d’eau ; on peut avantageusement
+y ajouter du mâchefer ; on obtient ainsi un sol parfai¬
+tement uni et horizontal sur lequel on trace, au cor¬
+deau, frotté de blanc d’Espagne, les lignes des char¬
+pentes à exécuter. Les traits blancs ainsi marques
+légèrement s’effacent facilement ensuite par un simple
+f, oup de balai-brosse. Une aire en plâtras ou en terre
+battue est plus commode qu’une aire en ciment, cette
+dernière ne permettant pas d’y planter des clous ou
+piquets. Si l’on ne veut pas prendre la peine de cons¬
+truire une aire en plâtras ou en ciment, on peut taire
+dépure de la charpente sur un terrain uni et damé
+dans lequel on plante de petits piquets aux angles
+d assemblage des pièces de bois. Entre ces piquets on
+1 ’ 1 d des ficelles qui marquent, par leurs intersections,
+b’s coupes des bois et la direction des tenons et mor¬
+taises. Ce procédé n’est employé que lorsqu’on ne fait
+accidentellement une charpente ; tous les char¬
+pentiers de profession préparent une aire pour leurs
+épurés en grandeur.
+Quand cette épure <*st tracée sur le sol avec la plus
+grande exactitude possible, on apporte les pièces de
+bois que l’on place sur l’épure à l’endroit qu’elles doi-
+v ont occuper dans la charpente terminée. ( 'n reporte
+les lignes des coupes au moyen du fil à plomb, de
+^équerre, de la fausse équerre et du compas, sur la
+pièce de bois ; on v dessine exactement les tenons,
+les mortaises et les embrèvement s ou entailles qu’il
+faudra y pratiquer pour l’assemblage avec les pièces
+de bois voisines. Pour faire ce travail de traçage des
+bois, on pose les pièces de bois sur des cales d’épais-
+fceur uniforme, des morceaux de chevrons, par cxrm-
+132 NOUVELLE ENCYCLOPÉDIE DU BATIMENT
+pie. Ceci permet de voir les traits de l'épure sous la
+pièce de bois et de bien régler le fil à plomb.
+Au fur et à mesure que les bois sont ainsi tracés
+sur 1 épure, on les coupe de longueur et on y pratique
+les tenons, mortaises ou entailles. Ouand toutes les
+pièces de bois de la charpente sont travaillées, on les
+assemble au-dessus de répure qu’elles doivent recou-
+■vnr très exactement. On perce alors les trous destinés
+a recevoir les boulons, chevilles ou enlaçures qui doi¬
+vent fixer les tenons dans les mortaises. Ces trous se
+>ont avec la tarière ou lacer et et avec le vilebrequin.
+11 faut alors repérer tes pièces de bois qui viendront
+de nouveau s’assembler dans le bâtiment ; ce repé¬
+rage se fait à l’aide de chiffres romains ou arabes, de
+lettres ou signes conventionnels tracés à la rouanne
+ou a la craie rouge sur les pièces de bois ; le même
+signe est répété sur les deux morceaux de bois qui
+doivent s’assembler. On démonte alors la charpente
+avec le plus grand soin et on empile les divers mor¬
+ceaux dans un ordre favorable pour retrouver ensuite
+facilement les pièces qui vont ensemble. On peut alors
+transporter .les : i.s à pied d’œuvre où le montage
+definitif sera fait.
+Montage des planchers . — Les planchers se posent
+généralement au fur et à mesure que les murs sont
+arasés a la hauteur d’un étage. On commence par
+mettre en place les maîtresses poutres que l’on appuie
+sur les larges pierres posées dans le mur au droit de
+chaque poutre. On cale de niveau au moyen de fers
+plats ou de planches en chêne. Ensuite on pose les so¬
+lives de remplissage, les chevêtrcs, etc.
+Chaque ehevêtre doit être consolidé par des étriers *
+les poutres et solives sont isolées dans la maçonnerie’
+comme il a été dit page 63, de façon que l’about de
+chaque pièce de bois soit aéré ou en tout cas, protégé
+construction des charpentes en général 133
+contact du mortier de chaux. Toutes les ferrures
+• 0ri t peintes au minium de plomb, sauf celles qui doi-
+Y |m t a * * 1
+. eire enrobées dans du ciment ou mortier de
+., aux > car la peinture empêcherait ce mortier d’ad-
+Uei> au fer. Après le montage des solives de rem¬
+isage, on règle tout le plancher de niveau avec des
+r v en bois dur aux endroits voulus et il ne reste plus
+aire f I ue le plafonnage et le parquetage dont nous
+Irait
+•U’ons dans un autre volume.
+épreuve des planchers.
+estine à recevoir de lour
+- Lorsqu'un plancher est
+„ RIHHHHII 111 ‘des charges, on le soumet à
+«'preuve qui consiste à le charger avec des sacs de
+„ .. e > pavés ou autres matériaux, d’un poids égal ou su-
+F rieur à celui qu’il devra supporter en service. On ob-
+la flexion que subit le plancher sous la charge au
+d'une règle fixée verticalement sous chaque pou-
+4 pi’incip ale ; ap rès déchargement du plancher, lesp ou-
+Cs doivent revenir dans leur position primitive, ce qui
+trouve que la charge n’en a pas altéré Télasticité. Les
+Gers des charges indiquent souvent quelle flèche
+, 1 '^e tolérée sous F effort du chargement du plan-
+1 er * Les épreuves des ponts et ouvrages d’art se font
+^ une manière analogue, mais en employant des ins-
+. me nts de précision pour indiquer et même enregis-
+les flexions des poutres ou voûtes.
+Chaînages. — Les chaînages des planchers sont
+Poses en même temps que le plancher lui-même ; les
+•Tes de fer sont placées soit entre les poutres, soit
+p r ï 1 en die u 1 airement et, en ce cas, elles traversent
+s poutres dans des trous percés au milieu de chaque
+Poutre, c’est-à-dire dans la partie du bois qui n’est
+_ omise à aucun elïort de traction ou de compression
+' ^res neutres).
+^ont a g e des combles . — Les bois destinés à la cons-
+( Lon des fermes sont assemblés à pied d’œuvre à
+134 NOUVELLE ENCYCLOPÉDIE DU BATIMENT
+la place même qu’ils doivent occuper définitivement.
+Une chèvre est installée dans la ligne même du plan de
+chaque ferme, mais un peu en arrière de cette ligne,
+de façon que le levage de la ferme puisse se faire avec
+la chèvre presque verticale. Une fois que la chèvre est
+solidement haubannêe par deux haubans en arrière et
+un hauban en avant (corde mise en retrait), on
+arn.:i rre le câble du treuil au milieu de la ferme à lever,
+do l açon que ceJ le-ci soit enlevée un peu au-dessus de son
+centre de gravité. On agit sur le treuil de façon à lever
+la forme d’abord verticalement et ensuite au-dessus des
+des ou appuis des murs sur lesquels elle doit reposer.
+On peut facilement déplacer latéralement la chèvre en
+la ripant avec des leviers ou boulins, de façon à amener
+les pieds de Ja charpente juste sur les appuis. Quand
+cette position est obtenue, on mollit légèrement le câ~
+b le du treuil et la charpente vient reposer sur ses ap¬
+puis de maçonnerie. On réunit alors la ferme aux
+murs, pignons, ou aux autres fermes, au moyen d’un
+faîtage, puis des pannes et sablières. Si la ferme doit
+rester isolée, on la haut amie avec des cordages, de
+chaque côté, de manière à la maintenir verticalement,
+ce qui permet d’enlever la chèvre et de procéder au
+levage des autres formes.
+Pour le levage des charpentes légères, on emploie
+souvent une forte échelle que l'on maintient verticale¬
+ment au moyen de haubans fixés en avant et en ar¬
+rière du pied de l’échelle : deux haubans en barrière,
+et un en avant, amarrés selon les trois angles d’un
+triangle équilatéral, donnant un bon fixage de l’é¬
+chelle. ( )n amarre au sommet de l’échelle un fort palan
+ou moufle et l’on procède au levage de la ferme comme
+avec une chèvre.
+Réglage. — Une fois que toutes les fermes du coitv
+blc sont dressées et consolidées entre elles par les fai-
+CONSTRUCTION DES CHARPENTES ÈN GÉNÉRAL 135
+pë es > pannes et sablières, on procède au réglage de
+a charpente, c’est-à-dire que l’on cale toutes les l'er-
+mes à la même hauteur et que Ton aligne les poteaux
+0u poinçons, de façon que les divers plans déterminés
+P ar le comble soient bien corrects, que les pannes et
+sablières soient horizontales, etc.
+On procède ensuite au chevronnage et au lattage
+destiné à recevoir la couverture.
+Chêneaux et gouttières . ■— Les chêneaux se posent
+un caissage en planches épaisses de 3 à 4 centi¬
+mètres nommé fond de chêneau . Ce fond de chêneau
+re Pose sur le prolongement des entraits ou des bio-
+c hets et en avant des sablières ; ces dernières peuvent
+constituer un des côtés du caissage de fond de chê¬
+neau.
+Ferrures. — Quand le montage de la charpente est
+terminé, on resserre tous les boulons d’assemblage des
+mis et les chaînages s’il y en a. ues calages des po-
+caux sur dés en pierres doivent être faits avec des
+épaisseurs de fer plat peint au minium de plomb.
+Construction des combles dans Paris.
+{Extrait du Règlement du. 23 juillet 1884.)
+Fes combles au-dessus des façades . —Art. 9. — Pour
+0s bâtiments construits en bordure des voies publi¬
+ées, le profil du comble, tant sur les façades que sur
+es ailes, ne peut dépasser un arc de cercle dont le
+r avon sera égal à la moitié de la largeur légale ou efïcc-
+lve de la voie publique, ainsi qu’il est dit à l’article
+(1 ) ,sans toutefois que ce rayon puisse être jamais
+Supérieur à 8 m. 50. Si la largeur de la voie est infé-
+^eure à 10 mètres, le constructeur aura cependant
+r -
+* -
+136
+NOUVELLE ENCYCLOPÉDIE DU BATIMENT
+droit à un rayon minimum de 5 mètres. Quelles que
+soient la forme et la hauteur du comble, toutes les
+saillies qu'il pourrait présenter devront être renfer¬
+mées dans l'arc de cercle considéré comme un gabarit
+dont on ne devra pas sortir.
+Le point de départ de l'arc de cercle sera placé a
+l'aplomb de l'alignement des murs de face et le centre
+à la hauteur légale du bâtiment, telle qu'elle est déter¬
+minée par l'article 1 er .
+Art. 10. — Les dispositions de l'article 9, sauf en ce
+qui concerne la détermination du rayon du comble»
+sont applicables : -3
+1° Aux bâtiments construits en retrait des voies
+publiques ;
+2° Aux bâtiments situés en bordure des voies pri¬
+vées, des passages/impasses, cités et autres esp
+intérieurs.
+Dans ces cas, le rayon du comble sera calculé d'après
+la largeur moyenne de l'espace libre au droit de la
+façade du bâtiment et égal à la moitié -de cette largeur,
+dans les conditions déterminées par l'article 9.
+Toutefois, les cages d'escaliers pratiquées sur les
+cours pourront sortir du périmètre indiqué ci-dessus,
+de manière à pouvoir s'élever jusqu'au plafond du
+dernier étage desservi par les derniers escaliers.
+Art. 11. — Pour les constructions situées à l’angh 1
+des voies publiques d’inégales largeurs, le comble pop 1
+‘Il * _ «I ifa -,
+mtiment en façade sur la voie publique la plus large
+sera déterminé d’après les bases indiquées à l’article 9
+et pourra être retourné avec les mêmes dimensions sur
+ftVnnê rl 4# xi
+pai-
+A LA MÊME LIBRAIRIE
+Envoi franco contre mandat-poste.
+HOUCHER
+PROBLÈMES
+Sar ŸM da Trait de Charpente
+Carnet d'épurcs
+i vol, in-18, eart. toile, avec 35 pi. se dépliant.
+ilOi DES ( OUIl!I S
+ET LE DÉVELOPPEMENT
+de la Circonférence du Cercle
+i vol,gr.in-4°, cari, avec 21 pl. 3
+wtjmm
+FABRICATION
+CIMEN
+Chaux hydraulique. — Ciment de Grappiers
+Ciment PorPand — Ciment de Laitier — Ciment Portland de fer
+Ciments Pou zzol uniques — Manutention et Transbordement
+économiques des Matières premières 2;
+et des Produits fabriqués — Analysé des Matières premières
+et des Produits fabriqués — Contrôle chimique ’-l
+de la Publication 2
+V A R v|
+J. J-'RITSCH, chimiste
+I. A UK fi AT UE liA SOtTfiTfi D'KNCOL'H AiiE.VI EN T ">A
+(Médaille d'argent, Médaille d’or) Jaj
+Ibcau vol. gr. in-8, broché, de 500 pages avec 202 lig. dans
+le texte et 3 planches hors texte, 191 1. 25
+Orléans, trop. Il- Tessier
+4* *t £
+,T.
+v-“ H
+<»• 4BMp*|J»
+m ;*-> pw
+.’*•->> v.'
+« ^ t- • ‘
+•B - *- »
+*■■ -1 - * 3
+-'*■1 ifc jt
+- T
+i. <« r
