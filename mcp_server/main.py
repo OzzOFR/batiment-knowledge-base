@@ -15,8 +15,10 @@ from pydantic import BaseModel
 # ─── Configuration ────────────────────────────────────────────────────────────
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://humvcalhznukzdbkninw.supabase.co")
 SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh1bXZjYWxoem51a3pkYmtuaW53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMTM3NjIsImV4cCI6MjA5Nzg4OTc2Mn0.XzRg8FMGz3J6vakkxHP8JsUOFMUH57ats3Yg9vQKV2o")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 MCP_API_KEY = os.environ.get("MCP_API_KEY", "batiment-kb-secret-2024")
-EMBED_URL = f"{SUPABASE_URL}/functions/v1/generate-embeddings"
+EMBEDDING_MODEL = "openai/text-embedding-3-small"
+OPENROUTER_EMBED_URL = "https://openrouter.ai/api/v1/embeddings"
 
 app = FastAPI(
     title="Batiment Knowledge Base MCP Server",
@@ -84,14 +86,16 @@ MCP_TOOLS = [
 # ─── Fonctions utilitaires ────────────────────────────────────────────────────
 
 def get_embedding(text: str) -> list[float]:
-    """Génère un embedding via la Edge Function Supabase."""
+    """Génère un embedding via OpenRouter (text-embedding-3-small)."""
     headers = {
-        "Authorization": f"Bearer {SUPABASE_ANON_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json"
     }
-    r = requests.post(EMBED_URL, headers=headers, json={"input": [text]}, timeout=30)
+    payload = {"model": EMBEDDING_MODEL, "input": [text]}
+    r = requests.post(OPENROUTER_EMBED_URL, headers=headers, json=payload, timeout=30)
     r.raise_for_status()
-    return r.json()["embeddings"][0]
+    data = r.json()
+    return data["data"][0]["embedding"]
 
 
 def search_in_supabase(query: str, corps_etat: str = None, nb_resultats: int = 5) -> list[dict]:

@@ -15,11 +15,10 @@ from typing import Generator
 # ─── Configuration ────────────────────────────────────────────────────────────
 SUPABASE_URL = "https://humvcalhznukzdbkninw.supabase.co"
 SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh1bXZjYWxoem51a3pkYmtuaW53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMTM3NjIsImV4cCI6MjA5Nzg4OTc2Mn0.XzRg8FMGz3J6vakkxHP8JsUOFMUH57ats3Yg9vQKV2o"
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
-OPENAI_API_BASE = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1")
-EMBEDDING_MODEL = "gte-small"  # Modèle natif Supabase via Edge Function
-EMBEDDING_DIM = 384
-SUPABASE_EMBED_URL = f"{SUPABASE_URL}/functions/v1/generate-embeddings"
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+EMBEDDING_MODEL = "openai/text-embedding-3-small"  # Via OpenRouter
+EMBEDDING_DIM = 1536  # Dimension par défaut de text-embedding-3-small
+OPENROUTER_EMBED_URL = "https://openrouter.ai/api/v1/embeddings"
 
 CORPUS_DIR = Path(__file__).parent.parent / "corpus"
 CHUNK_SIZE = 800       # Nombre de tokens approximatif par chunk
@@ -102,17 +101,20 @@ def clean_markdown_for_indexing(content: str) -> str:
 # ─── Embeddings OpenAI ────────────────────────────────────────────────────────
 
 def get_embeddings(texts: list[str]) -> list[list[float]]:
-    """Génère les embeddings via la Edge Function Supabase (modèle gte-small)."""
+    """Génère les embeddings via OpenRouter (modèle text-embedding-3-small)."""
     headers = {
-        "Authorization": f"Bearer {SUPABASE_ANON_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json"
     }
-    payload = {"input": texts}
+    # OpenRouter accepte une liste ou une chaîne unique
+    payload = {"model": EMBEDDING_MODEL, "input": texts}
     
-    r = requests.post(SUPABASE_EMBED_URL, headers=headers, json=payload, timeout=120)
+    r = requests.post(OPENROUTER_EMBED_URL, headers=headers, json=payload, timeout=120)
     r.raise_for_status()
     data = r.json()
-    return data["embeddings"]
+    # Réponse format OpenAI : {"data": [{"embedding": [...], "index": 0}, ...]}
+    embeddings = [item["embedding"] for item in sorted(data["data"], key=lambda x: x["index"])]
+    return embeddings
 
 
 # ─── Insertion dans Supabase ──────────────────────────────────────────────────
@@ -166,20 +168,41 @@ def process_markdown_file(md_path: Path) -> list[dict]:
     return chunks_data
 
 
+def get_already_indexed_titles() -> set:
+    """Récupère les titres de documents déjà indexés dans Supabase."""
+    url = f"{SUPABASE_URL}/rest/v1/batiment_chunks"
+    headers = {
+        "apikey": SUPABASE_ANON_KEY,
+        "Authorization": f"Bearer {SUPABASE_ANON_KEY}",
+    }
+    r = requests.get(url, headers=headers, params={"select": "titre_document", "limit": "1000"}, timeout=20)
+    if r.status_code == 200:
+        return {row["titre_document"] for row in r.json()}
+    return set()
+
+
 def index_all_corpus(batch_size: int = 20):
     """Pipeline complet : lit le corpus, génère les embeddings, indexe dans Supabase."""
     print("=" * 65)
     print("Pipeline d'indexation — Base de connaissances Bâtiment")
     print("=" * 65)
     
+    # Récupérer les documents déjà indexés
+    already_indexed = get_already_indexed_titles()
+    print(f"\nDocuments déjà indexés : {len(already_indexed)}")
+    
     # Collecter tous les fichiers Markdown du corpus
     md_files = list(CORPUS_DIR.rglob("*.md"))
-    print(f"\nFichiers trouvés : {len(md_files)}")
+    print(f"Fichiers trouvés : {len(md_files)}")
     
     all_chunks = []
     for md_path in md_files:
-        print(f"\n  Traitement : {md_path.relative_to(CORPUS_DIR)}")
         chunks = process_markdown_file(md_path)
+        # Filtrer les documents déjà indexés
+        if chunks and chunks[0]["titre_document"] in already_indexed:
+            print(f"  [SKIP] {md_path.relative_to(CORPUS_DIR)} (déjà indexé)")
+            continue
+        print(f"\n  Traitement : {md_path.relative_to(CORPUS_DIR)}")
         print(f"  → {len(chunks)} chunks générés")
         all_chunks.extend(chunks)
     
