@@ -1,0 +1,15 @@
+[
+  {"ark": "bpt6k65398427", "titre": "Vol. 01 - Arpentage, Nivellement, Terrassement, Fondations", "corps_etat": "gros-oeuvre", "date": "1910"},
+  {"ark": "bpt6k97743229", "titre": "Vol. 02 - Maçonnerie, Pierre, Brique, Mortiers, Pisé", "corps_etat": "maconnerie", "date": "1910"},
+  {"ark": "bpt6k65398429", "titre": "Vol. 03 - Travaux en Ciment et Béton Armés", "corps_etat": "gros-oeuvre", "date": "1910"},
+  {"ark": "bpt6k938852q",  "titre": "Vol. 04 - Charpentes en Bois et Échafaudages", "corps_etat": "charpente-couverture", "date": "1910"},
+  {"ark": "bpt6k65398431", "titre": "Vol. 05 - Couverture, Zinguerie, Plomberie extérieure", "corps_etat": "charpente-couverture", "date": "1910"},
+  {"ark": "bpt6k65398432", "titre": "Vol. 06 - Menuiserie", "corps_etat": "menuiserie", "date": "1910"},
+  {"ark": "bpt6k65398433", "titre": "Vol. 07 - Serrurerie", "corps_etat": "menuiserie", "date": "1910"},
+  {"ark": "bpt6k65398434", "titre": "Vol. 08 - Plâtrerie, Carrelage, Dallage", "corps_etat": "platrerie-peinture", "date": "1910"},
+  {"ark": "bpt6k65398435", "titre": "Vol. 09 - Peinture, Vitrerie, Tapisserie, Enduits", "corps_etat": "platrerie-peinture", "date": "1910"},
+  {"ark": "bpt6k65398436", "titre": "Vol. 10 - Vitrerie, Marbrerie, Chauffage et Ventilation", "corps_etat": "plomberie-chauffage", "date": "1910"},
+  {"ark": "bpt6k65398437", "titre": "Vol. 11 - Architecture, Plans de Maisons et Villas", "corps_etat": "encyclopedie-generale", "date": "1910"},
+  {"ark": "bpt6k65398438", "titre": "Vol. 12 - Plomberie, Eau, Gaz, Électricité", "corps_etat": "plomberie-chauffage", "date": "1910"},
+  {"ark": "bpt6k65398430", "titre": "Vol. 14 - Échelles, Escaliers, Ascenseurs, Monte-charges", "corps_etat": "menuiserie", "date": "1910"}
+]
