@@ -104,10 +104,9 @@ if __name__ == "__main__":
     base_dir = "/home/ubuntu/batiment-knowledge-base/corpus/nouvelles_sources"
     
     files_to_index = [
-        ("fiche_electricite_installations.md", "electricite", "Synthèse technique / Manuel de l'électricien"),
-        ("fiche_plomberie_chauffage.md", "plomberie-chauffage", "Synthèse technique / Traité de plomberie"),
-        ("fiche_isolation_thermique.md", "isolation-etancheite", "Synthèse technique / Ministère de la Culture"),
-        ("fiche_maconnerie_precheur.md", "maconnerie", "Synthèse technique / Manuel du Maçon / Rondelet")
+        ("fiche_charpente_couverture.md", "charpente-couverture", "Synthèse technique / Règles de l'art DTU"),
+        ("fiche_pathologies.md", "pathologies", "Synthèse technique / AQC"),
+        ("fiche_normes_reglements.md", "normes-reglements", "Synthèse technique / CCH / RE2020")
     ]
     
     total_chunks = 0

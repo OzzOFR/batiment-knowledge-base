@@ -151,13 +151,14 @@ def get_sources_from_supabase(corps_etat: str = None) -> list[dict]:
 
 
 def get_stats_from_supabase() -> dict:
-    """Récupère les statistiques de la base."""
+    """Récupère les statistiques de la base via une requête RPC SQL agrégée."""
     headers = {
         "apikey": SUPABASE_ANON_KEY,
         "Authorization": f"Bearer {SUPABASE_ANON_KEY}",
+        "Content-Type": "application/json",
     }
     
-    # Nombre total de chunks
+    # Nombre total de chunks (count exact)
     r = requests.get(
         f"{SUPABASE_URL}/rest/v1/batiment_chunks",
         headers={**headers, "Prefer": "count=exact"},
@@ -166,17 +167,37 @@ def get_stats_from_supabase() -> dict:
     )
     total = int(r.headers.get("content-range", "0/0").split("/")[-1])
     
-    # Répartition par corps d'état
-    r2 = requests.get(
-        f"{SUPABASE_URL}/rest/v1/batiment_chunks",
+    # Répartition par corps d'état via RPC SQL (évite la limite de 1000 lignes)
+    r2 = requests.post(
+        f"{SUPABASE_URL}/rest/v1/rpc/get_stats_corps_etat",
         headers=headers,
-        params={"select": "corps_etat", "limit": "1000"},
+        json={},
         timeout=20
     )
     corps_etats = {}
-    for row in r2.json():
-        ce = row.get("corps_etat", "inconnu")
-        corps_etats[ce] = corps_etats.get(ce, 0) + 1
+    if r2.status_code == 200:
+        for row in r2.json():
+            corps_etats[row["corps_etat"]] = row["nb_chunks"]
+    else:
+        # Fallback : requête paginée si la fonction RPC n'existe pas
+        offset = 0
+        page_size = 1000
+        while True:
+            r_page = requests.get(
+                f"{SUPABASE_URL}/rest/v1/batiment_chunks",
+                headers=headers,
+                params={"select": "corps_etat", "limit": str(page_size), "offset": str(offset)},
+                timeout=20
+            )
+            rows = r_page.json()
+            if not rows:
+                break
+            for row in rows:
+                ce = row.get("corps_etat", "inconnu")
+                corps_etats[ce] = corps_etats.get(ce, 0) + 1
+            if len(rows) < page_size:
+                break
+            offset += page_size
     
     return {"total_chunks": total, "repartition_corps_etat": corps_etats}
 
