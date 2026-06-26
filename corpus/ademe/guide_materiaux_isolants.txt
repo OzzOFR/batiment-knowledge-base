@@ -1,0 +1,2274 @@
+Près de chez vous,
+des spécialistes indépendants
+vous conseillent gratuitement
+et répondent à vos questions.
+
+Guide des
+matériaux
+isolants
+pour une isolation
+efficace et durable
+
+Un service cofinancé par l’ADEME,
+le conseil régional Rhône-Alpes
+et des collectivités locales.
+
+SOMMAIRE
+Bien isoler : une nécessité !
+
+3
+
+Définitions				
+
+4
+
+Retenir la chaleur : conductivité thermique
+et résistance thermique
+
+4
+
+Réguler la chaleur : inertie 		
+thermique et déphasage thermique
+
+6
+
+Gérer les flux de vapeur d’eau,
+comportement hygroscopique des parois
+
+9
+
+Impact environnemental et énergie grise
+
+14
+
+Impact sanitaire 				
+
+16
+
+Réaction au feu				
+
+17
+
+Reconnaissance technique			
+et assurance
+
+18
+
+Objectif BBC-compatible
+
+20
+
+Approche globale : les 7 clés
+de la basse consommation
+
+20
+
+Isolation
+
+20
+
+Étanchéité à l’air
+
+21
+
+Fiches matériaux
+
+22
+
+Les matériaux biosourcés
+Les matériaux minéraux
+
+24
+36
+
+Les matériaux synthétiques
+
+42
+
+Autres
+
+36
+
+Tableau de synthèse
+
+50
+
+PARTICULIERS I Guide des matériaux isolants
+
+BIEN ISOLER :
+UNE NÉCESSITÉ !
+La réduction des consommations d’énergie dans le
+bâtiment est un enjeu majeur pour faire face à la
+raréfaction des ressources énergétiques fossiles et au
+problème du changement climatique. Pour répondre
+à ce défi, l’isolation des bâtiments est une nécessité et
+représente un moyen efficace et rentable. Une division
+par 4 à 10 des consommations de chauffage est possible
+pour la majorité des bâtiments grâce à une isolation
+performante.
+On trouve sur le marché un grand nombre de produits
+d’isolation qui permettent d’apporter des solutions aux
+problématiques techniques des différents systèmes
+constructifs. Ce guide a pour objectif de vous éclairer sur
+les propriétés des différents produits d’isolation qu’ils
+soient biosourcés, minéraux ou synthétiques et de vous
+aider dans votre choix. Une série de fiches techniques
+associées aux principaux matériaux d’isolation vous
+permettra d’avoir une vision la plus objective possible
+du panel de solutions d’amélioration thermique de votre
+bâtiment.
+Pour vous aider à comparer et à choisir les matériaux
+adaptés à la paroi et au bâtiment à isoler, il est
+nécessaire d’apporter en premier lieu des définitions
+utiles concernant les propriétés physiques des produits
+d’isolation et des éclairages sur les exigences et
+indicateurs en matière de durabilité, de réaction au feu
+ou d’impact environnemental et sanitaire.
+
+PAGE 3
+
+DÉFINITIONS
+RETENIR LA CHALEUR : CONDUCTIVITÉ
+THERMIQUE ET RÉSISTANCE THERMIQUE
+Les caractéristiques définies ci-dessous traduisent les
+capacités des matériaux à résister au passage de la
+chaleur.
+
+La conductivité thermique λ (lambda)
+La conductivité thermique traduit la propriété qu’ont
+les corps à transmettre la chaleur par conduction. Elle
+correspond au flux de chaleur qui traverse en 1 seconde
+un matériau d’une surface de 1m² et de 1m d’épaisseur
+pour un écart de température de 1°C entre les 2 faces.
+
+La résistance thermique R
+La résistance thermique d’un matériau traduit sa
+capacité à résister à la transmission de chaleur. Elle
+dépend de l’épaisseur du matériau (e, en mètre) et de sa
+conductivité thermique (λ) : R=e/λ
+Elle est désignée par le coefficient R et exprimée en
+m².K/W.
+La résistance thermique totale d’une paroi est égale à
+la somme des résistances thermiques de chacune des
+couches de matériau qui la constitue :
+Rparoi = Rmatériau1 + Rmatériau2 +…
+Plus la résistance thermique est élevée, plus la paroi
+considérée est isolante.
+
+Elle est désignée par le coefficient λ, exprimé en W/(m.K).
+Plus la conductivité thermique est faible, plus le
+matériau est isolant.
+
+PARTICULIERS I Guide des matériaux isolants
+
+PAGE 5
+
+La transmission thermique U
+Pour caractériser une paroi, on utilise aussi fréquemment
+le coefficient de transmission surfacique (U), qui est
+l’inverse de la résistance thermique (R) : U = 1/R.
+Ce coefficient est exprimé en W/(m².K)
+Plus la valeur de U est faible, plus la paroi est
+performante thermiquement.
+U est également utilisé pour quantifier la performance
+des vitrages (Ug, g comme Glass), des menuiseries
+(Uf, f comme Frame) et des fenêtres (ensemble
+menuiserie et vitrage) (Uw, w comme Window).
+
+RÉGULER LA CHALEUR : INERTIE
+THERMIQUE ET DÉPHASAGE THERMIQUE
+
+La capacité thermique Cp
+massique (ou chaleur spécifique)
+C’est la capacité du matériau à emmagasiner la chaleur
+par rapport à son poids. Elle caractérise la quantité de
+chaleur à apporter à 1 kg de matériau pour élever sa
+température de 1°C. Elle est exprimée en J/(kg.K).
+
+La masse volumique ρ (Rhô)
+La masse volumique ou densité d’un matériau est
+exprimée en kg/m3. Il s’agit de la masse du matériau par
+unité de volume. D’une manière générale, les matériaux
+apportant de l’inertie possèdent une forte masse
+volumique.
+
+Inertie thermique
+L’inertie thermique est la capacité d’un matériau à
+stocker de la chaleur ou de la fraîcheur. Elle dépend
+principalement de la masse volumique et de la capacité
+thermique massique du matériau. Plus ces dernières
+sont élevées, plus un matériau présente une inertie
+importante. Ce sont donc généralement les parois
+lourdes (mur ou dalle maçonnés, chape, cloison lourde,
+etc.) qui participent à l’inertie thermique d’un bâtiment
+permettant de lisser les variations de sa température
+intérieure.
+
+Retenir la chaleur est essentiel pour limiter les
+consommations d’énergie mais insuffisant pour assurer
+un bon confort thermique tout au long de l’année. Il faut
+également pouvoir stocker de la chaleur dans le bâtiment
+pour limiter les variations de température et valoriser
+au mieux les apports solaires gratuits. C’est la notion
+d’inertie thermique qui entre en jeu.
+
+PARTICULIERS I Guide des matériaux isolants
+
+Application : L’inertie d’un bâtiment est complémentaire
+d’une bonne isolation thermique de son enveloppe.
+En hiver, une forte inertie permet d’emmagasiner la
+chaleur de la journée due aux apports solaires puis de la
+restituer plus tard dans la journée lorsque la température
+extérieure commence à chuter. En été, une forte inertie
+liée à une ventilation nocturne permet d’atténuer les
+surchauffes durant la journée. Aussi, dans le cas d’un projet
+de rénovation, il convient de trouver le bon compromis entre
+isolation thermique et utilisation de l’inertie existante du bâti
+afin de conjuguer économies d’énergie et confort thermique
+toute l’année.
+PAGE 7
+
+La position de l’isolation, à l’intérieur ou à l’extérieur, va
+fortement influer sur l’inertie du bâtiment.
+Dans le cas d’une maison en grès ou en maçonnerie, une
+isolation thermique placée à l’intérieur va empêcher les
+murs de participer à l’inertie thermique du bâtiment.
+À l’inverse, une isolation par l’extérieur permet de profiter de
+l’inertie des murs existants.
+L’inertie d’une paroi n’est pas, à proprement parler,
+bonne ou mauvaise, mais adaptée ou non à une situation.
+Dans le cas d’un bâtiment à occupation intermittente
+(résidence secondaire par exemple), une trop forte
+inertie n’est pas souhaitable puisque les murs auraient à
+peine le temps de se réchauffer le temps de l’occupation.
+
+Déphasage thermique
+Le déphasage thermique définit le temps que met un
+front de chaleur pour traverser une épaisseur donnée
+de matériau. Cette notion dynamique dépend également
+principalement de la masse volumique et de la capacité
+thermique massique du matériau. La prise en compte du
+déphasage thermique est notamment utile en été pour
+décaler au cœur de la nuit plus fraîche la pénétration de la
+chaleur reçue par les parois extérieures durant la journée.
+
+Capacité hygrothermique
+
+GÉRER LES FLUX DE VAPEUR D’EAU,
+COMPORTEMENT HYGROSCOPIQUE
+DES PAROIS
+D’importants échanges de vapeur d’eau ont lieu entre
+l’intérieur et l’extérieur d’un bâtiment, du fait de
+différences de température et d’humidité entre ces deux
+milieux. Les parois d’un bâtiment sont donc soumises à
+des flux importants d’humidité sous forme d’eau liquide
+et vaporisée, mais aussi à d’éventuelles remontées
+capillaires ou à des pluies battantes sur les façades
+exposées.
+La gestion de ces flux est complexe et nécessite une
+attention particulière. En effet, une mauvaise gestion
+de l’humidité des parois peut entraîner des désordres
+rapides sur le bâti (fissures, moisissures, etc.) voire à
+plus long terme mettre en péril la structure du bâtiment.
+Il faut donc s’assurer des capacités de séchage des murs
+et de l’évacuation de l’humidité vers l’extérieur.
+La gestion des flux de vapeur d’eau d’une paroi est
+principalement caractérisée par le coefficient de
+résistance à la diffusion de vapeur d’eau (μ) d’un
+matériau et l’épaisseur de lame d’air équivalente (Sd)
+d’une épaisseur donnée d’un matériau.
+
+En complément de l’inertie thermique, certains matériaux
+peuvent apporter une plus-value dans la régulation de la
+température et de l’humidité des locaux, grâce à leur
+capacité hygrothermique. Encore peu caractérisée, cette
+notion est particulièrement présente dans le cadre des
+matériaux biosourcés qui agissent comme de véritables
+matériaux à changement de phase. En attendant les
+résultats des études en cours sur ce sujet, les fiches de
+ce guide présentent pour chaque matériau leur niveau
+estimé de capacité hygrothermique.
+PARTICULIERS I Guide des matériaux isolants
+
+PAGE 9
+
+Le coefficient de résistance μ (mu)
+à la diffusion de vapeur d’eau
+Il caractérise la capacité du matériau à empêcher son
+franchissement par la vapeur d’eau. C’est un coefficient
+sans unité. Plus le μ est élevé, plus le matériau est
+étanche à la vapeur d’eau. Par convention, on considère
+que l’air immobile possède un coefficient de résistance
+à la diffusion de vapeur d’eau μ = 1. Un matériau peu
+résistant à la diffusion de vapeur d’eau est également
+qualifié de « perspirant ».
+
+Ainsi, un matériau disposant d’un μ élevé mais mis en
+œuvre en faible épaisseur peut aussi bien résister au
+passage de la vapeur d’eau qu’un matériau disposant
+d’un μ plus faible mais mis en œuvre en épaisseur plus
+importante. C’est le cas par exemple des membranes
+pare-vapeur qui présentent ainsi des Sd importants alors
+que leur épaisseur est très faible.
+De manière générale, il faut faciliter l’évacuation de la
+vapeur d’eau par l’extérieur des murs. En première
+approche, on considère que le Sd de chaque couche
+de matériaux constituant une paroi doit être dégressif
+de l’intérieur vers l’extérieur, avec un Sd du parement
+extérieur d’un mur 5 fois plus faible que celui du
+parement intérieur.
+
+L’épaisseur de lame Sd
+d’air équivalente
+En pratique, l’épaisseur de lame d’air équivalente (Sd)
+remplace le coefficient de résistance à la diffusion de
+vapeur (μ). Ces deux grandeurs sont reliées par la
+relation suivante : Sd = μ.e, où e est l’épaisseur du
+matériau en question. Le Sd s’exprime en m. Plus le Sd
+est élevé, plus le matériau s’oppose à la migration de
+vapeur d’eau. Cet indicateur rend bien mieux compte de
+la capacité du matériau mis en œuvre à se laisser
+traverser par la vapeur, puisqu’il tient compte de
+l’épaisseur de ce dernier. Il est également plus simple à
+appréhender : 1 cm d’un matériau de μ=10 s’oppose au
+passage de la vapeur d’eau comme 10 cm d’air.
+PARTICULIERS I Guide des matériaux isolants
+
+PAGE 11
+
+Le cas de la rénovation du
+bâti ancien (bâti d’avant 1950)
+
+Afin d’assurer la pérennité du bâti après rénovation et
+d’éviter tout désordre, il est fortement recommandé de
+faire appel à un professionnel spécialiste du bâti ancien
+ou a minima de suivre les quatre préconisations suivantes
+en complément des règles générales.
+1. Privilégier l’isolation thermique par l’extérieur à
+l’isolation par l’intérieur ;
+2. Recourir à des matériaux capillaires et perméables à la
+vapeur d’eau, que ce soit pour l’isolant, les éventuelles
+membranes ou les revêtements de finition intérieure et
+extérieure (enduit…) ;
+3. 
+Limiter l’exposition des façades aux pluies (débord
+de toiture, bardage, etc.) et aux remontées capillaires
+(drainage des pieds de mur, etc.) ;
+4. En cas d’isolation rapportée par l’intérieur, limiter à
+10-12 cm l’épaisseur de l’isolation.
+
+La gestion de l’humidité dans le bâti ancien est un axe
+fondamental lors d’un projet de rénovation. Contrairement
+aux constructions nouvelles, où la stratégie adoptée
+est de se couper de tout risque d’humidité (matériaux
+hygrophobes et imperméables à la vapeur d’eau), les
+matériaux utilisés dans le bâti ancien sont généralement
+poreux et laissent migrer l’humidité, qu’elle soit sous
+forme de vapeur ou d’eau liquide.
+
+Pour plus d’informations sur ces préconisations,
+consulter les résultats de l’étude Hygroba du CETE de
+l’Est sur la réhabilitation hygrothermique des parois
+anciennes :
+www.cete-est.developpement-durable.gouv.fr
+
+Il est nécessaire de tenir compte de cette particularité
+lors de toute intervention. Il faut veiller à maintenir
+les capacités du mur à réguler et évacuer l’humidité
+qu’il contient de manière naturelle (par évaporation
+principalement), tout en limitant les apports d’humidité
+(limiter les remontées capillaires, maintenir un bon état
+des enduits, éviter les risques de condensation, assurer
+une ventilation efficace du bâtiment).
+
+PARTICULIERS I Guide des matériaux isolants
+
+PAGE 13
+
+IMPACT ENVIRONNEMENTAL
+ET ÉNERGIE GRISE
+
+Analyse de cycle de vie
+
+Énergie grise
+Parmi tous les impacts environnementaux déclinés dans
+les Déclarations Environnementales, la consommation
+totale
+d’énergie
+primaire
+non
+renouvelable,
+communément appelée énergie grise, est un « aspect
+environnemental témoin » qui reflète généralement bien
+l’impact environnemental global d’un produit.
+Le terme « grise » illustre le fait que cette consommation
+d’énergie ne se voit pas, mais qu’elle a bien été utilisée
+pour extraire, fabriquer, transformer, mettre en œuvre,
+entretenir et gérer la fin de vie des matériaux utilisés
+pour la construction d’un bâtiment.
+
+Toute activité humaine, dont la fabrication de produits ou
+bien de consommation, a un impact sur l’environnement
+et les ressources naturelles.
+L’Analyse du Cycle de Vie (ACV) d’un produit ou d’une
+activité humaine consiste à identifier cet impact
+environnemental. Elle permet de transformer des flux
+en impacts environnementaux quantifiés : consommation
+énergétique, déchets, consommation d’eau, changement
+climatique, pollution de l’air, pollution de l’eau, etc.
+Pour les produits de construction, les ACV sont présentées
+sous la forme de Déclarations Environnementales (EPD
+ou FDES). Depuis le 1er janvier 2014, les responsables
+de la mise sur le marché de produits comportant
+des allégations à caractère environnemental ou
+utilisant les termes de développement durable ou ses
+synonymes, doivent établir et publier une déclaration
+environnementale.
+Le site www.declaration-environnementale.gouv.fr répertorie
+l’ensemble des déclarations environnementales publiées.
+PARTICULIERS I Guide des matériaux isolants
+
+Sur des bâtiments à faible consommation d’énergie,
+l’énergie grise peut représenter l’équivalent de l’énergie
+utilisée par le bâtiment pendant plusieurs décennies.
+Même si l’énergie grise se situe en premier lieu dans
+le gros œuvre des bâtiments, il y a lieu de s’intéresser
+également à celle des matériaux d’isolation qui varie
+grandement d’un matériau à l’autre.
+En rénovation, l’énergie économisée par le recours à
+de l’isolation sera cependant bien plus importante que
+l’énergie grise des matériaux d’isolation. Alors isolons !
+
+Nota : Les valeurs d’énergie grise proposées à titre
+indicatif dans les fiches de ce guide sont issues
+prioritairement de Déclarations Environnementales
+(disponibles lors de l’édition de ce guide) de produits
+représentatifs. Les valeurs sont proposées à titre d’ordre
+de grandeur et sont rapportées en kWh par kg d’isolant,
+l’énergie grise d’un matériau étant fortement liée à
+sa masse de matière plutôt qu’à son volume. Toute
+comparaison entre différents produits devra donc être
+établie sur la base d’une même unité fonctionnelle, en
+tenant compte de la masse volumique et de la conductivité
+thermique des matériaux comparés.
+
+PAGE 15
+
+IMPACT SANITAIRE
+
+À la pose
+Lors de leur pose, les risques sanitaires des matériaux
+isolants portent principalement sur la peau, les yeux et
+l’appareil respiratoire (maladies respiratoires, irritation
+des voies respiratoires, irritations cutanées, allergies).
+Ces risques dépendent de la nature du matériau mis
+en œuvre mais aussi de l’environnement de travail, des
+moyens de découpe utilisés et de la technique de pose.
+Aussi les principaux dangers liés aux isolants sont dus à :
+•La présence de fibres,
+
+Pour plus d’informations, vous pouvez consulter par
+exemple le site de l’Institut de Recherche et d’Innovation
+sur la Santé et la Sécurité au Travail sur www.iris-st.org
+
+Produit posé
+Depuis le 1er septembre 2013, tous les produits de
+construction et de décoration vendus en France doivent
+posséder une étiquette qui indique le niveau d’émission
+du produit posé en polluants volatils dans l’air intérieur
+par une classe allant de A+ (très faibles émissions) à C
+(fortes émissions). En revanche cet étiquetage n’informe
+pas de la nocivité des produits lors de leur pose.
+
+•La présence de substances ignifugeantes, antifongiques,
+antimites…
+•L’émission de poussières lors de la découpe, de la pose
+ou du retrait d’un isolant ancien.
+Pour maîtriser ces risques, il convient de s’informer
+sur les dangers du matériau (lecture de l’étiquetage
+et des fiches de données de sécurité). Le suivi des
+recommandations de mise en œuvre du matériau
+généralement fourni par les fabricants doit permettre
+une pose correcte et sans risque. Enfin, pour tous les
+matériaux et tous les types de pose et de retrait, il est
+impératif d’adopter des bonnes pratiques avant, pendant
+et après la mise en œuvre en commençant par le port
+d’équipements de protection individuelle (EPI) :
+•Une tenue de travail ample mais ajustée au niveau
+des poignets, du cou et des chevilles ;
+•Une casquette et des lunettes équipées de
+protections latérales ;
+•Des gants ;
+•Un appareil de protection respiratoire (masque
+filtrant à usage unique ou masque à ventilation
+assistée pour la pose d’isolant insufflé) ;
+•Un casque de protection auditive (pour la pose
+d’isolants nécessitant une découpe).
+PARTICULIERS I Guide des matériaux isolants
+
+RÉACTION AU FEU
+La classification des matériaux et des éléments de
+construction par rapport au danger d’incendie est
+précisée par le Code de la construction et de l’habitation.
+On distingue deux critères qui sont la réaction au feu et
+la résistance au feu. La résistance au feu caractérise le
+temps durant lequel l’élément de construction conserve
+ses propriétés physiques et mécaniques, et joue son rôle
+de limitation de la propagation (stable au feu (SF), pareflamme (PF), coupe-feu (CF)).
+La réaction au feu caractérise quant à elle le
+comportement d’un matériau en tant qu’aliment du
+feu. La classification européenne (Euroclasses) est la
+référence aujourd’hui pour évaluer le comportement
+au feu des matériaux de construction. Elle remplace
+progressivement l’ancienne classification « M » française
+(M0 à M4). La classification européenne est définie par
+un classement des produits en 7 catégories (A1 à F)
+complété par 2 critères sur le dégagement de fumées (s)
+et la production de gouttes enflammées (d).
+PAGE 17
+
+Dans certains cas particuliers des conduits d’évacuation
+de fumées (poêle à bois, insert), la réglementation
+fumisterie en vigueur impose l’emploi de composants
+ininflammables à proximité. Par ailleurs, une attention
+particulière doit être apportée au matériel électrique
+et toutes sources de chaleur non protégées (spots,
+transformateurs...) qui ne doivent pas être en contact
+avec un isolant inflammable.
+
+RECONNAISSANCE TECHNIQUE
+ET ASSURANCE
+
+Marquage CE
+Apposé par le fabricant ou l’importateur, le marquage CE
+est obligatoire pour les produits couverts par une norme
+harmonisée. Tous les produits d’isolation ne sont pas encore
+couverts par cette obligation qui constitue un « passeport
+pour le marché européen ». Il est accompagné d’une fiche de
+déclaration de performance (DoP) décrivant entre autres son
+usage prévu, ses caractéristiques essentielles obligatoires
+(conductivité thermique, caractéristiques dimensionnelles
+et mécaniques, réaction au feu, etc.) ainsi que celles non
+obligatoires que le fabricant souhaite mettre en avant.
+Toute autre caractéristique non mentionnée dans la fiche de
+déclaration de performance ne peut pas être utilisée par le
+fabricant dans ses documents de publicité par exemple.
+
+Certification ACERMI
+La marque ACERMI est un certificat français, volontaire
+et non obligatoire, délivré par l’Association pour la
+Certification des Matériaux Isolants (ACERMI). L’ACERMI
+certifie les performances des produits isolants et les
+contrôle périodiquement. La certification ACERMI vise à
+garantir les performances des produits (performances
+thermiques, acoustiques, réaction au feu, comportement
+à la vapeur d’eau, etc.). La certification ACERMI est
+exigée, à défaut de marquage CE, pour l’obtention
+de l’éco-PTZ ou du crédit d’impôt Développement
+Durable. Initialement définie pour les productions
+PARTICULIERS I Guide des matériaux isolants
+
+industrielles de masse, la certification ACERMI s’adapte
+progressivement au développement de produits moins
+industrialisés par une procédure spécifique appelée
+« ACERMI Tremplin »; Pour savoir si un produit bénéficie
+d’un certificat ACERMI : www.acermi.com
+
+Mise en œuvre des isolants et assurances
+La bonne mise en œuvre des matériaux de construction
+est définie par différents documents, selon leur degré
+d’innovation et selon qu’ils relèvent de démarches
+individuelles (produit d’un fabricant en particulier) ou
+collectives (plusieurs produits pour un ou des usages
+similaires). Les techniques considérées comme
+courantes permettent aux entreprises une mise en œuvre
+sans démarche particulière auprès de leur assureur.
+Ces techniques relèvent des DTU (Documents Techniques
+Unifiés, ayant valeur de normes) ou des règles
+professionnelles (transcrivant les bonnes pratiques
+de professionnels) validées par l’Agence Qualité
+Construction (AQC, réunissant les professionnels de la
+construction et de l’assurance) dans le cas de démarches
+collectives. Pour des démarches individuelles, on
+parle d’ATec (Avis Techniques) ou de DTA (Document
+Technique d’Application). Les techniques non courantes,
+qui impliquent des conditions d’assurance spécifiques
+pour l’entreprise, relèvent de l’Appréciation Technique
+d’Expérimentation (Atex), du Pass Innovation ou de toutes
+autres démarches non reconnues et précédemment
+citées. Il peut également arriver que des familles
+de produits individuellement couverts par des ATec
+soient mises en observation par l’AQC : elles sont
+alors considérées comme relevant de techniques non
+courantes. Pour en savoir plus : www.cstb.fr/evaluations
+Un matériau reconnu techniquement et mis en œuvre
+selon les prescriptions décrites dans les documents
+de référence (DTU, Règles professionnelles, Avis
+Techniques) et dans les documents du fabricant répond
+à toutes les exigences techniques assurant sa durabilité.
+
+PAGE 19
+
+OBJECTIF BBC-COMPATIBLE
+APPROCHE GLOBALE : LES 7 CLÉS
+DE LA BASSE CONSOMMATION
+
+Dans le coût de travaux d’isolation thermique, ce n’est
+pas l’isolant le poste le plus important mais la mise en
+œuvre complète qui est nécessaire dans tous les cas
+(finitions, échafaudage si isolation par l’extérieur, etc.)
+Le niveau BBC-compatible à viser pour chaque paroi est
+détaillé ci-après à titre indicatif :
+Murs . . . . . . . . . . . . . . . . . . . R ≥ 5
+Toiture  . . . . . . . . . . . . . . . R ≥ 7,5
+Dalle basse  . . . . . . . . . . . R ≥ 3,5
+Si l’isolation des parois est un point essentiel, il ne
+faut pas que celle-ci néglige le traitement des ponts
+thermiques. Ainsi par exemple dans le cas de l’isolation
+par l’extérieur, il y a lieu de bien traiter le retour de
+l’isolant jusque sur le dormant des menuiseries.
+
+ÉTANCHÉITÉ À L’AIR
+
+L’enveloppe est la coquille du bâtiment : elle sépare le
+milieu intérieur isolé et confortable du milieu extérieur.
+Elle inclut murs, planchers, toitures, portes et fenêtres.
+Un bâtiment performant associe une enveloppe étanche
+à l’air avec une isolation renforcée, à une ventilation
+adaptée et un chauffage performant pour assurer le
+confort thermique et sanitaire des usagers.
+
+ISOLATION
+L’isolation thermique des bâtiments permet de diminuer
+les besoins en énergie du bâtiment. Elle représente
+généralement des travaux lourds qui seront réalisés
+pour de nombreuses années. Aussi l’objectif d’isolation
+doit être ambitieux, à un niveau BBC-compatible en
+rénovation, afin d’être le plus rentable économiquement,
+environnementalement et thermiquement sur le long
+terme.
+
+PARTICULIERS I Guide des matériaux isolants
+
+La résistance thermique de l’isolant seule n’est pas
+suffisante pour garantir son efficacité. Deux facteurs sont
+indissociables :
+• L’isolant doit se trouver dans un environnement sans
+excès d’humidité qui rend le matériau plus conducteur
+et peut engendrer des dégradations du bâti ;
+• L’isolant doit se trouver dans un environnement
+sans courant d’air, le principe de l’isolation étant
+d’emprisonner de l’air immobile.
+Pour réunir ces deux conditions, le traitement de
+l’étanchéité à l’air de l’enveloppe est indispensable en
+complément de l’isolation. Dans tous les cas, la mise en
+place d’une ventilation performante est indispensable
+pour assurer le renouvellement de l’air intérieur
+permettant l’évacuation de l’humidité et des polluants
+présents au sein des bâtiments.
+Attention à ne pas confondre étanchéité à l’air et étanchéité
+à la vapeur d’eau ! Ainsi il vaut mieux un bâtiment étanche
+à l’air et perméable à la vapeur d’eau, comme une veste
+en Gore-tex®, qu’un bâtiment étanche à la vapeur d’eau
+et perméable à l’air !
+PAGE 21
+
+FICHES MATÉRIAUX
+Les principaux matériaux d’isolation disponibles
+actuellement vous sont présentés dans les fiches
+suivantes, classées en 3 grandes familles selon l’origine
+de leur matière première :
+
+• Les matériaux biosourcés, constitués principalement
+de fibres végétales ou animales. Leur matière première
+est donc largement issue de ressources renouvelables
+et valorise majoritairement des co-produits de
+l’agriculture ou de l’industrie du bois. À la différence des
+autres types de matériaux d’isolation, la majeure partie
+des matériaux biosourcés présente un comportement
+hygroscopique qui associe forte perméabilité à la
+vapeur d’eau et régulation de l’humidité. Bien valorisé,
+ce comportement est particulièrement intéressant pour
+la rénovation du bâti ancien, pour lequel il faut assurer
+la continuité des transferts d’humidité dans les parois.
+Afin de mutualiser leurs efforts et d’être représentées
+au sein des instances de décisions nationales, les
+filières des matériaux biosourcés sont désormais
+regroupées au sein de l’association Constructions et
+Bioressources.
+
+• Les matériaux minéraux, constitués principalement
+
+(soubassement, sous-dalle...). Cette caractéristique
+les rend par contre impropres à un usage sur des
+parois à fort enjeu hygroscopique que l’on rencontre
+fréquemment dans le bâti ancien. Le développement de
+l’isolation par l’extérieur a également beaucoup profité
+au polystyrène, bien que ce ne soit pas le seul matériau
+utilisable pour cette application.
+
+Contrairement à ce que l’on pourrait croire,
+les isolants biosourcés ne sont pas plus
+soumis au risque de pénétration de rongeurs
+que les autres isolants.
+Attention donc aux points faibles du bâti :
+défauts d’enduits, canalisations ou aérations
+non protégées, jonctions entre parois, etc.
+La pose de grilles anti-rongeurs est une des
+principales solutions.
+
+Les informations proposées, issues prioritairement des
+données de fabricants, ne peuvent toutefois pas être
+exhaustives et n’engagent pas notre responsabilité. Elles
+peuvent être complétées ou modifiées sur demande.
+
+de ressources minérales vierges ou issus en partie du
+recyclage pour certains. Sous forme de laines de verre
+ou de roche, ce sont les produits d’isolation les plus
+répandus sur le marché français.
+
+• Les matériaux synthétiques, issus de ressources
+pétrochimiques, donc non renouvelables et fortement
+émetteurs de gaz à effet de serre. Pour la plupart
+dépourvus de toute sensibilité à l’humidité, ces
+matériaux peuvent être particulièrement indiqués pour
+le traitement des zones fortement soumises à l’humidité
+PARTICULIERS I Guide des matériaux isolants
+
+PAGE 23
+
+Biosourcés
+
+OUATE DE CELLULOSE
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+La ouate de cellulose est obtenue à partir de papiers recyclés
+(journaux neufs invendus et/ou chutes de coupes de papiers
+neufs d’imprimerie), auxquels sont ajoutés des additifs pour
+assurer la résistance au feu et aux moisissures du produit.
+La ouate de cellulose est utilisée comme isolant depuis les
+années 1930 aux États-Unis et en Scandinavie, où plusieurs
+centaines de milliers de bâtiments privés et publics ont
+utilisé ce matériau.
+
+Composition principale
+
+Caractéristiques techniques principales :
+
+• Papier recyclé
+• Adjuvant : principalement sel de bore (< 5%)
+
+Masse volumique : ρ
+
+30 - 70 kg/m3
+
+Conductivité thermique λ
+
+0,037 à 0,042 W/(m.K)
+
+Fin de vie
+
+Déchet non dangereux (recyclable, mais non compostable)
+
+Format et type de mise en œuvre
+
+selon les types de mise en
+œuvre
+selon produits et types
+de mise en œuvre
+
+• Vrac pour soufflage, insufflation, flocage
+• Panneaux semi-rigides (épaisseur de 45 à 140 mm)
+
+Capacité thermique massique Cp 2000 J/(kg.K)
+
+Cadre normatif
+
+Perméabilité à la vapeur d’eau µ 2
+
+• Marquage CE
+• Produits principalement sous Avis Techniques
+• Certains produits bénéficient d’un certificat ACERMI
+
+Capacité hygrothermique
+
+moyenne
+
+Énergie grise
+
+1 - 2 kWh/kg
+
+Réaction au feu
+
+B s2 d0 à E
+selon produits
+
+Ouate de cellulose et adjuvants
+Soumis à une restriction d’usage par la directive européenne
+REACH, le sel de bore reste utilisable uniquement à des
+concentrations inférieures à 5,5%.
+À partir de 2011, la Commission Chargée de Formuler les
+Avis Techniques (CCFAT) a souhaité ne plus délivrer d’avis
+technique à des produits contenant des sels de bore, ce qui
+a conduit les producteurs de ouate de cellulose à recourir
+à des sels d’ammonium. Mais des émissions d’ammoniac
+par les ouates de cellulose ainsi traitées ont conduit la
+CCFAT en 2013 à re-délivrer des avis techniques à des
+
+Avantages
+• Prix compétitif
+• Offre commerciale importante
+• Faible énergie grise
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+produits contenant des sels de bore et l’État à interdire la
+commercialisation des ouates de cellulose traitées aux sels
+d’ammonium.
+La CCFAT a accordé aux fabricants de ouate de cellulose
+un délai jusqu’au 30 juin 2015 pour qu’ils proposent de
+nouveaux substituts au sel de bore. Ce dernier reste
+autorisé jusqu’à cette date. À noter que le sel de bore
+est également utilisé pour d’autres types d’isolants pas
+uniquement biosourcés.
+
+Inconvénients
+• Risque de tassement si non-respect des densités
+prescrites
+
+PAGE 25
+
+Biosourcés
+
+FIBRES DE BOIS DENSES
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+© Badias -Région Alsace
+
+La fibre de bois est obtenue par défibrage thermomécanique
+de résidus de bois résineux. À ce stade de transformation,
+elle peut être proposée sous forme de fibres en vrac pour
+une mise en œuvre par soufflage ou insufflation. Agglomérée
+par voie sèche ou humide, elle forme des panneaux plus ou
+moins denses et avec éventuellement adjonction de liant
+selon les applications.
+La fibre de bois est particulièrement utilisée sous forme de
+panneaux denses pour assurer la fonction de pare-pluie en
+toiture ou en façade, ou pour assurer la fonction de support
+d’enduits dans le cas d’isolation par l’extérieur (ITE).
+Particulièrement développés en Scandinavie et dans les pays
+frontaliers de l’Alsace, les isolants à base de fibres de bois sont
+désormais également produits dans plusieurs régions de France.
+
+Composition principale
+
+• Déchets de bois résineux (résidus forestiers, déchets de
+scieries)
+• Adjuvant potentiel : paraffine et/ou latex pour procurer des
+propriétés de pare-pluie. Colle vinylique (PVAc) ou
+polyuréthane (PMDI) selon les cas
+
+Fin de vie
+
+Déchet non dangereux (valorisation énergétique, recyclable,
+éventuellement compostable selon la composition)
+
+Format et type de mise en œuvre
+
+• Panneaux rigides, d’épaisseurs variables (22 mm à 240 mm)
+• Mise en œuvre sur tout type de paroi : mur (ITE, parepluie), toiture, plancher
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+110 - 240 kg/m3
+
+Conductivité thermique λ
+
+0,038 à 0,049 W/(m.K)
+
+selon produits
+selon produits
+
+Capacité thermique massique Cp 2000-2100 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 3 - 5
+Capacité hygrothermique
+
+moyenne
+
+Énergie grise
+
+1 - 3 kWh/kg
+
+Réaction au feu
+
+E
+
+Cadre normatif
+
+• Marquage CE
+• Domaine traditionnel pour les applications principales
+• Certaines applications sous Avis Techniques
+• Nombreux produits sous ACERMI
+
+Avantages
+• Résistance à la compression
+• Diversité de produits et d’applications
+• Possibilité d’être pare-pluie ou support d’enduit
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+Inconvénients
+• Non intégralement biodégradable selon les liants et
+adjuvants incorporés
+
+-
+
+PAGE 27
+
+Biosourcés
+
+BÉTON DE CHANVRE
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+Le chanvre (cannabis setiva L) est une plante annuelle
+utilisée depuis près d’un millénaire en France qui est le
+premier pays producteur européen.
+
+© YH
+
+Agronomiquement intéressante puisqu’elle ne nécessite
+que très peu d’intrants (traitement, engrais, irrigation),
+l’ensemble de la plante est valorisé. Si les fibres constituants
+la périphérie de la tige de chanvre sont utilisées dans le textile
+ou pour la fabrication de laine isolante, l’intérieur de la tige,
+appelé chènevotte, est également valorisé, par exemple sous
+forme de béton de végétal dans le secteur du bâtiment.
+En association avec un liant (chaux, ciment,...) prescrit avec
+des dosages variant selon les applications et les couples
+liant-chanvre utilisés, ce matériau de remplissage peut alors
+être mis en forme sur chantier selon différentes techniques
+particulièrement adaptées à la rénovation du bâti ancien.
+
+Composition principale
+
+• Chènevotte
+• Liant : essentiellement de la chaux, ou du ciment prompt
+naturel ou courant
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+200 - 800 kg/m3
+
+Conductivité thermique λ
+
+0,06 à 0,15 W/(m.K)
+
+Fin de vie
+
+Déchet inerte biodégradable
+
+Format et type de mise en œuvre
+
+• Mise en œuvre du béton sur chantier par banchage,
+projection ou enduit
+• Disponible également sous forme de brique chaux-chanvre
+ou d’éléments préfabriqués de grandes dimensions
+• Mise en œuvre sur tout type de paroi : mur, toiture, plancher
+
+Cadre normatif
+
+selon couples chaux-chanvre
+et selon type de mise en
+œuvre
+selon dosage et application
+
+Capacité thermique massique Cp 1350 - 1800 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 5 – 8
+Capacité hygrothermique
+
+moyenne
+
+Énergie grise
+
+1,8 kWh/kg
+
+Réaction au feu
+
+A2 s1 d0
+
+• Mise en œuvre respectant les règles professionnelles
+d’ouvrages en béton de chanvre, requérant un professionnel
+formé et un couple chènevotte-liant caractérisé et
+reconnu par l’association Construire en Chanvre. www.
+construction-chanvre.asso.fr
+• Autre démarche pour la reconnaissance de micro-filières
+locales portée par l’association Chanvre en Circuit Court (3C)
+
+Avantages
+
++
+
+• Capacité hygrothermique apportant une régulation
+thermique intéressante
+• Particulièrement adapté pour la rénovation du bâti ancien
+• Résistance au feu importante
+• Qualité sanitaire de la chaux
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+Inconvénients
+• Temps de séchage relativement long pour les fortes
+épaisseurs mises en oeuvre sur chantier
+
+-
+
+PAGE 29
+
+Biosourcés
+
+LAINES BIOSOURCÉES
+
+(chanvre, lin, bois, textile recyclé, mouton, mixte)
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+© Le Relais-Métise
+
+Les laines biosourcées sont constituées de fibres végétales
+(bois, chanvre, lin), de fibres textiles recyclées, de fibres
+d’origine animale (mouton) ou d’un mixte de ces matériaux,
+texturées sous forme de rouleaux ou de panneaux par l’ajout
+de fibres polymères (polyester principalement) auxquelles
+sont ajoutés des adjuvants pour assurer la résistance au feu
+et aux moisissures des produits.
+Les laines à base de textile recyclé sont également
+intéressantes puisqu’elles valorisent une part non négligeable
+de nos vêtements devenus inutilisables, principalement via
+des entreprises de l’économie sociale et solidaire.
+La laine de mouton est obtenue à partir de la tonte régulière de la
+toison des moutons, après lavage, traitement et mise en forme.
+
+Composition principale
+
+• Fibres de bois, de chanvre, de lin, de laine de mouton ou de
+textiles recyclés
+• Liant : 10-15 % (polyester ou polyéthylène essentiellement,
+développement en cours de liants à base de polymères
+biosourcés)
+• Adjuvant ignifugeant et antifongique (principalement sel
+de bore (< 1%))
+
+Fin de vie
+
+Déchet non dangereux (valorisation énergétique, recyclable,
+éventuellement compostable selon la composition (liant,
+adjuvants).
+
+Format et type de mise en œuvre
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+20 - 80 kg/m3
+
+Conductivité thermique λ
+
+0,032 à 0,047 W/(m.K)
+
+selon produits
+selon produits
+
+Capacité thermique massique Cp 1350 - 1800 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 1 - 3
+Capacité hygrothermique
+
+moyenne
+
+Énergie grise
+
+5 - 10 kWh/kg
+
+Réaction au feu
+
+de B s1 d0 à E - F
+
+• Vrac de fibres de bois, de chanvre, de laine de mouton et
+de textiles recyclés pour soufflage ou insufflation et/ou pose
+manuelle
+• Panneaux semi-rigides, rouleaux (épaisseur de 45 à 200 mm)
+• Mise en œuvre sur tout type de paroi : mur, toiture,
+plancher, cloison
+
+(selon produits)
+
+Cadre normatif
+
+• Marquage CE pour la laine à base de fibres de bois
+• Plusieurs produits sous Avis Techniques
+• Plusieurs produits bénéficient d’un certificat ACERMI
+
+Avantages
+• Mise en œuvre similaire à celle de laines minérales
+• Capacité d’absorption acoustique importante
+• Capacité hygrothermique relativement importante
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+Inconvénients
+• Non intégralement biodégradable selon les liants et
+adjuvants incorporés
+
+-
+
+PAGE 31
+
+Biosourcés
+
+BOTTE DE PAILLE
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+© Badias - Région Alsace
+
+Utilisée depuis des siècles sous forme de torchis, la paille
+revient dans le bâtiment sous forme de bottes de paille
+utilisées comme isolant et support d’enduit. Les démarches
+entreprises par le Réseau Français de la Construction en
+Paille (RFCP) ont abouti à la validation par l’AQC de règles
+professionnelles de construction en paille fin 2011.
+La première maison construite en France grâce à ce matériau
+remonte à 1921 et est toujours habitée. Elle témoigne de la
+pérennité de cet isolant permettant de réaliser des parois
+très performantes thermiquement à partir d’un sous-produit
+agricole largement disponible.
+
+Composition principale
+
+Caractéristiques techniques principales :
+
+Paille de céréales
+
+Masse volumique : ρ
+
+80 - 120 kg/m3
+
+Déchet non dangereux (valorisation énergétique, compostage)
+
+Conductivité thermique λ
+
+0,052 à 0,080 W/(m.K)
+
+Format et type de mise en œuvre
+
+Capacité thermique massique Cp 1550 J/(kg.K)
+
+Fin de vie
+
+• Botte de paille : format principal 37x47cm sur 50 à 120 cm
+de longueur
+• Mise en œuvre : mur et toiture
+
+Cadre normatif
+
+• Mise en œuvre selon les règles professionnelles de
+construction en paille requérant un professionnel formé
+reconnu par le RFCP
+• Certains produits préfabriqués sous avis techniques
+
+Avantages
+
++
+
+• Bilan environnemental très intéressant
+• Rapport performance/coût matière inégalé
+• Filière dynamique permettant une bonne reconnaissance
+technique
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+selon orientation des fibres
+
+Perméabilité à la vapeur d’eau µ 1 - 2
+Capacité hygrothermique
+
+moyenne
+
+Énergie grise
+
+0,1 kWh/kg
+
+Réaction au feu
+
+B s1 d0
+paille - enduit chaux
+
+Inconvénients
+• Choix de ce matériau à intégrer très en amont,
+dès la conception du projet
+
+-
+
+PAGE 33
+
+Biosourcés
+
+LIÈGE EXPANSÉ
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+© Badias - Région Alsace
+
+Le liège expansé est obtenu à partir du chêne liège,
+poussant essentiellement sous climat méditerranéen
+(Portugal, Algérie, Italie, sud de la France). Le prélèvement
+de l’écorce, appelé démasclage, s’effectue tous les huit
+à dix ans et, en exploitation raisonnée, ne nuit pas au bon
+équilibre des arbres. Cette matière première est ensuite
+réduite en granules puis expansée à la vapeur à 300 °C.
+Les granules brunissent, se dilatent et s’agglomèrent entre
+elles sous l’action de la subérine, la résine naturelle qu’elles
+contiennent. Ce matériau est utilisé depuis plus de 150 ans
+en isolation thermique.
+À noter que c’est le seul isolant biosourcé qui soit
+imputrescible, ce qui permet son usage en milieu humide
+(isolation des soubassements enterrés, sous chape, pièces
+humides…).
+
+Composition principale
+
+Caractéristiques techniques principales :
+
+Fin de vie
+
+Masse volumique : ρ
+
+65 (vrac) à 180 kg/m3
+
+Conductivité thermique λ
+
+0,037 à 0,044 W/(m.K)
+
+Liège
+
+Déchet non dangereux (recyclage, valorisation énergétique)
+
+Format et type de mise en œuvre
+
+• Vrac pour pose manuelle ou insufflation, ou en incorporation
+pour des bétons légers
+• Panneaux semi-rigides, épaisseur 10 à 240 mm
+• Mise en œuvre sur tout type de paroi : mur, toiture, plancher.
+Particulièrement adapté pour les parois où le recours à
+un isolant imputrescible et résistant à la compression est
+nécessaire : sous dalle, sous chape, soubassement…
+
+panneaux denses
+selon produits
+
+Capacité thermique massique Cp 1600 - 1900 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 5 - 30
+Capacité hygrothermique
+
+faible
+
+Énergie grise
+
+2 - 7 kWh/kg
+
+Réaction au feu
+
+E
+
+Cadre normatif
+
+• Marquage CE
+• Plusieurs produits bénéficient d’un certificat ACERMI
+
+Avantages
+• Isolant imputrescible et résistant à la compression
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+Inconvénients
+• Ressource renouvelable mais de disponibilité limitée
+• Coût
+
+-
+
+PAGE 35
+
+Minéraux
+
+LAINES MINÉRALES
+de verre (LV) ou de roche (LR)
+
+© Badias - Région Alsace
+
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+La laine de verre est produite à base de sable, de fondants
+et de produits verriers de recyclage (calcin), alors que la
+laine de roche est principalement issue de la transformation
+de basalte ou de laitier de hauts fourneaux. Après fibrage à
+1 400 °C, la matière est mise en forme par l’ajout de liants et
+d’adjuvants.
+La résistance thermique et la pérennité de la laine de verre
+étant dégradées en présence d’humidité, les laines de verre
+sont principalement commercialisées revêtues d’un parevapeur en kraft.
+La laine de roche diffère principalement de celle de verre
+par sa densité plus importante qui permet des mises en œuvre
+comme support d’enduits ou sous étanchéité de toitures plates.
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+10 - 28 kg/m3
+Laine de verre
+
+28 - 150 kg/ m3
+Laine de roche
+
+Composition principale
+
+• Fibre de verre produite par fusion de sable, de verre recyclé
+(calcin) et de fondant
+• Laine de roche produite par fusion de basalte ou de laitier
+de hauts fourneaux, avec fondants et coke
+• Liants et adjuvants variables selon les produits, de
+composition non publiée
+
+Fin de vie
+
+Déchet non dangereux (potentiellement recyclable, mais
+principalement mis en décharge)
+
+Conductivité thermique λ
+
+Perméabilité à la vapeur d’eau µ 1-2 produit nu
+
+kkavec kraft ou autres
+
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+7 - 10 kWh/kg
+
+Réaction au feu
+
+d’A1
+produit nu
+
+à E-F
+
+• Vrac pour soufflage ou insufflation
+• Panneaux semi-rigides, rouleaux (épaisseur de 45 à 400
+mm), nu ou revêtu d’un pare-vapeur en kraft, ou collé sur
+panneaux de plaque de plâtre
+• Mise en œuvre sur tout type de paroi : mur, toiture,
+plancher, cloison
+
+Cadre normatif
+
+• Marquage CE
+• Nombreux produits sous Avis Techniques pour des
+applications spécifiques
+• La majeure partie des produits bénéficie d’un certificat
+ACERMI
+
+• Large diffusion
+• Variété de produits adaptés à chaque application
+• Coût
+
+selon produits
+
+Capacité thermique massique Cp 800 - 1000 J/(kg.K)
+
+Format et type de mise en œuvre
+
+Avantages
+
+0,030 à 0,045 W/(m.K)
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+produit revêtu d’un kraft
+
+Remarque
+Depuis 2001, le Centre International de recherche sur
+le Cancer (CIRC) a changé le classement des fibres
+constituant les laines minérales de verre, de roche et de
+laitier du groupe 2B (cancérogène possible) au groupe 3
+(inclassable quant leur cancérogénicité). Les productions
+de laines minérales des industriels européens répondent
+aux critères d’exonération de cancérogénicité définis par
+l’Union Européenne, via une certification de leur faible
+biopersistance par l’EUCEB (European Certification Board
+for Mineral Wool Products, comité créé par les fabricants
+européens de laines minérales).
+
+Inconvénients
+• Revêtu d’un kraft, comportement hygroscopique
+inadapté à un usage sur des parois à fort enjeu
+hygroscopique (bâti ancien)
+
+-
+
+PAGE 37
+
+Minéraux
+
+VERRE CELLULAIRE
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+Le verre cellulaire est fabriqué à base de verre broyé
+auquel on ajoute du carbone. La matière est expansée à une
+température d’environ 1 000°C à laquelle le carbone s’oxyde
+pour former des bulles de gaz.
+
+Composition principale
+
+Caractéristiques techniques principales :
+
+Fin de vie
+
+Masse volumique : ρ
+
+Verre (principalement recyclé), carbure de silicium
+Déchet inerte, potentiellement recyclable, utilisable en
+remblai
+• Granulat (10 -75 mm) pour remblai porteur
+• Panneau rigide (épaisseur de 40 à 180 mm)
+• Mise en œuvre sur tout type de paroi : murs (ITE),
+toiture terrasse, plancher (sous chape, sous dalle).
+Particulièrement adapté pour les parois où le recours à
+un isolant imputrescible et résistant à la compression est
+nécessaire : sous dalle, sous chape, soubassement…
+
+Cadre normatif
+• Marquage CE
+
+Avantages
+• Résistance à la compression
+• Résistance au feu
+• Insensibilité à l’humidité
+
+(granulat, selon compactage)
+
+Conductivité thermique λ
+
+Format et type de mise en œuvre
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+115 kg/m3 (panneau)
+170 à 250 kg/m3
+0,041 W/(m.K) (panneau)
+0,075-0,120 W/(m.K)
+(granulat, selon produits,
+compactage et humidité)
+
+Capacité thermique massique Cp 1000 J/(kg.K)
+Perméabilité à la vapeur d’eau µ panneaux totalement
+imperméables
+à la vapeur d’eau granulat drainant
+
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+2,5 (granulat)
+6 kWh/kg (panneau)
+
+Réaction au feu
+
+E
+
+Inconvénients
+
+-
+
+• En panneaux, comportement hygroscopique inadapté à son
+usage sur des parois à fort enjeu hygroscopique (bâti ancien)
+• Coût
+
+PAGE 39
+
+Minéraux
+
+PERLITE, VERMICULITE,
+ARGILE EXPANSÉE
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+La perlite est une roche volcanique siliceuse alors que la
+vermiculite est une roche micacée. Avec l’argile expansée,
+ces 3 matériaux sont obtenus par cuisson de granules à des
+températures de 1 100-1 200 °C.
+Sous l’effet de la chaleur et de l’humidité, les granulats
+s’expansent augmentant ainsi leur capacité d’isolation.
+Leurs résistances à la compression et à l’humidité rendent
+ces matériaux particulièrement utilisés en isolation de
+toiture terrasse ou incorporés dans des bétons isolants.
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+Composition principale
+
+• Matières premières minérales
+• Liants bitumineux pour certains produits
+
+90 kg/m3 (perlite vrac)
+150 - 280 kg/m3
+(panneau perlite)
+
+75 - 130 kg/m3
+
+Fin de vie
+
+(vermiculite)
+
+Déchet inerte pour les produits en vrac
+
+330 - 700 kg/m3
+(argile expansée)
+
+Format et type de mise en œuvre
+
+• Granulat (0 -20 mm) mise en œuvre en vrac brut ou bitumé,
+incorporé en bétons
+• Panneau rigide (épaisseur de 20 à 120 mm) : Mise en œuvre
+principalement en toiture terrasse, plancher (sous chape,
+sous dalle)
+
+Conductivité thermique λ
+
+0,05 W/(m.K)
+(perlite vrac)
+
+0,05 - 0,06 W/(m.K)
+(panneau perlite)
+
+0,07 W/(m.K)
+(vermiculite)
+
+0,08 à 0,12 W/(m.K)
+
+Cadre normatif
+
+• Marquage CE
+• Certains produits sous avis technique
+• Certificat ACERMI pour la plupart des produits (panneaux)
+
+(argile expansée)
+
+Capacité thermique massique Cp 900 - 1000 J/kg.K
+Perméabilité à la vapeur d’eau µ 3 (perlite et vermiculite vrac)
+
+5 (panneau perlite non revêtu)
+
+Avantages
+• Résistance à la compression
+• Résistance au feu
+• Insensibilité à l’humidité
+
++
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+NC
+
+Réaction au feu
+
+A1 (vrac)
+C-s1, d0 à C-s2, d0
+(panneau)
+
+Inconvénients
+• Coût
+• Faible disponibilité
+
+PAGE 41
+
+Synthétiques
+
+POLYSTYRÈNE EXPANSÉ
+(EPS ou PSE)
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+© Stadler - Région Alsace
+
+La fabrication du polystyrène expansé est effectuée par
+expansion de billes de monomère styrène à l’aide de pentane
+et de vapeur d’eau pour former un isolant à structure
+cellulaire fermée et remplie de pentane.
+Les versions graphitées présentent une conductivité
+thermique améliorée (~ 20 %) par l’ajout de graphite
+(carbone) dans leur procédé de fabrication.
+
+Composition principale
+
+Polymérisation de monomère de styrène (pétrole), graphite
+
+Caractéristiques techniques principales :
+
+Fin de vie
+
+Masse volumique : ρ
+
+10 - 30 kg/m3
+
+Conductivité thermique λ
+
+0,032 à 0,038 W/(m.K)
+
+Déchet non dangereux (potentiellement recyclable, mais
+principalement mis en décharge)
+
+Format et type de mise en œuvre
+
+• Panneaux rigides (épaisseur de 20 à 300 mm), nus ou collé sur
+panneaux de plaque de plâtre
+• Mise en œuvre sur tout type de paroi : mur, toiture, plancher
+• Privilégier la découpe au fil chaud pour limiter la
+dissémination dans l’environnement de billes de
+polystyrène lors de la mise en œuvre
+
+Cadre normatif
+
+(selon produits)
+(selon produits)
+
+Capacité thermique massique Cp 1200 - 1400 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 20 à 100
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+30 - 35 kWh/kg
+
+Réaction au feu
+
+E
+
+• Marquage CE.
+• Nombreux produits sous Avis Techniques pour des
+applications spécifiques.
+• La majeure partie des produits bénéficie d’un certificat ACERMI
+
+Avantages
+• Coût
+• Possibilité d’être support d’enduits en ITE
+
+PARTICULIERS I Guide des matériaux isolants
+
++
+
+Inconvénients
+
+-
+
+• Résistance à la diffusion de vapeur d’eau inadaptée à son
+usage sur des parois à fort enjeu hygroscopique (bâti ancien)
+• Propriété d’isolation acoustique médiocre
+• Sensibilité aux UV des polystyrènes expansés graphités
+(perte de performance)
+
+PAGE 43
+
+Synthétiques
+
+POLYSTYRÈNE EXTRUDÉ
+(XPS OU PSX)
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+La fabrication du polystyrène extrudé est effectuée à partir
+de billes de monomère styrène mélangées et extrudées avec
+un agent gonflant : CO2 pour les performances thermiques
+courantes ou des gaz HFC pour des performances thermiques
+supérieures. Ces isolants ont une peau de surface étanche à
+l’air et sont à cellules fermées. Les polystyrènes extrudés
+diffèrent essentiellement des polystyrènes expansés par
+leur plus grande résistance à la compression et à l’humidité.
+
+Composition principale
+
+• Polymérisation de monomère de styrène (pétrole)
+• Agent gonflant variable selon les produits : air, CO2, HFC
+(puissant gaz à effet de serre) ou non publié
+
+Fin de vie
+
+Déchet non dangereux (potentiellement recyclable, mais
+principalement mis en décharge)
+
+Format et type de mise en œuvre
+
+• Panneau rigide (épaisseur de 30 à 120 mm), nu ou collé sur
+panneaux de plaque de plâtre
+• Mise en œuvre sur tout type de paroi : murs, toiture,
+plancher
+
+Caractéristiques techniques principales :
+Masse volumique : ρ
+
+15 - 30 kg/m3
+
+Conductivité thermique λ
+
+0,028 à 0,040 W/(m.K)
+
+(selon produits)
+(selon produits)
+
+Capacité thermique massique Cp 1000 J/(kg.K)
+Perméabilité à la vapeur d’eau µ 80 - 200
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+30 - 85 kWh/kg
+
+Réaction au feu
+
+E
+
+Cadre normatif
+
+• Marquage CE.
+• Nombreux produits sous Avis Techniques pour des
+applications spécifiques.
+• La majeure partie des produits bénéficie d’un certificat ACERMI
+
+Avantages
+• Résistance à la compression
+• Adapté aux milieux humides
+
+PARTICULIERS I Guide des matériaux isolants
+
++
+
+Inconvénients
+• Comportement hygroscopique inadapté à son usage
+sur des parois à fort enjeu hygroscopique (bâti ancien)
+
+-
+
+PAGE 45
+
+Synthétiques
+
+POLYURÉTHANE (PUR)
+PRÉSENTATION SUCCINCTE DU MATÉRIAU
+
+La fabrication des isolants en polyuréthane est effectuée à
+partir de moussage d’un composé de polyols, de méthylène
+diisocyanate, d’agents gonflants et d’additifs, entre deux
+parements d’aluminium qui assurent l’étanchéité à l’air de
+l’isolant et la pérennité de ses performances thermiques. La
+conductivité thermique des différents produits varie selon la
+nature du gaz remplissant les cellules fermées, la technique
+de production et les types de parements utilisés.
+Un dérivé du polyuréthane est le poly-isocyanurate (PIR),
+qui présente dans l’ensemble les mêmes propriétés que
+le polyuréthane, à l’exception d’une réaction au feu plus
+favorable.
+
+Caractéristiques techniques principales :
+
+Composition principale
+
+Polyols, méthylène diisocyanate, agents gonflants et additifs
+
+Masse volumique : ρ
+
+30 - 40 kg/m3
+
+Déchet non dangereux (potentiellement recyclable, mais
+principalement mis en décharge)
+
+Conductivité thermique λ
+
+0,022 à 0,028 W/(m.K)
+
+Format et type de mise en œuvre
+
+Capacité thermique massique Cp 1000 J/(kg.K)
+
+Fin de vie
+
+(selon produits)
+(selon produits)
+
+• Panneaux rigides (épaisseur de 20 à 120 mm), revêtu sur
+les deux faces
+• Mise en œuvre sur tout type de paroi : murs, toiture,
+plancher
+
+Perméabilité à la vapeur d’eau µ 80 - 200
+
+Cadre normatif
+
+• Marquage CE
+• Nombreux produits sous Avis Techniques pour des
+applications spécifiques
+• La majeure partie des produits bénéficie d’un certificat ACERMI
+
+Capacité hygrothermique
+
+non
+
+Énergie grise
+
+25 - 35 kWh/kg
+
+Réaction au feu
+
+E - F (PUR)
+B-s2-d0 (PIR)
+
+Remarque
+Sa rapidité de pose peut rendre le polyuréthane attractif,
+attention toutefois au type de paroi sur lequel il est mis en
+œuvre. Son comportement hygroscopique est en effet inadapté à son usage sur des parois à fort enjeu hygroscopique
+(bâti ancien).
+
+Avantages
+• Résistance à la compression
+• Résistance en milieu humide
+• Conductivité thermique très faible
+
+PARTICULIERS I Guide des matériaux isolants
+
++
+
+Inconvénients
+
+-
+
+• Coût
+• Comportement hygroscopique inadapté à son usage sur
+des parois à fort enjeu hygroscopique (bâti ancien)
+
+PAGE 47
+
+Autres
+
+Autres
+
+Pour réduire encore la conductivité thermique des produits
+à base d’aérogel, les isolants sous vide placent des aérogels
+dans une enceinte sous vide, permettant de remplacer
+l’air par du vide à la conductivité thermique beaucoup plus
+faible. Enveloppés d’un revêtement multicouche à base de
+polymère et d’aluminium, ces panneaux présentent une
+conductivité de l’ordre de 0,005 W/(m.K).
+
+Ces matériaux, constitués d’un assemblage de films et de
+mousses synthétiques peuvent être considérés uniquement
+comme des compléments d’isolation. Leur performance
+thermique est fortement liée à la qualité de la mise en œuvre
+qui doit ménager la présence de lames d’air continues sur
+les deux faces du produit, ainsi qu’une continuité parfaite de
+la pose pour que le produit joue également le rôle de parevapeur.
+Plus d’info sur les PMR :
+www.ademe.fr, rubrique bâtiments > avis et fiches techniques
+
+-Si cette performance rend ces produits très intéressants
+pour réduire l’épaisseur des isolants à résistance thermique
+constante, leur vulnérabilité à la perforation de l’enveloppe
+étanche les rend délicats à utiliser dans l’habitat. Leur
+pérennité n’est également pour le moment pas assurée.
+
+ISOLANT AÉROGEL
+DE SILICE
+Pour réduire la conductivité thermique des isolants, les
+industriels cherchent à réduire la mobilité du gaz (air
+ou autres) présent dans le matériau en l’emprisonnant
+dans des cavités de très faibles dimensions, à l’échelle
+nanométrique. L’aérogel de silice est le principal matériau
+réalisé en ce sens. Il peut être semi-transparent et présente
+une conductivité thermique variant entre 0,01 et 0,02 W/
+(m.K), tout en étant quasiment ininflammable et hydrophobe.
+
+PRODUIT MINCE
+RÉFLÉCHISSANT (PMR)
+
+© fotolia
+
+ISOLANT SOUS VIDE
+(PIV)
+
+Il peut se présenter sous forme de matelas, en béton, ou
+intégré dans des produits comme par exemple la laine de
+roche.
+Peu, voire aucun produit de ce type ne bénéficie actuellement
+de reconnaissance technique en France.
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+PAGE 49
+
+TABLEAU DE SYNTHÈSE
+
+Matériaux Synthétiques
+
+Matériaux Minéraux
+
+Matériaux Biosourcés
+
+Isolant
+
+conductivité
+thermique
+en W/m.K
+
+densité
+en kg/m3
+
+capacité
+thermique
+en J/kg.K
+
+résistance à
+la diffusion
+de vapeur
+d’eau
+
+énergie
+grise
+en kWh/kg
+
+λ
+
+ρ
+
+Cp
+
+μ
+
+ouate de
+cellulose
+
+0,037 - 0,042
+
+30 -70
+
+2 000
+
+2
+
+1-2
+
+fibres de bois
+denses
+
+0,038 - 0,049
+
+110-240
+
+2 000-2 100
+
+3-5
+
+1-3
+
+laines
+biosourcées
+
+0,032 - 0,047
+
+20-80
+
+1 350-1 800
+
+1-3
+
+5-10
+
+béton
+de chanvre
+
+0,06-0,15
+
+200-800
+
+1 350-1 800
+
+5-8
+
+1,8
+
+botte de paille
+
+0,052-0,080
+
+80-120
+
+1 550
+
+1-2
+
+0,1
+
+liège expansé
+
+0,037-0,044
+
+65-180
+
+1 600-1 900
+
+5-30
+
+2-7
+
+laines
+minérales nues
+
+0,030-0,045
+
+10-150
+
+800-1 000
+
+1-2
+
+7-10
+
+verre cellulaire
+panneau
+
+0,041
+
+115
+
+1 000
+
+infini
+
+2-5
+
+verre cellulaire
+granulat
+
+0,075-0,12
+
+170-250
+
+1 000
+
+4
+
+2-5
+
+perlitevermiculiteargile expansée
+
+0,05-0,12
+
+90-700
+
+900-1 000
+
+3-5
+
+NC
+
+polystyrène
+expansé
+
+0,032-0,038
+
+10-30
+
+1 200-1 400
+
+20-100
+
+30-35
+
+polystyrène
+extrudé
+
+0,028-0,040
+
+15-30
+
+1 000
+
+80-200
+
+30-85
+
+polyuréthane
+
+0,022-0,028
+
+30-40
+
+1 000
+
+80-200
+
+25-35
+
+PARTICULIERS I Guide des matériaux isolants pour une isolation efficace et durable
+
+PAGE 51
+
+CONTACTEZ VOTRE Espace
+
+Près de chez vous
+
+> Ain (01)
+
+HeLIANTHE
+
+ALEC
+LoIRE
+
+Tél. 04 74 45 16 46
+info@helianthe.org
+
+01
+
+69
+
+42
+
+Prioriterre
+
+EIE
+dU
+RHÔNE
+Asder
+
+Héliose
+
+Ageden
+
+> Ardèche (07)
+
+73
+
+38
+
+POLÉNERGIE
+
+Tél. 04 75 35 87 34
+info@polenergie.org
+
+07
+
+> Drôme (26)
+
+ADIL INFORMATION
+ÉNERGIE
+
+74
+
+Hélianthe
+
+Adil26
+
+26
+
+Polenergie
+
+Tél. 04 75 79 04 13
+pieadil26@dromenet.org
+
+Alec
+Grenoble
+
+CEDER
+
+CEDER
+
+> Isère (38)
+
+AGEDEN
+
+Tél. 04 76 00 19 09
+infos@alec-grenoble.org
+> Loire (42)
+
+HéLIOSE
+
+Tél. 04 77 31 61 16
+infoenergie@heliose42.org
+
+ALEC DE LA LOIRE
+Tél. 04 77 42 65 10
+alec42@alec42.org
+
+ESPACE INFO>ÉNERGIE
+DU RHÔNE
+Tel. 04 37 48 25 90
+contact@infoenergie69.org
+> Savoie (73)
+
+ASDER
+
+Tél. 04 79 85 88 50
+info@asder.asso.fr
+> Haute-Savoie (74)
+
+PRIORITERRE
+
+Tél. 04 50 67 17 54
+contact@prioriterre.org
+
+Retrouvez les horaires des permanences
+locales sur www.infoenergie-rhonealpes.fr
+
+Un service cofinancé par l’ADEME,
+le conseil régional Rhône-Alpes
+et des collectivités locales.
+
+Impression : Villi
+
+ALEC DE
+L’AGGLOMéRATION
+GRENOBLOISE
+
+> Rhône (69)
+
+Guide réalisé par Energievie.info
+
+Tél. 04 76 23 53 50
+infoenergie@ageden38.org
+
+– Papier écolabellisé
+
+janvier 2015
+
+Tél. 04 75 26 22 53
+infoenergie@ceder-provence.org
+
+
