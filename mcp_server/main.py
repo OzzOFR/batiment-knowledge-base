@@ -3,7 +3,7 @@ Serveur MCP (Model Context Protocol) pour la base de connaissances Bâtiment.
 Expose les outils de recherche sémantique via le protocole MCP standard.
 Déployable sur Railway, Render, ou tout serveur Python.
 
-v2.0 — Ajout de l'outil ask_batiment (synthèse LLM) + métadonnées de section
+v3.0 — Métadonnées de publication (auteur, année, fiabilité) + confrontation des sources divergentes
 """
 
 import os
@@ -27,7 +27,7 @@ OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 app = FastAPI(
     title="Batiment Knowledge Base MCP Server",
     description="Serveur MCP pour la base de connaissances sur les métiers du bâtiment",
-    version="2.0.0"
+    version="3.0.0"
 )
 
 # ─── Définition des outils MCP ────────────────────────────────────────────────
@@ -136,8 +136,16 @@ def get_embedding(text: str) -> list[float]:
     return data["data"][0]["embedding"]
 
 
+FIABILITE_LABELS = {
+    "patrimoine": "Patrimoine XIXe s.",
+    "technique-ancien": "Manuel technique ancien",
+    "technique-moderne": "Guide technique moderne",
+    "norme-en-vigueur": "Norme/Réglementation en vigueur",
+}
+
+
 def search_in_supabase(query: str, corps_etat: str = None, nb_resultats: int = 5) -> list[dict]:
-    """Effectue une recherche sémantique dans Supabase."""
+    """Effectue une recherche sémantique dans Supabase, retourne aussi les métadonnées."""
     embedding = get_embedding(query)
     
     headers = {
@@ -155,36 +163,118 @@ def search_in_supabase(query: str, corps_etat: str = None, nb_resultats: int = 5
     url = f"{SUPABASE_URL}/rest/v1/rpc/search_batiment"
     r = requests.post(url, headers=headers, json=payload, timeout=30)
     r.raise_for_status()
-    return r.json()
+    results = r.json()
+    
+    # Enrichir avec les métadonnées si elles ne sont pas déjà dans les résultats RPC
+    if results and "auteur" not in results[0]:
+        ids = [str(row.get("id", "")) for row in results if row.get("id")]
+        if ids:
+            r_meta = requests.get(
+                f"{SUPABASE_URL}/rest/v1/batiment_chunks",
+                headers=headers,
+                params={
+                    "select": "id,auteur,titre_ouvrage,annee_publication,fiabilite",
+                    "id": f"in.({','.join(ids)})",
+                    "limit": str(len(ids))
+                },
+                timeout=15
+            )
+            if r_meta.status_code == 200:
+                meta_map = {str(row["id"]): row for row in r_meta.json()}
+                for row in results:
+                    row_id = str(row.get("id", ""))
+                    if row_id in meta_map:
+                        row.update(meta_map[row_id])
+    
+    return results
+
+
+def format_source_badge(result: dict) -> str:
+    """Formate un badge de source avec auteur, année et fiabilité."""
+    auteur = result.get("auteur")
+    annee = result.get("annee_publication")
+    fiabilite = result.get("fiabilite", "")
+    source = result.get("source", "N/A")
+    
+    if auteur and annee:
+        label = FIABILITE_LABELS.get(fiabilite, fiabilite)
+        return f"{auteur} ({annee}) — *{label}*"
+    return source
+
+
+def detect_divergences(passages: list[dict]) -> str:
+    """Détecte et signale les divergences potentielles entre sources d'époques différentes."""
+    if len(passages) < 2:
+        return ""
+    
+    anciens = [p for p in passages if p.get("fiabilite") in ("patrimoine", "technique-ancien")]
+    modernes = [p for p in passages if p.get("fiabilite") in ("technique-moderne", "norme-en-vigueur")]
+    
+    if anciens and modernes:
+        annees_anciens = [p["annee_publication"] for p in anciens if p.get("annee_publication")]
+        annees_modernes = [p["annee_publication"] for p in modernes if p.get("annee_publication")]
+        
+        if annees_anciens and annees_modernes:
+            ecart = min(annees_modernes) - max(annees_anciens)
+            if ecart > 50:
+                noms_anciens = list(set(p.get("auteur", "?") for p in anciens if p.get("auteur")))
+                noms_modernes = list(set(p.get("auteur", "?") for p in modernes if p.get("auteur")))
+                return (
+                    f"\n\n> ⚠️ **Sources d'époques différentes** : "
+                    f"les sources anciennes ({', '.join(noms_anciens[:2])}, ~{max(annees_anciens)}) "
+                    f"et les sources modernes ({', '.join(noms_modernes[:2])}, ~{min(annees_modernes)}) "
+                    f"peuvent présenter des divergences. "
+                    f"En cas de contradiction, privilégier les sources modernes pour les pratiques actuelles, "
+                    f"et les sources anciennes pour la restauration du patrimoine."
+                )
+    return ""
 
 
 def synthesize_with_llm(question: str, passages: list[dict]) -> str:
-    """Synthétise une réponse à partir des passages trouvés via un LLM."""
-    # Construire le contexte à partir des passages
+    """Synthétise une réponse à partir des passages trouvés via un LLM, en tenant compte des époques."""
     context_parts = []
     for i, p in enumerate(passages, 1):
-        source = p.get("source", "Source inconnue")
+        auteur = p.get("auteur") or p.get("source", "Source inconnue")
+        annee = p.get("annee_publication")
+        fiabilite = p.get("fiabilite", "")
+        label = FIABILITE_LABELS.get(fiabilite, fiabilite)
+        source_header = f"{auteur} ({annee}) [{label}]" if annee else auteur
         content = p.get("content", "")[:1200]
-        context_parts.append(f"[Source {i}: {source}]\n{content}")
+        context_parts.append(f"[Source {i}: {source_header}]\n{content}")
     
     context = "\n\n---\n\n".join(context_parts)
     
-    system_prompt = """Tu es un expert en techniques du bâtiment et construction. 
-Tu réponds aux questions techniques en te basant UNIQUEMENT sur les passages fournis.
-Ta réponse doit être :
-- Structurée avec des titres et sous-titres si nécessaire
-- Précise et technique
-- Sourcée (mentionner les sources utilisées)
-- En français
-Si les passages ne contiennent pas assez d'information pour répondre, indique-le clairement."""
+    anciens = [p for p in passages if p.get("fiabilite") in ("patrimoine", "technique-ancien")]
+    modernes = [p for p in passages if p.get("fiabilite") in ("technique-moderne", "norme-en-vigueur")]
+    divergence_instruction = ""
+    if anciens and modernes:
+        divergence_instruction = (
+            "\nATTENTION : Les sources fournies couvrent des époques différentes. "
+            "Si des informations divergent entre sources anciennes et modernes, "
+            "signale-le explicitement et précise que les sources modernes reflètent les pratiques actuelles, "
+            "tandis que les sources anciennes sont pertinentes pour la restauration du patrimoine."
+        )
+    
+    system_prompt = (
+        "Tu es un expert en techniques du bâtiment et construction. "
+        "Tu réponds aux questions techniques en te basant UNIQUEMENT sur les passages fournis. "
+        "Chaque passage est annoté avec son auteur, son année de publication et son niveau de fiabilité. "
+        "Ta réponse doit être :\n"
+        "- Structurée avec des titres et sous-titres si nécessaire\n"
+        "- Précise et technique\n"
+        "- Sourcée (mentionner auteur + année pour chaque information clé)\n"
+        "- En français\n"
+        "Si les passages ne contiennent pas assez d'information pour répondre, indique-le clairement."
+        + divergence_instruction
+    )
 
     user_prompt = f"""Question : {question}
 
-Passages de la base de connaissances bâtiment :
+Passages de la base de connaissances bâtiment (avec auteur et année) :
 
 {context}
 
-Réponds à la question en te basant sur ces passages. Cite les sources pertinentes."""
+Réponds à la question en citant les sources (auteur + année) pour chaque information importante."""
 
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
@@ -292,7 +382,7 @@ def get_stats_from_supabase() -> dict:
 
 @app.get("/")
 def root():
-    return {"name": "batiment-kb-mcp", "version": "2.0.0", "status": "ok"}
+    return {"name": "batiment-kb-mcp", "version": "3.0.0", "status": "ok"}
 
 
 @app.get("/mcp/tools")
@@ -329,9 +419,11 @@ def call_tool(request: ToolCallRequest):
             parts = [f"**{len(results)} résultat(s) trouvé(s) pour : \"{query}\"**\n"]
             for i, r in enumerate(results, 1):
                 similarity_pct = round(r.get("similarity", 0) * 100, 1)
-                source = r.get("source", "N/A")
                 corps = r.get("corps_etat", "N/A")
                 content_text = r.get("content", "")
+                
+                # Badge source avec métadonnées
+                source_badge = format_source_badge(r)
                 
                 # Extraire le préfixe de section si présent (format [Source — Section])
                 section_info = ""
@@ -343,12 +435,15 @@ def call_tool(request: ToolCallRequest):
                     content_preview = content_text[:800]
                 
                 parts.append(
-                    f"\n---\n**[{i}]** `{corps_etat or corps}` | {source}  \n"
+                    f"\n---\n**[{i}]** `{corps_etat or corps}` | **{source_badge}**  \n"
                     + (f"*Section : {section_info}*  \n" if section_info else "")
                     + f"Pertinence : {similarity_pct}%\n\n"
                     f"{content_preview}..."
                 )
-            content = "\n".join(parts)
+            
+            # Avertissement si sources d'époques différentes
+            divergence_note = detect_divergences(results)
+            content = "\n".join(parts) + divergence_note
         
         return {"content": [{"type": "text", "text": content}]}
     
@@ -373,11 +468,25 @@ def call_tool(request: ToolCallRequest):
             # Synthétiser avec le LLM
             answer = synthesize_with_llm(question, passages)
             
-            # Ajouter les sources en bas
-            sources_used = list(set(p.get("source", "N/A") for p in passages))
-            sources_text = "\n".join(f"- {s}" for s in sources_used[:5])
+            # Ajouter les sources en bas avec métadonnées
+            seen_sources = set()
+            sources_lines = []
+            for p in passages:
+                auteur = p.get("auteur") or p.get("source", "N/A")
+                annee = p.get("annee_publication")
+                fiabilite = p.get("fiabilite", "")
+                label = FIABILITE_LABELS.get(fiabilite, fiabilite)
+                titre = p.get("titre_ouvrage") or p.get("source", "N/A")
+                key = f"{auteur}_{annee}"
+                if key not in seen_sources:
+                    seen_sources.add(key)
+                    if annee:
+                        sources_lines.append(f"- **{auteur}** ({annee}) — *{label}* — {titre}")
+                    else:
+                        sources_lines.append(f"- {titre}")
             
-            full_response = f"{answer}\n\n---\n**Sources consultées :**\n{sources_text}"
+            divergence_note = detect_divergences(passages)
+            full_response = f"{answer}\n\n---\n**Sources consultées :**\n" + "\n".join(sources_lines[:6]) + divergence_note
             
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Erreur lors de la synthèse: {str(e)}")
@@ -391,6 +500,36 @@ def call_tool(request: ToolCallRequest):
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
         
+        # Enrichir avec les métadonnées
+        headers_meta = {
+            "apikey": SUPABASE_ANON_KEY,
+            "Authorization": f"Bearer {SUPABASE_ANON_KEY}",
+        }
+        try:
+            params_meta = {
+                "select": "source,corps_etat,auteur,annee_publication,fiabilite,titre_ouvrage",
+                "order": "corps_etat,annee_publication",
+                "limit": "300"
+            }
+            if corps_etat:
+                params_meta["corps_etat"] = f"eq.{corps_etat}"
+            r_meta = requests.get(
+                f"{SUPABASE_URL}/rest/v1/batiment_chunks",
+                headers=headers_meta,
+                params=params_meta,
+                timeout=20
+            )
+            if r_meta.status_code == 200:
+                seen = set()
+                sources = []
+                for row in r_meta.json():
+                    key = (row.get("source", ""), row.get("corps_etat", ""))
+                    if key not in seen:
+                        seen.add(key)
+                        sources.append(row)
+        except Exception:
+            pass
+        
         lines = ["**Sources indexées dans la base de connaissances bâtiment :**\n"]
         current_corps = None
         for s in sources:
@@ -398,7 +537,15 @@ def call_tool(request: ToolCallRequest):
             if ce != current_corps:
                 lines.append(f"\n### {ce}")
                 current_corps = ce
-            lines.append(f"- {s.get('source', 'N/A')}")
+            auteur = s.get("auteur")
+            annee = s.get("annee_publication")
+            fiabilite = s.get("fiabilite", "")
+            label = FIABILITE_LABELS.get(fiabilite, "")
+            titre = s.get("titre_ouvrage") or s.get("source", "N/A")
+            if auteur and annee:
+                lines.append(f"- **{auteur}** ({annee}) — *{label}* — {titre}")
+            else:
+                lines.append(f"- {titre}")
         
         return {"content": [{"type": "text", "text": "\n".join(lines)}]}
     
