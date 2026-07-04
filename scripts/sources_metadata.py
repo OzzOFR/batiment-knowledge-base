@@ -263,6 +263,13 @@ SOURCES_REGISTRY = [
         "fiabilite": "technique-moderne",
     },
     {
+        "pattern": "fiche plomberie et chauffage",
+        "auteur": "OzzO Knowledge Base",
+        "titre_ouvrage": "Fiche technique — Plomberie, chauffage et installations sanitaires",
+        "annee_publication": 2024,
+        "fiabilite": "technique-moderne",
+    },
+    {
         "pattern": "fiche_plomberie_chauffage_complet",
         "auteur": "OzzO Knowledge Base",
         "titre_ouvrage": "Fiche technique — Plomberie, chauffage et installations sanitaires",
@@ -306,6 +313,20 @@ SOURCES_REGISTRY = [
     },
     {
         "pattern": "fiche_normes_reglements",
+        "auteur": "OzzO Knowledge Base",
+        "titre_ouvrage": "Fiche technique — Normes et réglements (RE2020, PMR, incendie)",
+        "annee_publication": 2024,
+        "fiabilite": "norme-en-vigueur",
+    },
+    {
+        "pattern": "fiche normes et réglements",
+        "auteur": "OzzO Knowledge Base",
+        "titre_ouvrage": "Fiche technique — Normes et réglements (RE2020, PMR, incendie)",
+        "annee_publication": 2024,
+        "fiabilite": "norme-en-vigueur",
+    },
+    {
+        "pattern": "fiche normes et reglements",
         "auteur": "OzzO Knowledge Base",
         "titre_ouvrage": "Fiche technique — Normes et réglements (RE2020, PMR, incendie)",
         "annee_publication": 2024,
