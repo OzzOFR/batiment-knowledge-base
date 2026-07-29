@@ -2,7 +2,9 @@
 Serveur MCP (Model Context Protocol) pour la base de connaissances Bâtiment.
 Expose les outils de recherche sémantique via le protocole MCP standard.
 
-v4.0 — Migration PostgreSQL HOZZO (psycopg2 direct, plus de Supabase REST)
+v5.0 — Embeddings locaux avec sentence-transformers (paraphrase-multilingual-mpnet-base-v2, 768 dims)
+       Suppression de la dépendance OpenRouter pour les embeddings
+       Synthèse LLM via OpenRouter (gpt-4o-mini) — optionnelle
        Métadonnées de publication (auteur, année, fiabilité) + confrontation des sources divergentes
 """
 
@@ -25,12 +27,14 @@ PG_DB       = os.environ.get("PG_DB", "batiment_knowledge")
 PG_USER     = os.environ.get("PG_USER", "createk")
 PG_PASSWORD = os.environ.get("PG_PASSWORD", "Forge2026Hozzo!")
 
-# OpenRouter
-OPENROUTER_API_KEY  = os.environ.get("OPENROUTER_API_KEY", "")
-EMBEDDING_MODEL     = "openai/text-embedding-3-small"
-SYNTHESIS_MODEL     = "openai/gpt-4o-mini"
-OPENROUTER_EMBED_URL = "https://openrouter.ai/api/v1/embeddings"
-OPENROUTER_CHAT_URL  = "https://openrouter.ai/api/v1/chat/completions"
+# Modèle d'embedding local (sentence-transformers)
+EMBEDDING_MODEL_NAME = "paraphrase-multilingual-mpnet-base-v2"
+EMBEDDING_DIMS = 768
+
+# LLM pour la synthèse (OpenRouter — optionnel)
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
+SYNTHESIS_MODEL    = "openai/gpt-4o-mini"
+OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # Serveur
 PORT = int(os.environ.get("PORT", "8100"))
@@ -38,7 +42,7 @@ PORT = int(os.environ.get("PORT", "8100"))
 app = FastAPI(
     title="Batiment Knowledge Base MCP Server",
     description="Serveur MCP pour la base de connaissances sur les métiers du bâtiment",
-    version="4.0.0"
+    version="5.0.0"
 )
 
 # ─── Labels de fiabilité ──────────────────────────────────────────────────────
@@ -48,6 +52,20 @@ FIABILITE_LABELS = {
     "technique-moderne": "Technique moderne",
     "norme-en-vigueur":  "Norme en vigueur",
 }
+
+# ─── Modèle d'embedding (chargé une seule fois au démarrage) ─────────────────
+_embedding_model = None
+
+def get_embedding_model():
+    """Charge le modèle d'embedding (singleton)."""
+    global _embedding_model
+    if _embedding_model is None:
+        from sentence_transformers import SentenceTransformer
+        print(f"[MCP] Chargement du modèle d'embedding : {EMBEDDING_MODEL_NAME}")
+        _embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
+        print(f"[MCP] Modèle chargé — {_embedding_model.get_sentence_embedding_dimension()} dims")
+    return _embedding_model
+
 
 # ─── Connexion PostgreSQL ─────────────────────────────────────────────────────
 @contextmanager
@@ -71,7 +89,7 @@ MCP_TOOLS = [
         "description": (
             "Recherche sémantique dans la base de connaissances sur les métiers du bâtiment. "
             "Retourne les passages les plus pertinents issus d'ouvrages techniques (Champly, "
-            "Rondelet, Barberot, Viollet-le-Duc, guides ADEME, etc.). Utiliser pour répondre "
+            "Rondelet, Barberot, Viollet-le-Duc, Planat, guides ADEME, etc.). Utiliser pour répondre "
             "à des questions sur les techniques de construction, les matériaux, les corps d'état, "
             "les méthodes de travail. Retourne les passages bruts avec leur source et leur date."
         ),
@@ -88,7 +106,7 @@ MCP_TOOLS = [
                     "enum": ["maconnerie", "charpente-couverture", "plomberie-chauffage",
                              "electricite", "menuiserie", "platrerie-peinture",
                              "isolation-etancheite", "gros-oeuvre", "encyclopedie-generale",
-                             "pathologies", "normes-reglements"]
+                             "pathologies", "normes-reglements", "materiaux"]
                 },
                 "nb_resultats": {
                     "type": "integer",
@@ -118,7 +136,7 @@ MCP_TOOLS = [
                     "enum": ["maconnerie", "charpente-couverture", "plomberie-chauffage",
                              "electricite", "menuiserie", "platrerie-peinture",
                              "isolation-etancheite", "gros-oeuvre", "encyclopedie-generale",
-                             "pathologies", "normes-reglements"]
+                             "pathologies", "normes-reglements", "materiaux"]
                 },
                 "nb_sources": {
                     "type": "integer",
@@ -153,15 +171,10 @@ MCP_TOOLS = [
 # ─── Fonctions utilitaires ────────────────────────────────────────────────────
 
 def get_embedding(text: str) -> list[float]:
-    """Génère un embedding via OpenRouter."""
-    headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    payload = {"model": EMBEDDING_MODEL, "input": text}
-    r = requests.post(OPENROUTER_EMBED_URL, headers=headers, json=payload, timeout=30)
-    r.raise_for_status()
-    return r.json()["data"][0]["embedding"]
+    """Génère un embedding via le modèle local sentence-transformers."""
+    model = get_embedding_model()
+    embedding = model.encode(text, show_progress_bar=False)
+    return embedding.tolist()
 
 
 def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> list[dict]:
@@ -179,7 +192,8 @@ def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> l
                        1 - (embedding <=> %s::vector) AS similarity
                 FROM batiment_chunks
                 WHERE corps_etat = %s
-                  AND 1 - (embedding <=> %s::vector) > 0.3
+                  AND embedding IS NOT NULL
+                  AND 1 - (embedding <=> %s::vector) > 0.2
                 ORDER BY embedding <=> %s::vector
                 LIMIT %s
             """, (embedding_str, corps_etat, embedding_str, embedding_str, nb_resultats))
@@ -189,7 +203,8 @@ def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> l
                        annee_publication, fiabilite,
                        1 - (embedding <=> %s::vector) AS similarity
                 FROM batiment_chunks
-                WHERE 1 - (embedding <=> %s::vector) > 0.3
+                WHERE embedding IS NOT NULL
+                  AND 1 - (embedding <=> %s::vector) > 0.2
                 ORDER BY embedding <=> %s::vector
                 LIMIT %s
             """, (embedding_str, embedding_str, embedding_str, nb_resultats))
@@ -358,11 +373,24 @@ def get_stats_from_db() -> dict:
         cur.execute("SELECT COUNT(DISTINCT auteur) AS nb_auteurs FROM batiment_chunks WHERE auteur IS NOT NULL")
         nb_auteurs = cur.fetchone()["nb_auteurs"]
         
+        # Embeddings
+        cur.execute("""
+            SELECT 
+                COUNT(*) FILTER (WHERE embedding IS NOT NULL) as avec_embedding,
+                COUNT(*) FILTER (WHERE embedding IS NULL) as sans_embedding
+            FROM batiment_chunks
+        """)
+        row = cur.fetchone()
+        
         return {
             "total_chunks": total,
             "repartition_corps_etat": corps_etats,
             "repartition_fiabilite": fiabilites,
-            "nb_auteurs_uniques": nb_auteurs
+            "nb_auteurs_uniques": nb_auteurs,
+            "avec_embedding": row["avec_embedding"],
+            "sans_embedding": row["sans_embedding"],
+            "embedding_model": EMBEDDING_MODEL_NAME,
+            "embedding_dims": EMBEDDING_DIMS
         }
 
 
@@ -370,7 +398,14 @@ def get_stats_from_db() -> dict:
 
 @app.get("/")
 def root():
-    return {"name": "batiment-kb-mcp", "version": "4.0.0", "status": "ok", "backend": "PostgreSQL HOZZO"}
+    return {
+        "name": "batiment-kb-mcp",
+        "version": "5.0.0",
+        "status": "ok",
+        "backend": "PostgreSQL HOZZO",
+        "embedding_model": EMBEDDING_MODEL_NAME,
+        "embedding_dims": EMBEDDING_DIMS
+    }
 
 
 @app.get("/health")
@@ -380,7 +415,12 @@ def health():
             cur = conn.cursor()
             cur.execute("SELECT COUNT(*) FROM batiment_chunks")
             count = cur.fetchone()[0]
-        return {"status": "healthy", "chunks": count, "backend": "PostgreSQL HOZZO"}
+        return {
+            "status": "healthy",
+            "chunks": count,
+            "backend": "PostgreSQL HOZZO",
+            "embedding_model": EMBEDDING_MODEL_NAME
+        }
     except Exception as e:
         return JSONResponse(status_code=503, content={"status": "unhealthy", "error": str(e)})
 
@@ -452,7 +492,7 @@ def call_tool(request: ToolCallRequest):
             raise HTTPException(status_code=400, detail="Le paramètre 'question' est requis")
         
         if not OPENROUTER_API_KEY:
-            raise HTTPException(status_code=503, detail="Clé API OpenRouter non configurée")
+            raise HTTPException(status_code=503, detail="Clé API OpenRouter non configurée pour la synthèse LLM")
         
         try:
             passages = search_in_db(question, corps_etat, nb_sources)
@@ -525,6 +565,8 @@ def call_tool(request: ToolCallRequest):
             f"**Statistiques de la base de connaissances bâtiment (PostgreSQL HOZZO)**\n",
             f"- Total chunks indexés : **{stats['total_chunks']}**",
             f"- Auteurs uniques : **{stats['nb_auteurs_uniques']}**",
+            f"- Embeddings générés : **{stats.get('avec_embedding', 'N/A')}**",
+            f"- Modèle d'embedding : `{stats.get('embedding_model', 'N/A')}` ({stats.get('embedding_dims', 'N/A')} dims)",
             "",
             "**Répartition par corps d'état :**"
         ]
@@ -545,4 +587,6 @@ def call_tool(request: ToolCallRequest):
 # ─── Point d'entrée ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
+    # Pré-charger le modèle d'embedding au démarrage
+    get_embedding_model()
     uvicorn.run(app, host="0.0.0.0", port=PORT)
