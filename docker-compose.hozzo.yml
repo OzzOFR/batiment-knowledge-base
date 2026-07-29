@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  batiment-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: batiment-mcp
+    restart: unless-stopped
+    environment:
+      # PostgreSQL HOZZO (réseau interne Docker)
+      PG_HOST: forge-postgres
+      PG_PORT: "5432"
+      PG_DB: batiment_knowledge
+      PG_USER: createk
+      PG_PASSWORD: "${PG_PASSWORD}"
+      # OpenRouter (pour embeddings + synthèse LLM)
+      OPENROUTER_API_KEY: "${OPENROUTER_API_KEY}"
+      # Serveur
+      PORT: "8100"
+    ports:
+      - "8100:8100"
+    networks:
+      - forge_internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8100/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+networks:
+  forge_internal:
+    external: true
+    name: forge_internal
