@@ -1,0 +1,97 @@
+MATÉRIAUX DE CONSTRUCTION MODERNES — PROPRIÉTÉS ET MISE EN ŒUVRE
+Corpus technique structuré — Createk Engineering / OzzO Knowledge Base
+Sources : CSTB, fiches techniques fabricants, DTU, pratique professionnelle
+
+=== BÉTON ET BÉTON ARMÉ ===
+
+COMPOSITION ET DOSAGE DU BÉTON
+Le béton est composé de ciment, granulats (sable et gravier), eau et adjuvants. Le rapport eau/ciment (E/C) est le paramètre clé de la résistance : plus E/C est faible, plus le béton est résistant et durable. Un béton courant a un E/C de 0,45 à 0,55. La résistance caractéristique à la compression (fck) est mesurée sur cylindre à 28 jours : C20/25 (fck = 20 MPa), C25/30, C30/37, C35/45.
+
+Classes d'exposition du béton (NF EN 206)
+X0 : aucun risque de corrosion (béton non armé, intérieur sec)
+XC1 à XC4 : risque de carbonatation (XC4 = cycles humidification/séchage)
+XD1 à XD3 : risque de chlorures hors eau de mer
+XS1 à XS3 : risque de chlorures en eau de mer
+XF1 à XF4 : risque de gel-dégel
+XA1 à XA3 : risque d'attaque chimique
+
+Enrobage minimal des armatures
+L'enrobage protège les armatures de la corrosion. Il dépend de la classe d'exposition et de la classe structurale. Pour une structure courante en XC1 (intérieur) : enrobage nominal cnom = 20 mm. Pour XC4 (extérieur exposé) : cnom = 35 mm. Pour XS3 (immergé en eau de mer) : cnom = 55 mm.
+
+BÉTON ARMÉ — RÈGLES DE FERRAILLAGE
+Les armatures longitudinales reprennent les efforts de traction (flexion, traction directe). Les armatures transversales (cadres, étriers) reprennent les efforts tranchants et assurent le confinement. Section minimale d'armatures longitudinales dans une poutre : As,min = 0,26 × fctm/fyk × b × d (Eurocode 2). Espacement maximal des armatures longitudinales : 3h ou 400 mm. Espacement maximal des cadres en zone courante : 0,75d.
+
+BÉTON PROJETÉ (GUNITE)
+Le béton projeté est utilisé pour la consolidation des talus, la réparation des ouvrages dégradés, la réalisation de coques. Il est projeté par voie sèche (mélange sec + eau à la lance) ou voie mouillée (béton prêt à l'emploi projeté). Résistance à la compression : 25 à 40 MPa. Épaisseur minimale : 50 mm.
+
+=== MAÇONNERIE ===
+
+BRIQUES DE TERRE CUITE
+Les briques de terre cuite sont classées selon leur résistance à la compression (LD = faible densité, HD = haute densité) et leur teneur en sels solubles (S0, S1, S2). Résistances courantes : 5 à 50 MPa. Les briques alvéolaires (monomur) ont une conductivité thermique λ de 0,09 à 0,14 W/m.K et permettent de se passer d'isolation complémentaire en zones H2 et H3.
+
+BLOCS BÉTON
+Les blocs béton (parpaings) sont classés selon leur résistance à la compression : B40 (4 MPa), B60 (6 MPa), B80 (8 MPa), B120 (12 MPa). Les blocs à bancher (coffrage perdu) reçoivent une armature et du béton coulé. Les blocs isolants (béton cellulaire, béton de chanvre) ont des conductivités thermiques de 0,09 à 0,18 W/m.K.
+
+BÉTON CELLULAIRE AUTOCLAVÉ
+Le béton cellulaire (Ytong, Siporex, Celcon) est un matériau léger (300 à 700 kg/m³) à forte isolation thermique (λ = 0,09 à 0,18 W/m.K). Il est facile à travailler (scie, rabot) mais sensible à l'humidité. Résistance à la compression : 2 à 7 MPa. Mise en œuvre avec mortier-colle en joints minces (1 à 3 mm).
+
+PIERRE NATURELLE
+Les pierres naturelles de construction sont classées selon leur nature pétrographique : calcaires (tuffeau, lutetien, banc royal), grès, granites, marbres. Leurs propriétés varient considérablement : résistance à la compression de 10 MPa (tuffeau) à 200 MPa (granite), absorption d'eau de 0,1% (granite) à 15% (tuffeau), résistance au gel variable. Le choix de la pierre doit tenir compte de l'exposition (gel, pollution) et de la compatibilité avec les mortiers de rejointoiement.
+
+=== ISOLATION THERMIQUE ===
+
+LAINES MINÉRALES (LAINE DE VERRE ET LAINE DE ROCHE)
+Les laines minérales sont les isolants les plus utilisés en France. Laine de verre : λ = 0,030 à 0,044 W/m.K, densité 10 à 30 kg/m³, incombustible (A1), bonne isolation acoustique. Laine de roche : λ = 0,033 à 0,045 W/m.K, densité 30 à 200 kg/m³, incombustible (A1), meilleure tenue mécanique que la laine de verre.
+
+POLYSTYRÈNE EXPANSÉ (PSE) ET EXTRUDÉ (XPS)
+PSE (Styropor) : λ = 0,030 à 0,038 W/m.K, densité 15 à 30 kg/m³, faible absorption d'eau, bon rapport qualité/prix. Utilisé en ITE (isolation par l'extérieur), sous chape, en toiture-terrasse. XPS (Styrofoam, Roofmate) : λ = 0,029 à 0,038 W/m.K, densité 28 à 45 kg/m³, très faible absorption d'eau (< 0,7%), résistance à la compression élevée (200 à 700 kPa). Utilisé en toiture-terrasse inversée, sous dallage, en contact avec le sol.
+
+POLYURÉTHANE (PUR) ET POLYISOCYANURATE (PIR)
+PUR/PIR : λ = 0,022 à 0,028 W/m.K, densité 30 à 50 kg/m³. Ce sont les isolants les plus performants en termes de résistance thermique par unité d'épaisseur. Utilisés en panneaux sandwichs (toiture, façade), en projection (mousse projetée), en complexes de doublage. Classement au feu : E à B selon la formulation.
+
+ISOLANTS BIOSOURCÉS
+Ouate de cellulose : λ = 0,038 à 0,042 W/m.K, densité 25 à 65 kg/m³, bonne inertie hygrique, traitement fongicide et insecticide. Laine de bois (fibre de bois) : λ = 0,038 à 0,050 W/m.K, densité 50 à 270 kg/m³, bonne inertie thermique (déphasage), résistance mécanique. Chanvre : λ = 0,040 à 0,048 W/m.K, densité 20 à 50 kg/m³, régulation hygrométrique. Liège expansé : λ = 0,036 à 0,045 W/m.K, densité 70 à 130 kg/m³, résistance à l'humidité, imputrescible.
+
+ISOLATION THERMIQUE PAR L'EXTÉRIEUR (ITE)
+L'ITE est la technique d'isolation la plus efficace car elle supprime les ponts thermiques et conserve l'inertie thermique du bâtiment. Deux systèmes principaux : enduit sur isolant (ETICS — External Thermal Insulation Composite System) et bardage ventilé. L'ETICS utilise un isolant (PSE, laine de roche) collé et chevillé sur la façade, recouvert d'un enduit armé d'un treillis en fibre de verre. Le bardage ventilé crée une lame d'air ventilée entre l'isolant et le parement extérieur.
+
+=== ÉTANCHÉITÉ ===
+
+MEMBRANES BITUMINEUSES
+Les membranes bitumineuses (SBS = styrène-butadiène-styrène, APP = atactique polypropylène) sont les matériaux d'étanchéité les plus utilisés en toiture-terrasse. Elles sont posées en bicouche (sous-couche + couche de finition) ou en monocouche renforcée. Épaisseur totale : 8 à 12 mm. Durée de vie : 20 à 30 ans. Classement FIT (Feu, Indentation, Tenue au vent).
+
+MEMBRANES SYNTHÉTIQUES
+PVC-P (chlorure de polyvinyle plastifié) : membrane souple, soudée à l'air chaud, résistante aux UV, pose mécaniquement fixée ou lestée. TPO (polyoléfine thermoplastique) : similaire au PVC-P mais sans plastifiants, plus respectueux de l'environnement. EPDM (éthylène-propylène-diène-monomère) : membrane caoutchouc, grande élasticité, résistance aux UV, pose collée ou mécaniquement fixée.
+
+ÉTANCHÉITÉ LIQUIDE
+Les revêtements d'étanchéité liquide (polyuréthane, PMMA, résines époxy) sont appliqués en une ou plusieurs couches sur le support. Ils sont particulièrement adaptés aux formes complexes (balcons, terrasses avec relevés, toitures à faible pente). Épaisseur : 1 à 3 mm. Classement ATEX ou DTA (Document Technique d'Application).
+
+=== MENUISERIES EXTÉRIEURES ===
+
+PERFORMANCES THERMIQUES
+Les menuiseries extérieures sont caractérisées par leur coefficient de transmission thermique Uw (W/m².K). La RT 2012 impose Uw ≤ 1,3 W/m².K pour les fenêtres et portes-fenêtres. Les fenêtres triple vitrage atteignent Uw = 0,6 à 0,8 W/m².K. Le facteur solaire g (transmission du rayonnement solaire) doit être équilibré entre apports solaires en hiver et surchauffe en été.
+
+DOUBLE ET TRIPLE VITRAGE
+Double vitrage standard (4/16/4) : Ug = 1,1 W/m².K. Double vitrage à isolation renforcée (4/16/4 avec argon et couche bas-émissive) : Ug = 0,6 à 0,7 W/m².K. Triple vitrage (4/12/4/12/4) : Ug = 0,4 à 0,6 W/m².K. Le remplissage à l'argon ou au krypton améliore les performances de 10 à 15%.
+
+MATÉRIAUX DE MENUISERIES
+PVC : bon isolant thermique, entretien nul, prix modéré, mais dilatation importante et aspect moins noble. Aluminium à rupture de pont thermique : résistant, esthétique, recyclable, mais conducteur (nécessite RPT). Bois : excellent isolant, esthétique, renouvelable, mais entretien régulier (peinture ou lasure tous les 5-10 ans). Bois-aluminium : combine l'isolation du bois côté intérieur et la durabilité de l'aluminium côté extérieur.
+
+=== REVÊTEMENTS DE SOL ===
+
+CARRELAGE CÉRAMIQUE ET GRÈS CÉRAME
+Le grès cérame est le matériau de revêtement de sol le plus résistant : dureté Mohs 7-8, absorption d'eau < 0,5% (groupe BIa), résistance à l'abrasion PEI 4-5. Classement UPEC (Usage, Poinçonnement, Eau, Chimie) : U4P3E2C2 pour les zones très fréquentées. Épaisseur : 8 à 12 mm pour les sols, 6 à 10 mm pour les murs. Pose sur mortier-colle C2S1 ou C2S2 (déformable) selon le support.
+
+PARQUET BOIS
+Parquet massif : épaisseur 14 à 22 mm, pose clouée ou collée, ponçable plusieurs fois. Parquet contrecollé : couche d'usure 2,5 à 6 mm sur âme contreplaquée, pose flottante ou collée, moins sensible aux variations hygrométriques. Parquet stratifié : décor imprimé sur HDF, pose flottante uniquement, non ponçable, prix bas.
+
+=== SYSTÈMES CONSTRUCTIFS INNOVANTS ===
+
+CONSTRUCTION EN BOIS (OSSATURE BOIS, CLT)
+L'ossature bois (plateforme ou ballon frame) utilise des montants en bois (45×145 mm ou 45×195 mm) espacés de 400 ou 600 mm, remplis d'isolant. Le CLT (Cross Laminated Timber — bois lamellé croisé) est un panneau massif en bois utilisé pour les planchers, murs et toitures. Résistance au feu : R30 à R60 selon l'épaisseur (carbonisation contrôlée). Bilan carbone négatif (stockage du CO2).
+
+CONSTRUCTION EN PAILLE
+La construction en paille (bottes de paille porteuses ou remplissage d'ossature) est une technique écologique à fort potentiel d'isolation (λ = 0,052 à 0,080 W/m.K). Les bottes de paille doivent avoir un taux d'humidité < 20%. Résistance à la compression des bottes : 0,3 à 0,5 MPa. Protection par enduits de chaux (extérieur) et plâtre (intérieur).
+
+BÉTON DE CHANVRE (CHANVRIBLOC)
+Le béton de chanvre est un matériau isolant et régulateur d'humidité composé de chènevotte (tige de chanvre) et de chaux. Densité : 250 à 450 kg/m³. Conductivité thermique : λ = 0,06 à 0,12 W/m.K. Capacité hygroscopique élevée (régulation de l'humidité intérieure). Non porteur, utilisé en remplissage d'ossature bois ou en enduit projeté.

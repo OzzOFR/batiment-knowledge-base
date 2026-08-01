@@ -1,0 +1,148 @@
+NORMES ET RÉGLEMENTATIONS DU BÂTIMENT EN FRANCE
+Corpus technique structuré — Createk Engineering / OzzO Knowledge Base
+Sources : DTU, NF, RE 2020, RT 2012, Code de la Construction, CSTB, AFNOR
+
+=== DOCUMENTS TECHNIQUES UNIFIÉS (DTU) ===
+
+Les Documents Techniques Unifiés (DTU) sont des normes françaises qui définissent les règles de l'art pour la réalisation des travaux de construction. Ils sont élaborés par le CSTB (Centre Scientifique et Technique du Bâtiment) et l'AFNOR. Chaque DTU comprend un Cahier des Clauses Techniques (CCT), un Cahier des Clauses Spéciales (CCS) et des règles de calcul.
+
+DTU MAÇONNERIE ET GROS ŒUVRE
+DTU 20.1 — Ouvrages en maçonnerie de petits éléments (parois et murs) : règles de mise en œuvre des briques, blocs béton, blocs de terre cuite. Définit les épaisseurs minimales, les chaînages, les joints, les tolérances d'exécution.
+DTU 20.12 — Gros œuvre en maçonnerie des toitures destinées à recevoir un revêtement d'étanchéité.
+DTU 21 — Exécution des travaux en béton : dosages, mise en œuvre, cure, tolérances dimensionnelles, résistances minimales.
+DTU 22.1 — Murs extérieurs en panneaux préfabriqués de grandes dimensions en béton.
+DTU 23.1 — Murs en béton banché.
+DTU 23.3 — Dallages béton : épaisseur minimale, armatures, joints de dilatation, planéité.
+
+DTU CHARPENTE ET COUVERTURE
+DTU 31.1 — Charpente et escaliers en bois : sections minimales, assemblages, contreventement, traitement des bois.
+DTU 31.2 — Construction de maisons et bâtiments à ossature en bois.
+DTU 40.11 — Couverture en ardoises : pureau, recouvrement, fixations, faîtage, noues.
+DTU 40.12 — Couverture en ardoises fibrociment.
+DTU 40.21 — Couverture en tuiles de terre cuite à emboîtement ou à glissement à relief.
+DTU 40.22 — Couverture en tuiles plates de terre cuite.
+DTU 40.35 — Couverture en zinc.
+DTU 40.41 — Couverture par éléments métalliques en feuilles et longues feuilles en zinc.
+DTU 40.44 — Couverture par éléments métalliques en feuilles et longues feuilles en cuivre.
+
+DTU ÉTANCHÉITÉ ET ISOLATION
+DTU 43.1 — Travaux d'étanchéité des toitures-terrasses avec éléments porteurs en maçonnerie.
+DTU 43.3 — Mise en œuvre des toitures en tôles d'acier nervurées avec revêtement d'étanchéité.
+DTU 43.4 — Toitures en éléments porteurs en bois et panneaux dérivés du bois avec revêtement d'étanchéité.
+DTU 45.1 — Isolation thermique des bâtiments par l'intérieur.
+DTU 45.2 — Isolation thermique des circuits, appareils et accessoires de génie climatique.
+
+DTU PLOMBERIE ET CHAUFFAGE
+DTU 60.1 — Plomberie sanitaire pour bâtiments à usage d'habitation.
+DTU 60.11 — Règles de calcul des installations de plomberie sanitaire et d'eaux pluviales.
+DTU 60.2 — Canalisations en cuivre.
+DTU 60.31 — Canalisations en chlorure de polyvinyle non plastifié (PVC-U).
+DTU 60.32 — Canalisations en polychlorure de vinyle chloré (PVC-C).
+DTU 60.33 — Canalisations en polyéthylène réticulé (PER).
+DTU 65.3 — Installations de chauffage central : règles de calcul.
+DTU 65.11 — Dispositifs d'évacuation des produits de combustion des appareils à gaz.
+DTU 65.12 — Réalisation des installations de capteurs solaires thermiques.
+
+DTU MENUISERIE ET REVÊTEMENTS
+DTU 36.1 — Menuiseries extérieures en bois.
+DTU 36.2 — Menuiseries extérieures métalliques.
+DTU 36.5 — Mise en œuvre des fenêtres et portes extérieures.
+DTU 37.1 — Menuiseries métalliques.
+DTU 51.1 — Pose de parquets contrecollés.
+DTU 51.2 — Pose de parquets massifs.
+DTU 52.1 — Revêtements de sol scellés (carrelage).
+DTU 52.2 — Pose collée des revêtements céramiques et assimilés.
+DTU 53.1 — Revêtements de sol textiles.
+DTU 59.1 — Travaux de peinture des bâtiments.
+DTU 59.2 — Revêtements plastiques épais sur béton et enduits à base de liants hydrauliques.
+DTU 59.3 — Peinture de sols.
+
+DTU ENDUITS ET PLÂTRERIE
+DTU 26.1 — Enduits aux mortiers de ciments, de chaux et de mélange plâtre et chaux aérienne.
+DTU 26.2 — Enduits intérieurs en plâtre.
+DTU 25.1 — Enduits intérieurs en plâtre.
+DTU 25.31 — Ouvrages verticaux de plâtrerie sèche (cloisons et contre-cloisons en plaques de plâtre).
+DTU 25.41 — Ouvrages en plaques de plâtre : plafonds.
+DTU 25.42 — Ouvrages de doublage et habillage en complexes et sandwiches plaques de plâtre-isolant.
+
+=== RÉGLEMENTATION THERMIQUE ===
+
+RT 2012 (Réglementation Thermique 2012)
+La RT 2012 s'applique aux bâtiments neufs de toutes catégories depuis le 1er janvier 2013. Elle fixe trois exigences de résultats : Bbio (besoin bioclimatique), Cep (consommation d'énergie primaire ≤ 50 kWhEP/m²/an en valeur modulée selon la zone climatique et l'altitude), et Tic (température intérieure de confort en été). Elle impose également des exigences de moyens : étanchéité à l'air (n50 ≤ 0,6 vol/h pour les maisons individuelles), surface vitrée minimale (1/6 de la surface habitable), recours aux énergies renouvelables.
+
+RE 2020 (Réglementation Environnementale 2020)
+La RE 2020 remplace la RT 2012 pour les bâtiments neufs depuis le 1er janvier 2022 (logements) et 2023 (tertiaire). Elle introduit trois nouveaux indicateurs : le bilan carbone du bâtiment sur son cycle de vie (ACV — Analyse du Cycle de Vie), l'indicateur Ic énergie (empreinte carbone de l'énergie), et l'indicateur Ic construction (empreinte carbone des matériaux). Elle renforce les exigences thermiques (Bbio réduit de 30%, Cep réduit) et interdit progressivement le chauffage au gaz dans les logements neufs.
+
+Zones climatiques RT/RE
+La France est divisée en 8 zones climatiques (H1a, H1b, H1c, H2a, H2b, H2c, H2d, H3) pour le calcul des exigences thermiques. Les zones H1 (nord et est) ont les exigences les plus élevées en chauffage, la zone H3 (Méditerranée) en refroidissement.
+
+=== RÉGLEMENTATION ACOUSTIQUE ===
+
+Arrêté du 30 juin 1999 (logements neufs)
+Cet arrêté fixe les exigences acoustiques minimales pour les logements neufs : isolement aux bruits aériens entre logements (DnT,A ≥ 53 dB), isolement aux bruits aériens vis-à-vis de l'extérieur (DnT,A,tr ≥ 30 à 45 dB selon la zone de bruit), niveau de bruit de choc (L'nT,w ≤ 58 dB), niveau sonore des équipements (≤ 30 dB(A) pour les équipements collectifs).
+
+NF S31-010 — Caractérisation et mesurage des bruits de l'environnement.
+NF EN ISO 140 — Mesurage de l'isolation acoustique des immeubles et des éléments de construction.
+
+=== RÉGLEMENTATION INCENDIE ===
+
+Classification des bâtiments (ERP et habitation)
+Les bâtiments sont classés selon leur usage et leur hauteur. Les Établissements Recevant du Public (ERP) sont classés par type (J, L, M, N, O, P, R, S, T, U, V, W, X, Y) et par catégorie (1 à 5 selon la capacité d'accueil). Les habitations sont classées en familles (1ère famille : maisons individuelles ; 2ème famille : collectifs ≤ R+3 ; 3ème famille A et B : collectifs ≤ R+7 ; 4ème famille : collectifs > R+7).
+
+Règles de construction incendie
+Les règles de construction incendie imposent : compartimentage coupe-feu (portes CF 1h ou 2h, planchers CF 1h ou 2h), désenfumage des escaliers et halls, résistance au feu des structures (R30, R60, R90, R120), matériaux de revêtement classés selon leur réaction au feu (A1, A2, B, C, D, E, F selon EN 13501-1), issues de secours, éclairage de sécurité.
+
+=== RÉGLEMENTATION ACCESSIBILITÉ ===
+
+Loi du 11 février 2005 et décrets d'application
+La loi pour l'égalité des droits et des chances impose l'accessibilité des bâtiments neufs et des ERP existants aux personnes handicapées (moteur, visuel, auditif, mental). Les principales exigences sont : largeur de passage libre ≥ 0,90 m (portes), espace de manœuvre pour fauteuil roulant (cercle de 1,50 m), rampes d'accès (pente ≤ 5%, main courante), ascenseurs obligatoires au-delà du RDC dans les ERP de catégorie 1 à 4, signalétique adaptée, bandes de guidage podotactiles.
+
+Arrêté du 1er août 2006 (ERP neufs)
+Définit les caractéristiques techniques des équipements d'accessibilité : largeurs minimales des cheminements (1,40 m), dévers maximum (2%), hauteur des équipements (0,40 à 1,30 m), contrastes visuels, boucles magnétiques.
+
+=== RÉGLEMENTATION PARASISMIQUE ===
+
+Eurocode 8 et arrêté du 22 octobre 2010
+La France est divisée en 5 zones de sismicité (0 à 4). Les règles parasismiques s'appliquent aux bâtiments neufs en zones 2 à 4. Elles imposent : chaînages horizontaux et verticaux dans les maçonneries, dispositions constructives pour les structures béton armé (armatures de confinement, nœuds ductiles), vérification de la résistance aux séismes par calcul.
+
+=== NORMES MATÉRIAUX ===
+
+NF EN 197-1 — Ciments : composition, spécifications et critères de conformité.
+NF EN 206 — Béton : spécification, performance, production et conformité.
+NF EN 338 — Bois de structure : classes de résistance.
+NF EN 1995 (Eurocode 5) — Calcul des structures en bois.
+NF EN 1992 (Eurocode 2) — Calcul des structures en béton.
+NF EN 1993 (Eurocode 3) — Calcul des structures en acier.
+NF EN 1996 (Eurocode 6) — Calcul des ouvrages en maçonnerie.
+NF EN 1997 (Eurocode 7) — Calcul géotechnique.
+
+=== DIAGNOSTICS OBLIGATOIRES ===
+
+DPE (Diagnostic de Performance Énergétique)
+Obligatoire pour toute vente ou location depuis 2006, le DPE évalue la consommation d'énergie et les émissions de GES du logement sur une échelle de A (très performant) à G (très énergivore). Depuis le 1er juillet 2021, le DPE est opposable (valeur juridique). Les logements classés G sont interdits à la location depuis 2025, F depuis 2028, E depuis 2034.
+
+Diagnostic Amiante
+Obligatoire pour les bâtiments dont le permis de construire est antérieur au 1er juillet 1997. Le diagnostic doit être réalisé par un opérateur certifié. En cas de présence d'amiante, un plan de gestion ou de retrait doit être établi selon les textes réglementaires (décret du 3 juin 2011).
+
+Diagnostic Plomb (CREP)
+Le Constat de Risque d'Exposition au Plomb est obligatoire pour les logements construits avant le 1er janvier 1949. Il recherche la présence de peintures au plomb (minium, céruse) dans les revêtements.
+
+Diagnostic Termites
+Obligatoire dans les zones délimitées par arrêté préfectoral. Les termites (Reticulitermes flavipes, R. santonensis) peuvent détruire les structures bois en quelques années.
+
+Diagnostic Gaz et Électricité
+Obligatoire pour la vente de logements dont les installations ont plus de 15 ans. Évalue la conformité et la sécurité des installations.
+
+=== LABELS ET CERTIFICATIONS ===
+
+Label BBC (Bâtiment Basse Consommation)
+Précurseur de la RT 2012, le label BBC Effinergie impose une consommation d'énergie primaire ≤ 50 kWhEP/m²/an (modulé selon la zone climatique). Il est désormais intégré dans la RT 2012 comme niveau de base.
+
+Certification HQE (Haute Qualité Environnementale)
+La certification HQE évalue la performance environnementale des bâtiments selon 14 cibles regroupées en 4 thèmes : éco-construction, éco-gestion, confort, santé. Elle est délivrée par Cerway (anciennement Certivéa).
+
+Label Passivhaus
+Norme allemande adoptée internationalement, le label Passivhaus impose : besoin de chauffage ≤ 15 kWh/m²/an, consommation d'énergie primaire ≤ 120 kWh/m²/an, étanchéité à l'air n50 ≤ 0,6 vol/h, confort thermique été (température intérieure ≤ 25°C pendant plus de 10% du temps).
+
+Label E+C- (Énergie Positive Carbone Négatif)
+Expérimentation lancée en 2016, précurseur de la RE 2020. Évalue à la fois la performance énergétique (niveaux E1 à E4) et l'empreinte carbone (niveaux C1 et C2) sur le cycle de vie du bâtiment.

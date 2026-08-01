@@ -1,0 +1,112 @@
+PATHOLOGIES DU BÂTIMENT — DÉSORDRES, CAUSES ET REMÈDES
+Corpus technique structuré — Createk Engineering / OzzO Knowledge Base
+Sources : CSTB, DTU, Rondelet, Barberot, Viollet-le-Duc, pratique professionnelle
+
+=== HUMIDITÉ ET INFILTRATIONS ===
+
+HUMIDITÉ ASCENSIONNELLE (REMONTÉES CAPILLAIRES)
+L'humidité ascensionnelle est l'une des pathologies les plus fréquentes dans les bâtiments anciens. Elle résulte de la migration de l'eau du sol vers les murs par capillarité. Les matériaux poreux (pierre calcaire, brique, mortier de chaux) absorbent l'eau du terrain et la font remonter jusqu'à plusieurs mètres de hauteur selon leur porosité. Les symptômes caractéristiques sont : auréoles d'humidité en bas des murs, efflorescences salines (salpêtre), peintures cloquées et décollées, enduits qui se détachent, odeurs de moisi, dégradation des parquets et plinthes.
+
+Causes principales : absence de coupure capillaire (harpons, membrane d'étanchéité), drainage insuffisant en pied de mur, remblaiement excessif contre les murs, imperméabilisation extérieure défectueuse.
+
+Remèdes : injection de résine hydrophobe dans les murs (technique de barrière chimique), mise en place d'une coupure capillaire mécanique (sciage et insertion de membrane), drainage périphérique, ventilation des vides sanitaires, enduits de déchaulage et assainissement, électro-osmose.
+
+HUMIDITÉ DE CONDENSATION
+La condensation se produit lorsque l'air chaud et humide de l'intérieur rencontre une paroi froide. Elle se manifeste par des taches noires de moisissures (Aspergillus, Cladosporium, Penicillium), des auréoles sur les murs et plafonds, des vitres qui "pleurent". Elle est particulièrement fréquente dans les angles de pièces, derrière les meubles, et dans les pièces humides (salle de bain, cuisine).
+
+Causes principales : pont thermique (acrotère, balcon, linteau), isolation insuffisante, ventilation déficiente (VMC absente ou bouchée), comportement des occupants (séchage du linge, cuisine sans hotte).
+
+Remèdes : amélioration de l'isolation thermique (ITE ou ITI), traitement des ponts thermiques, installation ou remise en état de la VMC, ventilation naturelle renforcée, traitement fongicide des surfaces atteintes.
+
+INFILTRATIONS PAR LA TOITURE
+Les infiltrations par la toiture sont causées par des défauts d'étanchéité : tuiles cassées ou déplacées, faîtage fissuré, solins décollés, noues obstruées, chéneaux percés. Elles se manifestent par des taches brunes sur les plafonds, des auréoles en forme de cerne, un gonflement des enduits.
+
+Diagnostic : inspection visuelle de la toiture après pluie, thermographie infrarouge, test à l'arrosage. Remèdes : remplacement des tuiles défectueuses, rejointoiement des faîtages, reprise des solins à la chaux ou au mortier, nettoyage et réparation des chéneaux et gouttières.
+
+INFILTRATIONS PAR LES FAÇADES
+Les infiltrations en façade résultent de fissures dans l'enduit ou le parement, de joints de fenêtres défaillants, de défauts d'étanchéité des appuis de fenêtres, de larmiers absents ou obstrués. L'eau pénètre par les fissures, s'accumule dans la paroi et provoque des dégâts intérieurs.
+
+=== FISSURES ET DÉSORDRES STRUCTURELS ===
+
+CLASSIFICATION DES FISSURES
+Les fissures se classent selon leur largeur, leur orientation et leur évolution :
+- Fissures capillaires (< 0,2 mm) : superficielles, sans danger structurel, dues aux retraits des enduits.
+- Fissures fines (0,2 à 0,5 mm) : à surveiller, peuvent indiquer des mouvements.
+- Fissures larges (0,5 à 2 mm) : nécessitent une investigation, peuvent affecter l'étanchéité.
+- Lézardes (> 2 mm) : désordre structurel potentiel, expertise obligatoire.
+
+FISSURES DE TASSEMENT DIFFÉRENTIEL
+Le tassement différentiel est la cause la plus grave de fissuration. Il survient lorsque différentes parties d'un bâtiment s'affaissent à des vitesses différentes. Les fissures sont obliques (à 45°), en escalier dans les maçonneries de brique, ou verticales aux jonctions entre deux parties de bâtiment. Causes : fondations hétérogènes, variation de la portance du sol (argile gonflante, sécheresse, nappe phréatique), travaux de terrassement voisins, racines d'arbres.
+
+Remèdes : micropieux, injection de résine expansive dans le sol (résine polyuréthane), reprise en sous-œuvre, consolidation des fondations.
+
+FISSURES DE RETRAIT
+Les fissures de retrait apparaissent dans les enduits, les dalles béton et les maçonneries lors du séchage. Elles sont généralement fines, régulièrement réparties (réseau de fissures en "peau de crocodile" pour les dalles), ou verticales et espacées régulièrement dans les enduits. Elles n'ont pas de caractère structurel mais peuvent permettre des infiltrations.
+
+Remèdes : ragréage des enduits, injection de résine époxy pour les fissures de dalle, mise en place de joints de dilatation.
+
+FISSURES PAR SURCHARGE
+Une surcharge excessive (ajout d'un niveau, stockage de matériaux lourds, modification de la distribution des charges) peut provoquer des fissures dans les murs porteurs, les planchers et les poutres. Les fissures sont généralement verticales dans les murs, et en flexion (traction en sous-face) dans les planchers.
+
+=== DÉSORDRES DES FONDATIONS ===
+
+AFFAISSEMENT DE FONDATIONS
+Les fondations peuvent s'affaisser par : érosion du sol sous la semelle (ruissellement, fuite de canalisation), dissolution de roches solubles (gypse, calcaire), retrait des argiles en période de sécheresse, gel-dégel en terrain argileux, travaux de terrassement voisins.
+
+Diagnostic : nivellement topographique, sondages géotechniques, inspection des caves et vides sanitaires. Remèdes : injection de coulis de ciment ou résine, micropieux, reprise en sous-œuvre.
+
+POUSSÉE AU VIDE DES MURS
+Les murs en maçonnerie non renforcée peuvent se déverser sous l'effet des poussées horizontales (poussée des terres, poussée des voûtes et arcs, charge de toiture). Le déversement se manifeste par un hors-plomb visible, des fissures obliques en pied de mur, un décollement entre mur et plancher.
+
+Remèdes : tirants métalliques (ancres), chaînages en béton armé, contreforts, reprise des poussées de voûte.
+
+=== DÉSORDRES DES PLANCHERS ET CHARPENTES ===
+
+POURRITURE DU BOIS
+Le bois se dégrade par pourriture lorsqu'il est soumis à une humidité prolongée (> 20% d'humidité relative du bois). La pourriture cubique (champignons bruns) et la pourriture fibreuse (champignons blancs) détruisent la structure cellulaire du bois. Les zones les plus touchées sont les encastrements de solives dans les murs humides, les pieds de poteaux, les sablières basses.
+
+Diagnostic : sondage au poinçon, mesure d'humidité, inspection visuelle. Remèdes : traitement fongicide, remplacement des pièces atteintes, amélioration de la ventilation, mise hors d'eau.
+
+ATTAQUE PAR LES INSECTES XYLOPHAGES
+Les insectes xylophages (capricorne des maisons, vrillette, lyctus) creusent des galeries dans le bois et peuvent fragiliser considérablement les charpentes. Les symptômes sont : petits trous ronds en surface, sciure fine (vermoulure), galeries visibles à la coupe.
+
+Remèdes : traitement insecticide par injection ou badigeonnage, remplacement des pièces très atteintes, traitement préventif des bois neufs.
+
+DÉFORMATION DES PLANCHERS
+Les planchers en bois se déforment par fluage (déformation lente sous charge permanente), par pourriture des solives, ou par insuffisance de section. La flèche admissible est généralement limitée à L/300 (L = portée). Un plancher qui fléchit excessivement peut provoquer des fissures dans les cloisons et les enduits.
+
+=== DÉSORDRES DES ENDUITS ET REVÊTEMENTS ===
+
+DÉCOLLEMENT D'ENDUIT
+Les enduits se décollent par : humidité ascensionnelle ou d'infiltration, gel-dégel, incompatibilité entre l'enduit et le support (enduit ciment sur mur en chaux), mauvaise préparation du support, enduit trop riche en ciment.
+
+Diagnostic : percussion (son creux), thermographie infrarouge. Remèdes : dépose de l'enduit décollé, traitement de la cause, reprise de l'enduit avec un mortier compatible (chaux aérienne sur maçonnerie ancienne).
+
+EFFLORESCENCES SALINES
+Les efflorescences sont des dépôts blancs cristallins en surface des maçonneries, causés par la migration de sels solubles (sulfates, chlorures, nitrates) dissous dans l'eau qui s'évapore en surface. Elles sont inesthétiques mais pas toujours structurellement dangereuses. Les sels les plus courants sont le sulfate de calcium (gypse), le sulfate de sodium (mirabilite), le nitrate de calcium (salpêtre).
+
+Remèdes : brossage à sec, traitement de la cause (humidité), application d'un consolidant si la maçonnerie est friable.
+
+=== DÉSORDRES SPÉCIFIQUES AUX BÂTIMENTS ANCIENS ===
+
+DÉGRADATION DES PIERRES DE TAILLE
+Les pierres calcaires et les grès se dégradent par : dissolution par les eaux acides (pluies acides, pollution), éclatement par le gel (eau dans les pores qui gèle et se dilate), alunisation (transformation de la calcite en gypse par les sulfates), desquamation (feuilletage en surface).
+
+Remèdes : nettoyage (sablage doux, laser), consolidation (traitement à l'éthyl silicate), rejointoiement à la chaux, protection hydrofuge.
+
+CORROSION DES ARMATURES BÉTON ARMÉ
+Dans les bâtiments en béton armé, la corrosion des armatures est causée par la carbonatation du béton (réduction du pH qui détruit la couche passive de protection de l'acier) ou par la pénétration de chlorures (sel de déverglaçage, air marin). La corrosion provoque une expansion volumique qui fait éclater le béton d'enrobage (épaufrures).
+
+Diagnostic : mesure de carbonatation (phénolphtaléine), potentiel de corrosion, radar GPR. Remèdes : dépose du béton carbonaté, traitement des armatures, reprofilage au mortier de réparation, protection de surface.
+
+=== DÉSORDRES DES RÉSEAUX ===
+
+FUITES DE CANALISATIONS
+Les fuites dans les canalisations encastrées sont souvent détectées tardivement. Elles provoquent des dégâts des eaux, des taches d'humidité, des gonflements de parquet, des moisissures. Les canalisations en plomb (bâtiments antérieurs à 1950) sont particulièrement sujettes à la corrosion et présentent un risque sanitaire (plombémie).
+
+Diagnostic : test de pression, caméra d'inspection, détection acoustique. Remèdes : remplacement des canalisations vétustes (cuivre, PER, multicouche), réparation ponctuelle par manchon.
+
+DÉGRADATION DES RÉSEAUX ÉLECTRIQUES ANCIENS
+Les installations électriques antérieures à 1970 (câbles en aluminium, absence de terre, tableaux vétustes) présentent des risques d'incendie et d'électrocution. Les câbles en caoutchouc vieillissent et se fissurent, les connexions s'oxydent, les sections sont souvent insuffisantes pour les usages modernes.
+
+Remèdes : mise aux normes complète selon NF C 15-100, remplacement du tableau électrique, mise à la terre, installation de disjoncteurs différentiels 30 mA.

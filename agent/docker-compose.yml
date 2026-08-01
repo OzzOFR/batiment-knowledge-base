@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  hermes-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hermes-agent-batiment
+    restart: unless-stopped
+    ports:
+      - "8200:8200"
+    environment:
+      - PG_HOST=forge-postgres
+      - PG_PORT=5432
+      - PG_DB=batiment_knowledge
+      - PG_USER=createk
+      - PG_PASSWORD=Forge2026Hozzo!
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+      - AGENT_PORT=8200
+    networks:
+      - forge_internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8200/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+
+networks:
+  forge_internal:
+    external: true
