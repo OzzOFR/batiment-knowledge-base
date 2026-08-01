@@ -597,6 +597,11 @@ async def token_endpoint(request: Request):
 
 # ─── Endpoints publics ────────────────────────────────────────────────────────
 
+@app.post("/")
+async def mcp_root(request: Request):
+    """MCP endpoint sur / — Claude.ai envoie les requêtes JSON-RPC à la racine."""
+    return await mcp_endpoint(request)
+
 @app.get("/")
 def root():
     return {
