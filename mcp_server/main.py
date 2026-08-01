@@ -46,7 +46,7 @@ PORT            = int(os.environ.get("PORT", "8100"))
 
 MCP_VERSION    = "2025-03-26"
 SERVER_NAME    = "batiment-knowledge"
-SERVER_VERSION = "7.0.0"
+SERVER_VERSION = "7.1.0"
 
 # Credentials admin pour la page de login
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "ozzo")
@@ -68,6 +68,33 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# ─── Hiérarchie de confiance ─────────────────────────────────────────────────
+# Bonus multiplicatif appliqué au score cosinus selon la fiabilité de la source.
+# Une norme en vigueur est 2× plus valorisée qu'une synthèse IA.
+FIABILITE_BONUS = {
+    "norme-en-vigueur":  1.40,  # DTU, NF, RE2020 — référence réglementaire
+    "technique-moderne": 1.20,  # Ouvrages post-1970, pratiques actuelles
+    "technique-ancien":  1.00,  # Ouvrages XIXe-XXe s. (Champly, Barberot…)
+    "patrimoine":        0.90,  # Traités anciens (Rondelet, Viollet-le-Duc…)
+    "synthese-ia":       0.70,  # Synthèses IA OzzO — non sourcées
+}
+ANNEE_REF = 2025  # Année de référence pour le bonus de récence
+
+def compute_trust_score(similarity: float, fiabilite: str, annee: int | None) -> float:
+    """Score composite = cosinus × bonus_fiabilité × bonus_récence.
+    
+    Le bonus de récence vaut 1.0 pour une source de 2025 et décroît
+    linéairement jusqu'à 0.80 pour une source de 1800 (écart de 225 ans).
+    Les sources sans année reçoivent un bonus neutre de 0.95.
+    """
+    f_bonus = FIABILITE_BONUS.get(fiabilite, 1.00)
+    if annee:
+        # Bonus récence : entre 0.80 (1800) et 1.00 (2025)
+        recence = 0.80 + 0.20 * min(1.0, max(0.0, (annee - 1800) / (ANNEE_REF - 1800)))
+    else:
+        recence = 0.95
+    return similarity * f_bonus * recence
 
 # ─── Labels de fiabilité ──────────────────────────────────────────────────────
 FIABILITE_LABELS = {
@@ -183,8 +210,15 @@ def get_embedding(text: str) -> list:
     return model.encode(text, show_progress_bar=False).tolist()
 
 def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> list:
+    """Recherche sémantique avec scoring composite (cosinus × fiabilité × récence).
+    
+    On récupère 3× plus de candidats que demandé, puis on re-trie par score
+    composite pour favoriser les sources fiables et récentes.
+    """
     embedding = get_embedding(query)
     emb_str = "[" + ",".join(str(x) for x in embedding) + "]"
+    # Récupérer 3× plus de candidats pour le re-tri
+    fetch_limit = nb_resultats * 3
     with get_db() as conn:
         cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
         if corps_etat:
@@ -194,9 +228,9 @@ def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> l
                        1 - (embedding <=> %s::vector) AS similarity
                 FROM batiment_chunks
                 WHERE corps_etat = %s AND embedding IS NOT NULL
-                  AND 1 - (embedding <=> %s::vector) > 0.2
+                  AND 1 - (embedding <=> %s::vector) > 0.15
                 ORDER BY embedding <=> %s::vector LIMIT %s
-            """, (emb_str, corps_etat, emb_str, emb_str, nb_resultats))
+            """, (emb_str, corps_etat, emb_str, emb_str, fetch_limit))
         else:
             cur.execute("""
                 SELECT id, content, corps_etat, source, auteur, titre_ouvrage,
@@ -204,15 +238,25 @@ def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> l
                        1 - (embedding <=> %s::vector) AS similarity
                 FROM batiment_chunks
                 WHERE embedding IS NOT NULL
-                  AND 1 - (embedding <=> %s::vector) > 0.2
+                  AND 1 - (embedding <=> %s::vector) > 0.15
                 ORDER BY embedding <=> %s::vector LIMIT %s
-            """, (emb_str, emb_str, emb_str, nb_resultats))
-        return [dict(row) for row in cur.fetchall()]
+            """, (emb_str, emb_str, emb_str, fetch_limit))
+        rows = [dict(row) for row in cur.fetchall()]
+    # Re-trier par score composite et retourner les N meilleurs
+    for row in rows:
+        row["trust_score"] = compute_trust_score(
+            float(row.get("similarity", 0)),
+            row.get("fiabilite", ""),
+            row.get("annee_publication")
+        )
+    rows.sort(key=lambda r: r["trust_score"], reverse=True)
+    return rows[:nb_resultats]
 
 def format_source_badge(r: dict) -> str:
     auteur = r.get("auteur"); annee = r.get("annee_publication"); fiabilite = r.get("fiabilite", "")
+    label = FIABILITE_LABELS.get(fiabilite, fiabilite)
     if auteur and annee:
-        return f"{auteur} ({annee}) — *{FIABILITE_LABELS.get(fiabilite, fiabilite)}*"
+        return f"{auteur} ({annee}) — *{label}*"
     return r.get("source", "N/A")
 
 def detect_divergences(passages: list) -> str:
@@ -281,12 +325,18 @@ def execute_tool(name: str, arguments: dict) -> list:
         if not results: return [{"type":"text","text":"Aucun résultat trouvé."}]
         parts = [f"**{len(results)} résultat(s) pour : \"{query}\"**\n"]
         for i, r in enumerate(results, 1):
-            sim = round(float(r.get("similarity",0))*100,1); txt = r.get("content",""); badge = format_source_badge(r)
+            trust = round(float(r.get("trust_score", r.get("similarity",0)))*100,1)
+            sim   = round(float(r.get("similarity",0))*100,1)
+            txt = r.get("content",""); badge = format_source_badge(r)
             if txt.startswith("[") and "]" in txt[:200]:
                 end = txt.index("]"); section = txt[1:end]; preview = txt[end+2:end+802]
             else:
                 section = ""; preview = txt[:800]
-            parts.append(f"\n---\n**[{i}]** `{corps_etat or r.get('corps_etat','N/A')}` | **{badge}**  \n" + (f"*Section : {section}*  \n" if section else "") + f"Pertinence : {sim}%\n\n{preview}...")
+            parts.append(
+                f"\n---\n**[{i}]** `{corps_etat or r.get('corps_etat','N/A')}` | **{badge}**  \n"
+                + (f"*Section : {section}*  \n" if section else "")
+                + f"Score confiance : {trust}% (cosinus : {sim}%)\n\n{preview}..."
+            )
         return [{"type":"text","text":"\n".join(parts) + detect_divergences(results)}]
 
     elif name == "ask_batiment":
