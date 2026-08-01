@@ -1,0 +1,112 @@
+[
+  {
+    "corps_etat": "platrerie-peinture",
+    "fichier": "traite_peinture_batiment_1900.txt",
+    "auteur": "Boudry, E.; Chauvet, L.",
+    "titre": "Traité de peinture en bâtiment et de décoration",
+    "annee": 1900,
+    "archive_id": "traitedepeinture02boud",
+    "source": "Internet Archive / Boudry & Chauvet (1900)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 1567
+  },
+  {
+    "corps_etat": "platrerie-peinture",
+    "fichier": "manuel_peintre_batiment_1851.txt",
+    "auteur": "Riffault des Hêtres, J.R.D.; Vergnaud, A.D.",
+    "titre": "Nouveau manuel complet du peintre en bâtiments, vitrier, doreur, argenteur et vernisseur",
+    "annee": 1851,
+    "archive_id": "nouveaumanuelco00verggoog",
+    "source": "Internet Archive / Riffault & Vergnaud (1851)",
+    "niveau_fiabilite": "patrimoine_xix",
+    "taille_kb": 448
+  },
+  {
+    "corps_etat": "platrerie-peinture",
+    "fichier": "travail_platre_1929.txt",
+    "auteur": "A. Builder",
+    "titre": "Travail du plâtre : composition, propriétés, gâchage, moulage, stuc et staff",
+    "annee": 1929,
+    "archive_id": "travailduplatrec00abui",
+    "source": "Internet Archive / A. Builder (1929)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 220
+  },
+  {
+    "corps_etat": "electricite",
+    "fichier": "traite_electricite_becquerel_1855.txt",
+    "auteur": "Becquerel, Antoine César; Becquerel, Ed.",
+    "titre": "Traité d'électricité et de magnétisme et des applications de ces sciences à la chimie, à la physiologie et aux arts",
+    "annee": 1855,
+    "archive_id": "traitdlectricite02becq",
+    "source": "Internet Archive / Becquerel (1855)",
+    "niveau_fiabilite": "patrimoine_xix",
+    "taille_kb": 1319
+  },
+  {
+    "corps_etat": "menuiserie",
+    "fichier": "menuiserie_descriptive_1835.txt",
+    "auteur": "Coulon, A.G.",
+    "titre": "Menuiserie descriptive : nouveau vignole des menuisiers, ouvrage théorique et pratique",
+    "annee": 1835,
+    "archive_id": "menuiseriedescri00coul",
+    "source": "Internet Archive / Coulon (1835)",
+    "niveau_fiabilite": "patrimoine_xix",
+    "taille_kb": 742
+  },
+  {
+    "corps_etat": "maconnerie",
+    "fichier": "construction_ciment_arme_1902.txt",
+    "auteur": "Berger, C.",
+    "titre": "La construction en ciment armé. Applications générales. Théories et systèmes divers",
+    "annee": 1902,
+    "archive_id": "laconstructione01guilgoog",
+    "source": "Internet Archive / Berger (1902)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 1460
+  },
+  {
+    "corps_etat": "maconnerie",
+    "fichier": "traite_mortiers_ciments_1825.txt",
+    "auteur": "Hassenfratz, J.H.",
+    "titre": "Traité théorique et pratique de l'art de calciner la pierre calcaire et de fabriquer toutes sortes de mortiers, ciments, bétons",
+    "annee": 1825,
+    "archive_id": "traitthoriqu00hass",
+    "source": "Internet Archive / Hassenfratz (1825)",
+    "niveau_fiabilite": "patrimoine_xix",
+    "taille_kb": 971
+  },
+  {
+    "corps_etat": "gros-oeuvre",
+    "fichier": "pratique_art_construire_1899.txt",
+    "auteur": "Claudel, J.",
+    "titre": "Pratique de l'art de construire. Maçonnerie et terrassements, charpente, couverture et autres travaux de bâtiment",
+    "annee": 1899,
+    "archive_id": "pratiquedelartd00claugoog",
+    "source": "Internet Archive / Claudel (1899)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 2806
+  },
+  {
+    "corps_etat": "charpente-couverture",
+    "fichier": "traite_stereotomie_charpente_1910.txt",
+    "auteur": "Leroy, C.F.A.",
+    "titre": "Traité de stéréotomie : coupe des pierres et charpente",
+    "annee": 1910,
+    "archive_id": "traitedestereotolero",
+    "source": "Internet Archive / Leroy (1910)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 1656
+  },
+  {
+    "corps_etat": "isolation-etancheite",
+    "fichier": "manuel_constructeur_ciment_arme_1909.txt",
+    "auteur": "Tedesco, N. de (Napoléon)",
+    "titre": "Manuel théorique et pratique du constructeur en ciment armé",
+    "annee": 1909,
+    "archive_id": "gri_33125007396647",
+    "source": "Internet Archive / Tedesco (1909)",
+    "niveau_fiabilite": "technique_xix_xx",
+    "taille_kb": 877
+  }
+]
