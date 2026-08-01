@@ -15,7 +15,8 @@ import psycopg2
 import psycopg2.extras
 from contextlib import contextmanager
 from typing import Any
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Security, Depends
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
@@ -36,14 +37,30 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 SYNTHESIS_MODEL    = "openai/gpt-4o-mini"
 OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 
+# Authentification
+MCP_API_KEY = os.environ.get("MCP_API_KEY", "t-63pCvruQiQGxX8d3qQnqjVB-RwT7FEQth0jmFBrj8")
+
 # Serveur
 PORT = int(os.environ.get("PORT", "8100"))
 
 app = FastAPI(
     title="Batiment Knowledge Base MCP Server",
     description="Serveur MCP pour la base de connaissances sur les métiers du bâtiment",
-    version="5.0.0"
+    version="5.1.0"
 )
+
+# ─── Authentification Bearer ──────────────────────────────────────────────────
+_bearer_scheme = HTTPBearer(auto_error=False)
+
+def verify_api_key(credentials: HTTPAuthorizationCredentials = Security(_bearer_scheme)):
+    """Vérifie la clé API Bearer. Les endpoints /health et / sont publics."""
+    if credentials is None or credentials.credentials != MCP_API_KEY:
+        raise HTTPException(
+            status_code=401,
+            detail="Clé API invalide ou manquante. Fournir: Authorization: Bearer <API_KEY>",
+            headers={"WWW-Authenticate": "Bearer"}
+        )
+    return credentials.credentials
 
 # ─── Labels de fiabilité ──────────────────────────────────────────────────────
 FIABILITE_LABELS = {
@@ -413,11 +430,12 @@ def get_stats_from_db() -> dict:
 def root():
     return {
         "name": "batiment-kb-mcp",
-        "version": "5.0.0",
+        "version": "5.1.0",
         "status": "ok",
         "backend": "PostgreSQL HOZZO",
         "embedding_model": EMBEDDING_MODEL_NAME,
-        "embedding_dims": EMBEDDING_DIMS
+        "embedding_dims": EMBEDDING_DIMS,
+        "auth": "Bearer token required for /mcp/* endpoints"
     }
 
 
@@ -438,7 +456,7 @@ def health():
         return JSONResponse(status_code=503, content={"status": "unhealthy", "error": str(e)})
 
 
-@app.get("/mcp/tools")
+@app.get("/mcp/tools", dependencies=[Depends(verify_api_key)])
 def list_tools():
     return {"tools": MCP_TOOLS}
 
@@ -448,7 +466,7 @@ class ToolCallRequest(BaseModel):
     arguments: dict = {}
 
 
-@app.post("/mcp/tools/call")
+@app.post("/mcp/tools/call", dependencies=[Depends(verify_api_key)])
 def call_tool(request: ToolCallRequest):
     """Exécute un outil MCP."""
     
