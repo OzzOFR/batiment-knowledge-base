@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420">
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; }
+      .titre { font-size: 13px; font-weight: bold; fill: #1a1a2e; }
+      .label { font-size: 10px; fill: #333; }
+      .cote { font-size: 9px; fill: #666; }
+      .note { font-size: 9px; fill: #888; font-style: italic; }
+      .hachure { fill: url(#hachure_beton); }
+      .hachure_bois { fill: url(#hachure_bois); }
+      .hachure_sol { fill: url(#hachure_sol); }
+      .hachure_isolant { fill: url(#hachure_isolant); }
+    </style>
+    <pattern id="hachure_beton" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e8e8e8"/>
+      <circle cx="2" cy="2" r="1" fill="#999"/>
+      <circle cx="6" cy="6" r="1" fill="#999"/>
+    </pattern>
+    <pattern id="hachure_bois" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#f5deb3"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#c8a06e" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hachure_sol" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#c8b89a"/>
+      <line x1="0" y1="4" x2="8" y2="0" stroke="#a0896a" stroke-width="0.7"/>
+      <line x1="0" y1="8" x2="8" y2="4" stroke="#a0896a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hachure_isolant" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#fff9c4"/>
+      <path d="M0,5 Q2.5,0 5,5 Q7.5,10 10,5" stroke="#f9a825" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrow_rev" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Fond blanc -->
+  <rect width="600" height="420" fill="white" stroke="#ccc" stroke-width="1"/>
+  <!-- Titre -->
+  <text x="300" y="22" text-anchor="middle" class="titre">Semelle filante en béton armé — Coupe transversale</text>
+  <!-- Cadre -->
+  <rect x="5" y="5" width="590" height="410" fill="none" stroke="#aaa" stroke-width="0.5"/>
+<rect x="50" y="200" width="500" height="80" fill="url(#hachure_sol)" stroke="#a0896a" stroke-width="1"/><text x="310" y="250" text-anchor="middle" class="label">Sol naturel</text><line x1="30" y1="120" x2="30" y2="200" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,3"/><text x="5" y="165" class="cote" fill="#e53935" transform="rotate(-90,5,165)">Hors-gel ≥ 0,80 m</text><rect x="150" y="200" width="300" height="80" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="300" y="248" text-anchor="middle" class="label">Béton armé C25/30</text><rect x="230" y="80" width="140" height="120" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="300" y="148" text-anchor="middle" class="label">Mur porteur</text><circle cx="180" cy="255" r="5" fill="#e53935" stroke="#333" stroke-width="1"/><circle cx="210" cy="255" r="5" fill="#e53935" stroke="#333" stroke-width="1"/><circle cx="390" cy="255" r="5" fill="#e53935" stroke="#333" stroke-width="1"/><circle cx="420" cy="255" r="5" fill="#e53935" stroke="#333" stroke-width="1"/><text x="300" y="272" text-anchor="middle" class="cote">Aciers longitudinaux HA</text><rect x="175" y="215" width="250" height="55" fill="none" stroke="#e53935" stroke-width="1.5" stroke-dasharray="4,2"/><text x="430" y="245" class="cote" fill="#e53935">Cadres HA</text>
+  <line x1="150" y1="180" x2="450" y2="180" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="150" y1="200" x2="150" y2="180" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="450" y1="200" x2="450" y2="180" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="300.0" y="177.0" text-anchor="middle" class="cote">L = 60 cm min.</text>
+  <line x1="470" y1="200" x2="470" y2="280" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="450" y1="200" x2="470" y2="200" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="450" y1="280" x2="470" y2="280" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="473" y="244.0" class="cote">h = 25 cm min.</text>
+  <line x1="230" y1="60" x2="370" y2="60" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="230" y1="80" x2="230" y2="60" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="370" y1="80" x2="370" y2="60" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="300.0" y="57.0" text-anchor="middle" class="cote">e mur</text><line x1="150" y1="310" x2="230" y2="310" stroke="#1565c0" stroke-width="1" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/><text x="190" y="325" text-anchor="middle" class="cote" fill="#1565c0">Débord ≥ 10 cm</text><line x1="150" y1="340" x2="180" y2="340" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)"/><text x="155" y="355" class="cote">Enrobage ≥ 3 cm</text><line x1="40" y1="200" x2="560" y2="200" stroke="#2e7d32" stroke-width="1" stroke-dasharray="6,3"/><text x="555" y="196" text-anchor="end" class="note" fill="#2e7d32">NGF sol</text><text x="50" y="375" class="cote" font-weight="bold">Légende :</text>
+  <rect x="50" y="382" width="12" height="10" fill="url(#hachure_beton)" stroke="#999" stroke-width="0.5"/>
+  <text x="66" y="390" class="note">Béton armé C25/30</text>
+  <rect x="200" y="382" width="12" height="10" fill="url(#hachure_sol)" stroke="#999" stroke-width="0.5"/>
+  <text x="216" y="390" class="note">Sol naturel</text><circle cx="360" cy="382" r="5" fill="#e53935" stroke="#333" stroke-width="1"/><text x="376" y="387" class="note">Aciers HA (ferraillage)</text><text x="300" y="408" text-anchor="middle" class="note">Source : Champly, Nouvelle Encyclopédie Pratique du Bâtiment — Vol.1 Arpentage, Fondations</text></svg>

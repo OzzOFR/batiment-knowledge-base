@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="380" viewBox="0 0 580 380">
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; }
+      .titre { font-size: 13px; font-weight: bold; fill: #1a1a2e; }
+      .label { font-size: 10px; fill: #333; }
+      .cote { font-size: 9px; fill: #666; }
+      .note { font-size: 9px; fill: #888; font-style: italic; }
+      .hachure { fill: url(#hachure_beton); }
+      .hachure_bois { fill: url(#hachure_bois); }
+      .hachure_sol { fill: url(#hachure_sol); }
+      .hachure_isolant { fill: url(#hachure_isolant); }
+    </style>
+    <pattern id="hachure_beton" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e8e8e8"/>
+      <circle cx="2" cy="2" r="1" fill="#999"/>
+      <circle cx="6" cy="6" r="1" fill="#999"/>
+    </pattern>
+    <pattern id="hachure_bois" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#f5deb3"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#c8a06e" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hachure_sol" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#c8b89a"/>
+      <line x1="0" y1="4" x2="8" y2="0" stroke="#a0896a" stroke-width="0.7"/>
+      <line x1="0" y1="8" x2="8" y2="4" stroke="#a0896a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hachure_isolant" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#fff9c4"/>
+      <path d="M0,5 Q2.5,0 5,5 Q7.5,10 10,5" stroke="#f9a825" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrow_rev" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Fond blanc -->
+  <rect width="580" height="380" fill="white" stroke="#ccc" stroke-width="1"/>
+  <!-- Titre -->
+  <text x="290" y="22" text-anchor="middle" class="titre">Étanchéité de toiture-terrasse inaccessible — Coupe</text>
+  <!-- Cadre -->
+  <rect x="5" y="5" width="570" height="370" fill="none" stroke="#aaa" stroke-width="0.5"/>
+<rect x="80" y="80" width="440" height="25" fill="url(#hachure_beton)" stroke="#333" stroke-width="1"/><text x="530" y="96" class="label">Support béton armé</text><rect x="80" y="105" width="440" height="15" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1"/><text x="530" y="116" class="label">Pare-vapeur (bitume SBS)</text><rect x="80" y="120" width="440" height="60" fill="url(#hachure_isolant)" stroke="#f9a825" stroke-width="1"/><text x="530" y="154" class="label">Isolant thermique (laine minérale 12 cm)</text><rect x="80" y="180" width="440" height="20" fill="#ffccbc" stroke="#bf360c" stroke-width="1"/><text x="530" y="194" class="label">Membrane d'étanchéité bicouche</text><rect x="80" y="200" width="440" height="40" fill="#d7ccc8" stroke="#795548" stroke-width="1"/><text x="530" y="224" class="label">Protection lourde (gravillon 4/8 — 5 cm)</text><rect x="50" y="60" width="30" height="180" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><rect x="520" y="60" width="30" height="180" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="65" y="55" text-anchor="middle" class="label">Acrotère</text><rect x="50" y="100" width="30" height="80" fill="#ffccbc" stroke="#bf360c" stroke-width="1.5"/><rect x="520" y="100" width="30" height="80" fill="#ffccbc" stroke="#bf360c" stroke-width="1.5"/><line x1="30" y1="100" x2="50" y2="100" stroke="#bf360c" stroke-width="1" marker-end="url(#arrow)"/><text x="5" y="96" class="cote" fill="#bf360c">Relevé</text><text x="5" y="108" class="cote" fill="#bf360c">≥ 15 cm</text><line x1="80" y1="200" x2="520" y2="215" stroke="#1565c0" stroke-width="1" stroke-dasharray="5,3"/><text x="300" y="230" text-anchor="middle" class="cote" fill="#1565c0">Pente ≥ 1,5%</text><circle cx="300" cy="240" r="15" fill="#b3e5fc" stroke="#0288d1" stroke-width="2"/><text x="300" y="244" text-anchor="middle" class="cote" fill="#0288d1">EP</text><line x1="300" y1="255" x2="300" y2="280" stroke="#0288d1" stroke-width="2" marker-end="url(#arrow)"/><text x="320" y="272" class="cote" fill="#0288d1">Évacuation EP</text>
+  <line x1="550" y1="80" x2="550" y2="240" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="530" y1="80" x2="550" y2="80" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="530" y1="240" x2="550" y2="240" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="553" y="164.0" class="cote">Épaisseur totale</text><text x="290" y="372" text-anchor="middle" class="note">Réf. : DTU 43.1 — Travaux d'étanchéité des toitures-terrasses avec éléments porteurs en maçonnerie</text></svg>

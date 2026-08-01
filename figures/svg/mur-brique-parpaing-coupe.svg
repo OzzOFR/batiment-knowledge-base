@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; }
+      .titre { font-size: 13px; font-weight: bold; fill: #1a1a2e; }
+      .label { font-size: 10px; fill: #333; }
+      .cote { font-size: 9px; fill: #666; }
+      .note { font-size: 9px; fill: #888; font-style: italic; }
+      .hachure { fill: url(#hachure_beton); }
+      .hachure_bois { fill: url(#hachure_bois); }
+      .hachure_sol { fill: url(#hachure_sol); }
+      .hachure_isolant { fill: url(#hachure_isolant); }
+    </style>
+    <pattern id="hachure_beton" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e8e8e8"/>
+      <circle cx="2" cy="2" r="1" fill="#999"/>
+      <circle cx="6" cy="6" r="1" fill="#999"/>
+    </pattern>
+    <pattern id="hachure_bois" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#f5deb3"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#c8a06e" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hachure_sol" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#c8b89a"/>
+      <line x1="0" y1="4" x2="8" y2="0" stroke="#a0896a" stroke-width="0.7"/>
+      <line x1="0" y1="8" x2="8" y2="4" stroke="#a0896a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hachure_isolant" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#fff9c4"/>
+      <path d="M0,5 Q2.5,0 5,5 Q7.5,10 10,5" stroke="#f9a825" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrow_rev" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Fond blanc -->
+  <rect width="500" height="500" fill="white" stroke="#ccc" stroke-width="1"/>
+  <!-- Titre -->
+  <text x="250" y="22" text-anchor="middle" class="titre">Mur porteur en maçonnerie — Coupe verticale</text>
+  <!-- Cadre -->
+  <rect x="5" y="5" width="490" height="490" fill="none" stroke="#aaa" stroke-width="0.5"/>
+<rect x="120" y="380" width="260" height="60" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="250" y="415" text-anchor="middle" class="label">Semelle béton armé</text><rect x="50" y="380" width="400" height="30" fill="url(#hachure_sol)" stroke="#a0896a" stroke-width="1"/><line x1="50" y1="380" x2="450" y2="380" stroke="#2e7d32" stroke-width="1.5"/><text x="455" y="376" class="note" fill="#2e7d32">NGF</text><rect x="170" y="100" width="160" height="280" fill="#f4a460" stroke="#8B4513" stroke-width="1.5"/><line x1="170" y1="120" x2="330" y2="120" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="140" x2="330" y2="140" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="160" x2="330" y2="160" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="180" x2="330" y2="180" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="200" x2="330" y2="200" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="220" x2="330" y2="220" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="240" x2="330" y2="240" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="260" x2="330" y2="260" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="280" x2="330" y2="280" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="300" x2="330" y2="300" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="320" x2="330" y2="320" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="340" x2="330" y2="340" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="360" x2="330" y2="360" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="100" x2="170" y2="120" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="100" x2="250" y2="120" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="120" x2="210" y2="140" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="120" x2="290" y2="140" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="140" x2="170" y2="160" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="140" x2="250" y2="160" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="160" x2="210" y2="180" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="160" x2="290" y2="180" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="180" x2="170" y2="200" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="180" x2="250" y2="200" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="200" x2="210" y2="220" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="200" x2="290" y2="220" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="220" x2="170" y2="240" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="220" x2="250" y2="240" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="240" x2="210" y2="260" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="240" x2="290" y2="260" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="260" x2="170" y2="280" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="260" x2="250" y2="280" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="280" x2="210" y2="300" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="280" x2="290" y2="300" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="300" x2="170" y2="320" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="300" x2="250" y2="320" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="320" x2="210" y2="340" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="320" x2="290" y2="340" stroke="#8B4513" stroke-width="0.5"/><line x1="170" y1="340" x2="170" y2="360" stroke="#8B4513" stroke-width="0.5"/><line x1="250" y1="340" x2="250" y2="360" stroke="#8B4513" stroke-width="0.5"/><line x1="210" y1="360" x2="210" y2="380" stroke="#8B4513" stroke-width="0.5"/><line x1="290" y1="360" x2="290" y2="380" stroke="#8B4513" stroke-width="0.5"/><text x="250" y="240" text-anchor="middle" class="label">Briques</text><rect x="170" y="100" width="160" height="25" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="340" y="116" class="label">Chaînage BA</text><rect x="170" y="355" width="160" height="25" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="340" y="368" class="label">Chaînage BA</text><rect x="210" y="230" width="80" height="20" fill="url(#hachure_beton)" stroke="#333" stroke-width="1.5"/><text x="250" y="225" text-anchor="middle" class="label">Linteau BA</text><rect x="210" y="250" width="80" height="80" fill="#b3e5fc" stroke="#0288d1" stroke-width="1" stroke-dasharray="4,2"/><text x="250" y="295" text-anchor="middle" class="cote" fill="#0288d1">Baie</text>
+  <line x1="170" y1="80" x2="330" y2="80" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="170" y1="100" x2="170" y2="80" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="330" y1="100" x2="330" y2="80" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="250.0" y="77.0" text-anchor="middle" class="cote">e = 20 cm</text>
+  <line x1="355" y1="100" x2="355" y2="380" stroke="#555" stroke-width="0.8" marker-start="url(#arrow_rev)" marker-end="url(#arrow)"/>
+  <line x1="330" y1="100" x2="355" y2="100" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <line x1="330" y1="380" x2="355" y2="380" stroke="#555" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="358" y="244.0" class="cote">H mur</text><line x1="140" y1="160" x2="170" y2="160" stroke="#555" stroke-width="0.8" marker-end="url(#arrow)"/><text x="135" y="157" text-anchor="end" class="cote">Joint mortier 1 cm</text><text x="250" y="492" text-anchor="middle" class="note">Source : Champly, Nouvelle Encyclopédie Pratique du Bâtiment — Vol.2 Maçonnerie</text></svg>

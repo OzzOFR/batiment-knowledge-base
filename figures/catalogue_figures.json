@@ -1,0 +1,282 @@
+[
+  {
+    "id": "fondation-semelle-filante",
+    "titre": "Semelle filante en béton armé",
+    "description": "Coupe transversale d'une semelle filante sous mur porteur : dimensions, ferraillage, débord, profondeur hors-gel",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "fondation",
+    "mots_cles": ["semelle", "fondation", "béton armé", "ferraillage", "hors-gel"]
+  },
+  {
+    "id": "fondation-semelle-isolee",
+    "titre": "Semelle isolée sous poteau",
+    "description": "Coupe et vue en plan d'une semelle isolée sous poteau béton armé : dimensions, aciers, enrobage",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "fondation",
+    "mots_cles": ["semelle isolée", "poteau", "fondation", "béton armé"]
+  },
+  {
+    "id": "mur-brique-parpaing-coupe",
+    "titre": "Coupe de mur en maçonnerie (brique/parpaing)",
+    "description": "Coupe verticale d'un mur porteur en briques ou parpaings : épaisseur, joints, chaînage, linteau",
+    "corps_etat": "maconnerie",
+    "categorie": "coupe",
+    "mots_cles": ["mur", "brique", "parpaing", "maçonnerie", "chaînage", "linteau"]
+  },
+  {
+    "id": "linteau-beton-arme",
+    "titre": "Linteau en béton armé au-dessus d'une baie",
+    "description": "Coupe d'un linteau BA sur baie de porte ou fenêtre : portée, appuis, ferraillage, coffrage",
+    "corps_etat": "maconnerie",
+    "categorie": "detail",
+    "mots_cles": ["linteau", "béton armé", "baie", "ouverture", "appui"]
+  },
+  {
+    "id": "charpente-ferme-traditionnelle",
+    "titre": "Ferme de charpente traditionnelle",
+    "description": "Schéma d'une ferme de charpente à deux versants : arbalétrier, poinçon, entrait, jambe de force, contre-fiche",
+    "corps_etat": "charpente-couverture",
+    "categorie": "assemblage",
+    "mots_cles": ["ferme", "charpente", "arbalétrier", "poinçon", "entrait", "bois"]
+  },
+  {
+    "id": "charpente-assemblage-tenon-mortaise",
+    "titre": "Assemblage tenon-mortaise en charpente",
+    "description": "Détail d'assemblage tenon-mortaise avec cheville : dimensions, jeux, chevilles de bois",
+    "corps_etat": "charpente-couverture",
+    "categorie": "assemblage",
+    "mots_cles": ["tenon", "mortaise", "assemblage", "charpente bois", "cheville"]
+  },
+  {
+    "id": "toiture-tuiles-canal-coupe",
+    "titre": "Coupe de toiture en tuiles canal",
+    "description": "Coupe de couverture en tuiles canal : liteaux, chevrons, sous-toiture, ventilation, égout",
+    "corps_etat": "charpente-couverture",
+    "categorie": "coupe",
+    "mots_cles": ["tuiles canal", "couverture", "liteaux", "chevrons", "sous-toiture"]
+  },
+  {
+    "id": "toiture-zinc-joint-debout",
+    "titre": "Couverture zinc à joint debout",
+    "description": "Coupe de couverture zinc à joint debout : bandes, agrafes, support, ventilation",
+    "corps_etat": "charpente-couverture",
+    "categorie": "coupe",
+    "mots_cles": ["zinc", "joint debout", "couverture", "agrafes", "zinguerie"]
+  },
+  {
+    "id": "plancher-beton-arme-coupe",
+    "titre": "Plancher en béton armé coulé en place",
+    "description": "Coupe de dalle BA : épaisseur, aciers inférieurs/supérieurs, enrobage, appuis sur murs",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["plancher", "dalle", "béton armé", "aciers", "enrobage"]
+  },
+  {
+    "id": "plancher-hourdis-poutrelles",
+    "titre": "Plancher à poutrelles et hourdis",
+    "description": "Coupe de plancher préfabriqué : poutrelles béton, hourdis polystyrène, table de compression",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["poutrelles", "hourdis", "plancher", "table de compression", "préfabriqué"]
+  },
+  {
+    "id": "escalier-beton-coupe",
+    "titre": "Escalier droit en béton armé",
+    "description": "Coupe longitudinale d'escalier BA : paillasse, marches, contremarches, giron, hauteur de marche, limon",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["escalier", "béton armé", "paillasse", "marches", "giron"]
+  },
+  {
+    "id": "menuiserie-fenetre-bois-coupe",
+    "titre": "Coupe de fenêtre en bois (dormant/ouvrant)",
+    "description": "Coupe horizontale et verticale d'une fenêtre bois : dormant, ouvrant, vitrage, joint, feuillure",
+    "corps_etat": "menuiserie",
+    "categorie": "detail",
+    "mots_cles": ["fenêtre", "bois", "dormant", "ouvrant", "vitrage", "feuillure"]
+  },
+  {
+    "id": "menuiserie-parquet-pose",
+    "titre": "Pose de parquet massif cloué",
+    "description": "Coupe de pose de parquet massif sur lambourdes : lambourdes, cales, lames, clouage",
+    "corps_etat": "menuiserie",
+    "categorie": "detail",
+    "mots_cles": ["parquet", "lambourdes", "clouage", "pose", "lames"]
+  },
+  {
+    "id": "serrurerie-garde-corps-detail",
+    "titre": "Garde-corps métallique — détail d'ancrage",
+    "description": "Détail d'ancrage d'un garde-corps tubulaire en acier sur dalle : platine, scellement, hauteur réglementaire",
+    "corps_etat": "serrurerie",
+    "categorie": "detail",
+    "mots_cles": ["garde-corps", "acier", "ancrage", "platine", "scellement"]
+  },
+  {
+    "id": "plomberie-reseau-eu-ev-schema",
+    "titre": "Schéma réseau EU/EV en colonne",
+    "description": "Schéma de principe d'une colonne de chute EU/EV : ventilation primaire, raccordements, siphons, collecteur",
+    "corps_etat": "plomberie-chauffage",
+    "categorie": "schema",
+    "mots_cles": ["eaux usées", "eaux vannes", "colonne de chute", "ventilation", "siphon"]
+  },
+  {
+    "id": "plomberie-siphon-detail",
+    "titre": "Siphon de sol — détail de pose",
+    "description": "Coupe d'un siphon de sol : garde d'eau, grille, raccordement, pente vers siphon",
+    "corps_etat": "plomberie-chauffage",
+    "categorie": "detail",
+    "mots_cles": ["siphon", "garde d'eau", "sol", "évacuation", "pente"]
+  },
+  {
+    "id": "chauffage-radiateur-raccordement",
+    "titre": "Raccordement radiateur sur réseau bitubes",
+    "description": "Schéma de raccordement d'un radiateur sur réseau bitubes : robinet thermostatique, retour, purge, équilibrage",
+    "corps_etat": "plomberie-chauffage",
+    "categorie": "schema",
+    "mots_cles": ["radiateur", "bitubes", "robinet thermostatique", "chauffage central", "équilibrage"]
+  },
+  {
+    "id": "isolation-mur-ite",
+    "titre": "Isolation thermique par l'extérieur (ITE)",
+    "description": "Coupe de mur avec ITE : support, colle, isolant, armature, enduit de finition, chevilles",
+    "corps_etat": "isolation-etancheite",
+    "categorie": "coupe",
+    "mots_cles": ["ITE", "isolation extérieure", "enduit", "isolant", "armature"]
+  },
+  {
+    "id": "isolation-combles-perdus",
+    "titre": "Isolation de combles perdus par soufflage",
+    "description": "Coupe de combles perdus isolés par soufflage : plancher, pare-vapeur, isolant soufflé, épaisseur",
+    "corps_etat": "isolation-etancheite",
+    "categorie": "coupe",
+    "mots_cles": ["combles perdus", "soufflage", "isolation", "pare-vapeur", "laine minérale"]
+  },
+  {
+    "id": "etancheite-toiture-terrasse",
+    "titre": "Étanchéité de toiture-terrasse inaccessible",
+    "description": "Coupe de toiture-terrasse : support, pare-vapeur, isolant, membrane d'étanchéité, protection gravillon",
+    "corps_etat": "isolation-etancheite",
+    "categorie": "coupe",
+    "mots_cles": ["toiture-terrasse", "étanchéité", "membrane", "pare-vapeur", "gravillon"]
+  },
+  {
+    "id": "enduit-facade-coupe",
+    "titre": "Enduit de façade trois couches",
+    "description": "Coupe de façade enduite : gobetis, corps d'enduit, finition — épaisseurs et compositions",
+    "corps_etat": "platrerie-peinture",
+    "categorie": "detail",
+    "mots_cles": ["enduit", "façade", "gobetis", "trois couches", "finition"]
+  },
+  {
+    "id": "carrelage-pose-colle",
+    "titre": "Pose de carrelage sur mortier-colle",
+    "description": "Coupe de pose de carrelage : support, primaire, mortier-colle, carrelage, joints",
+    "corps_etat": "platrerie-peinture",
+    "categorie": "detail",
+    "mots_cles": ["carrelage", "mortier-colle", "joints", "pose", "support"]
+  },
+  {
+    "id": "electricite-tableau-schema",
+    "titre": "Schéma de principe tableau électrique",
+    "description": "Schéma unifilaire d'un tableau électrique résidentiel : disjoncteur général, différentiels, disjoncteurs divisionnaires",
+    "corps_etat": "electricite",
+    "categorie": "schema",
+    "mots_cles": ["tableau électrique", "disjoncteur", "différentiel", "schéma unifilaire"]
+  },
+  {
+    "id": "electricite-prise-terre-detail",
+    "titre": "Prise de terre — détail de mise en œuvre",
+    "description": "Schéma de mise en œuvre d'une prise de terre : piquet, conducteur de terre, barrette de coupure, liaison équipotentielle",
+    "corps_etat": "electricite",
+    "categorie": "detail",
+    "mots_cles": ["prise de terre", "piquet", "conducteur", "liaison équipotentielle", "NF C 15-100"]
+  },
+  {
+    "id": "ventilation-vmc-simple-flux",
+    "titre": "VMC simple flux — schéma de principe",
+    "description": "Schéma de VMC simple flux : entrées d'air en pièces sèches, bouches d'extraction en pièces humides, caisson, rejet",
+    "corps_etat": "plomberie-chauffage",
+    "categorie": "schema",
+    "mots_cles": ["VMC", "ventilation", "simple flux", "entrées d'air", "extraction"]
+  },
+  {
+    "id": "mur-refend-beton-coupe",
+    "titre": "Mur de refend en béton armé",
+    "description": "Coupe horizontale d'un voile BA : épaisseur, aciers verticaux et horizontaux, enrobage, coffrage",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["mur de refend", "voile", "béton armé", "aciers", "coffrage"]
+  },
+  {
+    "id": "poteau-beton-arme-coupe",
+    "titre": "Poteau en béton armé — coupe transversale",
+    "description": "Coupe transversale d'un poteau BA carré ou circulaire : armatures longitudinales, cadres, enrobage",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["poteau", "béton armé", "armatures", "cadres", "enrobage"]
+  },
+  {
+    "id": "poutre-beton-arme-coupe",
+    "titre": "Poutre en béton armé — coupe transversale",
+    "description": "Coupe transversale d'une poutre BA rectangulaire : armatures tendues, compressions, cadres, enrobage",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "coupe",
+    "mots_cles": ["poutre", "béton armé", "armatures", "cadres", "moment fléchissant"]
+  },
+  {
+    "id": "charpente-metallique-ipr-detail",
+    "titre": "Profil IPR en charpente métallique",
+    "description": "Coupe transversale d'un profil IPR (I à ailes parallèles) : semelles, âme, dimensions, désignation",
+    "corps_etat": "charpente-couverture",
+    "categorie": "detail",
+    "mots_cles": ["IPR", "profilé", "charpente métallique", "semelles", "âme", "acier"]
+  },
+  {
+    "id": "charpente-metallique-assemblage-boulonne",
+    "titre": "Assemblage boulonné poutre-poteau",
+    "description": "Détail d'assemblage boulonné poutre-poteau métallique : platine d'about, boulons HR, soudures",
+    "corps_etat": "charpente-couverture",
+    "categorie": "assemblage",
+    "mots_cles": ["assemblage boulonné", "poutre-poteau", "platine", "boulons HR", "charpente métallique"]
+  },
+  {
+    "id": "fissure-facade-diagnostic",
+    "titre": "Typologies de fissures en façade",
+    "description": "Schéma des principales typologies de fissures : fissures de tassement, retrait, thermiques, structurelles — formes et localisations",
+    "corps_etat": "maconnerie",
+    "categorie": "schema",
+    "mots_cles": ["fissure", "façade", "tassement", "retrait", "pathologie", "diagnostic"]
+  },
+  {
+    "id": "humidite-remontees-capillaires",
+    "titre": "Remontées capillaires — mécanisme et traitement",
+    "description": "Schéma du mécanisme de remontée capillaire dans un mur et solutions de traitement : coupure capillaire, injection, drainage",
+    "corps_etat": "maconnerie",
+    "categorie": "schema",
+    "mots_cles": ["remontées capillaires", "humidité", "coupure capillaire", "injection", "drainage"]
+  },
+  {
+    "id": "pont-thermique-angle-mur",
+    "titre": "Pont thermique à l'angle d'un mur",
+    "description": "Schéma de pont thermique à l'angle d'un mur : isothermes, zone froide, risque de condensation, solution de traitement",
+    "corps_etat": "isolation-etancheite",
+    "categorie": "schema",
+    "mots_cles": ["pont thermique", "angle", "isothermes", "condensation", "isolation"]
+  },
+  {
+    "id": "joint-dilatation-detail",
+    "titre": "Joint de dilatation entre deux bâtiments",
+    "description": "Coupe d'un joint de dilatation : espacement, profilé de joint, étanchéité, continuité de l'isolation",
+    "corps_etat": "gros-oeuvre",
+    "categorie": "detail",
+    "mots_cles": ["joint de dilatation", "profilé", "étanchéité", "mouvement", "structure"]
+  },
+  {
+    "id": "acrotere-detail",
+    "titre": "Acrotère de toiture-terrasse",
+    "description": "Coupe d'un acrotère : relevé d'étanchéité, costière, couvre-mur, évacuation des eaux pluviales",
+    "corps_etat": "charpente-couverture",
+    "categorie": "detail",
+    "mots_cles": ["acrotère", "relevé d'étanchéité", "costière", "couvre-mur", "toiture-terrasse"]
+  }
+]

@@ -23,7 +23,7 @@ import psycopg2.extras
 from contextlib import contextmanager
 from urllib.parse import urlencode, urlparse, parse_qs
 from fastapi import FastAPI, Request, HTTPException, Form, Query
-from fastapi.responses import JSONResponse, HTMLResponse, RedirectResponse
+from fastapi.responses import JSONResponse, HTMLResponse, RedirectResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
 
 # ─── Configuration ────────────────────────────────────────────────────────────
@@ -46,7 +46,7 @@ PORT            = int(os.environ.get("PORT", "8100"))
 
 MCP_VERSION    = "2025-03-26"
 SERVER_NAME    = "batiment-knowledge"
-SERVER_VERSION = "7.2.0"
+SERVER_VERSION = "7.3.0"
 
 # Credentials admin pour la page de login
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "ozzo")
@@ -203,6 +203,23 @@ MCP_TOOLS = [
         "description": "Retourne les statistiques de la base de connaissances bâtiment.",
         "annotations": {"readOnlyHint": True, "destructiveHint": False},
         "inputSchema": {"type": "object", "properties": {}}
+    },
+    {
+        "name": "get_figure",
+        "title": "Obtenir un schéma technique",
+        "description": (
+            "Retourne l'URL d'un schéma vectoriel SVG illustrant un concept technique du bâtiment. "
+            "Utiliser après search_batiment pour obtenir la figure associée à un résultat. "
+            "Peut aussi lister toutes les figures disponibles."
+        ),
+        "annotations": {"readOnlyHint": True, "destructiveHint": False},
+        "inputSchema": {
+            "type": "object",
+            "properties": {
+                "figure_id": {"type": "string", "description": "ID de la figure (ex: fondation-semelle-filante). Laisser vide pour lister toutes les figures."},
+                "query": {"type": "string", "description": "Recherche une figure par mot-clé (ex: fissure, fondation, charpente)"}
+            }
+        }
     }
 ]
 
@@ -374,6 +391,59 @@ def execute_tool(name: str, arguments: dict) -> list:
         lines += ["","**Par fiabilité :**"]
         for fid, nb in stats["repartition_fiabilite"].items(): lines.append(f"  - *{FIABILITE_LABELS.get(fid,fid)}* : {nb}")
         return [{"type":"text","text":"\n".join(lines)}]
+
+    elif name == "get_figure":
+        fig_id = arguments.get("figure_id", "")
+        query  = arguments.get("query", "")
+        with get_db() as conn:
+            cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+            if fig_id:
+                # Récupérer une figure spécifique
+                cur.execute("SELECT * FROM batiment_figures WHERE id = %s", (fig_id,))
+                fig = cur.fetchone()
+                if not fig:
+                    return [{"type":"text","text":f"Figure '{fig_id}' non trouvée. Utilisez get_figure sans paramètre pour lister les figures disponibles."}]
+                url = fig.get("url_svg")
+                if not url:
+                    return [{"type":"text","text":f"La figure '{fig_id}' ({fig['titre']}) est planifiée mais pas encore générée."}]
+                return [
+                    {"type":"text","text":f"**{fig['titre']}**\n\n{fig['description']}\n\nURL SVG : {url}\nCorps d'état : {fig['corps_etat']}\nSource : {fig.get('source','')}"},
+                    {"type":"image","url":url,"mimeType":"image/svg+xml"}
+                ]
+            elif query:
+                # Rechercher par mot-clé
+                cur.execute("""
+                    SELECT id, titre, description, corps_etat, url_svg
+                    FROM batiment_figures
+                    WHERE url_svg IS NOT NULL
+                    AND (titre ILIKE %s OR description ILIKE %s OR %s = ANY(mots_cles))
+                    LIMIT 5
+                """, (f"%{query}%", f"%{query}%", query))
+                figs = cur.fetchall()
+                if not figs:
+                    return [{"type":"text","text":f"Aucune figure trouvée pour '{query}'."}]
+                lines = [f"**{len(figs)} figure(s) pour '{query}' :**\n"]
+                for f in figs:
+                    lines.append(f"- `{f['id']}` — **{f['titre']}** ({f['corps_etat']})\n  URL : {f['url_svg']}")
+                return [{"type":"text","text":"\n".join(lines)}]
+            else:
+                # Lister toutes les figures disponibles
+                cur.execute("""
+                    SELECT id, titre, corps_etat, url_svg IS NOT NULL AS disponible
+                    FROM batiment_figures
+                    ORDER BY corps_etat, id
+                """)
+                all_figs = cur.fetchall()
+                lines = [f"**{len(all_figs)} figures dans le catalogue :**\n"]
+                current_ce = None
+                for f in all_figs:
+                    if f['corps_etat'] != current_ce:
+                        current_ce = f['corps_etat']
+                        lines.append(f"\n### {current_ce}")
+                    status = "✓" if f['disponible'] else "○"
+                    lines.append(f"  {status} `{f['id']}` — {f['titre']}")
+                lines.append("\n*✓ = SVG disponible, ○ = planifiée*")
+                return [{"type":"text","text":"\n".join(lines)}]
 
     else:
         raise ValueError(f"Outil inconnu : {name}")
@@ -701,6 +771,35 @@ h1{color:#1a1a1a}code{background:#f4f4f4;padding:2px 6px;border-radius:4px;font-
 <li><strong>get_stats</strong> — Statistiques de la base</li>
 </ul>
 </body></html>""")
+
+# ─── Endpoint statique figures SVG ──────────────────────────────────────────
+FIGURES_DIR = os.path.join(os.path.dirname(__file__), "figures", "svg")
+
+@app.get("/figures/{figure_id}.svg")
+def serve_figure_svg(figure_id: str):
+    """Sert un fichier SVG de figure technique."""
+    # Sécurité : pas de traversal de chemin
+    if "/" in figure_id or ".." in figure_id:
+        raise HTTPException(status_code=400, detail="Invalid figure id")
+    path = os.path.join(FIGURES_DIR, f"{figure_id}.svg")
+    if not os.path.exists(path):
+        raise HTTPException(status_code=404, detail=f"Figure '{figure_id}' not found")
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+    return Response(content=content, media_type="image/svg+xml",
+                    headers={"Cache-Control": "public, max-age=86400"})
+
+@app.get("/figures")
+def list_figures():
+    """Liste toutes les figures disponibles."""
+    if not os.path.exists(FIGURES_DIR):
+        return {"figures": []}
+    figures = [f.replace(".svg", "") for f in os.listdir(FIGURES_DIR) if f.endswith(".svg")]
+    return {
+        "figures": sorted(figures),
+        "count": len(figures),
+        "base_url": f"{SERVER_BASE_URL}/figures"
+    }
 
 # ─── Endpoint MCP principal (JSON-RPC 2.0) ───────────────────────────────────
 

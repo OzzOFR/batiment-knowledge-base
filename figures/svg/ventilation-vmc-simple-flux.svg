@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="480" viewBox="0 0 580 480">
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; }
+      .titre { font-size: 13px; font-weight: bold; fill: #1a1a2e; }
+      .label { font-size: 10px; fill: #333; }
+      .cote { font-size: 9px; fill: #666; }
+      .note { font-size: 9px; fill: #888; font-style: italic; }
+      .hachure { fill: url(#hachure_beton); }
+      .hachure_bois { fill: url(#hachure_bois); }
+      .hachure_sol { fill: url(#hachure_sol); }
+      .hachure_isolant { fill: url(#hachure_isolant); }
+    </style>
+    <pattern id="hachure_beton" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e8e8e8"/>
+      <circle cx="2" cy="2" r="1" fill="#999"/>
+      <circle cx="6" cy="6" r="1" fill="#999"/>
+    </pattern>
+    <pattern id="hachure_bois" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#f5deb3"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#c8a06e" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hachure_sol" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#c8b89a"/>
+      <line x1="0" y1="4" x2="8" y2="0" stroke="#a0896a" stroke-width="0.7"/>
+      <line x1="0" y1="8" x2="8" y2="4" stroke="#a0896a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hachure_isolant" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#fff9c4"/>
+      <path d="M0,5 Q2.5,0 5,5 Q7.5,10 10,5" stroke="#f9a825" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrow_rev" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Fond blanc -->
+  <rect width="580" height="480" fill="white" stroke="#ccc" stroke-width="1"/>
+  <!-- Titre -->
+  <text x="290" y="22" text-anchor="middle" class="titre">VMC simple flux — Schéma de principe</text>
+  <!-- Cadre -->
+  <rect x="5" y="5" width="570" height="470" fill="none" stroke="#aaa" stroke-width="0.5"/>
+<rect x="60" y="60" width="460" height="360" fill="#f8f9fa" stroke="#333" stroke-width="2"/><line x1="60" y1="240" x2="520" y2="240" stroke="#555" stroke-width="2"/><text x="30" y="160" class="label" text-anchor="middle" transform="rotate(-90,30,160)">Étage</text><text x="30" y="320" class="label" text-anchor="middle" transform="rotate(-90,30,320)">RDC</text><rect x="80" y="80" width="140" height="140" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/><text x="150" y="150" text-anchor="middle" class="label">Chambre</text><rect x="200" y="90" width="20" height="15" fill="#1565c0" stroke="#0d47a1" stroke-width="1"/><text x="225" y="100" class="cote" fill="#1565c0">EA</text><line x1="235" y1="97" x2="220" y2="97" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="300" y="80" width="140" height="140" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/><text x="370" y="150" text-anchor="middle" class="label">Séjour</text><rect x="420" y="90" width="20" height="15" fill="#1565c0" stroke="#0d47a1" stroke-width="1"/><text x="445" y="100" class="cote" fill="#1565c0">EA</text><line x1="455" y1="97" x2="440" y2="97" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="80" y="260" width="140" height="140" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/><text x="150" y="330" text-anchor="middle" class="label">Chambre</text><rect x="200" y="270" width="20" height="15" fill="#1565c0" stroke="#0d47a1" stroke-width="1"/><text x="225" y="280" class="cote" fill="#1565c0">EA</text><line x1="235" y1="277" x2="220" y2="277" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="300" y="260" width="140" height="140" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/><text x="370" y="330" text-anchor="middle" class="label">Salon</text><rect x="420" y="270" width="20" height="15" fill="#1565c0" stroke="#0d47a1" stroke-width="1"/><text x="445" y="280" class="cote" fill="#1565c0">EA</text><line x1="455" y1="277" x2="440" y2="277" stroke="#1565c0" stroke-width="1.5" marker-end="url(#arrow)"/><rect x="400" y="80" width="60" height="60" fill="#fce4ec" stroke="#c62828" stroke-width="1"/><text x="430" y="115" text-anchor="middle" class="label">Cuisine</text><circle cx="430" cy="90" r="8" fill="#c62828" stroke="#b71c1c" stroke-width="1"/><text x="465" y="94" class="cote" fill="#c62828">BE</text><rect x="400" y="170" width="60" height="60" fill="#fce4ec" stroke="#c62828" stroke-width="1"/><text x="430" y="205" text-anchor="middle" class="label">SDB</text><circle cx="430" cy="180" r="8" fill="#c62828" stroke="#b71c1c" stroke-width="1"/><text x="465" y="184" class="cote" fill="#c62828">BE</text><rect x="400" y="260" width="60" height="60" fill="#fce4ec" stroke="#c62828" stroke-width="1"/><text x="430" y="295" text-anchor="middle" class="label">WC</text><circle cx="430" cy="270" r="8" fill="#c62828" stroke="#b71c1c" stroke-width="1"/><text x="465" y="274" class="cote" fill="#c62828">BE</text><rect x="400" y="350" width="60" height="60" fill="#fce4ec" stroke="#c62828" stroke-width="1"/><text x="430" y="385" text-anchor="middle" class="label">WC</text><circle cx="430" cy="360" r="8" fill="#c62828" stroke="#b71c1c" stroke-width="1"/><text x="465" y="364" class="cote" fill="#c62828">BE</text><rect x="430" y="60" width="20" height="360" fill="#ffecb3" stroke="#f57f17" stroke-width="1.5"/><text x="440" y="250" text-anchor="middle" class="label" transform="rotate(-90,440,250)">Gaine VMC</text><rect x="390" y="30" width="100" height="40" fill="#fff3e0" stroke="#e65100" stroke-width="2"/><text x="440" y="55" text-anchor="middle" class="label">Caisson VMC</text><line x1="440" y1="30" x2="440" y2="10" stroke="#e65100" stroke-width="2" marker-end="url(#arrow)"/><text x="450" y="15" class="cote" fill="#e65100">Rejet air vicié</text><text x="220" y="200" text-anchor="middle" class="cote" fill="#1565c0">→ Flux d'air naturel →</text><text x="220" y="380" text-anchor="middle" class="cote" fill="#1565c0">→ Flux d'air naturel →</text><rect x="60" y="435" width="12" height="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/><text x="78" y="445" class="note">Pièces sèches (EA = Entrée d'Air)</text><rect x="280" y="435" width="12" height="10" fill="#fce4ec" stroke="#c62828" stroke-width="1"/><text x="298" y="445" class="note">Pièces humides (BE = Bouche d'Extraction)</text><text x="290" y="475" text-anchor="middle" class="note">Réf. : DTU 68.3 — Installations de ventilation mécanique contrôlée</text></svg>

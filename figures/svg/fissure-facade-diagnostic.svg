@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="460" viewBox="0 0 620 460">
+  <defs>
+    <style>
+      text { font-family: Arial, sans-serif; }
+      .titre { font-size: 13px; font-weight: bold; fill: #1a1a2e; }
+      .label { font-size: 10px; fill: #333; }
+      .cote { font-size: 9px; fill: #666; }
+      .note { font-size: 9px; fill: #888; font-style: italic; }
+      .hachure { fill: url(#hachure_beton); }
+      .hachure_bois { fill: url(#hachure_bois); }
+      .hachure_sol { fill: url(#hachure_sol); }
+      .hachure_isolant { fill: url(#hachure_isolant); }
+    </style>
+    <pattern id="hachure_beton" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#e8e8e8"/>
+      <circle cx="2" cy="2" r="1" fill="#999"/>
+      <circle cx="6" cy="6" r="1" fill="#999"/>
+    </pattern>
+    <pattern id="hachure_bois" patternUnits="userSpaceOnUse" width="6" height="6">
+      <rect width="6" height="6" fill="#f5deb3"/>
+      <line x1="0" y1="3" x2="6" y2="3" stroke="#c8a06e" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="hachure_sol" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="8" height="8" fill="#c8b89a"/>
+      <line x1="0" y1="4" x2="8" y2="0" stroke="#a0896a" stroke-width="0.7"/>
+      <line x1="0" y1="8" x2="8" y2="4" stroke="#a0896a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="hachure_isolant" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#fff9c4"/>
+      <path d="M0,5 Q2.5,0 5,5 Q7.5,10 10,5" stroke="#f9a825" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#555"/>
+    </marker>
+    <marker id="arrow_rev" markerWidth="8" markerHeight="8" refX="2" refY="3" orient="auto">
+      <path d="M8,0 L8,6 L0,3 z" fill="#555"/>
+    </marker>
+  </defs>
+  <!-- Fond blanc -->
+  <rect width="620" height="460" fill="white" stroke="#ccc" stroke-width="1"/>
+  <!-- Titre -->
+  <text x="310" y="22" text-anchor="middle" class="titre">Typologies de fissures en façade — Diagnostic</text>
+  <!-- Cadre -->
+  <rect x="5" y="5" width="610" height="450" fill="none" stroke="#aaa" stroke-width="0.5"/>
+<rect x="50" y="60" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="110" y="238" text-anchor="middle" class="cote" fill="#e53935">Tassement différentiel</text><rect x="220" y="60" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="280" y="238" text-anchor="middle" class="cote" fill="#f57c00">Retrait thermique</text><rect x="390" y="60" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="450" y="238" text-anchor="middle" class="cote" fill="#7b1fa2">Surcharge ponctuelle</text><rect x="50" y="270" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="110" y="448" text-anchor="middle" class="cote" fill="#1565c0">Défaut de linteau</text><rect x="220" y="270" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="280" y="448" text-anchor="middle" class="cote" fill="#c62828">Corrosion armatures</text><rect x="390" y="270" width="120" height="160" fill="#f5f5f5" stroke="#999" stroke-width="1.5"/><text x="450" y="448" text-anchor="middle" class="cote" fill="#2e7d32">Mouvement fondation</text><line x1="50" y1="220" x2="120" y2="100" stroke="#e53935" stroke-width="2.5"/><line x1="50" y1="200" x2="100" y2="100" stroke="#e53935" stroke-width="1.5" stroke-dasharray="3,2"/><line x1="220" y1="140" x2="340" y2="140" stroke="#f57c00" stroke-width="2"/><line x1="220" y1="160" x2="340" y2="160" stroke="#f57c00" stroke-width="1" stroke-dasharray="3,2"/><line x1="220" y1="180" x2="340" y2="180" stroke="#f57c00" stroke-width="1.5"/><rect x="430" y="60" width="40" height="20" fill="#7b1fa2" opacity="0.3" stroke="#7b1fa2" stroke-width="1"/><text x="450" y="73" text-anchor="middle" class="cote" fill="#7b1fa2">Charge</text><line x1="450" y1="80" x2="450" y2="220" stroke="#7b1fa2" stroke-width="2.5"/><line x1="440" y1="80" x2="440" y2="180" stroke="#7b1fa2" stroke-width="1" stroke-dasharray="3,2"/><line x1="460" y1="80" x2="460" y2="180" stroke="#7b1fa2" stroke-width="1" stroke-dasharray="3,2"/><rect x="75" y="340" width="70" height="50" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/><text x="110" y="368" text-anchor="middle" class="cote" fill="#0288d1">Baie</text><path d="M75,340 Q110,310 180,340" stroke="#1565c0" stroke-width="2.5" fill="none"/><path d="M80,340 Q110,315 175,340" stroke="#1565c0" stroke-width="1" fill="none" stroke-dasharray="3,2"/><line x1="220" y1="350" x2="340" y2="350" stroke="#c62828" stroke-width="3"/><ellipse cx="225" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><ellipse cx="245" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><ellipse cx="265" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><ellipse cx="285" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><ellipse cx="305" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><ellipse cx="325" cy="350" rx="8" ry="5" fill="#ef9a9a" stroke="#c62828" stroke-width="1" opacity="0.7"/><text x="280" y="375" text-anchor="middle" class="cote" fill="#c62828">Gonflement</text><line x1="390" y1="430" x2="510" y2="290" stroke="#2e7d32" stroke-width="2.5"/><line x1="400" y1="430" x2="510" y2="300" stroke="#2e7d32" stroke-width="1.5" stroke-dasharray="3,2"/><text x="310" y="435" text-anchor="middle" class="cote" font-weight="bold">Gravité : trait plein = fissure active / tirets = fissure stabilisée</text><text x="310" y="450" text-anchor="middle" class="note">Source : AQC — Observatoire de la Qualité de la Construction 2026 + Champly Vol.2</text></svg>
