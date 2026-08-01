@@ -46,11 +46,14 @@ PORT            = int(os.environ.get("PORT", "8100"))
 
 MCP_VERSION    = "2025-03-26"
 SERVER_NAME    = "batiment-knowledge"
-SERVER_VERSION = "7.1.0"
+SERVER_VERSION = "7.2.0"
 
 # Credentials admin pour la page de login
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "ozzo")
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Batiment2026!")
+
+# Token de service statique pour les appels directs (scripts, tests, Manus)
+SERVICE_TOKEN = os.environ.get("SERVICE_TOKEN", "t-63pCvruQiQGxX8d3qQnqjVB-RwT7FEQth0jmFBrj8")
 
 # ─── Stockage en mémoire (OAuth state) ───────────────────────────────────────
 # En production on utiliserait Redis/DB, mais pour un usage mono-user c'est suffisant
@@ -383,6 +386,9 @@ def verify_token(request: Request) -> bool:
     auth = request.headers.get("Authorization","")
     if not auth.startswith("Bearer "): return False
     token = auth[7:]
+    # Token de service statique (scripts, Manus, tests)
+    if token == SERVICE_TOKEN: return True
+    # Token OAuth dynamique
     entry = _access_tokens.get(token)
     if not entry: return False
     if entry["expires"] < time.time(): del _access_tokens[token]; return False
