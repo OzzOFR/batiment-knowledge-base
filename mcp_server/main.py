@@ -1,23 +1,29 @@
 """
-Serveur MCP (Model Context Protocol) pour la base de connaissances Bâtiment.
-Protocole : MCP 2025-03-26 — JSON-RPC 2.0 sur HTTP Streamable (compatible Claude.ai)
+Serveur MCP (Model Context Protocol) — Base de connaissances Bâtiment
+Protocole : MCP 2025-06-18 — JSON-RPC 2.0 Streamable HTTP + OAuth 2.1 complet
 
-v6.0 — Réécriture complète en protocole MCP standard
-       JSON-RPC 2.0 sur POST /mcp (Streamable HTTP transport)
-       Authentification Bearer token
-       Embeddings locaux sentence-transformers (768 dims)
-       Synthèse LLM via OpenRouter (gpt-4o-mini)
+v7.0 — OAuth 2.1 complet compatible Claude.ai
+       RFC 9728 : Protected Resource Metadata
+       RFC 8414 : Authorization Server Metadata
+       RFC 7591 : Dynamic Client Registration
+       OAuth 2.1 + PKCE S256 obligatoire
+       Pages HTML login + consentement
 """
 
 import os
 import json
 import uuid
+import hashlib
+import base64
+import secrets
+import time
 import requests
 import psycopg2
 import psycopg2.extras
 from contextlib import contextmanager
-from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import JSONResponse, StreamingResponse
+from urllib.parse import urlencode, urlparse, parse_qs
+from fastapi import FastAPI, Request, HTTPException, Form, Query
+from fastapi.responses import JSONResponse, HTMLResponse, RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 # ─── Configuration ────────────────────────────────────────────────────────────
@@ -34,16 +40,27 @@ OPENROUTER_API_KEY  = os.environ.get("OPENROUTER_API_KEY", "")
 SYNTHESIS_MODEL     = "openai/gpt-4o-mini"
 OPENROUTER_CHAT_URL = "https://openrouter.ai/api/v1/chat/completions"
 
-MCP_API_KEY = os.environ.get("MCP_API_KEY", "t-63pCvruQiQGxX8d3qQnqjVB-RwT7FEQth0jmFBrj8")
-PORT        = int(os.environ.get("PORT", "8100"))
+# URL publique du serveur (sans slash final)
+SERVER_BASE_URL = os.environ.get("SERVER_BASE_URL", "https://knowledge.ozzo.fr")
+PORT            = int(os.environ.get("PORT", "8100"))
 
-MCP_VERSION      = "2025-03-26"
-SERVER_NAME      = "batiment-knowledge"
-SERVER_VERSION   = "6.0.0"
+MCP_VERSION    = "2025-03-26"
+SERVER_NAME    = "batiment-knowledge"
+SERVER_VERSION = "7.0.0"
+
+# Credentials admin pour la page de login
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "ozzo")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Batiment2026!")
+
+# ─── Stockage en mémoire (OAuth state) ───────────────────────────────────────
+# En production on utiliserait Redis/DB, mais pour un usage mono-user c'est suffisant
+_oauth_clients: dict  = {}   # client_id -> client_data
+_auth_codes: dict     = {}   # code -> {client_id, redirect_uri, code_challenge, scope, expires}
+_access_tokens: dict  = {}   # token -> {client_id, scope, expires}
+_sessions: dict       = {}   # session_id -> {initialized}
 
 # ─── App FastAPI ──────────────────────────────────────────────────────────────
 app = FastAPI(title="Batiment Knowledge MCP", version=SERVER_VERSION)
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -70,7 +87,7 @@ def get_embedding_model():
         from sentence_transformers import SentenceTransformer
         print(f"[MCP] Chargement du modèle : {EMBEDDING_MODEL_NAME}")
         _embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME)
-        print(f"[MCP] Modèle chargé — {_embedding_model.get_embedding_dimension()} dims")
+        print(f"[MCP] Modèle chargé — {_embedding_model.get_sentence_embedding_dimension()} dims")
     return _embedding_model
 
 # ─── PostgreSQL ───────────────────────────────────────────────────────────────
@@ -85,16 +102,17 @@ def get_db():
     finally:
         conn.close()
 
-# ─── Définition des outils MCP ────────────────────────────────────────────────
+# ─── Outils MCP ───────────────────────────────────────────────────────────────
 MCP_TOOLS = [
     {
         "name": "search_batiment",
+        "title": "Recherche dans la base bâtiment",
         "description": (
             "Recherche sémantique dans la base de connaissances sur les métiers du bâtiment. "
             "Retourne les passages les plus pertinents issus d'ouvrages techniques (Champly, "
-            "Rondelet, Barberot, Viollet-le-Duc, Planat, etc.). Utiliser pour répondre "
-            "à des questions sur les techniques de construction, les matériaux, les corps d'état."
+            "Rondelet, Barberot, Viollet-le-Duc, Planat, etc.)."
         ),
+        "annotations": {"readOnlyHint": True, "destructiveHint": False},
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -102,27 +120,24 @@ MCP_TOOLS = [
                 "corps_etat": {
                     "type": "string",
                     "description": "Filtrer par corps d'état (optionnel)",
-                    "enum": ["maconnerie", "charpente-couverture", "plomberie-chauffage",
-                             "electricite", "menuiserie", "platrerie-peinture",
-                             "isolation-etancheite", "gros-oeuvre", "encyclopedie-generale",
-                             "pathologies", "normes-reglements", "materiaux"]
+                    "enum": ["maconnerie","charpente-couverture","plomberie-chauffage",
+                             "electricite","menuiserie","platrerie-peinture",
+                             "isolation-etancheite","gros-oeuvre","encyclopedie-generale",
+                             "pathologies","normes-reglements","materiaux"]
                 },
-                "nb_resultats": {
-                    "type": "integer",
-                    "description": "Nombre de résultats (défaut: 5, max: 10)",
-                    "default": 5, "minimum": 1, "maximum": 10
-                }
+                "nb_resultats": {"type": "integer", "description": "Nombre de résultats (défaut: 5, max: 10)", "default": 5, "minimum": 1, "maximum": 10}
             },
             "required": ["query"]
         }
     },
     {
         "name": "ask_batiment",
+        "title": "Question technique bâtiment",
         "description": (
             "Pose une question sur les métiers du bâtiment et obtient une réponse synthétisée "
-            "par un LLM à partir des sources de la base de connaissances. "
-            "Signale automatiquement les divergences entre sources d'époques différentes."
+            "par un LLM à partir des sources de la base de connaissances."
         ),
+        "annotations": {"readOnlyHint": True, "destructiveHint": False},
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -130,23 +145,21 @@ MCP_TOOLS = [
                 "corps_etat": {
                     "type": "string",
                     "description": "Filtrer par corps d'état (optionnel)",
-                    "enum": ["maconnerie", "charpente-couverture", "plomberie-chauffage",
-                             "electricite", "menuiserie", "platrerie-peinture",
-                             "isolation-etancheite", "gros-oeuvre", "encyclopedie-generale",
-                             "pathologies", "normes-reglements", "materiaux"]
+                    "enum": ["maconnerie","charpente-couverture","plomberie-chauffage",
+                             "electricite","menuiserie","platrerie-peinture",
+                             "isolation-etancheite","gros-oeuvre","encyclopedie-generale",
+                             "pathologies","normes-reglements","materiaux"]
                 },
-                "nb_sources": {
-                    "type": "integer",
-                    "description": "Nombre de sources à consulter (défaut: 5, max: 8)",
-                    "default": 5, "minimum": 1, "maximum": 8
-                }
+                "nb_sources": {"type": "integer", "description": "Nombre de sources (défaut: 5, max: 8)", "default": 5, "minimum": 1, "maximum": 8}
             },
             "required": ["question"]
         }
     },
     {
         "name": "list_sources",
+        "title": "Lister les sources indexées",
         "description": "Liste toutes les sources indexées dans la base de connaissances bâtiment.",
+        "annotations": {"readOnlyHint": True, "destructiveHint": False},
         "inputSchema": {
             "type": "object",
             "properties": {
@@ -156,7 +169,9 @@ MCP_TOOLS = [
     },
     {
         "name": "get_stats",
+        "title": "Statistiques de la base",
         "description": "Retourne les statistiques de la base de connaissances bâtiment.",
+        "annotations": {"readOnlyHint": True, "destructiveHint": False},
         "inputSchema": {"type": "object", "properties": {}}
     }
 ]
@@ -166,7 +181,6 @@ MCP_TOOLS = [
 def get_embedding(text: str) -> list:
     model = get_embedding_model()
     return model.encode(text, show_progress_bar=False).tolist()
-
 
 def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> list:
     embedding = get_embedding(query)
@@ -195,244 +209,393 @@ def search_in_db(query: str, corps_etat: str = None, nb_resultats: int = 5) -> l
             """, (emb_str, emb_str, emb_str, nb_resultats))
         return [dict(row) for row in cur.fetchall()]
 
-
 def format_source_badge(r: dict) -> str:
-    auteur   = r.get("auteur")
-    annee    = r.get("annee_publication")
-    fiabilite = r.get("fiabilite", "")
+    auteur = r.get("auteur"); annee = r.get("annee_publication"); fiabilite = r.get("fiabilite", "")
     if auteur and annee:
-        label = FIABILITE_LABELS.get(fiabilite, fiabilite)
-        return f"{auteur} ({annee}) — *{label}*"
+        return f"{auteur} ({annee}) — *{FIABILITE_LABELS.get(fiabilite, fiabilite)}*"
     return r.get("source", "N/A")
 
-
 def detect_divergences(passages: list) -> str:
-    if len(passages) < 2:
-        return ""
-    anciens   = [p for p in passages if p.get("fiabilite") in ("patrimoine", "technique-ancien")]
-    modernes  = [p for p in passages if p.get("fiabilite") in ("technique-moderne", "norme-en-vigueur")]
+    if len(passages) < 2: return ""
+    anciens   = [p for p in passages if p.get("fiabilite") in ("patrimoine","technique-ancien")]
+    modernes  = [p for p in passages if p.get("fiabilite") in ("technique-moderne","norme-en-vigueur")]
     syntheses = [p for p in passages if p.get("fiabilite") == "synthese-ia"]
     notes = []
     if syntheses:
-        notes.append(
-            "⚠️ **Synthèse IA** : certains résultats proviennent de fiches synthétiques rédigées par IA "
-            "(OzzO Knowledge Base), non issues de sources primaires. À vérifier avant usage professionnel."
-        )
+        notes.append("⚠️ **Synthèse IA** : certains résultats proviennent de fiches synthétiques rédigées par IA (OzzO Knowledge Base), non issues de sources primaires.")
     if anciens and modernes:
         aa = [p["annee_publication"] for p in anciens  if p.get("annee_publication")]
         am = [p["annee_publication"] for p in modernes if p.get("annee_publication")]
         if aa and am and (min(am) - max(aa)) > 50:
-            na = list(set(p.get("auteur", "?") for p in anciens  if p.get("auteur")))
-            nm = list(set(p.get("auteur", "?") for p in modernes if p.get("auteur")))
-            notes.append(
-                f"⚠️ **Sources d'époques différentes** : "
-                f"sources anciennes ({', '.join(na[:2])}, ~{max(aa)}) "
-                f"vs sources modernes ({', '.join(nm[:2])}, ~{min(am)}). "
-                f"En cas de contradiction, privilégier les sources modernes."
-            )
+            na = list(set(p.get("auteur","?") for p in anciens  if p.get("auteur")))
+            nm = list(set(p.get("auteur","?") for p in modernes if p.get("auteur")))
+            notes.append(f"⚠️ **Sources d'époques différentes** : sources anciennes ({', '.join(na[:2])}, ~{max(aa)}) vs modernes ({', '.join(nm[:2])}, ~{min(am)}). Privilégier les sources modernes pour les pratiques actuelles.")
     return ("\n\n> " + "\n> ".join(notes)) if notes else ""
 
-
 def synthesize_with_llm(question: str, passages: list) -> str:
-    context_parts = []
-    for i, p in enumerate(passages, 1):
-        auteur   = p.get("auteur") or p.get("source", "Source inconnue")
-        annee    = p.get("annee_publication")
-        fiabilite = p.get("fiabilite", "")
-        label    = FIABILITE_LABELS.get(fiabilite, fiabilite)
-        header   = f"{auteur} ({annee}) [{label}]" if annee else auteur
-        context_parts.append(f"[Source {i}: {header}]\n{p.get('content', '')[:1200]}")
-    context = "\n\n---\n\n".join(context_parts)
-    anciens  = [p for p in passages if p.get("fiabilite") in ("patrimoine", "technique-ancien")]
-    modernes = [p for p in passages if p.get("fiabilite") in ("technique-moderne", "norme-en-vigueur")]
-    div_instr = ""
-    if anciens and modernes:
-        div_instr = (
-            "\nATTENTION : Les sources couvrent des époques différentes. "
-            "Si des informations divergent, signale-le et précise que les sources modernes "
-            "reflètent les pratiques actuelles, les sources anciennes la restauration du patrimoine."
-        )
-    system_prompt = (
-        "Tu es un expert en techniques du bâtiment. "
-        "Réponds UNIQUEMENT à partir des passages fournis. "
-        "Réponse structurée, précise, sourcée (auteur + année), en français. "
-        "Si les passages sont insuffisants, indique-le clairement." + div_instr
+    ctx = "\n\n---\n\n".join(
+        f"[Source {i}: {p.get('auteur','?')} ({p.get('annee_publication','?')}) [{FIABILITE_LABELS.get(p.get('fiabilite',''),'')}]]\n{p.get('content','')[:1200]}"
+        for i, p in enumerate(passages, 1)
     )
-    user_prompt = (
-        f"Question : {question}\n\nPassages :\n\n{context}\n\n"
-        "Réponds en citant les sources (auteur + année) pour chaque information importante."
-    )
+    anciens  = [p for p in passages if p.get("fiabilite") in ("patrimoine","technique-ancien")]
+    modernes = [p for p in passages if p.get("fiabilite") in ("technique-moderne","norme-en-vigueur")]
+    div = ("\nATTENTION : sources d'époques différentes. Signale les divergences." if anciens and modernes else "")
     r = requests.post(
         OPENROUTER_CHAT_URL,
         headers={"Authorization": f"Bearer {OPENROUTER_API_KEY}", "Content-Type": "application/json"},
         json={"model": SYNTHESIS_MODEL, "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user",   "content": user_prompt}
+            {"role": "system", "content": "Tu es un expert en techniques du bâtiment. Réponds UNIQUEMENT à partir des passages fournis. Réponse structurée, précise, sourcée (auteur + année), en français." + div},
+            {"role": "user", "content": f"Question : {question}\n\nPassages :\n\n{ctx}\n\nRéponds en citant les sources."}
         ], "max_tokens": 1500, "temperature": 0.3},
         timeout=60
     )
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"]
 
-
-def get_sources_from_db(corps_etat: str = None) -> list:
+def get_sources_from_db(corps_etat=None):
     with get_db() as conn:
         cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
         if corps_etat:
-            cur.execute("""
-                SELECT DISTINCT source, corps_etat, auteur, titre_ouvrage, annee_publication, fiabilite
-                FROM batiment_chunks WHERE corps_etat = %s
-                ORDER BY corps_etat, annee_publication NULLS LAST LIMIT 300
-            """, (corps_etat,))
+            cur.execute("SELECT DISTINCT source, corps_etat, auteur, titre_ouvrage, annee_publication, fiabilite FROM batiment_chunks WHERE corps_etat = %s ORDER BY corps_etat, annee_publication NULLS LAST LIMIT 300", (corps_etat,))
         else:
-            cur.execute("""
-                SELECT DISTINCT source, corps_etat, auteur, titre_ouvrage, annee_publication, fiabilite
-                FROM batiment_chunks
-                ORDER BY corps_etat, annee_publication NULLS LAST LIMIT 300
-            """)
-        return [dict(row) for row in cur.fetchall()]
+            cur.execute("SELECT DISTINCT source, corps_etat, auteur, titre_ouvrage, annee_publication, fiabilite FROM batiment_chunks ORDER BY corps_etat, annee_publication NULLS LAST LIMIT 300")
+        return [dict(r) for r in cur.fetchall()]
 
-
-def get_stats_from_db() -> dict:
+def get_stats_from_db():
     with get_db() as conn:
         cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-        cur.execute("SELECT COUNT(*) AS total FROM batiment_chunks")
-        total = cur.fetchone()["total"]
+        cur.execute("SELECT COUNT(*) AS total FROM batiment_chunks"); total = cur.fetchone()["total"]
         cur.execute("SELECT corps_etat, COUNT(*) AS n FROM batiment_chunks GROUP BY corps_etat ORDER BY n DESC")
-        corps_etats = {r["corps_etat"]: r["n"] for r in cur.fetchall()}
+        corps = {r["corps_etat"]: r["n"] for r in cur.fetchall()}
         cur.execute("SELECT fiabilite, COUNT(*) AS n FROM batiment_chunks WHERE fiabilite IS NOT NULL GROUP BY fiabilite ORDER BY n DESC")
-        fiabilites = {r["fiabilite"]: r["n"] for r in cur.fetchall()}
+        fids = {r["fiabilite"]: r["n"] for r in cur.fetchall()}
         cur.execute("SELECT COUNT(DISTINCT auteur) AS n FROM batiment_chunks WHERE auteur IS NOT NULL")
-        nb_auteurs = cur.fetchone()["n"]
-        return {
-            "total_chunks": total,
-            "repartition_corps_etat": corps_etats,
-            "repartition_fiabilite": fiabilites,
-            "nb_auteurs_uniques": nb_auteurs,
-            "embedding_model": EMBEDDING_MODEL_NAME,
-            "embedding_dims": EMBEDDING_DIMS
-        }
-
-# ─── Exécution des outils ─────────────────────────────────────────────────────
+        nb_a = cur.fetchone()["n"]
+        return {"total_chunks": total, "repartition_corps_etat": corps, "repartition_fiabilite": fids, "nb_auteurs_uniques": nb_a, "embedding_model": EMBEDDING_MODEL_NAME, "embedding_dims": EMBEDDING_DIMS}
 
 def execute_tool(name: str, arguments: dict) -> list:
-    """Exécute un outil et retourne une liste de content blocks MCP."""
-
     if name == "search_batiment":
-        query        = arguments.get("query", "")
-        corps_etat   = arguments.get("corps_etat")
-        nb_resultats = min(int(arguments.get("nb_resultats", 5)), 10)
-        if not query:
-            return [{"type": "text", "text": "Erreur : le paramètre 'query' est requis."}]
-        results = search_in_db(query, corps_etat, nb_resultats)
-        if not results:
-            return [{"type": "text", "text": "Aucun résultat trouvé pour cette recherche."}]
+        query = arguments.get("query",""); corps_etat = arguments.get("corps_etat"); nb = min(int(arguments.get("nb_resultats",5)),10)
+        if not query: return [{"type":"text","text":"Erreur : 'query' requis."}]
+        results = search_in_db(query, corps_etat, nb)
+        if not results: return [{"type":"text","text":"Aucun résultat trouvé."}]
         parts = [f"**{len(results)} résultat(s) pour : \"{query}\"**\n"]
         for i, r in enumerate(results, 1):
-            sim   = round(float(r.get("similarity", 0)) * 100, 1)
-            corps = r.get("corps_etat", "N/A")
-            txt   = r.get("content", "")
-            badge = format_source_badge(r)
-            section = ""
+            sim = round(float(r.get("similarity",0))*100,1); txt = r.get("content",""); badge = format_source_badge(r)
             if txt.startswith("[") and "]" in txt[:200]:
-                end = txt.index("]")
-                section = txt[1:end]
-                preview = txt[end+2:end+802]
+                end = txt.index("]"); section = txt[1:end]; preview = txt[end+2:end+802]
             else:
-                preview = txt[:800]
-            parts.append(
-                f"\n---\n**[{i}]** `{corps_etat or corps}` | **{badge}**  \n"
-                + (f"*Section : {section}*  \n" if section else "")
-                + f"Pertinence : {sim}%\n\n{preview}..."
-            )
-        text = "\n".join(parts) + detect_divergences(results)
-        return [{"type": "text", "text": text}]
+                section = ""; preview = txt[:800]
+            parts.append(f"\n---\n**[{i}]** `{corps_etat or r.get('corps_etat','N/A')}` | **{badge}**  \n" + (f"*Section : {section}*  \n" if section else "") + f"Pertinence : {sim}%\n\n{preview}...")
+        return [{"type":"text","text":"\n".join(parts) + detect_divergences(results)}]
 
     elif name == "ask_batiment":
-        question   = arguments.get("question", "")
-        corps_etat = arguments.get("corps_etat")
-        nb_sources = min(int(arguments.get("nb_sources", 5)), 8)
-        if not question:
-            return [{"type": "text", "text": "Erreur : le paramètre 'question' est requis."}]
-        if not OPENROUTER_API_KEY:
-            return [{"type": "text", "text": "Erreur : clé API OpenRouter non configurée."}]
-        passages = search_in_db(question, corps_etat, nb_sources)
-        if not passages:
-            return [{"type": "text", "text": "Aucune information trouvée pour cette question."}]
+        question = arguments.get("question",""); corps_etat = arguments.get("corps_etat"); nb = min(int(arguments.get("nb_sources",5)),8)
+        if not question: return [{"type":"text","text":"Erreur : 'question' requis."}]
+        if not OPENROUTER_API_KEY: return [{"type":"text","text":"Erreur : clé OpenRouter non configurée."}]
+        passages = search_in_db(question, corps_etat, nb)
+        if not passages: return [{"type":"text","text":"Aucune information trouvée."}]
         answer = synthesize_with_llm(question, passages)
-        seen, sources_lines = set(), []
+        seen, lines = set(), []
         for p in passages:
-            auteur = p.get("auteur") or p.get("source", "N/A")
-            annee  = p.get("annee_publication")
-            label  = FIABILITE_LABELS.get(p.get("fiabilite", ""), "")
-            titre  = p.get("titre_ouvrage") or p.get("source", "N/A")
-            key    = f"{auteur}_{annee}"
+            auteur = p.get("auteur") or p.get("source","N/A"); annee = p.get("annee_publication"); label = FIABILITE_LABELS.get(p.get("fiabilite",""),""); titre = p.get("titre_ouvrage") or p.get("source","N/A")
+            key = f"{auteur}_{annee}"
             if key not in seen:
-                seen.add(key)
-                sources_lines.append(f"- **{auteur}** ({annee}) — *{label}* — {titre}" if annee else f"- {titre}")
-        full = (
-            f"{answer}\n\n---\n**Sources consultées :**\n"
-            + "\n".join(sources_lines[:6])
-            + detect_divergences(passages)
-        )
-        return [{"type": "text", "text": full}]
+                seen.add(key); lines.append(f"- **{auteur}** ({annee}) — *{label}* — {titre}" if annee else f"- {titre}")
+        return [{"type":"text","text":f"{answer}\n\n---\n**Sources :**\n" + "\n".join(lines[:6]) + detect_divergences(passages)}]
 
     elif name == "list_sources":
-        corps_etat = arguments.get("corps_etat")
-        sources    = get_sources_from_db(corps_etat)
-        lines      = ["**Sources indexées dans la base de connaissances bâtiment :**\n"]
-        current    = None
+        sources = get_sources_from_db(arguments.get("corps_etat"))
+        lines = ["**Sources indexées :**\n"]; current = None
         for s in sources:
-            ce = s.get("corps_etat", "N/A")
-            if ce != current:
-                lines.append(f"\n### {ce}")
-                current = ce
-            auteur = s.get("auteur")
-            annee  = s.get("annee_publication")
-            label  = FIABILITE_LABELS.get(s.get("fiabilite", ""), "")
-            titre  = s.get("titre_ouvrage") or s.get("source", "N/A")
+            ce = s.get("corps_etat","N/A")
+            if ce != current: lines.append(f"\n### {ce}"); current = ce
+            auteur = s.get("auteur"); annee = s.get("annee_publication"); label = FIABILITE_LABELS.get(s.get("fiabilite",""),""); titre = s.get("titre_ouvrage") or s.get("source","N/A")
             lines.append(f"- **{auteur}** ({annee}) — *{label}* — {titre}" if auteur and annee else f"- {titre}")
-        return [{"type": "text", "text": "\n".join(lines)}]
+        return [{"type":"text","text":"\n".join(lines)}]
 
     elif name == "get_stats":
         stats = get_stats_from_db()
-        lines = [
-            f"**Statistiques de la base de connaissances bâtiment (PostgreSQL HOZZO)**\n",
-            f"- Total chunks indexés : **{stats['total_chunks']}**",
-            f"- Auteurs uniques : **{stats['nb_auteurs_uniques']}**",
-            f"- Modèle d'embedding : `{stats['embedding_model']}` ({stats['embedding_dims']} dims)",
-            "", "**Répartition par corps d'état :**"
-        ]
-        for ce, nb in sorted(stats["repartition_corps_etat"].items(), key=lambda x: -x[1]):
-            lines.append(f"  - `{ce}` : {nb} chunks")
-        lines += ["", "**Répartition par niveau de fiabilité :**"]
-        for fid, nb in stats["repartition_fiabilite"].items():
-            lines.append(f"  - *{FIABILITE_LABELS.get(fid, fid)}* : {nb} chunks")
-        return [{"type": "text", "text": "\n".join(lines)}]
+        lines = [f"**Statistiques base bâtiment (PostgreSQL HOZZO)**\n", f"- Total chunks : **{stats['total_chunks']}**", f"- Auteurs uniques : **{stats['nb_auteurs_uniques']}**", f"- Modèle : `{stats['embedding_model']}` ({stats['embedding_dims']} dims)", "", "**Par corps d'état :**"]
+        for ce, nb in sorted(stats["repartition_corps_etat"].items(), key=lambda x: -x[1]): lines.append(f"  - `{ce}` : {nb}")
+        lines += ["","**Par fiabilité :**"]
+        for fid, nb in stats["repartition_fiabilite"].items(): lines.append(f"  - *{FIABILITE_LABELS.get(fid,fid)}* : {nb}")
+        return [{"type":"text","text":"\n".join(lines)}]
 
     else:
         raise ValueError(f"Outil inconnu : {name}")
 
-
 # ─── Helpers JSON-RPC ─────────────────────────────────────────────────────────
+def jrpc_ok(req_id, result): return {"jsonrpc":"2.0","id":req_id,"result":result}
+def jrpc_err(req_id, code, msg): return {"jsonrpc":"2.0","id":req_id,"error":{"code":code,"message":msg}}
 
-def jsonrpc_result(req_id, result: dict) -> dict:
-    return {"jsonrpc": "2.0", "id": req_id, "result": result}
+def verify_token(request: Request) -> bool:
+    auth = request.headers.get("Authorization","")
+    if not auth.startswith("Bearer "): return False
+    token = auth[7:]
+    entry = _access_tokens.get(token)
+    if not entry: return False
+    if entry["expires"] < time.time(): del _access_tokens[token]; return False
+    return True
 
-def jsonrpc_error(req_id, code: int, message: str) -> dict:
-    return {"jsonrpc": "2.0", "id": req_id, "error": {"code": code, "message": message}}
+def unauthorized_response():
+    """Retourne 401 avec WWW-Authenticate pointant vers le resource metadata (RFC 9728)."""
+    resource_metadata_url = f"{SERVER_BASE_URL}/.well-known/oauth-protected-resource"
+    return JSONResponse(
+        status_code=401,
+        content={"error": "unauthorized", "error_description": "Bearer token required"},
+        headers={"WWW-Authenticate": f'Bearer resource_metadata="{resource_metadata_url}"'}
+    )
 
-def check_auth(request: Request):
-    """Vérifie le Bearer token. Lève HTTPException 401 si invalide."""
-    auth = request.headers.get("Authorization", "")
-    if not auth.startswith("Bearer ") or auth[7:] != MCP_API_KEY:
-        raise HTTPException(
-            status_code=401,
-            detail="Clé API invalide ou manquante",
-            headers={"WWW-Authenticate": "Bearer"}
+# ─── OAuth 2.1 — Discovery documents ─────────────────────────────────────────
+
+@app.get("/.well-known/oauth-protected-resource")
+@app.get("/.well-known/oauth-protected-resource/mcp")
+def oauth_protected_resource():
+    """RFC 9728 — Protected Resource Metadata."""
+    return JSONResponse({
+        "resource": SERVER_BASE_URL,
+        "authorization_servers": [SERVER_BASE_URL],
+        "bearer_methods_supported": ["header"],
+        "scopes_supported": ["mcp"],
+        "resource_documentation": f"{SERVER_BASE_URL}/docs"
+    })
+
+@app.get("/.well-known/oauth-authorization-server")
+def oauth_authorization_server():
+    """RFC 8414 — Authorization Server Metadata."""
+    return JSONResponse({
+        "issuer": SERVER_BASE_URL,
+        "authorization_endpoint": f"{SERVER_BASE_URL}/authorize",
+        "token_endpoint": f"{SERVER_BASE_URL}/token",
+        "registration_endpoint": f"{SERVER_BASE_URL}/register",
+        "scopes_supported": ["mcp"],
+        "response_types_supported": ["code"],
+        "grant_types_supported": ["authorization_code"],
+        "code_challenge_methods_supported": ["S256"],
+        "token_endpoint_auth_methods_supported": ["none"],
+        "service_documentation": f"{SERVER_BASE_URL}/docs"
+    })
+
+# ─── OAuth 2.1 — Dynamic Client Registration (RFC 7591) ──────────────────────
+
+@app.post("/register")
+async def register_client(request: Request):
+    """RFC 7591 — Dynamic Client Registration."""
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    client_id     = str(uuid.uuid4())
+    client_name   = body.get("client_name", "MCP Client")
+    redirect_uris = body.get("redirect_uris", [])
+    _oauth_clients[client_id] = {
+        "client_id": client_id,
+        "client_name": client_name,
+        "redirect_uris": redirect_uris,
+        "grant_types": ["authorization_code"],
+        "response_types": ["code"],
+        "token_endpoint_auth_method": "none",
+        "created_at": time.time()
+    }
+    return JSONResponse(status_code=201, content={
+        "client_id": client_id,
+        "client_name": client_name,
+        "redirect_uris": redirect_uris,
+        "grant_types": ["authorization_code"],
+        "response_types": ["code"],
+        "token_endpoint_auth_method": "none"
+    })
+
+# ─── OAuth 2.1 — Authorization endpoint ──────────────────────────────────────
+
+LOGIN_HTML = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Connexion — Base de connaissances Bâtiment</title>
+<style>
+  * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+  body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f0; display: flex; align-items: center; justify-content: center; min-height: 100vh; }}
+  .card {{ background: white; border-radius: 12px; padding: 40px; width: 100%; max-width: 400px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); }}
+  .logo {{ text-align: center; margin-bottom: 24px; }}
+  .logo-icon {{ font-size: 48px; }}
+  h1 {{ font-size: 22px; font-weight: 600; color: #1a1a1a; text-align: center; margin-bottom: 6px; }}
+  .subtitle {{ font-size: 14px; color: #666; text-align: center; margin-bottom: 28px; }}
+  .app-info {{ background: #f8f9fa; border-radius: 8px; padding: 12px 16px; margin-bottom: 24px; font-size: 13px; color: #444; }}
+  .app-info strong {{ color: #1a1a1a; }}
+  label {{ display: block; font-size: 13px; font-weight: 500; color: #333; margin-bottom: 6px; }}
+  input {{ width: 100%; padding: 10px 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; outline: none; transition: border-color 0.2s; }}
+  input:focus {{ border-color: #2563eb; }}
+  .field {{ margin-bottom: 16px; }}
+  button {{ width: 100%; padding: 12px; background: #2563eb; color: white; border: none; border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer; margin-top: 8px; transition: background 0.2s; }}
+  button:hover {{ background: #1d4ed8; }}
+  .error {{ background: #fef2f2; color: #dc2626; padding: 10px 14px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; }}
+  .footer {{ text-align: center; font-size: 12px; color: #999; margin-top: 20px; }}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="logo"><span class="logo-icon">🏗️</span></div>
+  <h1>Base de connaissances Bâtiment</h1>
+  <p class="subtitle">Connectez-vous pour autoriser l'accès</p>
+  <div class="app-info">
+    <strong>{client_name}</strong> demande l'accès à la base de connaissances bâtiment (lecture seule).
+  </div>
+  {error_html}
+  <form method="post" action="/authorize">
+    <input type="hidden" name="client_id" value="{client_id}">
+    <input type="hidden" name="redirect_uri" value="{redirect_uri}">
+    <input type="hidden" name="state" value="{state}">
+    <input type="hidden" name="code_challenge" value="{code_challenge}">
+    <input type="hidden" name="code_challenge_method" value="{code_challenge_method}">
+    <input type="hidden" name="scope" value="{scope}">
+    <div class="field">
+      <label for="username">Identifiant</label>
+      <input type="text" id="username" name="username" placeholder="Identifiant" required autofocus>
+    </div>
+    <div class="field">
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+    </div>
+    <button type="submit">Se connecter et autoriser</button>
+  </form>
+  <p class="footer">OzzO Knowledge Base · Accès sécurisé</p>
+</div>
+</body>
+</html>"""
+
+@app.get("/authorize")
+def authorize_get(
+    response_type: str = Query(...),
+    client_id: str = Query(...),
+    redirect_uri: str = Query(...),
+    code_challenge: str = Query(...),
+    code_challenge_method: str = Query("S256"),
+    scope: str = Query("mcp"),
+    state: str = Query("")
+):
+    """Affiche la page de login OAuth."""
+    client = _oauth_clients.get(client_id)
+    client_name = client["client_name"] if client else "Application MCP"
+    html = LOGIN_HTML.format(
+        client_name=client_name,
+        client_id=client_id,
+        redirect_uri=redirect_uri,
+        state=state,
+        code_challenge=code_challenge,
+        code_challenge_method=code_challenge_method,
+        scope=scope,
+        error_html=""
+    )
+    return HTMLResponse(html)
+
+@app.post("/authorize")
+async def authorize_post(
+    username: str = Form(...),
+    password: str = Form(...),
+    client_id: str = Form(...),
+    redirect_uri: str = Form(...),
+    state: str = Form(""),
+    code_challenge: str = Form(...),
+    code_challenge_method: str = Form("S256"),
+    scope: str = Form("mcp")
+):
+    """Traite le formulaire de login et émet un authorization code."""
+    # Vérification des credentials
+    if username != ADMIN_USERNAME or password != ADMIN_PASSWORD:
+        client = _oauth_clients.get(client_id)
+        client_name = client["client_name"] if client else "Application MCP"
+        html = LOGIN_HTML.format(
+            client_name=client_name,
+            client_id=client_id,
+            redirect_uri=redirect_uri,
+            state=state,
+            code_challenge=code_challenge,
+            code_challenge_method=code_challenge_method,
+            scope=scope,
+            error_html='<div class="error">Identifiant ou mot de passe incorrect.</div>'
         )
+        return HTMLResponse(html, status_code=401)
 
-# ─── Endpoints ────────────────────────────────────────────────────────────────
+    # Émettre un authorization code
+    code = secrets.token_urlsafe(32)
+    _auth_codes[code] = {
+        "client_id": client_id,
+        "redirect_uri": redirect_uri,
+        "code_challenge": code_challenge,
+        "code_challenge_method": code_challenge_method,
+        "scope": scope,
+        "expires": time.time() + 300  # 5 minutes
+    }
+
+    # Rediriger vers le client avec le code
+    params = {"code": code}
+    if state:
+        params["state"] = state
+    redirect_url = redirect_uri + ("&" if "?" in redirect_uri else "?") + urlencode(params)
+    return RedirectResponse(url=redirect_url, status_code=302)
+
+# ─── OAuth 2.1 — Token endpoint ───────────────────────────────────────────────
+
+@app.post("/token")
+async def token_endpoint(request: Request):
+    """Échange un authorization code contre un access token (PKCE S256)."""
+    content_type = request.headers.get("content-type","")
+    if "application/x-www-form-urlencoded" in content_type:
+        form = await request.form()
+        data = dict(form)
+    else:
+        try:
+            data = await request.json()
+        except Exception:
+            data = {}
+
+    grant_type    = data.get("grant_type","")
+    code          = data.get("code","")
+    redirect_uri  = data.get("redirect_uri","")
+    code_verifier = data.get("code_verifier","")
+    client_id     = data.get("client_id","")
+
+    if grant_type != "authorization_code":
+        return JSONResponse(status_code=400, content={"error":"unsupported_grant_type"})
+
+    code_entry = _auth_codes.get(code)
+    if not code_entry:
+        return JSONResponse(status_code=400, content={"error":"invalid_grant","error_description":"Code invalide ou expiré"})
+    if code_entry["expires"] < time.time():
+        del _auth_codes[code]
+        return JSONResponse(status_code=400, content={"error":"invalid_grant","error_description":"Code expiré"})
+    if code_entry["redirect_uri"] != redirect_uri:
+        return JSONResponse(status_code=400, content={"error":"invalid_grant","error_description":"redirect_uri ne correspond pas"})
+
+    # Vérification PKCE S256
+    challenge = code_entry["code_challenge"]
+    digest = hashlib.sha256(code_verifier.encode()).digest()
+    computed = base64.urlsafe_b64encode(digest).rstrip(b"=").decode()
+    if computed != challenge:
+        return JSONResponse(status_code=400, content={"error":"invalid_grant","error_description":"PKCE invalide"})
+
+    # Supprimer le code (usage unique)
+    del _auth_codes[code]
+
+    # Émettre un access token (24h)
+    access_token = secrets.token_urlsafe(48)
+    _access_tokens[access_token] = {
+        "client_id": client_id,
+        "scope": code_entry["scope"],
+        "expires": time.time() + 86400
+    }
+
+    return JSONResponse({
+        "access_token": access_token,
+        "token_type": "Bearer",
+        "expires_in": 86400,
+        "scope": code_entry["scope"]
+    })
+
+# ─── Endpoints publics ────────────────────────────────────────────────────────
 
 @app.get("/")
 def root():
@@ -442,12 +605,9 @@ def root():
         "status": "ok",
         "protocol": MCP_VERSION,
         "backend": "PostgreSQL HOZZO",
-        "embedding_model": EMBEDDING_MODEL_NAME,
-        "embedding_dims": EMBEDDING_DIMS,
         "mcp_endpoint": "/mcp",
-        "auth": "Bearer token required"
+        "auth": "OAuth 2.1 (RFC 9728 + RFC 8414 + RFC 7591 + PKCE S256)"
     }
-
 
 @app.get("/health")
 def health():
@@ -456,106 +616,92 @@ def health():
             cur = conn.cursor()
             cur.execute("SELECT COUNT(*) FROM batiment_chunks")
             count = cur.fetchone()[0]
-        return {"status": "healthy", "chunks": count, "backend": "PostgreSQL HOZZO"}
+        return {"status": "healthy", "chunks": count}
     except Exception as e:
         return JSONResponse(status_code=503, content={"status": "unhealthy", "error": str(e)})
 
+@app.get("/docs")
+def docs():
+    return HTMLResponse("""<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Batiment Knowledge MCP</title>
+<style>body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:0 20px;color:#333}
+h1{color:#1a1a1a}code{background:#f4f4f4;padding:2px 6px;border-radius:4px;font-size:13px}
+</style></head><body>
+<h1>🏗️ Batiment Knowledge MCP</h1>
+<p>Base de connaissances sur les métiers du bâtiment — 13 000+ chunks issus d'ouvrages techniques.</p>
+<h2>Connexion depuis Claude.ai</h2>
+<p>URL du serveur : <code>https://knowledge.ozzo.fr</code></p>
+<p>Credentials : <code>ozzo</code> / voir documentation interne</p>
+<h2>Outils disponibles</h2>
+<ul>
+<li><strong>search_batiment</strong> — Recherche sémantique</li>
+<li><strong>ask_batiment</strong> — Question avec synthèse LLM</li>
+<li><strong>list_sources</strong> — Liste des sources indexées</li>
+<li><strong>get_stats</strong> — Statistiques de la base</li>
+</ul>
+</body></html>""")
 
-# ─── Endpoint MCP principal (JSON-RPC 2.0 Streamable HTTP) ───────────────────
+# ─── Endpoint MCP principal (JSON-RPC 2.0) ───────────────────────────────────
 
 @app.post("/mcp")
 async def mcp_endpoint(request: Request):
-    """
-    Endpoint MCP standard — JSON-RPC 2.0 Streamable HTTP Transport (2025-03-26).
-    Gère initialize, tools/list, tools/call.
-    """
-    check_auth(request)
+    """MCP Streamable HTTP Transport — JSON-RPC 2.0."""
+    if not verify_token(request):
+        return unauthorized_response()
 
     body = await request.json()
-
-    # Support batch (liste) et requête unique
     is_batch = isinstance(body, list)
-    requests_list = body if is_batch else [body]
-
+    reqs = body if is_batch else [body]
     responses = []
-    for rpc in requests_list:
-        req_id = rpc.get("id")
-        method = rpc.get("method", "")
-        params = rpc.get("params", {})
 
+    for rpc in reqs:
+        req_id = rpc.get("id")
+        method = rpc.get("method","")
+        params = rpc.get("params",{})
         try:
             if method == "initialize":
+                # Gérer la session
+                session_id = str(uuid.uuid4())
+                _sessions[session_id] = {"initialized": True}
                 result = {
                     "protocolVersion": MCP_VERSION,
-                    "capabilities": {
-                        "tools": {"listChanged": False}
-                    },
-                    "serverInfo": {
-                        "name": SERVER_NAME,
-                        "version": SERVER_VERSION
-                    }
+                    "capabilities": {"tools": {"listChanged": False}},
+                    "serverInfo": {"name": SERVER_NAME, "version": SERVER_VERSION}
                 }
-                responses.append(jsonrpc_result(req_id, result))
+                resp = jrpc_ok(req_id, result)
+                # Ajouter le session ID dans les headers (géré via response custom si besoin)
+                responses.append(resp)
 
             elif method == "notifications/initialized":
-                # Notification — pas de réponse
-                continue
+                continue  # notification, pas de réponse
 
             elif method == "tools/list":
-                responses.append(jsonrpc_result(req_id, {"tools": MCP_TOOLS}))
+                responses.append(jrpc_ok(req_id, {"tools": MCP_TOOLS}))
 
             elif method == "tools/call":
-                tool_name = params.get("name", "")
-                arguments = params.get("arguments", {})
+                tool_name = params.get("name","")
+                arguments = params.get("arguments",{})
                 content   = execute_tool(tool_name, arguments)
-                responses.append(jsonrpc_result(req_id, {"content": content}))
+                responses.append(jrpc_ok(req_id, {"content": content}))
 
             elif method == "ping":
-                responses.append(jsonrpc_result(req_id, {}))
+                responses.append(jrpc_ok(req_id, {}))
 
             else:
                 if req_id is not None:
-                    responses.append(jsonrpc_error(req_id, -32601, f"Méthode inconnue : {method}"))
+                    responses.append(jrpc_err(req_id, -32601, f"Méthode inconnue : {method}"))
 
         except ValueError as e:
-            responses.append(jsonrpc_error(req_id, -32602, str(e)))
+            responses.append(jrpc_err(req_id, -32602, str(e)))
         except Exception as e:
-            responses.append(jsonrpc_error(req_id, -32603, f"Erreur interne : {str(e)}"))
+            responses.append(jrpc_err(req_id, -32603, f"Erreur interne : {str(e)}"))
 
     if not responses:
         return JSONResponse(status_code=202, content={})
-
-    if is_batch:
-        return JSONResponse(content=responses)
-    return JSONResponse(content=responses[0])
-
-
-# ─── Compatibilité ancienne API REST ─────────────────────────────────────────
-
-@app.get("/mcp/tools")
-def list_tools_compat(request: Request):
-    check_auth(request)
-    return {"tools": MCP_TOOLS}
-
-
-@app.post("/mcp/tools/call")
-async def call_tool_compat(request: Request):
-    check_auth(request)
-    body = await request.json()
-    name      = body.get("name", "")
-    arguments = body.get("arguments", {})
-    try:
-        content = execute_tool(name, arguments)
-        return {"content": content}
-    except ValueError as e:
-        raise HTTPException(status_code=404, detail=str(e))
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
+    return JSONResponse(content=responses[0] if not is_batch else responses)
 
 # ─── Point d'entrée ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
     import uvicorn
-    # Précharger le modèle au démarrage
     get_embedding_model()
     uvicorn.run(app, host="0.0.0.0", port=PORT)
