@@ -51,6 +51,7 @@ FIABILITE_LABELS = {
     "technique-ancien":  "Technique XIXe-XXe s.",
     "technique-moderne": "Technique moderne",
     "norme-en-vigueur":  "Norme en vigueur",
+    "synthese-ia":       "Synthèse IA (non sourcée)",
 }
 
 # ─── Modèle d'embedding (chargé une seule fois au démarrage) ─────────────────
@@ -232,6 +233,15 @@ def detect_divergences(passages: list[dict]) -> str:
     
     anciens  = [p for p in passages if p.get("fiabilite") in ("patrimoine", "technique-ancien")]
     modernes = [p for p in passages if p.get("fiabilite") in ("technique-moderne", "norme-en-vigueur")]
+    syntheses = [p for p in passages if p.get("fiabilite") == "synthese-ia"]
+    
+    notes = []
+    
+    if syntheses:
+        notes.append(
+            "> ⚠️ **Synthèse IA** : certains résultats proviennent de fiches synthétiques rédigées par IA "
+            "(OzzO Knowledge Base), non issues de sources primaires. À vérifier avant usage professionnel."
+        )
     
     if anciens and modernes:
         annees_anciens  = [p["annee_publication"] for p in anciens  if p.get("annee_publication")]
@@ -242,14 +252,17 @@ def detect_divergences(passages: list[dict]) -> str:
             if ecart > 50:
                 noms_anciens  = list(set(p.get("auteur", "?") for p in anciens  if p.get("auteur")))
                 noms_modernes = list(set(p.get("auteur", "?") for p in modernes if p.get("auteur")))
-                return (
-                    f"\n\n> ⚠️ **Sources d'époques différentes** : "
+                notes.append(
+                    f"⚠️ **Sources d'époques différentes** : "
                     f"les sources anciennes ({', '.join(noms_anciens[:2])}, ~{max(annees_anciens)}) "
                     f"et les sources modernes ({', '.join(noms_modernes[:2])}, ~{min(annees_modernes)}) "
                     f"peuvent présenter des divergences. "
                     f"En cas de contradiction, privilégier les sources modernes pour les pratiques actuelles, "
                     f"et les sources anciennes pour la restauration du patrimoine."
                 )
+    
+    if notes:
+        return "\n\n> " + "\n> ".join(notes)
     return ""
 
 
