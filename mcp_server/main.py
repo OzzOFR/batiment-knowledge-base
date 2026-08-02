@@ -46,7 +46,7 @@ PORT            = int(os.environ.get("PORT", "8100"))
 
 MCP_VERSION    = "2025-03-26"
 SERVER_NAME    = "batiment-knowledge"
-SERVER_VERSION = "7.3.0"
+SERVER_VERSION = "7.4.0"
 
 # Credentials admin pour la page de login
 ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "ozzo")
@@ -343,6 +343,28 @@ def execute_tool(name: str, arguments: dict) -> list:
         if not query: return [{"type":"text","text":"Erreur : 'query' requis."}]
         results = search_in_db(query, corps_etat, nb)
         if not results: return [{"type":"text","text":"Aucun résultat trouvé."}]
+        # Récupérer les figures Gallica associées aux chunks trouvés
+        chunk_ids = [r["id"] for r in results if r.get("id")]
+        gallica_by_chunk = {}
+        if chunk_ids:
+            try:
+                with get_db() as conn2:
+                    cur2 = conn2.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+                    cur2.execute("""
+                        SELECT chunk_id, figure_num, legende, url_gallica
+                        FROM batiment_figures_gallica
+                        WHERE chunk_id = ANY(%s)
+                        ORDER BY chunk_id, figure_num
+                        LIMIT 50
+                    """, (chunk_ids,))
+                    for fg in cur2.fetchall():
+                        cid = fg["chunk_id"]
+                        if cid not in gallica_by_chunk:
+                            gallica_by_chunk[cid] = []
+                        gallica_by_chunk[cid].append(dict(fg))
+            except Exception:
+                pass  # La table peut ne pas exister sur certains environnements
+
         parts = [f"**{len(results)} résultat(s) pour : \"{query}\"**\n"]
         for i, r in enumerate(results, 1):
             trust = round(float(r.get("trust_score", r.get("similarity",0)))*100,1)
@@ -352,11 +374,22 @@ def execute_tool(name: str, arguments: dict) -> list:
                 end = txt.index("]"); section = txt[1:end]; preview = txt[end+2:end+802]
             else:
                 section = ""; preview = txt[:800]
-            parts.append(
+            chunk_part = (
                 f"\n---\n**[{i}]** `{corps_etat or r.get('corps_etat','N/A')}` | **{badge}**  \n"
                 + (f"*Section : {section}*  \n" if section else "")
                 + f"Score confiance : {trust}% (cosinus : {sim}%)\n\n{preview}..."
             )
+            # Ajouter les références figures Gallica si disponibles
+            figs = gallica_by_chunk.get(r.get("id"), [])
+            if figs:
+                fig_lines = ["\n\n**Figures originales (Gallica BnF) :**"]
+                for fg in figs[:4]:  # max 4 figures par chunk
+                    fig_lines.append(
+                        f"  - Fig.{fg['figure_num']} : {fg['legende'][:80]}...  "
+                        f"[Voir sur Gallica]({fg['url_gallica']}) *(page estimée ±3)*"
+                    )
+                chunk_part += "\n".join(fig_lines)
+            parts.append(chunk_part)
         return [{"type":"text","text":"\n".join(parts) + detect_divergences(results)}]
 
     elif name == "ask_batiment":
